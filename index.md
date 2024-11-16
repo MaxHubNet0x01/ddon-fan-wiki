@@ -10,7 +10,7 @@ description:
 - Anyone free to contribute to the Wiki anytime, but each change must be approved first.
 - MTC
 
-## Vocations
+## Vocations {#main-vocations}
 
 | Icon | Vocation       | Type      | Description                                                                                                                                             |
 |------|----------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
