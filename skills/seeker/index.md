@@ -1330,19 +1330,4 @@ description:
   <td class="xl68" width="143" style="width:107pt">&nbsp;</td>
   <td class="xl68" width="348" style="width:261pt">&nbsp;</td>
  </tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="20" style="width:15pt"></td>
-  <td width="20" style="width:15pt"></td>
-  <td width="146" style="width:110pt"></td>
-  <td width="132" style="width:99pt"></td>
-  <td width="87" style="width:65pt"></td>
-  <td width="179" style="width:134pt"></td>
-  <td width="309" style="width:232pt"></td>
-  <td width="205" style="width:154pt"></td>
-  <td width="73" style="width:55pt"></td>
-  <td width="143" style="width:107pt"></td>
-  <td width="348" style="width:261pt"></td>
- </tr>
- <!--[endif]-->
 </tbody></table>
