@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vocation: Seeker Skills
+title: Seeker Skills
 description:
 ---
 
