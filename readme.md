@@ -5,5 +5,5 @@ This site is created to host any relevant info for Dragons Dogma Online since th
 
 ## View Site
 
-https://ddon-fan-wiki.github.io
+https://ddon-fan-wiki.github.io/ddon-fan-wiki
 
