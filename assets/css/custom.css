@@ -1,3 +1,7 @@
 #main-vocations td{
   align-content: center;
 }
+
+.margin-center{
+  margin: 0 auto;
+}
