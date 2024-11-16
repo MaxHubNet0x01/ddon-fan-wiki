@@ -6,7 +6,7 @@ description:
 
 <div class="margin-center-90">
   <h2>Seeker Custom Skills</h2>
-  <table class="table table-bordered table-hover table-condensed">
+  <table class="table-auto">
     <thead>
       <tr>
         <th title="Field #1">Skill Name</th>
@@ -778,7 +778,7 @@ description:
   </table>
 
   <h2>Seeker Core Skills</h2>
-  <table>
+  <table class="table-auto">
     <thead>
       <tr>
         <th title="Field #1">Skill Name</th>
@@ -792,7 +792,7 @@ description:
   </table>
 
   <h2>Seeker Passive/Augment Skills</h2>
-  <table>
+  <table class="table-auto">
     <thead>
       <tr>
         <th title="Field #1">Skill Name</th>
