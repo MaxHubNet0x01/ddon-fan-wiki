@@ -5,7 +5,7 @@ description:
 ---
 
 <div class="margin-center-90 overflow-x-auto">
-  <h2>Seeker Custom Skills</h2>
+  <h2 class="text-3xl font-bold py-5">Seeker Custom Skills</h2>
   <table >
     <thead>
       <tr>
@@ -216,7 +216,7 @@ description:
     </tbody>
   </table>
 
-  <h2>Seeker Passive/Augment Skills</h2>
+  <h2 class="text-3xl font-bold py-5">Seeker Passive/Augment Skills</h2>
   <table>
     <thead>
       <tr>
@@ -590,7 +590,7 @@ description:
     </tbody>
   </table>
 
-  <h2>Seeker Core Skills</h2>
+  <h2 class="text-3xl font-bold py-5">Seeker Core Skills</h2>
   <table >
     <thead>
       <tr>
@@ -708,7 +708,7 @@ description:
     </tbody>
   </table>
 
-  <h2>Seeker Passive/Augment Skills</h2>
+  <h2 class="text-3xl font-bold py-5">Seeker Passive/Augment Skills</h2>
   <table >
     <thead>
       <tr>
