@@ -213,24 +213,210 @@ description:
           LV9: LV75 + Tarrasque (x3) LV10: LV75 + Wise Tarrasque (x5)</td>
         <td>Danandell Cave</td>
       </tr>
-      <tr>
-        <td> Seeker Passive Skills</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
+      =================================================================
       <tr>
         <td>Skill Name</td>
         <td>Overview</td>
-        <td>PA Cost</td>
-        <td>Level change</td>
-        <td>Notes</td>
-        <td>Monsters to kill to level up</td>
-        <td>Monster Locations</td>
+        <td>Notes and usage</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
       </tr>
+      <tr>
+        <td>Roundhouse Kick (Lv. 9)</td>
+        <td>By pausing after the first hit of your normal attack and then resuming, you can perform a four-hit,
+          four-kick combo that deals impact damage with higher stun values than dagger strikes.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Hundred Kisses (Lv. 13)</td>
+        <td> Doubles the speed of the Hundred Kisses and Climb attack after a few hits if you are mashing fast. The
+          double speed segment is indicated by the player flashing blue-white. Requires mashing faster than the minimum
+          in the double speed segment to maintain the attacks, otherwise the combo will end abruptly.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>(Ground)</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Carve</td>
+        <td>Performs a six-hit dagger attack.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Scarlet Kisses</td>
+        <td>Quickly performed slash attack (heavy seeker attack)</td>
+        <td>A standing attack wave, attacks increase in speed. Dealing damage quickly and increasing overall damage</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Rope Stance</td>
+        <td>Prepares the Seeker&#39;s string to be thrown towards the targeting reticle.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Throw Rope</td>
+        <td>Throws the Seeker&#39;s rope toward the target if present, or a nearby enemy otherwise. If an enemy is hit
+          by the rope, the Seeker dashes forward and bounces off of it.</td>
+        <td>Quickly repositions the Seeker and places him above the fight. Useful for closing gaps, saving time when
+          climbing large monsters, avoiding dangerous enemies, reaching downed allies quickly, platforming, and many
+          other applications. Repeatedly hitting an enemy with the rope will eventually break their balance, lifting
+          them into the air with the Seeker for additional abuse.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Forward Roll</td>
+        <td> </td>
+        <td>Also dubbed Zelda&#39;s &quot;Link Roll,&quot; the move is increasingly faster than the normal Sprint.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Coordinated Throw</td>
+        <td>He crouches down, ready to serve as a springboard for his allies in assisted high jumps.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>(Air)</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Triple Cut</td>
+        <td>Slash three times while in the air.</td>
+        <td>A quick attack for use against small aerial enemies. Limited stagger and damage.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Helm Splitter</td>
+        <td>Do a somersault, cutting downwards and hitting the ground.</td>
+        <td>A powerful attack that knocks the Seeker back to the ground. Enemies hit by the roll will be carried
+          downward with the Seeker. Upon reaching the ground, additional heavy damage is dealt to the Seeker based on
+          the distance traveled.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Rope Stance</td>
+        <td>Prepares the Seeker&#39;s string to be thrown towards the aiming reticle. Slightly slows the Seeker&#39;s
+          fall when entering the stance.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Throw Rope</td>
+        <td>Like the ground version. If the catcher fails to hit any target, he cannot throw the rope again until he
+          reaches the ground.</td>
+        <td>As a ground version, the rope can be used repeatedly in mid-air to reposition oneself, especially during
+          large monster fights. Useful for avoiding Club Cyclop&#39;s enrage slam attack, moving quickly from one end of
+          larger monsters to the other, or simply for showing off.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Wall Jump</td>
+        <td>Let&#39;s jump off the walls</td>
+        <td>When jumping against a wall, press in the opposite direction and jump again</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Double Jump</td>
+        <td>Perform a second, smaller jump while in the air.</td>
+        <td>Allows the Seeker to gain slightly more jumping height or change the direction of his fall. Can be used once
+          per jump or per rope throw.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>(Climb)</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Scarlet Slashes/Hundred Slashes</td>
+        <td>Perform quick attacks while climbing an enemy.</td>
+        <td>A wave of attack while grappling with a giant enemy, the attacks increase in speed. Dealing damage quickly
+          and increasing overall damage.</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Seeker Passive/Augment Skills</h2>
+  <table>
+    <thead>
+      <tr>
+        <th title="Field #1">Skill Name</th>
+        <th title="Field #2">Overview</th>
+        <th title="Field #3">PA Cost</th>
+        <th title="Field #4">Level Change</th>
+        <th title="Field #5">Notes</th>
+        <th title="Field #6">Monsters to kill to level up</th>
+        <th title="Field #7">Monster Locations</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td>Adhesion (Lv.3)</td>
         <td>Less likely to (fall? stagger? be thrown off by the enemy?) when you are holding the enemy</td>
@@ -588,201 +774,38 @@ description:
         <td> </td>
         <td> </td>
       </tr>
+    </tbody>
+  </table>
+
+  <h2>Seeker Core Skills</h2>
+  <table>
+    <thead>
       <tr>
-        <td>Seeker Core Skills (Enchanted)</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <th title="Field #1">Skill Name</th>
+        <th title="Field #2">Overview</th>
+        <th title="Field #3">Notes and usage</th>
       </tr>
+    </thead>
+    <tbody>
+      
+    </tbody>
+  </table>
+
+  <h2>Seeker Passive/Augment Skills</h2>
+  <table>
+    <thead>
       <tr>
-        <td>Skill Name</td>
-        <td>Overview</td>
-        <td>Notes and usage</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <th title="Field #1">Skill Name</th>
+        <th title="Field #2">Overview</th>
+        <th title="Field #3">PA Cost</th>
+        <th title="Field #4">Level Change</th>
+        <th title="Field #5">Notes</th>
+        <th title="Field #6">Monsters to kill to level up</th>
+        <th title="Field #7">Monster Locations</th>
       </tr>
-      <tr>
-        <td>Roundhouse Kick (Lv. 9)</td>
-        <td>By pausing after the first hit of your normal attack and then resuming, you can perform a four-hit,
-          four-kick combo that deals impact damage with higher stun values than dagger strikes.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Hundred Kisses (Lv. 13)</td>
-        <td> Doubles the speed of the Hundred Kisses and Climb attack after a few hits if you are mashing fast. The
-          double speed segment is indicated by the player flashing blue-white. Requires mashing faster than the minimum
-          in the double speed segment to maintain the attacks, otherwise the combo will end abruptly.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>(Ground)</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Carve</td>
-        <td>Performs a six-hit dagger attack.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Scarlet Kisses</td>
-        <td>Quickly performed slash attack (heavy seeker attack)</td>
-        <td>A standing attack wave, attacks increase in speed. Dealing damage quickly and increasing overall damage</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Rope Stance</td>
-        <td>Prepares the Seeker&#39;s string to be thrown towards the targeting reticle.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Throw Rope</td>
-        <td>Throws the Seeker&#39;s rope toward the target if present, or a nearby enemy otherwise. If an enemy is hit
-          by the rope, the Seeker dashes forward and bounces off of it.</td>
-        <td>Quickly repositions the Seeker and places him above the fight. Useful for closing gaps, saving time when
-          climbing large monsters, avoiding dangerous enemies, reaching downed allies quickly, platforming, and many
-          other applications. Repeatedly hitting an enemy with the rope will eventually break their balance, lifting
-          them into the air with the Seeker for additional abuse.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Forward Roll</td>
-        <td> </td>
-        <td>Also dubbed Zelda&#39;s &quot;Link Roll,&quot; the move is increasingly faster than the normal Sprint.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Coordinated Throw</td>
-        <td>He crouches down, ready to serve as a springboard for his allies in assisted high jumps.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>(Air)</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Triple Cut</td>
-        <td>Slash three times while in the air.</td>
-        <td>A quick attack for use against small aerial enemies. Limited stagger and damage.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Helm Splitter</td>
-        <td>Do a somersault, cutting downwards and hitting the ground.</td>
-        <td>A powerful attack that knocks the Seeker back to the ground. Enemies hit by the roll will be carried
-          downward with the Seeker. Upon reaching the ground, additional heavy damage is dealt to the Seeker based on
-          the distance traveled.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Rope Stance</td>
-        <td>Prepares the Seeker&#39;s string to be thrown towards the aiming reticle. Slightly slows the Seeker&#39;s
-          fall when entering the stance.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Throw Rope</td>
-        <td>Like the ground version. If the catcher fails to hit any target, he cannot throw the rope again until he
-          reaches the ground.</td>
-        <td>As a ground version, the rope can be used repeatedly in mid-air to reposition oneself, especially during
-          large monster fights. Useful for avoiding Club Cyclop&#39;s enrage slam attack, moving quickly from one end of
-          larger monsters to the other, or simply for showing off.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Wall Jump</td>
-        <td>Let&#39;s jump off the walls</td>
-        <td>When jumping against a wall, press in the opposite direction and jump again</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Double Jump</td>
-        <td>Perform a second, smaller jump while in the air.</td>
-        <td>Allows the Seeker to gain slightly more jumping height or change the direction of his fall. Can be used once
-          per jump or per rope throw.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>(Climb)</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
-        <td>Scarlet Slashes/Hundred Slashes</td>
-        <td>Perform quick attacks while climbing an enemy.</td>
-        <td>A wave of attack while grappling with a giant enemy, the attacks increase in speed. Dealing damage quickly
-          and increasing overall damage.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
+    </thead>
+    <tbody>
+
     </tbody>
   </table>
 </div>
