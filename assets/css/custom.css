@@ -4,4 +4,10 @@
 
 .margin-center{
   margin: 0 auto;
+  width: 80%;
+}
+
+.margin-center-90{
+  margin: 0 auto;
+  width: 90%;
 }
