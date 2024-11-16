@@ -15,3 +15,7 @@
 a{
   text-decoration: underline !important;
 }
+
+#main_content_wrap{
+  border: none !important;
+}
