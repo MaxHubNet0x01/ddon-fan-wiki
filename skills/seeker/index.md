@@ -613,34 +613,24 @@ description:
           in the double speed segment to maintain the attacks, otherwise the combo will end abruptly.</td>
         <td> </td>
       </tr>
-      <tr class="bg-grey-500 text-white">
-        (Ground)
+      <tr class="bg-zinc-800 text-white">
+        <td>(Ground)</td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
         <td>Carve</td>
         <td>Performs a six-hit dagger attack.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
         <td> </td>
       </tr>
       <tr>
         <td>Scarlet Kisses</td>
         <td>Quickly performed slash attack (heavy seeker attack)</td>
         <td>A standing attack wave, attacks increase in speed. Dealing damage quickly and increasing overall damage</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Rope Stance</td>
         <td>Prepares the Seeker&#39;s string to be thrown towards the targeting reticle.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
         <td> </td>
       </tr>
       <tr>
@@ -651,40 +641,26 @@ description:
           climbing large monsters, avoiding dangerous enemies, reaching downed allies quickly, platforming, and many
           other applications. Repeatedly hitting an enemy with the rope will eventually break their balance, lifting
           them into the air with the Seeker for additional abuse.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Forward Roll</td>
         <td> </td>
         <td>Also dubbed Zelda&#39;s &quot;Link Roll,&quot; the move is increasingly faster than the normal Sprint.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Coordinated Throw</td>
         <td>He crouches down, ready to serve as a springboard for his allies in assisted high jumps.</td>
         <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
-      <tr class="bg-grey-500 text-white">
-        (Air)
+      <tr class="bg-zinc-800 text-white">
+        <td>(Air)</td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
         <td>Triple Cut</td>
         <td>Slash three times while in the air.</td>
         <td>A quick attack for use against small aerial enemies. Limited stagger and damage.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Helm Splitter</td>
@@ -692,19 +668,11 @@ description:
         <td>A powerful attack that knocks the Seeker back to the ground. Enemies hit by the roll will be carried
           downward with the Seeker. Upon reaching the ground, additional heavy damage is dealt to the Seeker based on
           the distance traveled.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Rope Stance</td>
         <td>Prepares the Seeker&#39;s string to be thrown towards the aiming reticle. Slightly slows the Seeker&#39;s
           fall when entering the stance.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
         <td> </td>
       </tr>
       <tr>
@@ -714,42 +682,28 @@ description:
         <td>As a ground version, the rope can be used repeatedly in mid-air to reposition oneself, especially during
           large monster fights. Useful for avoiding Club Cyclop&#39;s enrage slam attack, moving quickly from one end of
           larger monsters to the other, or simply for showing off.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Wall Jump</td>
         <td>Let&#39;s jump off the walls</td>
         <td>When jumping against a wall, press in the opposite direction and jump again</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
       <tr>
         <td>Double Jump</td>
         <td>Perform a second, smaller jump while in the air.</td>
         <td>Allows the Seeker to gain slightly more jumping height or change the direction of his fall. Can be used once
           per jump or per rope throw.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
-      <tr class="bg-grey-500 text-white">
-        (Climb)
+      <tr class="bg-zinc-800 text-white">
+        <td>(Climb)</td>
+        <td> </td>
+        <td> </td>
       </tr>
       <tr>
         <td>Scarlet Slashes/Hundred Slashes</td>
         <td>Perform quick attacks while climbing an enemy.</td>
         <td>A wave of attack while grappling with a giant enemy, the attacks increase in speed. Dealing damage quickly
           and increasing overall damage.</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
       </tr>
     </tbody>
   </table>
