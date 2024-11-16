@@ -4,7 +4,7 @@ title: Seeker Skills
 description:
 ---
 
-<div class="margin-center-90">
+<div class="margin-center-90 overflow-x-auto">
   <h2>Seeker Custom Skills</h2>
   <table class="table-auto">
     <thead>
