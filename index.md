@@ -7,7 +7,7 @@ description:
 ## The Wiki
 
 - Only Vocation Skills are currently in the wiki
-- Anyone free to contribute to the Wiki anytime, but each change must be approved first.
+- Anyone is free to contribute to the Wiki anytime, but each change must be approved first.
 - MTC
 
 ## Vocations {#main-vocations}
