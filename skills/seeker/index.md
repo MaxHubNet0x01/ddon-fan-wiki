@@ -78,15 +78,6 @@ description:
         <td> </td>
       </tr>
       <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr>
         <td> Falcon Kick (Lv. 13) 隼落とし</td>
         <td>If on the ground, jump into the air, grab the ground, and dive with a downward kick. If in the air, grab the
           ground and dive with a downward kick. Has small AoE and hits for Impact Damage.</td>
