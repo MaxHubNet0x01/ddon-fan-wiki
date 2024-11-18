@@ -1,0 +1,21 @@
+#main-vocations td{
+  align-content: center;
+}
+
+.margin-center{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.margin-center-90{
+  margin: 0 auto;
+  width: 90%;
+}
+
+a{
+  text-decoration: underline !important;
+}
+
+#main_content_wrap{
+  border: none !important;
+}
