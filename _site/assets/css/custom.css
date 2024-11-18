@@ -1,3 +1,7 @@
+body{
+  background: white !important;
+}
+
 #main-vocations td{
   align-content: center;
 }

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Fighter Skills
+description:
+---
+
 <div class="margin-center-90 overflow-x-auto">
   <h2 class="text-3xl font-bold py-5">Fighter Custom Skills</h2>
   <table>
