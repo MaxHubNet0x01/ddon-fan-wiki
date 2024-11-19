@@ -6,7 +6,7 @@ description:
 
 <div class="margin-center-90 overflow-x-auto">
   <header class="mt-5 mb-5">
-    <h1 class="text-2xl font-bold my-5 px-2 border-l-2 border-black border-solid underline">Contribute to the Dragon's Dogma Online Community</h1>
+    <h2 class="text-3xl font-bold my-5 px-2 border-l-2 border-black border-solid underline">Contribute to the Dragon's Dogma Online Community</h2>
     <p>Your contributions are invaluable! Help us keep the site accurate, informative, and up-to-date.</p>
   </header>
 
