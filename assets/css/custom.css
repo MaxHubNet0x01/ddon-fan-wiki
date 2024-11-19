@@ -16,7 +16,7 @@ body{
   width: 90%;
 }
 
-a{
+a:not(button a){
   text-decoration: underline !important;
 }
 
