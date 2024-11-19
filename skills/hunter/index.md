@@ -21,7 +21,7 @@ description:
         <td>Threefold Arrow 連なり射ち</td>
         <td>Column 1</td>
         <td>Call</td>
-        <td>No. of arrows 3 -&gt; 5</td>
+        <td>No. of arrows 3 -> 5</td>
         <td>Fire 3 to 5 arrows in very quick succession at enemies. If they all hit, you will surprise a large enemy.
         </td>
       </tr>
@@ -38,10 +38,10 @@ description:
         <td>Triad Shot (lv.6) Special</td>
         <td>Shoot three arrows in a wedge pattern or Shoot three arrows in a twist</td>
         <td>Call</td>
-        <td>No. of arrows 3 -&gt; 5</td>
+        <td>No. of arrows 3 -> 5</td>
         <td>Fire 3 arrows in a ranged formation. The arrows have a slight up and down deflection, making the skill feel
           a bit more like a shotgun blast than an explosive shot. These arrows deal more damage than the Triple Arrow
-          and are the hunter&#039;s main dps on the boss kill.</td>
+          and are the hunter's main dps on the boss kill.</td>
       </tr>
       <tr>
         <td>Flying Din (lv.6) 仕込み爆音矢</td>
@@ -106,7 +106,7 @@ description:
       </tr>
       <tr>
         <td></td>
-        <td>Shoots an arrow, after charging, that decreases the enemy&#039;s resistance when hitting the weak point.
+        <td>Shoots an arrow, after charging, that decreases the enemy's resistance when hitting the weak point.
         </td>
         <td>Call</td>
         <td>Reduces loading time</td>
@@ -171,7 +171,7 @@ description:
         <td>Less recoil after shooting</td>
         <td>3</td>
         <td>Decrease support further</td>
-        <td>Very useful for keeping your sights on a downed enemy&#039;s weak spot without having to readjust recoil when spamming the Triad.</td>
+        <td>Very useful for keeping your sights on a downed enemy's weak spot without having to readjust recoil when spamming the Triad.</td>
       </tr>
       <tr>
         <td>Concentration (lv.13) Special</td>
@@ -252,7 +252,7 @@ description:
       </tr>
       <tr>
         <td>Decisive Shot (lv.35)</td>
-        <td>Take more damage to monster weaknesses and less damage to any part of the monster that isn&#039;t a weakness</td>
+        <td>Take more damage to monster weaknesses and less damage to any part of the monster that isn't a weakness</td>
         <td>7</td>
         <td>Hard</td>
         <td>Works best on heads when they are down for easy access to the weak spot with a fully charged full spin tends to add around 200 or more damage to a perfect shot PS: It is active when the boss is down Damage increased by 30%</td>
@@ -287,7 +287,7 @@ description:
       </tr>
       <tr>
         <td>Shadow Attack (LV.40) Special</td>
-        <td>Damage increases if you attack an unconscious enemy (attack made outside of &#039;In Combat&#039;?)</td>
+        <td>Damage increases if you attack an unconscious enemy (attack made outside of 'In Combat'?)</td>
         <td>5</td>
         <td>Increases damage dealt</td>
         <td>Increase damage INSANELY if enemy is DOWN and inflicted with Frost, Gold or Petrification status.</td>
@@ -479,7 +479,7 @@ description:
       </tr>
       <tr>
         <td>Adept Reload</td>
-        <td>Pressing O while reloading, with proper timing, will speed up the reloading arrows. Stopping at the dark blue part of the bar will result in a &quot;Great!&quot; reloading, increasing the number of arrows loaded. Staying blank will give a &quot;Miss!&quot; and the reloading will be delayed.</td>
+        <td>Pressing O while reloading, with proper timing, will speed up the reloading arrows. Stopping at the dark blue part of the bar will result in a "Great!" reloading, increasing the number of arrows loaded. Staying blank will give a "Miss!" and the reloading will be delayed.</td>
         <td></td>
       </tr>
       <tr>

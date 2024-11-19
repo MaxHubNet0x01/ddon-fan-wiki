@@ -70,7 +70,7 @@ description:
         <td>Escape Slash (Lv.6) かわし斬り</td>
         <td> </td>
         <td>Damage+</td>
-        <td>Animation changes Additional attack is executed. &quot;Counter&quot;: Increased damage after successful
+        <td>Animation changes Additional attack is executed. "Counter": Increased damage after successful
           counterattack.</td>
         <td>It works a little differently than the usual counterattack skills, it's a dodge on the first hit and
           then
@@ -223,7 +223,7 @@ description:
           or more Revenge Meter while the Revenge Meter is at maximum.</td>
         <td>3</td>
         <td> </td>
-        <td>The &quot;First Contact&quot; hit may be sent as spam via unsubscribe.</td>
+        <td>The "First Contact" hit may be sent as spam via unsubscribe.</td>
         <td>Lv5: 40 Holster Goblins Lv4+</td>
       </tr>
       <tr>
@@ -284,7 +284,7 @@ description:
       </tr>
       <tr>
         <td>Poacher</td>
-        <td>Bonus damage against &quot;Beast&quot; type enemies.</td>
+        <td>Bonus damage against "Beast" type enemies.</td>
         <td>8</td>
         <td> </td>
         <td>Includes Chimera types (except Shadow), Wolf/Warg types (except Alchemized/Infected), and all ambient
@@ -376,7 +376,7 @@ description:
       </tr>
       <tr>
         <td>Ambition (Lv.40) 覇気</td>
-        <td>&quot;Impressive resistance while charging (skills?) is increased.</td>
+        <td>"Impressive resistance while charging (skills?) is increased.</td>
         <td>5</td>
         <td>damage</td>
         <td>includes demon bar</td>
