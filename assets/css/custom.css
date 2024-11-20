@@ -16,10 +16,10 @@ body{
   width: 90%;
 }
 
-a:not(button a){
-  text-decoration: underline !important;
-}
-
 #main_content_wrap{
   border: none !important;
+}
+
+.sidebar-group-option:checked + label svg {
+  rotate: 90deg !important;
 }

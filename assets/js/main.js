@@ -1,3 +1,6 @@
+---
+---
+
 function initNavMenu(){
   var toggleOpen = document.getElementById('toggleOpen');
   var toggleClose = document.getElementById('toggleClose');
@@ -13,6 +16,12 @@ function initNavMenu(){
 
   toggleOpen.addEventListener('click', handleClick);
   toggleClose.addEventListener('click', handleClick);
+}
+
+function initSideMenu(){
+  const sideMenuData = {
+    icons: JSON.parse(`{% include js-icons.json %}`)
+  }
 }
 
 $(function(){
