@@ -1,5 +1,5 @@
 <li>
-  <a href="{{ include.href }}"
+  <a href="{{ include.href | relative_url }}"
     class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
     {% include {{ include.icon }} %}
     <span>{{ include.text }}</span>
