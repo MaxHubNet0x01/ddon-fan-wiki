@@ -81,10 +81,10 @@
 
   <!-- MAIN CONTENT -->
   <div class="outer flex min-h-screen">
-    <section class="w-1/5">
+    <section class="hidden md:block md:w-1/5">
       {% include sidebar/default.html %}
     </section>
-    <section id="{{ page.title | string_to_id }}" class="w-4/5 py-10">
+    <section id="{{ page.title | string_to_id }}-page" class="w-full md:w-4/5 py-10">
       {{ content }}
     </section>
   </div>
