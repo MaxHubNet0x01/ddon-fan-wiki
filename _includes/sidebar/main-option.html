@@ -1,6 +1,8 @@
 <ul class="mt-8">
   <li>
-    <a href="#" class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-gray-200 rounded-md px-4 py-3">
+    <a href="{{ include.href }}"
+        data-page-id="{{ include.id }}"
+        class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-200 rounded-md px-4 py-3">
       {% if include.icon %}
         {% include {{ include.icon }} %}
       {% endif %}

@@ -47,7 +47,7 @@
   <div class="outer">
     <header class='flex shadow-md sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
       <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
-        <a href="javascript:void(0)"><img class="shadow-none border-none w-40" src="/ddon-fan-wiki/assets/img/logo.png"
+        <a href="javascript:void(0)"><img class="shadow-none border-none w-28" src="/assets/img/logo.png"
             alt="logo" class='w-36' />
         </a>
 
@@ -67,7 +67,7 @@
           <ul
             class='lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
             <li class='mb-6 hidden max-lg:block'>
-              <a href="javascript:void(0)"><img src="/ddon-fan-wiki/assets/img/logo.png" alt="logo"
+              <a href="javascript:void(0)"><img src="/assets/img/logo.png" alt="logo"
                   class='w-36 shadow-none border-none' />
               </a>
             </li>
@@ -106,11 +106,13 @@
 
   <!-- MAIN CONTENT -->
   <div class="outer flex min-h-screen">
-    <section class="hidden md:block md:w-1/5">
+    <section id="sidebar" class="hidden md:block md:w-1/5">
       <nav class="bg-white shadow-md h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
   <ul class="mt-8">
   <li>
-    <a href="#" class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-gray-200 rounded-md px-4 py-3">
+    <a href=""
+        data-page-id="home"
+        class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-200 rounded-md px-4 py-3">
       
         <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="home"><rect width="24" height="24" opacity="0"/><path d="M20.42 10.18L12.71 2.3a1 1 0 0 0-1.42 0l-7.71 7.89A2 2 0 0 0 3 11.62V20a2 2 0 0 0 1.89 2h14.22A2 2 0 0 0 21 20v-8.38a2.07 2.07 0 0 0-.58-1.44zM10 20v-6h4v6zm9 0h-3v-7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v7H5v-8.42l7-7.15 7 7.19z"/></g></g></svg>
       
@@ -120,7 +122,7 @@
   </li>
 </ul>
 
-  <div class="mt-6">
+  <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-vocations" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-vocations" class="flex cursor-pointer group">
     <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Vocations</h6>
@@ -128,78 +130,78 @@
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/vocations/fighter" data-page-id="fighter_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Fighter</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Hunter</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Priest</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Shield Sage</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Sorcerer</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Seeker</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Element Archer</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Warrior</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Alchemist</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Spirit Lancer</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>High Scepter</span>
   </a>
@@ -207,7 +209,7 @@
     </ul>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-mechanics" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-mechanics" class="flex cursor-pointer group">
     <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Game Mechanics</h6>
@@ -215,57 +217,57 @@
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
-  <a href="/game_mechanics/fast_travel"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/game_mechanics/fast_travel" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Fast Travel</span>
   </a>
 </li>
       <li>
-  <a href="/game_mechanics/managing_vocations"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/game_mechanics/managing_vocations" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Managing Vocations</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Managing Pawns</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Equipment</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Jewellry</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Crafting</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Blood Orbs</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Blood Orb Tree</span>
   </a>
@@ -273,7 +275,7 @@
     </ul>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-guides" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-guides" class="flex cursor-pointer group">
     <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Guides</h6>
@@ -281,15 +283,15 @@
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Levelling</span>
   </a>
 </li>
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Ghost n Goblins</span>
   </a>
@@ -297,7 +299,7 @@
     </ul>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-glossary" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-glossary" class="flex cursor-pointer group">
     <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Glossary</h6>
@@ -305,8 +307,8 @@
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Glossary</span>
   </a>
@@ -314,7 +316,7 @@
     </ul>
   </div>
 
-  <div class="mt-6">
+  <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-appendix" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-appendix" class="flex cursor-pointer group">
     <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Appendix</h6>
@@ -322,8 +324,8 @@
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
-  <a href="/"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-[#efefef] rounded-md px-4 py-2">
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
     <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Appendix</span>
   </a>
@@ -332,7 +334,7 @@
   </div>
 </nav>
     </section>
-    <section id="sub-page-page" class="w-full md:w-4/5 py-10">
+    <section id="main-content"  data-page-id="sub-page" class="w-full md:w-4/5 py-10">
       <p>READ</p>
 
     </section>

@@ -22,7 +22,7 @@
   <div class="outer">
     <header class='flex shadow-md sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
       <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
-        <a href="javascript:void(0)"><img class="shadow-none border-none w-40" src="/ddon-fan-wiki/assets/img/logo.png"
+        <a href="javascript:void(0)"><img class="shadow-none border-none w-28" src="{{ '/assets/img/logo.png' | relative_url }}"
             alt="logo" class='w-36' />
         </a>
 
@@ -42,7 +42,7 @@
           <ul
             class='lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
             <li class='mb-6 hidden max-lg:block'>
-              <a href="javascript:void(0)"><img src="/ddon-fan-wiki/assets/img/logo.png" alt="logo"
+              <a href="javascript:void(0)"><img src="{{ '/assets/img/logo.png' | relative_url }}" alt="logo"
                   class='w-36 shadow-none border-none' />
               </a>
             </li>
@@ -81,10 +81,10 @@
 
   <!-- MAIN CONTENT -->
   <div class="outer flex min-h-screen">
-    <section class="hidden md:block md:w-1/5">
+    <section id="sidebar" class="hidden md:block md:w-1/5">
       {% include sidebar/default.html %}
     </section>
-    <section id="{{ page.title | string_to_id }}-page" class="w-full md:w-4/5 py-10">
+    <section id="main-content"  data-page-id="{{ page.title | string_to_id }}" class="w-full md:w-4/5 py-10">
       {{ content }}
     </section>
   </div>
