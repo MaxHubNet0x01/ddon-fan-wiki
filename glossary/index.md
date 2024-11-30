@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Glossary
+id: glossary
 description: Common terms used in game and wiki
+main_color: amber-600
 ---
 
 <table>

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Managing Vocations
+id: managing-vocations
 description: 
+main_color: amber-600
 ---
 
 <div class="margin-center-90">

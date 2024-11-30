@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Fast Travel
+id: fast-travel
 description: 
+main_color: amber-600
 ---
 
 <div class="margin-center-90 overflow-x-auto">
@@ -14,7 +16,7 @@ description:
   <p class="mb-2 font-bold">
     Rift Teleport/Fast Travel Menu:
   </p>
-  <div class="flex mb-5 items-center">
+  <div class="flex mb-5 items-center flex-col md:flex-row">
     <div class="w-1/2">
       {% include image.html w="250px" h="150px" src="menu-rift-teleport.png" %}
     </div>
