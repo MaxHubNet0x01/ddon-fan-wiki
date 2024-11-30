@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fighter
+id: fighter
 description:
 main_color: red-600
 ---

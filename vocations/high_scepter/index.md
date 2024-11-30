@@ -1,6 +1,7 @@
 ---
 layout: default
 title: High Scepter
+id: high-scepter
 description:
 main_color: red-600
 ---

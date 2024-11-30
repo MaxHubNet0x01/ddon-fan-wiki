@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Priest
+id: priest
 description:
 main_color: green-600
 ---

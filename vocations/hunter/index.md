@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Hunter
+id: hunter
 description:
 main_color: red-600
 ---

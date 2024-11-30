@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Shield Sage
+id: shield-sage
 description:
 main_color: blue-600
 ---

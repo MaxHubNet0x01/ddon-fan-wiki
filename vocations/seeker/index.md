@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Seeker
+id: seeker
 description:
 main_color: red-600
 ---

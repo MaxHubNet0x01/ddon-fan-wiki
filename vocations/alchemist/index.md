@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Alchemist
+id: alchemist
 description:
 main_color: blue-600
 ---

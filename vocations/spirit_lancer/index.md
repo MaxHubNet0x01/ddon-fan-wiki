@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Spirit Lancer
+id: spirit-lancer
 description:
 main_color: green-600
 ---

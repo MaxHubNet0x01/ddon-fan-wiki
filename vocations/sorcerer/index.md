@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sorcerer
+id: sorcerer
 description:
 main_color: red-600
 ---

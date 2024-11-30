@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Warrior
+id: warrior
 description:
 main_color: red-600
 ---
