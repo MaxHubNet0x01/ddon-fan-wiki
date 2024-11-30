@@ -8,7 +8,7 @@ main_color: red-500
 <div class="margin-center-90">
   {% include page-heading.html heading="Fighter (Attacker)" %}
 
-  <div class="container px-4 py-8">
+  <div class="container py-8">
     <section class="bg-white shadow-md rounded-lg p-6 mb-6">
       <h2 class="text-2xl font-semibold mb-4">Overview</h2>
       <div class="flex flex-col md:flex-row">

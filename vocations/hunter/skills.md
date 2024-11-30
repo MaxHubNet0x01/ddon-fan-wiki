@@ -423,7 +423,7 @@ description:
   </table>
 
   <h2 class="text-3xl font-bold py-5">Hunter Core Skills</h2>
-  <table border='1'>
+  <table>
     <thead>
       <tr>
         <th>Skill Name</th>
