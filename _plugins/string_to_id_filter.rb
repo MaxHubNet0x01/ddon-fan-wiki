@@ -1,4 +1,7 @@
 module StringToIdFilter
+  safe true
+  priority :low
+
   def string_to_id(input)
     input
       .to_s                  
