@@ -7,7 +7,7 @@ vocation: Element Archer
 
 <div class="margin-center-90 overflow-x-auto">
   <h2 class="text-3xl font-bold py-5">{{ page.vocation }} Custom Skills</h2>
-  <table border='1'>
+  <table>
     <thead>
       <tr>
         <th>Skill Name</th>

@@ -6,7 +6,7 @@ description:
 
 <div class="margin-center-90 overflow-x-auto">
   <h2 class="text-3xl font-bold py-5">Seeker Custom Skills</h2>
-  <table >
+  <table>
     <thead>
       <tr>
         <th title="Field #1">Skill Name</th>

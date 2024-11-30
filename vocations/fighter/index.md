@@ -2,7 +2,7 @@
 layout: default
 title: Fighter
 description:
-main_color: red-500
+main_color: red-600
 ---
 
 <div class="margin-center-90">
