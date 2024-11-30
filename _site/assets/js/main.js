@@ -23,7 +23,7 @@ function init($){
     
     if (currentSidebarLink.length == 1){
       currentSidebarLink.parents("ul").siblings(".sidebar-group-option").prop("checked", true);
-      currentSidebarLink.addClass(pageMainColor ? "font-bold text-"+pageMainColor : false || "active");
+      currentSidebarLink.removeClass("text-gray-600").addClass(pageMainColor ? "font-bold text-"+pageMainColor : false || "active");
     }
   }
 

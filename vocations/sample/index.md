@@ -2,15 +2,18 @@
 layout: default
 title: Sample
 description:
-vocation:
+main_color: amber-600
 ---
 
-<div class="margin-center-90 overflow-x-auto">
-  <h2 class="text-3xl font-bold py-5">{{ page.vocation }} Custom Skills</h2>
+<div class="margin-center-90">
+  {% include page-heading.html heading="Sample" %}
 
-  <h2 class="text-3xl font-bold py-5">{{ page.vocation }} Passive Skills</h2>
+  <div class="container mx-auto py-8">
+    
+  </div>
 
-  <h2 class="text-3xl font-bold py-5">{{ page.vocation }} Blood Orb Job Tree Passive Skills</h2>
-
-  <h2 class="text-3xl font-bold py-5">{{ page.vocation }} Core Skills</h2>
+  {% include page-heading.html heading="Custom Skills" %}
+  <div class="overflow-x-auto">
+    
+  </div>
 </div>
