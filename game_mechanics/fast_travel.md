@@ -17,10 +17,10 @@ main_color: amber-600
     Rift Teleport/Fast Travel Menu:
   </p>
   <div class="flex mb-5 items-center flex-col md:flex-row">
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2 flex items-center justify-center">
       {% include image.html w="250px" h="150px" src="menu-rift-teleport.png" %}
     </div>
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2 flex items-center justify-center">
       {% include image.html w="485px" h="300px" src="rift-teleport-screen.png" %}
     </div>
   </div>
