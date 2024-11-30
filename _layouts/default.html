@@ -84,7 +84,7 @@
     <section id="sidebar" class="hidden md:block md:w-1/5">
       {% include sidebar/default.html %}
     </section>
-    <section id="main-content"  data-page-id="{{ page.title | string_to_id }}" class="w-full md:w-4/5 py-10">
+    <section id="main-content"  data-page-id="{{ page.title | string_to_id }}" data-page-main-color="{{ page.main_color }}" class="w-full md:w-4/5 py-10">
       {{ content }}
     </section>
   </div>

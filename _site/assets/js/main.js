@@ -19,10 +19,11 @@ function init($){
   function initSideMenu(){
     var currentPageId = $("#main-content").data("page-id");
     var currentSidebarLink = $(`#sidebar [data-page-id='${currentPageId}_link']`);
+    var pageMainColor = $("#main-content").data("page-main-color");
     
     if (currentSidebarLink.length == 1){
       currentSidebarLink.parents("ul").siblings(".sidebar-group-option").prop("checked", true);
-      currentSidebarLink.addClass("active");
+      currentSidebarLink.addClass(pageMainColor ? "font-bold text-"+pageMainColor : false || "active");
     }
   }
 
