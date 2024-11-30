@@ -81,8 +81,11 @@
 
   <!-- MAIN CONTENT -->
   <div class="outer flex min-h-screen">
-    <section id="sidebar" class="hidden md:block md:w-1/5">
+    <section id="sidebar">
       {% include sidebar/default.html %}
+      <div class="mobile-toggle z-50 fixed md:hidden top-[90vh] peer-[.hidden]:left-5 peer-[.hidden]:rotate-0 rotate-180 left-64 fill-white p-1 bg-{{ page.main_color }} rounded w-10">
+        {% include arrowhead-right-icon.svg %}
+      </div>
     </section>
     <section id="main-content"  data-page-id="{{ page.title | string_to_id }}" data-page-main-color="{{ page.main_color }}" class="w-full md:w-4/5 py-10">
       {{ content }}

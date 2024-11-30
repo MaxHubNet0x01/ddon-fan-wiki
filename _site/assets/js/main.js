@@ -25,6 +25,10 @@ function init($){
       currentSidebarLink.parents("ul").siblings(".sidebar-group-option").prop("checked", true);
       currentSidebarLink.removeClass("text-gray-600").addClass(pageMainColor ? "font-bold text-"+pageMainColor : false || "active");
     }
+
+    $("#sidebar .mobile-toggle").click(function(){
+      $(".sidebar-content").toggleClass("hidden");
+    });
   }
 
   initNavMenu();
