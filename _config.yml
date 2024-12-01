@@ -1,7 +1,5 @@
 remote_theme: pages-themes/slate@v0.2.0
-destination: docs
+destination: _build
 safe: false
 plugins:
 - jekyll-remote-theme
-include:
-  - .nojekyll
