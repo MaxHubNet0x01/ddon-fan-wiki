@@ -9,51 +9,49 @@ main_color: green-600
 <div class="margin-center-90">
   {% include page-heading.html heading="Priest (Support)" %}
 
-  <div class="container mx-auto py-8">
-    {% include card-with-image.html src="priest-portrait.png" heading="Overview" content="The Priest is a crucial
-    support vocation in Dragons Dogma Online, specializing in healing, protection, and spiritual empowerment. Masters of
-    divine magic, Priests provide essential defensive and restorative abilities that keep their party alive and thriving
-    in the most challenging encounters." %}
+  {% include card-with-image.html src="priest-portrait.png" heading="Overview" content="The Priest is a crucial
+  support vocation in Dragons Dogma Online, specializing in healing, protection, and spiritual empowerment. Masters of
+  divine magic, Priests provide essential defensive and restorative abilities that keep their party alive and thriving
+  in the most challenging encounters." %}
 
-    {% include card-section-start.html %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
-    <ul class="list-disc list-inside space-y-2">
-      <li>Exceptional healing and support capabilities</li>
-      <li>Divine magic for protection and restoration</li>
-      <li>Ability to remove status ailments</li>
-      <li>Limited but effective offensive spiritual abilities</li>
-      <li>Critical team survival role</li>
-    </ul>
-    {% include card-section-end.html %}
+  {% include card-section-start.html %}
+  <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Exceptional healing and support capabilities</li>
+    <li>Divine magic for protection and restoration</li>
+    <li>Ability to remove status ailments</li>
+    <li>Limited but effective offensive spiritual abilities</li>
+    <li>Critical team survival role</li>
+  </ul>
+  {% include card-section-end.html %}
 
-    {% include card-section-start.html %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
-    <div class="space-y-4">
-      <div>
-        <h3 class="font-bold mb-2">Healing Techniques</h3>
-        <p>Priests utilize powerful healing spells that can restore health, provide temporary shields, and mend wounds
-          both in and out of combat. They can heal individual targets or apply area-of-effect healing to support entire
-          parties.</p>
-      </div>
-      <div>
-        <h3 class="font-bold mb-2">Protective Magics</h3>
-        <p>Beyond healing, Priests can cast protective enchantments, create magical barriers, and nullify negative
-          status effects that threaten their allies.</p>
-      </div>
+  {% include card-section-start.html %}
+  <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+  <div class="space-y-4">
+    <div>
+      <h3 class="font-bold mb-2">Healing Techniques</h3>
+      <p>Priests utilize powerful healing spells that can restore health, provide temporary shields, and mend wounds
+        both in and out of combat. They can heal individual targets or apply area-of-effect healing to support entire
+        parties.</p>
     </div>
-    {% include card-section-end.html %}
-
-    {% include card-section-start.html %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
-    <ul class="list-disc list-inside space-y-2">
-      <li>Prioritize party survival over personal damage output</li>
-      <li>Maintain constant awareness of ally health</li>
-      <li>Position safely while providing maximum support</li>
-      <li>Anticipate and counter incoming damage</li>
-      <li>Coordinate with other vocations to maximize party effectiveness</li>
-    </ul>
-    {% include card-section-end.html %}
+    <div>
+      <h3 class="font-bold mb-2">Protective Magics</h3>
+      <p>Beyond healing, Priests can cast protective enchantments, create magical barriers, and nullify negative
+        status effects that threaten their allies.</p>
+    </div>
   </div>
+  {% include card-section-end.html %}
+
+  {% include card-section-start.html %}
+  <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+  <ul class="list-disc list-inside space-y-2">
+    <li>Prioritize party survival over personal damage output</li>
+    <li>Maintain constant awareness of ally health</li>
+    <li>Position safely while providing maximum support</li>
+    <li>Anticipate and counter incoming damage</li>
+    <li>Coordinate with other vocations to maximize party effectiveness</li>
+  </ul>
+  {% include card-section-end.html %}
 
   {% include page-heading.html heading="Custom Skills" %}
   <div class="overflow-x-auto">

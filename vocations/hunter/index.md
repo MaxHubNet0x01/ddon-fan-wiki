@@ -9,52 +9,50 @@ main_color: red-600
 <div class="margin-center-90">
   {% include page-heading.html heading="Hunter (Attacker)" %}
 
-  <div class="container py-8">
-    {% capture hunter_overview %}
-      The Hunter is a ranged combat specialist in Dragons Dogma Online, focusing on precision archery, mobility, and strategic damage dealing. 
-      Masters of the bow, Hunters excel at picking off enemies from a distance while maintaining exceptional mobility.
-    {% endcapture %}
+  {% capture hunter_overview %}
+    The Hunter is a ranged combat specialist in Dragons Dogma Online, focusing on precision archery, mobility, and strategic damage dealing. 
+    Masters of the bow, Hunters excel at picking off enemies from a distance while maintaining exceptional mobility.
+  {% endcapture %}
 
-    {% include card-with-image.html src="hunter-portrait.png" heading="Overview" content=hunter_overview %}
+  {% include card-with-image.html src="hunter-portrait.png" heading="Overview" content=hunter_overview %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li>Exceptional long-range damage output</li>
-        <li>High mobility and evasive capabilities</li>
-        <li>Precision targeting and weak point exploitation</li>
-        <li>Versatile combat positioning</li>
-        <li>Light armor for increased movement speed</li>
-      </ul>
-    {% include card-section-end.html %}
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Exceptional long-range damage output</li>
+      <li>High mobility and evasive capabilities</li>
+      <li>Precision targeting and weak point exploitation</li>
+      <li>Versatile combat positioning</li>
+      <li>Light armor for increased movement speed</li>
+    </ul>
+  {% include card-section-end.html %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
-      <div class="space-y-4">
-        <div>
-          <h3 class="font-bold text-gray-700 mb-2">Bow Techniques</h3>
-          <p>Hunters utilize advanced archery skills, including rapid fire, charged shots, and precision aiming. They
-            can quickly switch between different arrow types to adapt to various combat scenarios.</p>
-        </div>
-        <div>
-          <h3 class="font-bold text-gray-700 mb-2">Tactical Positioning</h3>
-          <p>Leveraging terrain and movement, Hunters create optimal firing positions, avoiding enemy attacks while
-            maintaining consistent damage output.</p>
-        </div>
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    <div class="space-y-4">
+      <div>
+        <h3 class="font-bold text-gray-700 mb-2">Bow Techniques</h3>
+        <p>Hunters utilize advanced archery skills, including rapid fire, charged shots, and precision aiming. They
+          can quickly switch between different arrow types to adapt to various combat scenarios.</p>
       </div>
-    {% include card-section-end.html %}
+      <div>
+        <h3 class="font-bold text-gray-700 mb-2">Tactical Positioning</h3>
+        <p>Leveraging terrain and movement, Hunters create optimal firing positions, avoiding enemy attacks while
+          maintaining consistent damage output.</p>
+      </div>
+    </div>
+  {% include card-section-end.html %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li>Maintain maximum distance from enemies</li>
-        <li>Target enemy weak points for critical damage</li>
-        <li>Provide consistent ranged support to the party</li>
-        <li>Use mobility to avoid direct confrontation</li>
-        <li>Adapt arrow types to different enemy vulnerabilities</li>
-      </ul>
-    {% include card-section-end.html %}
-  </div>
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Maintain maximum distance from enemies</li>
+      <li>Target enemy weak points for critical damage</li>
+      <li>Provide consistent ranged support to the party</li>
+      <li>Use mobility to avoid direct confrontation</li>
+      <li>Adapt arrow types to different enemy vulnerabilities</li>
+    </ul>
+  {% include card-section-end.html %}
 
   {% include page-heading.html heading="Custom Skills" %}
   <div class="overflow-x-auto">

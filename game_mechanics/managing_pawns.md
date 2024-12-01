@@ -1,0 +1,74 @@
+---
+layout: default
+title: Managing Pawns
+id: managing-pawns
+description: 
+main_color: amber-600
+---
+
+<div class="margin-center-90">
+  {% include page-heading.html heading="Managing Pawns" %}
+
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Your First Main Pawn" %}
+    {% include card-section-list-start.html %}
+      <li>Unlocked via Main Quest</li>
+      <li>When you arrive at the Pawn Cathedral to retrieve the rift fragment (Lv 65), run to the end of the ruins, exit then re-enter to reach the correct side of the ruins to find the fragment</li>
+      <li>Initial vocation will be the first 4 but can be changed anytime at {% include highlight-link.html href="/game_mechanics/managing_vocations" text="Archibald" %}</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Your Second Main Pawn" %}
+    {% include card-section-list-start.html %}
+      <li>Acquired after giving White Dragon 10 Riftstone Shards</li>
+      <li>10 Riftstone Shards can be purchased in the Shopping District of White Dragon Temple</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Your Third Main Pawn" %}
+    {% include card-section-list-start.html %}
+      <li>Must progress Main Story Questline (MSQ) to Lvl 45</li>
+      <li>White Dragon Blood Orb Tree 3rd Level must also be complete</li>
+      <li>Unless you have grinded for blood orbs, or really took your time with the login rewards, you won't have enough to quickly max out the third tree</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Having 6 Pawns at once" %}
+    {% include card-section-list-start.html %}
+      <li>Hire 2 pawns</li>
+      <li>Invite 1 Main Pawn to your party</li>
+      <li>Add both hired pawns to your party</li>
+      <li>Use the /invite MAIN_PAWN_NAME command to add your other 2 main pawns to the party</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include page-heading.html heading="Pawn XP Distribution System" %}
+
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Notes" %}
+    {% include card-section-list-start.html %}
+      <li>Experience points (XP) are distributed among pawns based on the player's level relative to theirs.</li>
+      <li>If the main pawn's level is higher than the player's, they receive slightly reduced XP to prevent them from outpacing the player's progress.</li>
+      <li>When the main pawn's level is lower, they gain increased XP to catch up to the player, maintaining balance within the party. This increase can be 10x or more XP than what the player gets.</li>
+      <li>For rented pawns, XP gain is proportional to the host player's level, not the renter's, ensuring fairness in progression.</li>
+      <li>Level gaps can lead to more significant discrepancies in XP distribution, so keeping pawns close to your level ensures smoother growth for the entire party.</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include page-heading.html heading="Pawn Tactics/Training" %}
+  {% include card-section-start.html %}
+    {% include card-section-header.html heading="Pawn Customization in Your Room" %}
+    {% include card-section-list-start.html %}
+      <li>Your room, accessible from the Relay Station or via the Inside Location tab (Rift Teleport), allows you to customize pawn tactics and grant them special abilities.</li>
+      <li>Special abilities include reviving the player or fully restoring the player's health.</li>
+      <li>Pawn tactics determine their behavior in battle, such as maintaining distance from enemies, prioritizing specific abilities, or deciding when to heal, buff, or climb foes.</li>
+    {% include card-section-list-end.html %}
+  {% include card-section-end.html %}
+
+  {% include alert-info.html heading="Important!" content="Special abilities cannot be removed. Your pawn will only use a single skill every x minutes. More skills doesn't mean more casts. So it's better to take one or two skills you think are worth it." %}
+
+  {% include card-with-image.html src="pawn-tactics-bell.png" content="Interact with this bell in your room to enter Pawn Tactics" %}
+</div>

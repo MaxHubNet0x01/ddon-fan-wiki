@@ -9,53 +9,51 @@ main_color: blue-600
 <div class="margin-center-90">
   {% include page-heading.html heading="Shield Sage (Tank)" %}
 
-  <div class="container py-8">
-    {% include card-with-image.html src="shield-sage-portrait.png" heading="Overview" content="The Shield Sage is a
-    defensive vocation in Dragons Dogma Online, specializing in protection and limited elemental magic support. Armed
-    with a greatshield, this vocation can attract enemy attention away from other party members while providing crucial
-    battlefield support." %}
+  {% include card-with-image.html src="shield-sage-portrait.png" heading="Overview" content="The Shield Sage is a
+  defensive vocation in Dragons Dogma Online, specializing in protection and limited elemental magic support. Armed
+  with a greatshield, this vocation can attract enemy attention away from other party members while providing crucial
+  battlefield support." %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li>Primary weapon: Greatshield</li>
-        <li>Available from the start of the game</li>
-        <li>Ability to generate a power gauge through attacks</li>
-        <li>Can enchant allies and self using power gauge</li>
-        <li>Capable of drawing enemy attention (aggro)</li>
-        <li>Limited offensive elemental magic capabilities</li>
-      </ul>
-    {% include card-section-end.html %}
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Primary weapon: Greatshield</li>
+      <li>Available from the start of the game</li>
+      <li>Ability to generate a power gauge through attacks</li>
+      <li>Can enchant allies and self using power gauge</li>
+      <li>Capable of drawing enemy attention (aggro)</li>
+      <li>Limited offensive elemental magic capabilities</li>
+    </ul>
+  {% include card-section-end.html %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
-      <div class="space-y-4">
-        <div>
-          <h3 class="font-bold mb-2">Power Gauge System</h3>
-          <p>The Shield Sage builds a power gauge through combat actions. This gauge serves multiple purposes: enchanting
-            allies, self-buffing, and casting offensive spells. The gauge management is crucial to the vocation's
-            effectiveness.</p>
-        </div>
-        <div>
-          <h3 class="font-bold mb-2">Defensive Capabilities</h3>
-          <p>Utilizing a greatshield, the Shield Sage can protect themselves and attract enemy attention, creating space
-            and protection for more vulnerable party members. This tanking ability is complemented by their magical
-            support skills.</p>
-        </div>
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    <div class="space-y-4">
+      <div>
+        <h3 class="font-bold mb-2">Power Gauge System</h3>
+        <p>The Shield Sage builds a power gauge through combat actions. This gauge serves multiple purposes: enchanting
+          allies, self-buffing, and casting offensive spells. The gauge management is crucial to the vocation's
+          effectiveness.</p>
       </div>
-    {% include card-section-end.html %}
+      <div>
+        <h3 class="font-bold mb-2">Defensive Capabilities</h3>
+        <p>Utilizing a greatshield, the Shield Sage can protect themselves and attract enemy attention, creating space
+          and protection for more vulnerable party members. This tanking ability is complemented by their magical
+          support skills.</p>
+      </div>
+    </div>
+  {% include card-section-end.html %}
 
-    {% include card-section-start.html %}
-      <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li>Manage power gauge strategically</li>
-        <li>Use aggro-drawing abilities to protect party members</li>
-        <li>Provide elemental magic support</li>
-        <li>Leverage greatshield for both offense and defense</li>
-        <li>Coordinate with party to maximize defensive potential</li>
-      </ul>
-    {% include card-section-end.html %}
-  </div>
+  {% include card-section-start.html %}
+    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Manage power gauge strategically</li>
+      <li>Use aggro-drawing abilities to protect party members</li>
+      <li>Provide elemental magic support</li>
+      <li>Leverage greatshield for both offense and defense</li>
+      <li>Coordinate with party to maximize defensive potential</li>
+    </ul>
+  {% include card-section-end.html %}
 
   {% include page-heading.html heading="Custom Skills" %}
   <div class="overflow-x-auto">
