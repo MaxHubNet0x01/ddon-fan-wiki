@@ -6,7 +6,7 @@ description:
 main_color: amber-600
 ---
 
-<div class="margin-center-90 overflow-x-auto">
+<div class="margin-center-90">
   {% include page-heading.html heading="Fast Travel" %}
 
   <p class="mb-5">
