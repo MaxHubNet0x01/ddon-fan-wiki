@@ -6,7 +6,7 @@
       {%- include image.md src=include.src w=img_w h="auto" class="border-none shadow-none" -%}
     </div>
     <div class="w-full md:w-1/2 flex items-center justify-center">
-      <p class="mb-4">{{ include.content }}</p>
+      <p class="mb-4 px-12">{{ include.content }}</p>
     </div>
   </div>
 </section>

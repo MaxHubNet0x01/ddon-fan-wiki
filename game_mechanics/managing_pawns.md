@@ -62,7 +62,7 @@ main_color: amber-600
   {% include card-section-start.md %}
     {% include card-section-header.md heading="Pawn Customization in Your Room" %}
     {% include card-section-list-start.md %}
-      <li>Your room, accessible from the Relay Station or via the Inside Location tab (Rift Teleport), allows you to customize pawn tactics and grant them special abilities.</li>
+      <li>Your room, accessible from the Relay Station or via the Within Location tab (Rift Teleport), allows you to customize pawn tactics and grant them special abilities.</li>
       <li>Special abilities include reviving the player or fully restoring the player's health.</li>
       <li>Pawn tactics determine their behavior in battle, such as maintaining distance from enemies, prioritizing specific abilities, or deciding when to heal, buff, or climb foes.</li>
     {% include card-section-list-end.md %}

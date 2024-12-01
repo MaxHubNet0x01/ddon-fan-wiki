@@ -10,7 +10,7 @@ main_color: amber-600
   {% include page-heading.md heading="Managing Vocations" %}
 
   <p class="py-3">
-    You can change your vocation in the Relay Station District (Inside Location) and change your vocation at the NPC Archibald.
+    You can change your vocation in the Relay Station District (Within Location) and change your vocation at the NPC Archibald.
   </p>
 
   <p class="py-3">
