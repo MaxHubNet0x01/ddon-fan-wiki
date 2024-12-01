@@ -70,5 +70,33 @@ main_color: amber-600
 
   {% include alert-info.md heading="Important!" content="Special abilities cannot be removed. Your pawn will only use a single skill every x minutes. More skills doesn't mean more casts. So it's better to take one or two skills you think are worth it." %}
 
-  {% include card-with-image.md src="pawn-tactics-bell.png" content="Interact with this bell in your room to enter Pawn Tactics" %}
+  {% include card-with-image.md src="pawn-tactics-bell.png" w="100%" heading="Pawn Tactics Bell" content="Interact with this bell in your room to enter Pawn Tactics" %}
+
+  {% include page-heading.md heading="Recommended Pawns" %}
+
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="For Support" %}
+    {% include card-section-list-start.md %}
+      <li>Priest isn’t played well by pawn AI</li>
+      <li>Spirit Lancer takes a lot of micromanaging (or manual work) with pawn commands</li>
+      <li>Elemental archer does what you want when you want it (usually)</li>
+    {% include card-section-list-end.md %}
+  {% include card-section-end.md %}
+
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="For Damage" %}
+    {% include card-section-list-start.md %}
+      <li>Sorcerer is by far the best pick</li>
+    {% include card-section-list-end.md %}
+  {% include card-section-end.md %}
+
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="For Tanking" %}
+    {% include card-section-list-start.md %}
+      <li>Blue vocations are usually not recommended</li>
+      <li>Pawn AI has difficulty holding aggro</li>
+      <li>Alchemist pawns are very clunky </li>
+      <li>Shield Sage is generally better of the two tank vocations</li>
+    {% include card-section-list-end.md %}
+  {% include card-section-end.md %}
 </div>
