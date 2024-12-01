@@ -3,3 +3,5 @@ destination: docs
 safe: false
 plugins:
 - jekyll-remote-theme
+include:
+  - .nojekyll
