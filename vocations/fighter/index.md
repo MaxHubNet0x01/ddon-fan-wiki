@@ -7,13 +7,13 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Fighter (Attacker)" %}
+  {% include page-heading.md heading="Fighter (Attacker)" %}
 
   <section class="bg-white shadow-md rounded-lg p-6 mb-6">
     <h2 class="text-2xl font-semibold mb-4">Overview</h2>
     <div class="flex flex-col md:flex-row">
       <div class="w-full md:w-1/2 flex items-center justify-center">
-        {% include image.html src="fighter-portrait.png" w="50%" h="auto" class="border-none shadow-none" %}
+        {% include image.md src="fighter-portrait.png" w="50%" h="auto" class="border-none shadow-none" %}
       </div>
       <div class="w-full md:w-1/2 flex items-center justify-center">
         <p class="mb-4">The Fighter is a fundamental close-combat vocation in Dragons Dogma Online, renowned for its
@@ -61,7 +61,7 @@ main_color: red-600
     </ul>
   </section>
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -195,7 +195,7 @@ main_color: red-600
       </tbody>
     </table>
 
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>
@@ -388,7 +388,7 @@ main_color: red-600
       </tbody>
     </table>
 
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>

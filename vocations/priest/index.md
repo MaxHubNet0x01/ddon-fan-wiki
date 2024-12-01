@@ -7,14 +7,14 @@ main_color: green-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Priest (Support)" %}
+  {% include page-heading.md heading="Priest (Support)" %}
 
-  {% include card-with-image.html src="priest-portrait.png" heading="Overview" content="The Priest is a crucial
+  {% include card-with-image.md src="priest-portrait.png" heading="Overview" content="The Priest is a crucial
   support vocation in Dragons Dogma Online, specializing in healing, protection, and spiritual empowerment. Masters of
   divine magic, Priests provide essential defensive and restorative abilities that keep their party alive and thriving
   in the most challenging encounters." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
   <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
   <ul class="list-disc list-inside space-y-2">
     <li>Exceptional healing and support capabilities</li>
@@ -23,9 +23,9 @@ main_color: green-600
     <li>Limited but effective offensive spiritual abilities</li>
     <li>Critical team survival role</li>
   </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
   <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
   <div class="space-y-4">
     <div>
@@ -40,9 +40,9 @@ main_color: green-600
         status effects that threaten their allies.</p>
     </div>
   </div>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
   <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
   <ul class="list-disc list-inside space-y-2">
     <li>Prioritize party survival over personal damage output</li>
@@ -51,9 +51,9 @@ main_color: green-600
     <li>Anticipate and counter incoming damage</li>
     <li>Coordinate with other vocations to maximize party effectiveness</li>
   </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -197,7 +197,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -439,7 +439,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -564,7 +564,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

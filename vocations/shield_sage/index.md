@@ -7,14 +7,14 @@ main_color: blue-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Shield Sage (Tank)" %}
+  {% include page-heading.md heading="Shield Sage (Tank)" %}
 
-  {% include card-with-image.html src="shield-sage-portrait.png" heading="Overview" content="The Shield Sage is a
+  {% include card-with-image.md src="shield-sage-portrait.png" heading="Overview" content="The Shield Sage is a
   defensive vocation in Dragons Dogma Online, specializing in protection and limited elemental magic support. Armed
   with a greatshield, this vocation can attract enemy attention away from other party members while providing crucial
   battlefield support." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Primary weapon: Greatshield</li>
@@ -24,9 +24,9 @@ main_color: blue-600
       <li>Capable of drawing enemy attention (aggro)</li>
       <li>Limited offensive elemental magic capabilities</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <div class="space-y-4">
       <div>
@@ -42,9 +42,9 @@ main_color: blue-600
           support skills.</p>
       </div>
     </div>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Manage power gauge strategically</li>
@@ -53,9 +53,9 @@ main_color: blue-600
       <li>Leverage greatshield for both offense and defense</li>
       <li>Coordinate with party to maximize defensive potential</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -184,7 +184,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -400,7 +400,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -512,7 +512,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

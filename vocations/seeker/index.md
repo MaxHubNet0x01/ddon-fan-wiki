@@ -7,13 +7,13 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Seeker (Attacker)" %}
+  {% include page-heading.md heading="Seeker (Attacker)" %}
 
-  {% include card-with-image.html src="seeker-portrait.png" heading="Overview" content="The Seeker is an agile
+  {% include card-with-image.md src="seeker-portrait.png" heading="Overview" content="The Seeker is an agile
   melee-focused class in Dragon's Dogma Online, adept at exploiting enemy weak points through rapid combos and aerial
   combat. Utilizing daggers and a grappling hook, the Seeker excels in high-mobility, precision-focused gameplay." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Masters of mobility, with abilities to scale enemies and navigate terrain quickly.</li>
@@ -21,9 +21,9 @@ main_color: red-600
       <li>Uses a grappling hook for offensive maneuvers and battlefield control.</li>
       <li>Highly versatile, offering crowd control and single-target damage options.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Cutting Wind:</strong> A rapid dash attack with chaining potential for continued assault.</li>
@@ -32,9 +32,9 @@ main_color: red-600
       <li><strong>Falcon Kick:</strong> A dive attack dealing impactful damage from above.</li>
       <li><strong>Powder Charge:</strong> Lays explosive traps for area denial and damaging groups of enemies.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Emphasize mobility to outmaneuver enemies and exploit openings.</li>
@@ -42,10 +42,10 @@ main_color: red-600
       <li>Leverage grappling hook abilities to gain superior positioning in combat.</li>
       <li>Adapt to situations using a mix of crowd control and precision strikes.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -248,7 +248,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -622,7 +622,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table >
       <thead>
         <tr>

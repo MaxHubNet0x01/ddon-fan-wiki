@@ -3,7 +3,7 @@
   <div class="flex flex-col md:flex-row">
     <div class="w-full md:w-1/2 flex items-center justify-center">
       {% capture img_w %}{{ include.w | default: '50%'}}{% endcapture %}
-      {%- include image.html src=include.src w=img_w h="auto" class="border-none shadow-none" -%}
+      {%- include image.md src=include.src w=img_w h="auto" class="border-none shadow-none" -%}
     </div>
     <div class="w-full md:w-1/2 flex items-center justify-center">
       <p class="mb-4">{{ include.content }}</p>

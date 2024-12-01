@@ -6,15 +6,15 @@ main_color: amber-600
 ---
 
 <div class="margin-center">
-  {% include page-heading.html heading="The Wiki" %}
+  {% include page-heading.md heading="The Wiki" %}
 
   {% capture contributing %}
     <p>Anyone is free to contribute, read our <a class="underline" href="./contributing/">Contributing Guide</a></p>
     <p>Help us keep the site accurate, informative, and up-to-date.</p>
   {% endcapture %}
-  {% include alert-info.html heading="Contributing" content=contributing %}
+  {% include alert-info.md heading="Contributing" content=contributing %}
 
-  {% include page-heading.html heading="About the Game" %}
+  {% include page-heading.md heading="About the Game" %}
   
   <p class="py-3">
     Dragon's Dogma Online (ドラゴンズドグマ オンライン in Japanese; also commonly shortened to DDON) was officially launched on 31 August 2015, after several alpha and beta tests. The game is a free-to-play (F2P) multiplayer online open world game, and shares many features and characteristics of the original Dragon's Dogma game. The game was available only for the Japanese market.
@@ -23,7 +23,7 @@ main_color: amber-600
     All the servers have officially shut down in 2019 and it was rebooted by a group of talented developers after years of testing and debugging.
   </p>
 
-  {% include page-heading.html heading="History" %}
+  {% include page-heading.md heading="History" %}
   <p class="py-3">
     Capcom filed the trademark for Dragon's Dogma Online in Japan on 2 December 2014, and in Europe and the United States on 5 December 2014. News about the game was first mentioned on 27 January 2015 by the Japanese gaming news website Famitsu, which was followed by an article in its magazine Weekly Famitsu with more details. Further details followed in a series of articles, such as how work on Dragon's Dogma Online began roughly at the same time as Dragon's Dogma: Dark Arisen with 80% of the team working on Dragon's Dogma: Dark Arisen while the remaining 20% worked on Dragon's Dogma Online.
   </p>

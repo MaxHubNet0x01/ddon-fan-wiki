@@ -7,16 +7,16 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Hunter (Attacker)" %}
+  {% include page-heading.md heading="Hunter (Attacker)" %}
 
   {% capture hunter_overview %}
     The Hunter is a ranged combat specialist in Dragons Dogma Online, focusing on precision archery, mobility, and strategic damage dealing. 
     Masters of the bow, Hunters excel at picking off enemies from a distance while maintaining exceptional mobility.
   {% endcapture %}
 
-  {% include card-with-image.html src="hunter-portrait.png" heading="Overview" content=hunter_overview %}
+  {% include card-with-image.md src="hunter-portrait.png" heading="Overview" content=hunter_overview %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Exceptional long-range damage output</li>
@@ -25,9 +25,9 @@ main_color: red-600
       <li>Versatile combat positioning</li>
       <li>Light armor for increased movement speed</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <div class="space-y-4">
       <div>
@@ -41,9 +41,9 @@ main_color: red-600
           maintaining consistent damage output.</p>
       </div>
     </div>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Maintain maximum distance from enemies</li>
@@ -52,9 +52,9 @@ main_color: red-600
       <li>Use mobility to avoid direct confrontation</li>
       <li>Adapt arrow types to different enemy vulnerabilities</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -183,7 +183,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -373,7 +373,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -472,7 +472,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

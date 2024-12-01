@@ -7,14 +7,14 @@ main_color: green-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Spirit Lancer (Support)" %}
+  {% include page-heading.md heading="Spirit Lancer (Support)" %}
 
-  {% include card-with-image.html src="spirit-lancer-portrait.png" heading="Overview" content="The Spirit Lancer is a
+  {% include card-with-image.md src="spirit-lancer-portrait.png" heading="Overview" content="The Spirit Lancer is a
   versatile melee class in Dragon's Dogma Online, adept at combining spear techniques with spiritual energy to empower
   allies and devastate foes. This vocation thrives on fluid combat, blending crowd control, healing, and powerful
   single-target strikes." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Wields a spear infused with spiritual energy for both melee and ranged attacks.</li>
@@ -22,9 +22,9 @@ main_color: green-600
       <li>Excels at crowd control through wide-reaching spear techniques.</li>
       <li>Requires agility and precision to capitalize on versatile combat options.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Aurom Fang:</strong> Strike twice, knocking light enemies into the air and following them</li>
@@ -32,9 +32,9 @@ main_color: green-600
       <li><strong>Col Storm:</strong> Release a series of quick cuts by rotating the side of the boom to the side.</li>
       <li><strong>Meteor shower:</strong> The attack starts with a backslash attack, then a vertical slash and ends with an aerial attack that slams the spear into the ground.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Engage enemies at medium range to leverage the spear's reach and precision.</li>
@@ -42,9 +42,9 @@ main_color: green-600
       <li>Control crowds with sweeping spear strikes while targeting key threats for elimination.</li>
       <li>Adapt to combat scenarios by alternating between offensive and support roles as needed.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -130,7 +130,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -411,7 +411,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -429,7 +429,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

@@ -7,14 +7,14 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="High Scepter (Attacker)" %}
+  {% include page-heading.md heading="High Scepter (Attacker)" %}
 
-  {% include card-with-image.html src="high-scepter-portrait.png" heading="Overview" content="The High Scepter is a
+  {% include card-with-image.md src="high-scepter-portrait.png" heading="Overview" content="The High Scepter is a
   master of both holy and dark magics, weaving devastating spells to control the battlefield. They have a versatile
   skill set that includes high-damage magic attacks, teleportation, and support abilities to influence the flow of
   combat. As a hybrid caster, the High Scepter excels in both close-range and long-range combat." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Hybrid combat style utilizing both Holy and Dark magic.</li>
@@ -22,9 +22,9 @@ main_color: red-600
       <li>Magick Gauge mechanic to enhance spell effectiveness.</li>
       <li>Has both aerial and ground-based attacks.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Full Moon Light:</strong> Imbue your sword with Holy magic to attack enemies and increase damage as the
@@ -38,9 +38,9 @@ main_color: red-600
       <li><strong>Eclipse Blast:</strong> Cast a vortex dealing Holy and Impact damage, with priority on weak spots for
         higher damage.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Focus on building up your Magick Gauge with non-DPS skills to maximize damage potential with Full Moon Light.
@@ -53,9 +53,9 @@ main_color: red-600
       <li>To maximize effectiveness, stay airborne to take advantage of faster skill animations and to avoid being hit.
       </li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -127,7 +127,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -380,7 +380,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -409,7 +409,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

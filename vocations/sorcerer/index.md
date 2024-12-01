@@ -7,14 +7,14 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Sorcerer (Attacker)" %}
+  {% include page-heading.md heading="Sorcerer (Attacker)" %}
 
-  {% include card-with-image.html src="sorcerer-portrait.png" heading="Overview" content="The Sorcerer is a ranged
+  {% include card-with-image.md src="sorcerer-portrait.png" heading="Overview" content="The Sorcerer is a ranged
   spellcasting class in Dragon's Dogma Online, known for its high magical power and devastating elemental attacks. With
   a focus on methodical and strategic combat, the Sorcerer requires precision and patience to unleash its full
   potential." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Specializes in high-damage ranged magic attacks.</li>
@@ -22,9 +22,9 @@ main_color: red-600
       <li>Relies on a staff to channel powerful magic.</li>
       <li>Requires careful positioning and tactical awareness.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Focuses on charged spells with significant casting times.</li>
@@ -32,9 +32,9 @@ main_color: red-600
       <li>Can adapt to battles using a wide range of elemental magic.</li>
       <li>Timing and positioning are crucial for maximum effectiveness.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Prioritize strategic positioning and situational awareness.</li>
@@ -42,9 +42,9 @@ main_color: red-600
       <li>Adapt to encounters by leveraging elemental diversity.</li>
       <li>Play tactically to overcome vulnerabilities and maximize impact.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -173,7 +173,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Custom Skills EX" %}
+    {% include page-heading.md heading="Custom Skills EX" %}
     <table>
       <thead>
         <tr>
@@ -205,7 +205,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table border='1'>
       <thead>
         <tr>
@@ -421,7 +421,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table border='1'>
       <thead>
         <tr>
@@ -533,7 +533,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table border='1'>
       <thead>
         <tr>

@@ -7,7 +7,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Fast Travel" %}
+  {% include page-heading.md heading="Fast Travel" %}
 
   <p class="mb-5">
    You unlock new places to fast travel by interacting with Port Crystals, fast travel is accessible from everywhere, except when in combat.
@@ -18,10 +18,10 @@ main_color: amber-600
   </p>
   <div class="flex mb-5 items-center flex-col md:flex-row">
     <div class="w-full md:w-1/2 flex items-center justify-center">
-      {% include image.html w="250px" h="150px" src="menu-rift-teleport.png" %}
+      {% include image.md w="250px" h="150px" src="menu-rift-teleport.png" %}
     </div>
     <div class="w-full md:w-1/2 flex items-center justify-center">
-      {% include image.html w="485px" h="300px" src="rift-teleport-screen.png" %}
+      {% include image.md w="485px" h="300px" src="rift-teleport-screen.png" %}
     </div>
   </div>
 
@@ -37,5 +37,5 @@ main_color: amber-600
     </p>
   {% endcapture %}
 
-  {% include alert-info.html heading="Quick Tip" content=quick_tip %}
+  {% include alert-info.md heading="Quick Tip" content=quick_tip %}
 </div>

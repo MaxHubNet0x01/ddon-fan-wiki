@@ -7,14 +7,14 @@ main_color: blue-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Alchemist (Tank)" %}
+  {% include page-heading.md heading="Alchemist (Tank)" %}
 
-  {% include card-with-image.html src="alchemist-portrait.png" heading="Overview" content="The Alchemist is a unique
+  {% include card-with-image.md src="alchemist-portrait.png" heading="Overview" content="The Alchemist is a unique
   hybrid class in Dragon's Dogma Online, blending melee combat with arcane alchemy. This vocation utilizes a magical
   cauldron to unleash powerful transmutations, summon constructs, and manipulate the battlefield with both offensive and
   defensive capabilities." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Combines melee strikes with alchemical spells and transformations.</li>
@@ -22,9 +22,9 @@ main_color: blue-600
       <li>Excels in crowd control and environmental manipulation.</li>
       <li>Offers versatility through offensive, defensive, and support abilities.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Transmutation Strike:</strong> A melee attack that channels alchemical energy for explosive results.
@@ -33,9 +33,9 @@ main_color: blue-600
       <li><strong>Barrier Field:</strong> Creates a protective alchemical shield to block enemy attacks.</li>
       <li><strong>Elemental Infusion:</strong> Imbues attacks with elemental properties to exploit enemy weaknesses.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Utilize constructs and barriers to control the flow of battle and protect allies.</li>
@@ -43,9 +43,9 @@ main_color: blue-600
       <li>Engage enemies at close to mid-range, combining melee strikes with alchemical abilities.</li>
       <li>Strategically manipulate the battlefield to gain an advantage in both offense and defense.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table >
       <thead>
@@ -327,7 +327,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table >
       <thead>
         <tr>
@@ -426,7 +426,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table>
       <thead>
         <tr>
@@ -525,7 +525,7 @@ main_color: blue-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table>
       <thead>
         <tr>

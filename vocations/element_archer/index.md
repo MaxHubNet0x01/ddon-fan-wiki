@@ -7,13 +7,13 @@ main_color: green-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Element Archer (Support)" %}
+  {% include page-heading.md heading="Element Archer (Support)" %}
 
-  {% include card-with-image.html src="element-archer-portrait.png" heading="Overview" content="The Element Archer is a
+  {% include card-with-image.md src="element-archer-portrait.png" heading="Overview" content="The Element Archer is a
   ranged hybrid class in Dragon's Dogma Online, combining precise bow attacks with elemental magic. This vocation excels
   in support and crowd control, leveraging a wide array of magical arrows to damage, debuff, and heal." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Uses magical arrows that provide both offensive and supportive abilities.</li>
@@ -21,9 +21,9 @@ main_color: green-600
       <li>Excels in crowd control and status infliction through specialized skills.</li>
       <li>Offers healing and team support options, enhancing party survivability.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Elemental Arrows:</strong> Imbue attacks with fire, ice, or lightning for targeted elemental damage.
@@ -33,9 +33,9 @@ main_color: green-600
       <li><strong>Magic Flare:</strong> Launches a magical projectile that explodes on impact, dealing area-of-effect
         damage.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Maintain distance from enemies while using ranged attacks to exploit elemental weaknesses.</li>
@@ -43,9 +43,9 @@ main_color: green-600
       <li>Use crowd control abilities to manage groups of enemies and protect allies.</li>
       <li>Prioritize positioning to maximize the effectiveness of area-of-effect attacks and support fields.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -159,7 +159,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table border='1'>
       <thead>
         <tr>
@@ -349,7 +349,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table border='1'>
       <thead>
         <tr>
@@ -448,7 +448,7 @@ main_color: green-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table border='1'>
       <thead>
         <tr>

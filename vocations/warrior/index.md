@@ -7,14 +7,14 @@ main_color: red-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.html heading="Warrior (Attacker)" %}
+  {% include page-heading.md heading="Warrior (Attacker)" %}
 
-  {% include card-with-image.html src="warrior-portrait.png" heading="Overview" content="The Warrior is a powerful
+  {% include card-with-image.md src="warrior-portrait.png" heading="Overview" content="The Warrior is a powerful
   melee-focused class in Dragon's Dogma Online, renowned for its heavy-hitting attacks and superior crowd control.
   Wielding massive weapons, the Warrior thrives in close combat, delivering devastating blows and maintaining a strong
   battlefield presence." %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Specializes in high-damage, wide-sweeping attacks with heavy weapons.</li>
@@ -22,9 +22,9 @@ main_color: red-600
       <li>Utilizes high durability and defensive skills to withstand damage.</li>
       <li>Requires precise timing for slow but impactful strikes.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Arc of Might:</strong> A wide, sweeping attack that hits multiple enemies in front of the Warrior.</li>
@@ -33,9 +33,9 @@ main_color: red-600
       <li><strong>Defensive Stance:</strong> Reduces incoming damage, allowing the Warrior to tank heavy hits effectively.
       </li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include card-section-start.html %}
+  {% include card-section-start.md %}
     <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
     <ul class="list-disc list-inside space-y-2">
       <li>Engage enemies head-on, focusing on controlling groups with wide-reaching attacks.</li>
@@ -43,9 +43,9 @@ main_color: red-600
       <li>Act as a frontline tank, absorbing damage to protect allies in team-based encounters.</li>
       <li>Leverage the Warrior's durability to sustain prolonged battles and turn the tide of combat.</li>
     </ul>
-  {% include card-section-end.html %}
+  {% include card-section-end.md %}
 
-  {% include page-heading.html heading="Custom Skills" %}
+  {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
     <table>
       <thead>
@@ -245,7 +245,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Passive Skills" %}
+    {% include page-heading.md heading="Passive Skills" %}
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>
@@ -468,7 +468,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Blood Orb Tree Passive Skills" %}
+    {% include page-heading.md heading="Blood Orb Tree Passive Skills" %}
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>
@@ -568,7 +568,7 @@ main_color: red-600
       </tbody>
     </table>
   
-    {% include page-heading.html heading="Core Skills" %}
+    {% include page-heading.md heading="Core Skills" %}
     <table class="table table-bordered table-hover table-condensed">
       <thead>
         <tr>
