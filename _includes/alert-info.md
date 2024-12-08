@@ -4,5 +4,5 @@
     <strong class="font-bold text-sm mr-3">{{ include.heading }}</strong>
   </div>
 
-  <span class="block sm:inline text-sm">{{ include.content }}</span>
+  <div class="text-sm">{{ include.content }}</div>
 </div>
