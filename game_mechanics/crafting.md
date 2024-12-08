@@ -22,7 +22,7 @@ main_color: amber-600
     {% include card-section-list-start.md %}
       <li>This is the option to select when crafting weapons, gear, materials, etc.</li>
       <li>Select the category and item you want to craft</li>
-    {% include card-section-list-end.md %}
+  {% include card-section-list-end.md %}
     
     {% include page-p.md content="While equipment such as weapons and armour can be purchased from shops, a number of the more powerful pieces in the game can only be obtained through crafting. Crafting in the game is done by Main Pawns and Support Pawns who are contracted to the Arisen" %}
 

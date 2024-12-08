@@ -19,11 +19,13 @@
 
   {% include sidebar/group-option-start.md id="mechanics" heading="Game Mechanics" %}
     {% include sidebar/group-option-list-start.md %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Fast Travel" href="/game_mechanics/fast_travel" id="fast-travel" %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Vocations" href="/game_mechanics/managing_vocations" id="managing-vocations" %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Pawns" href="/game_mechanics/managing_pawns" id="managing-pawns" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Area Masters" href="/game_mechanics/area_masters" id="area-masters" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Crafting" href="/game_mechanics/crafting" id="crafting" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Crests" href="/game_mechanics/crests" id="crests" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Fast Travel" href="/game_mechanics/fast_travel" id="fast-travel" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Pawns" href="/game_mechanics/managing_pawns" id="managing-pawns" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Vocations" href="/game_mechanics/managing_vocations" id="managing-vocations" %}
+      
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orbs" href="#" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orb Tree" href="#" %}
     {% include sidebar/group-option-list-end.md %}

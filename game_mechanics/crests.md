@@ -21,10 +21,10 @@ main_color: amber-600
     heading="Crest Types"
     src="weapon-crest.png" 
     w="20%"
-    content="These Crests can only be mounted on weapons"
+    content="<b>Weapon Crests</b>: These Crests can only be mounted on weapons"
     src2="armor-crest.png"
     w2="20%"
-    content2="These Crests can only be mounted on head armour, body armour, arm armour and leg armour. They cannot be mounted on clothing, legwear, jewellery, or overwear"
+    content2="<b>Armor Crests</b>: These Crests can only be mounted on head armour, body armour, arm armour and leg armour. They cannot be mounted on clothing, legwear, jewellery, or overwear"
   %}
 
   {% include card-section-start.md %}
@@ -37,43 +37,19 @@ main_color: amber-600
     {% include card-section-list-end.md %}
   {% include card-section-end.md %}
 
-  {% capture table_content %}
-    <table>
-      <tbody>
-        <tr>
-          <th>Equipment</th>
-          <th>Initial Slot</th>
-          <th>Maximum Slots</th>
-        </tr>
-        <tr>
-          <td>Weapon</td>
-          <td>1</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Head Armour</td>
-          <td>0</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Body Armour</td>
-          <td>1</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Arm Armour</td>
-          <td>0</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Leg Armour</td>
-          <td>0</td>
-          <td>3</td>
-        </tr>
-      </tbody>
-    </table>
+  {% capture table_min_max_content %}
+    {% include data/table-crest-limits.md %}
   {% endcapture %}
 
   {% include page-heading.md heading="Min/Max per Armor Type" %}
-  {% include table-wrapper.md table=table_content %}
+  {% include table-wrapper.md table=table_min_max_content %}
+
+  {% include page-heading.md heading="Refining Materials" %}
+  {% include page-p.md content="The following materials can be used to add extra slots for crests when crafting equipment" %}
+
+  {% capture table_refining_content %}
+    {% include data/table-crest-refining-materials.md %}
+  {% endcapture %}
+
+  {% include table-wrapper.md table=table_refining_content %}
 </div>
