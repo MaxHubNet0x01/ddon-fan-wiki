@@ -14,7 +14,7 @@ main_color: amber-600
     {% include card-section-list-start.md %}
       <li>Unlocked via Main Quest</li>
       <li>When you arrive at the Pawn Cathedral to retrieve the rift fragment (Lv 65), run to the end of the ruins, exit then re-enter to reach the correct side of the ruins to find the fragment</li>
-      <li>Initial vocation will be the first 4 but can be changed anytime at {% include highlight-link.md href="/game_mechanics/managing_vocations" text="Archibald" %}</li>
+      <li>Initial vocation will be the first 4 but can be changed anytime at {% include link-highlight.md href="/game_mechanics/managing_vocations" text="Archibald" %}</li>
     {% include card-section-list-end.md %}
   {% include card-section-end.md %}
 

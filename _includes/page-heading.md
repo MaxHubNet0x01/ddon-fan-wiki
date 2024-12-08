@@ -6,8 +6,15 @@
   {% assign color = 'amber-600' %}
 {% endif %}
 
+{%- capture heading_id_attr -%}
+  {% if include.id != null %}
+    {% assign heading_id = include.id %}
+    id="{{ heading_id }}"
+  {% endif %}
+{%- endcapture -%}
+
 <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-{{ color }} border-solid text-{{ color }} mb-6" id="{{ include.heading | string_to_id }}_heading">
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-{{ color }} border-solid text-{{ color }} mb-6" {{ heading_id_attr }}>
     {{ include.heading }}
   </h1>
 </div>
