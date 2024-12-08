@@ -9,4 +9,15 @@
       <p class="mb-4 px-12">{{ include.content }}</p>
     </div>
   </div>
+  {% if include.src2 %}
+    <div class="flex flex-col md:flex-row">
+      <div class="w-full md:w-1/2 flex items-center justify-center">
+        {% capture img_w2 %}{{ include.w2 | default: '50%'}}{% endcapture %}
+        {%- include image.md src=include.src2 w=img_w2 h="auto" class="border-none shadow-none" -%}
+      </div>
+      <div class="w-full md:w-1/2 flex items-center justify-center">
+        <p class="mb-4 px-12">{{ include.content2 }}</p>
+      </div>
+    </div>
+  {% endif %}
 </section>

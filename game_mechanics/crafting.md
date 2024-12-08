@@ -44,7 +44,7 @@ main_color: amber-600
 
   {% include card-with-image.md heading="Collecting Crafted Items" src="craft-production-status.png" w="100%" content="All items crafted are placed under Production Status for collection, currently items are crafted instantly instead of time based delays prior" %}
 
-    {% include card-section-start.md %}
+  {% include card-section-start.md %}
     {% include card-section-header.md heading="Enhancing Equipment" %}
     {% include card-section-list-start.md %}
       <li>After selecting the Enhance Equipment option, select the weapon or armour piece that you wish to enhance</li>
