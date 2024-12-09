@@ -1,4 +1,4 @@
-<nav class="sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white shadow-md h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
+<nav class="sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white shadow-{{ page.main_color }} shadow-right h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
   {% include sidebar/main-option.md icon="home-icon.svg" text="Home" id="home" href="/" %}
 
   {% include sidebar/group-option-start.md id="vocations" heading="Vocations" %}
@@ -25,9 +25,8 @@
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Fast Travel" href="/game_mechanics/fast_travel" id="fast-travel" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Pawns" href="/game_mechanics/managing_pawns" id="managing-pawns" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Managing Vocations" href="/game_mechanics/managing_vocations" id="managing-vocations" %}
-      
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orbs" href="#" %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orb Tree" href="#" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orbs" href="/game_mechanics/blood_orbs" id="blood-orbs" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" text="Blood Orb Tree" href="/game_mechanics/blood_orb_tree" id="blood-orb-tree" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 

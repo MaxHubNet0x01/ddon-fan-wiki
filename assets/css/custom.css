@@ -29,3 +29,7 @@ body{
   text-decoration: dotted;
   color: #d97706 !important;
 }
+
+.shadow-right{
+  box-shadow: -27px -35px 45px var(--tw-shadow-color) !important;
+}
