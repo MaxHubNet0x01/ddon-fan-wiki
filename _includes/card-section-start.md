@@ -1,1 +1,1 @@
-<section class="bg-white shadow-md rounded-lg p-6 mb-6">
+<section class="bg-white dark:bg-zinc-800 dark:text-gray-300 shadow-md rounded-lg p-6 mb-6">

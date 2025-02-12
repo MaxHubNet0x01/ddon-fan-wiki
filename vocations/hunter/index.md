@@ -17,7 +17,7 @@ main_color: red-600
   {% include card-with-image.md src="hunter-portrait.png" heading="Overview" content=hunter_overview %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Exceptional long-range damage output</li>
       <li>High mobility and evasive capabilities</li>
@@ -28,15 +28,15 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <div class="space-y-4">
       <div>
-        <h3 class="font-bold text-gray-700 mb-2">Bow Techniques</h3>
+        {% include card-section-sub-header.md heading="Bow Techniques" %}
         <p>Hunters utilize advanced archery skills, including rapid fire, charged shots, and precision aiming. They
           can quickly switch between different arrow types to adapt to various combat scenarios.</p>
       </div>
       <div>
-        <h3 class="font-bold text-gray-700 mb-2">Tactical Positioning</h3>
+        {% include card-section-sub-header.md heading="Tactical Positioning" %}
         <p>Leveraging terrain and movement, Hunters create optimal firing positions, avoiding enemy attacks while
           maintaining consistent damage output.</p>
       </div>
@@ -44,7 +44,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Maintain maximum distance from enemies</li>
       <li>Target enemy weak points for critical damage</li>
