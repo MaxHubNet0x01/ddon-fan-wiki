@@ -11,7 +11,7 @@ main_dark_dolor: slate-200
   {% include page-heading.md heading="TCTPC Generator" %}  
 
   <div class="flex flex-col align-center justify-center gap-5">
-    <div class="w-auto bg-transparent dev-tctpc-form p-5">
+    <div id="dev-tctpc-form" class="w-auto bg-transparent p-5">
       <div class="mb-5">
         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Columns to keep</label>
         <textarea id="columnsKeep" class="bg-zinc-500 p-5 rounded-lg min-w-full min-h-24" required="required"></textarea>

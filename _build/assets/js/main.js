@@ -67,6 +67,6 @@ function devAppendPageLog(heading, content, type = "info"){
 }
 
 $(function(){
-  init($);
   window.DF_Wiki = {};
+  init($);
 });
