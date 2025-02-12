@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="darkmode">
 <head>
   <meta charset='utf-8'>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,72 +42,73 @@
 <body>
   <!-- HEADER -->
   <div class="outer">
-    <header class='flex shadow-md sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
-      <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
-        <a href="javascript:void(0)"><img class="shadow-none border-none w-28" src="/assets/img/logo.png"
-            alt="logo" class='w-36' />
+    <header class='flex shadow-md sm:px-10 bg-white dark:bg-zinc-800 font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
+  <div class='flex flex-wrap items-center justify-between gap-5 w-full'>
+    <a href="#"><img class="shadow-none border-none w-28" src="/assets/img/logo.png" alt="logo" class='w-36' /></a>
+
+    <div class="lg:hidden">
+  <div>
+    <button id="toggleClose" class='hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+        <path d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z" data-original="#000000"></path>
+        <path d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z" data-original="#000000"></path>
+      </svg>
+    </button>
+  </div>
+  <div id="collapseMenu" class='hidden block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
+    <ul class='lg:hidden lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+      <li class='mb-6 hidden max-lg:block'>
+        <a href="javascript:void(0)"><img src="/assets/img/logo.png" alt="logo"
+            class='w-36 shadow-none border-none' />
         </a>
+      </li>
+      <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'>
+        <a href='/ddon-fan-wiki' class='text-black block font-semibold text-[15px]'>HomeX</a>
+      </li>
+      <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'>
+        <a href='/ddon-fan-wiki/contributing' class='text-black block font-semibold text-[15px]'>How to
+          ContributeX</a>
+      </li>
+    </ul>
+  </div>
+  <div class="p-5">
+    <button id="toggleOpen">
+      <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+  </div>
+</div>
 
-        <div id="collapseMenu"
-          class='max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
-          <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
-              <path
-                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
-                data-original="#000000"></path>
-              <path
-                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
-                data-original="#000000"></path>
-            </svg>
-          </button>
-
-          <ul
-            class='lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
-            <li class='mb-6 hidden max-lg:block'>
-              <a href="javascript:void(0)"><img src="/assets/img/logo.png" alt="logo"
-                  class='w-36 shadow-none border-none' />
-              </a>
-            </li>
-            <li class='max-lg:border-b border-gray-300 max-lg:py-3 px-3'>
-              <a href='/ddon-fan-wiki' class='text-black block font-semibold text-[15px]'>Home</a>
-            </li>
-            <li class='lg:hidden max-lg:border-b border-gray-300 max-lg:py-3 px-3'>
-              <a href='/ddon-fan-wiki/contributing' class='text-black block font-semibold text-[15px]'>How to
-                Contribute</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class='flex max-lg:ml-auto space-x-3 px-5'>
-          <a href="/contributing" class="hover:no-underline">
-            <button
-              class='hidden lg:block px-4 py-2 text-sm rounded-full font-bold text-white border-2 border-amber-500 bg-amber-600 transition-all ease-in-out duration-300 hover:bg-transparent hover:text-amber-600'>
-              How to Contribute
-            </button>
-          </a>
-          <button id="toggleOpen" class='lg:hidden'>
-            <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </header>
+    <div class='hidden lg:flex max-lg:ml-auto space-x-3 px-5 gap-5 items-center justify-center'>
+  <div>
+    <a href="/" class="dark:text-gray-300">Home</a>
+  </div>
+</div>
+<div class='hidden lg:flex max-lg:ml-auto space-x-3 px-5'>
+  <a href="/contributing" class="hover:no-underline">
+    <button class='px-4 py-2 text-sm rounded-md font-bold text-white dark:text-white hover:text-amber-600 dark:hover:text-white border-2 border-amber-600 bg-amber-600 dark:bg-transparent transition-all ease-in-out duration-300 hover:bg-transparent dark:hover:bg-amber-600'>
+  How to Contribute
+</button>
+  </a>
+</div>
+  </div>
+</header>
   </div>
 
   <!-- MAIN CONTENT -->
   <div class="outer flex min-h-screen">
     <section id="sidebar">
-      <nav class="sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white shadow-amber-600 shadow-right h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
+      <nav class="dark:bg-zinc-900 dark:text-gray-900 sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white shadow-amber-600 shadow-right h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
   <ul class="mt-8">
   <li>
     <a href="/"
         data-page-id="home"
-        class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-200 rounded-md px-4 py-3">
+        class="group text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-200 dark:hover:bg-transparent rounded-md px-4 py-3">
       
-        <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="home"><rect width="24" height="24" opacity="0"/><path d="M20.42 10.18L12.71 2.3a1 1 0 0 0-1.42 0l-7.71 7.89A2 2 0 0 0 3 11.62V20a2 2 0 0 0 1.89 2h14.22A2 2 0 0 0 21 20v-8.38a2.07 2.07 0 0 0-.58-1.44zM10 20v-6h4v6zm9 0h-3v-7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v7H5v-8.42l7-7.15 7 7.19z"/></g></g></svg>
+        <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300 dark:group-hover:fill-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="home"><rect width="24" height="24" opacity="0"/><path d="M20.42 10.18L12.71 2.3a1 1 0 0 0-1.42 0l-7.71 7.89A2 2 0 0 0 3 11.62V20a2 2 0 0 0 1.89 2h14.22A2 2 0 0 0 21 20v-8.38a2.07 2.07 0 0 0-.58-1.44zM10 20v-6h4v6zm9 0h-3v-7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v7H5v-8.42l7-7.15 7 7.19z"/></g></g></svg>
       
       
       <span>Home</span>
@@ -118,84 +119,84 @@
   <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-vocations" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-vocations" class="flex cursor-pointer group">
-    <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Vocations</h6>
-    <svg class="w-5 fill-gray-600 group-hover:fill-black -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Vocations</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
   <a href="/vocations/fighter" data-page-id="fighter_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Fighter</span>
   </a>
 </li>
       <li>
   <a href="/vocations/hunter" data-page-id="hunter_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Hunter</span>
   </a>
 </li>
       <li>
   <a href="/vocations/priest" data-page-id="priest_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Priest</span>
   </a>
 </li>
       <li>
   <a href="/vocations/shield_sage" data-page-id="shield-sage_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Shield Sage</span>
   </a>
 </li>
       <li>
   <a href="/vocations/sorcerer" data-page-id="sorcerer_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Sorcerer</span>
   </a>
 </li>
       <li>
   <a href="/vocations/seeker" data-page-id="seeker_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Seeker</span>
   </a>
 </li>
       <li>
   <a href="/vocations/element_archer" data-page-id="element-archer_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Element Archer</span>
   </a>
 </li>
       <li>
   <a href="/vocations/warrior" data-page-id="warrior_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Warrior</span>
   </a>
 </li>
       <li>
   <a href="/vocations/alchemist" data-page-id="alchemist_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Alchemist</span>
   </a>
 </li>
       <li>
   <a href="/vocations/spirit_lancer" data-page-id="spirit-lancer_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Spirit Lancer</span>
   </a>
 </li>
       <li>
   <a href="/vocations/high_scepter" data-page-id="high-scepter_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>High Scepter</span>
   </a>
 </li>
@@ -205,63 +206,63 @@
   <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-mechanics" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-mechanics" class="flex cursor-pointer group">
-    <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Game Mechanics</h6>
-    <svg class="w-5 fill-gray-600 group-hover:fill-black -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Game Mechanics</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
   <a href="/game_mechanics/area_masters" data-page-id="area-masters_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Area Masters</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/crafting" data-page-id="crafting_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Crafting</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/crests" data-page-id="crests_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Crests</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/fast_travel" data-page-id="fast-travel_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Fast Travel</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/managing_pawns" data-page-id="managing-pawns_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Managing Pawns</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/managing_vocations" data-page-id="managing-vocations_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Managing Vocations</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/blood_orbs" data-page-id="blood-orbs_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Blood Orbs</span>
   </a>
 </li>
       <li>
   <a href="/game_mechanics/blood_orb_tree" data-page-id="blood-orb-tree_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Blood Orb Tree</span>
   </a>
 </li>
@@ -271,21 +272,21 @@
   <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-guides" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-guides" class="flex cursor-pointer group">
-    <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Guides</h6>
-    <svg class="w-5 fill-gray-600 group-hover:fill-black -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Guides</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
   <a href="/" data-page-id="_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>XP Farming</span>
   </a>
 </li>
       <li>
   <a href="/" data-page-id="_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Ghost n Goblins</span>
   </a>
 </li>
@@ -295,14 +296,14 @@
   <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-glossary" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-glossary" class="flex cursor-pointer group">
-    <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Glossary</h6>
-    <svg class="w-5 fill-gray-600 group-hover:fill-black -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Glossary</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
   <a href="/glossary" data-page-id="glossary_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Glossary</span>
   </a>
 </li>
@@ -312,15 +313,32 @@
   <div class="mt-6 sidebar-group-option-container">
   <input type="checkbox" id="sidebar-group-option-appendix" class="sidebar-group-option peer hidden">
   <label for="sidebar-group-option-appendix" class="flex cursor-pointer group">
-    <h6 class="text-gray-600 group-hover:text-black text-md font-bold px-4 flex-1">Appendix</h6>
-    <svg class="w-5 fill-gray-600 group-hover:fill-black -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Appendix</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
   </label>
     <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
       <li>
   <a href="/" data-page-id="_link"
-    class="text-gray-600 hover:text-black transition-all text-sm flex items-center hover:bg-slate-100 rounded-md px-4 py-2">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
     <span>Appendix</span>
+  </a>
+</li>
+    </ul>
+  </div>
+
+  <div class="mt-6 sidebar-group-option-container">
+  <input type="checkbox" id="sidebar-group-option-dev" class="sidebar-group-option peer hidden">
+  <label for="sidebar-group-option-dev" class="flex cursor-pointer group">
+    <h6 class="text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-amber-500 dark:group-hover:underline text-md font-bold px-4 flex-1">Development</h6>
+    <svg class="w-5 fill-gray-600 group-hover:fill-black dark:group-hover:fill-amber-500 -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="chevron-down"><rect width="24" height="24" opacity="0"/><path d="M12 15.5a1 1 0 0 1-.71-.29l-4-4a1 1 0 1 1 1.42-1.42L12 13.1l3.3-3.18a1 1 0 1 1 1.38 1.44l-4 3.86a1 1 0 0 1-.68.28z"/></g></g></svg>
+  </label>
+    <ul class="space-y-1 mt-2 pl-4 hidden peer-checked:block">
+      <li>
+  <a href="/" data-page-id="_link"
+    class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-amber-500 transition-all text-sm flex items-center hover:bg-slate-100 dark:hover:bg-transparent rounded-md px-4 py-2">
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="corner-down-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M19.78 12.38l-4-5a1 1 0 0 0-1.56 1.24l2.7 3.38H8a1 1 0 0 1-1-1V6a1 1 0 0 0-2 0v5a3 3 0 0 0 3 3h8.92l-2.7 3.38a1 1 0 0 0 .16 1.4A1 1 0 0 0 15 19a1 1 0 0 0 .78-.38l4-5a1 1 0 0 0 0-1.24z"/></g></g></svg>
+    <span>TCTPC Gen</span>
   </a>
 </li>
     </ul>
@@ -330,10 +348,10 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrowhead-right"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M18.78 11.37l-4.78-6a1 1 0 0 0-1.41-.15 1 1 0 0 0-.15 1.41L16.71 12l-4.48 5.37a1 1 0 0 0 .13 1.41A1 1 0 0 0 13 19a1 1 0 0 0 .77-.36l5-6a1 1 0 0 0 .01-1.27z"/><path d="M7 5.37a1 1 0 0 0-1.61 1.26L9.71 12l-4.48 5.36a1 1 0 0 0 .13 1.41A1 1 0 0 0 6 19a1 1 0 0 0 .77-.36l5-6a1 1 0 0 0 0-1.27z"/></g></g></svg>
       </div>
     </section>
-    <section id="main-content"  data-page-id="managing-pawns" data-page-main-color="amber-600" class="w-full md:w-4/5 py-10">
+    <section id="main-content"  data-page-id="managing-pawns" data-page-main-color="amber-600" class="w-full py-10 dark:bg-zinc-900">
       <div class="margin-center-90">
   <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-6">
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-5">
     Managing Pawns
   </h1>
 </div>
@@ -375,7 +393,7 @@
   </section>
 
   <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-6">
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-5">
     Pawn XP Distribution System
   </h1>
 </div>
@@ -392,7 +410,7 @@
   </section>
 
   <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-6">
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-5">
     Pawn Tactics/Training
   </h1>
 </div>
@@ -405,9 +423,9 @@
     </ul>
   </section>
 
-  <div class="bg-blue-50 text-blue-800 p-6 rounded-lg my-5" role="alert">
+  <div class="bg-blue-50 dark:bg-blue-950 text-blue-800 dark:text-blue-100 p-6 rounded-lg my-5" role="alert">
   <div class="mb-3 flex items-center fill-blue-800">
-    <svg class="w-[20px] h-[20px] mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="info"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" /><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" /><circle cx="12" cy="8" r="1" /><path d="M12 10a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1z" /></g></g></svg>
+    <svg class="w-[20px] h-[20px] mr-4 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="info"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" /><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" /><circle cx="12" cy="8" r="1" /><path d="M12 10a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1z" /></g></g></svg>
     <strong class="font-bold text-sm mr-3">Important!</strong>
   </div>
 
@@ -429,7 +447,7 @@
 </section>
 
   <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-6">
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-amber-600 border-solid text-amber-600 mb-5">
     Recommended Pawns
   </h1>
 </div>

@@ -1,19 +1,16 @@
 function init($){
   function initNavMenu(){
-    var toggleOpen = document.getElementById('toggleOpen');
-    var toggleClose = document.getElementById('toggleClose');
-    var collapseMenu = document.getElementById('collapseMenu');
+    var toggleOpen = $("#toggleOpen");
+    var toggleClose = $("#toggleClose");
+    var collapseMenu = $("#collapseMenu");
 
-    function handleClick() {
-      if (collapseMenu.style.display === 'block') {
-        collapseMenu.style.display = 'none';
-      } else {
-        collapseMenu.style.display = 'block';
-      }
+    function handleClick(e) {
+      collapseMenu.toggleClass("hidden");
+      toggleClose.toggleClass("hidden");
     }
 
-    toggleOpen.addEventListener('click', handleClick);
-    toggleClose.addEventListener('click', handleClick);
+    toggleOpen.click(handleClick);
+    toggleClose.click(handleClick);
   }
 
   function initSideMenu(){

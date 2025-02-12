@@ -14,7 +14,7 @@
 {%- endcapture -%}
 
 <div class="py-2">
-  <h1 class="text-3xl font-bold px-2 border-l-2 border-{{ color }} border-solid text-{{ color }} mb-6" {{ heading_id_attr }}>
+  <h1 class="text-3xl font-bold px-2 border-l-2 border-{{ color }} border-solid text-{{ color }} mb-5" {{ heading_id_attr }}>
     {{ include.heading }}
   </h1>
 </div>
