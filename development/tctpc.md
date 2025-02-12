@@ -13,7 +13,7 @@ main_dark_dolor: slate-200
   <div class="flex flex-col align-center justify-center gap-5">
     <div id="dev-tctpc-form" class="w-auto bg-transparent p-5">
       <div class="mb-5">
-        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Columns to keep</label>
+        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Columns to keep (First col is main header)</label>
         <textarea id="columnsKeep" class="bg-zinc-500 p-5 rounded-lg min-w-full min-h-24" required="required"></textarea>
       </div>
       <div class="mb-5">

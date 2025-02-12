@@ -1,1 +1,1 @@
-<h2 class="font-bold text-gray-700 mb-2 dark:text-gray-400">{{ include.heading }}</h2>
+<h1 class="font-bold text-gray-700 mb-2 dark:text-gray-400 underline">{{ include.heading }}</h1>
