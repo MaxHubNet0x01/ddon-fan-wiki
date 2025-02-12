@@ -14,7 +14,7 @@ main_color: green-600
   in support and crowd control, leveraging a wide array of magical arrows to damage, debuff, and heal." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Uses magical arrows that provide both offensive and supportive abilities.</li>
       <li>Effective at dealing elemental damage and exploiting enemy weaknesses.</li>
@@ -24,7 +24,7 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Elemental Arrows:</strong> Imbue attacks with fire, ice, or lightning for targeted elemental damage.
       </li>
@@ -36,7 +36,7 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Maintain distance from enemies while using ranged attacks to exploit elemental weaknesses.</li>
       <li>Support your party by alternating between damage-dealing and healing skills.</li>

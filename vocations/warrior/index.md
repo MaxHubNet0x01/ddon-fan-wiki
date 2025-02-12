@@ -15,7 +15,7 @@ main_color: red-600
   battlefield presence." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Specializes in high-damage, wide-sweeping attacks with heavy weapons.</li>
       <li>Excels at crowd control and disrupting enemy formations.</li>
@@ -25,7 +25,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Arc of Might:</strong> A wide, sweeping attack that hits multiple enemies in front of the Warrior.</li>
       <li><strong>Earth Splitter:</strong> A powerful ground strike that deals massive damage and knocks back foes.</li>
@@ -36,7 +36,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Engage enemies head-on, focusing on controlling groups with wide-reaching attacks.</li>
       <li>Time heavy strikes carefully to maximize damage output and avoid leaving openings.</li>

@@ -15,7 +15,9 @@ main_color: green-600
   in the most challenging encounters." %}
 
   {% include card-section-start.md %}
-  <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+
+  {% include card-section-header.md heading="Key Characteristics" %}
+  <h2 class="text-2xl font-semibold mb-4"></h2>
   <ul class="list-disc list-inside space-y-2">
     <li>Exceptional healing and support capabilities</li>
     <li>Divine magic for protection and restoration</li>
@@ -26,16 +28,16 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-  <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+  {% include card-section-header.md heading="Core Combat Mechanics" %}
   <div class="space-y-4">
     <div>
-      <h3 class="font-bold mb-2">Healing Techniques</h3>
+      {% include card-section-sub-header.md heading="Healing Techniques" %}
       <p>Priests utilize powerful healing spells that can restore health, provide temporary shields, and mend wounds
         both in and out of combat. They can heal individual targets or apply area-of-effect healing to support entire
         parties.</p>
     </div>
     <div>
-      <h3 class="font-bold mb-2">Protective Magics</h3>
+      {% include card-section-sub-header.md heading="Protective Magics" %}
       <p>Beyond healing, Priests can cast protective enchantments, create magical barriers, and nullify negative
         status effects that threaten their allies.</p>
     </div>
@@ -43,7 +45,7 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-  <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+  {% include card-section-header.md heading="Recommended Play Style" %}
   <ul class="list-disc list-inside space-y-2">
     <li>Prioritize party survival over personal damage output</li>
     <li>Maintain constant awareness of ally health</li>

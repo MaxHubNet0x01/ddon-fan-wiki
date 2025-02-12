@@ -15,7 +15,7 @@ main_color: red-600
   potential." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Specializes in high-damage ranged magic attacks.</li>
       <li>Utilizes elemental spells to exploit enemy weaknesses.</li>
@@ -25,7 +25,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Focuses on charged spells with significant casting times.</li>
       <li>Excels at area-of-effect attacks that target multiple enemies.</li>
@@ -35,7 +35,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Prioritize strategic positioning and situational awareness.</li>
       <li>Coordinate with allies to create opportunities for long spell casts.</li>

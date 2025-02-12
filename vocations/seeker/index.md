@@ -14,7 +14,7 @@ main_color: red-600
   combat. Utilizing daggers and a grappling hook, the Seeker excels in high-mobility, precision-focused gameplay." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Masters of mobility, with abilities to scale enemies and navigate terrain quickly.</li>
       <li>Specializes in precise, combo-driven melee attacks with high-speed execution.</li>
@@ -24,7 +24,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Cutting Wind:</strong> A rapid dash attack with chaining potential for continued assault.</li>
       <li><strong>Ensnare:</strong> Uses the grappling hook to pull foes into range, ideal for controlling weaker enemies.
@@ -35,7 +35,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Emphasize mobility to outmaneuver enemies and exploit openings.</li>
       <li>Focus on chaining combos for consistent damage and tactical advantage.</li>

@@ -15,7 +15,7 @@ main_color: red-600
   combat. As a hybrid caster, the High Scepter excels in both close-range and long-range combat." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Hybrid combat style utilizing both Holy and Dark magic.</li>
       <li>Can switch between offense, defense, and support roles.</li>
@@ -25,7 +25,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Full Moon Light:</strong> Imbue your sword with Holy magic to attack enemies and increase damage as the
         Magic Glyph grows.</li>
@@ -41,7 +41,7 @@ main_color: red-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Focus on building up your Magick Gauge with non-DPS skills to maximize damage potential with Full Moon Light.
       </li>

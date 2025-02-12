@@ -15,7 +15,7 @@ main_color: green-600
   single-target strikes." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Wields a spear infused with spiritual energy for both melee and ranged attacks.</li>
       <li>Balances offensive power with support and healing abilities.</li>
@@ -25,7 +25,7 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Aurom Fang:</strong> Strike twice, knocking light enemies into the air and following them</li>
       <li><strong>Wall Glasta:</strong> Place an energy reserve. It grants health regeneration and a 15% defense buff to any ally who enters it.</li>
@@ -35,7 +35,7 @@ main_color: green-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Engage enemies at medium range to leverage the spear's reach and precision.</li>
       <li>Support your team by healing allies and enhancing their defenses in critical moments.</li>

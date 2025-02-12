@@ -15,7 +15,7 @@ main_color: blue-600
   battlefield support." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Primary weapon: Greatshield</li>
       <li>Available from the start of the game</li>
@@ -27,16 +27,16 @@ main_color: blue-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <div class="space-y-4">
       <div>
-        <h3 class="font-bold mb-2">Power Gauge System</h3>
+        {% include card-section-sub-header.md heading="Power Gauge System" %}
         <p>The Shield Sage builds a power gauge through combat actions. This gauge serves multiple purposes: enchanting
           allies, self-buffing, and casting offensive spells. The gauge management is crucial to the vocation's
           effectiveness.</p>
       </div>
       <div>
-        <h3 class="font-bold mb-2">Defensive Capabilities</h3>
+        {% include card-section-sub-header.md heading="Defensive Capabilities" %}
         <p>Utilizing a greatshield, the Shield Sage can protect themselves and attract enemy attention, creating space
           and protection for more vulnerable party members. This tanking ability is complemented by their magical
           support skills.</p>
@@ -45,7 +45,7 @@ main_color: blue-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Manage power gauge strategically</li>
       <li>Use aggro-drawing abilities to protect party members</li>

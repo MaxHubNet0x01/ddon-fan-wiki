@@ -15,7 +15,7 @@ main_color: blue-600
   defensive capabilities." %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Combines melee strikes with alchemical spells and transformations.</li>
       <li>Utilizes a magical cauldron for crafting and summoning constructs.</li>
@@ -25,7 +25,7 @@ main_color: blue-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <ul class="list-disc list-inside space-y-2">
       <li><strong>Transmutation Strike:</strong> A melee attack that channels alchemical energy for explosive results.
       </li>
@@ -36,7 +36,7 @@ main_color: blue-600
   {% include card-section-end.md %}
 
   {% include card-section-start.md %}
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Utilize constructs and barriers to control the flow of battle and protect allies.</li>
       <li>Adapt to encounters by leveraging the Alchemist's diverse toolkit of spells and transformations.</li>

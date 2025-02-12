@@ -9,22 +9,16 @@ main_color: red-600
 <div class="margin-center-90">
   {% include page-heading.md heading="Fighter (Attacker)" %}
 
-  <section class="bg-white shadow-md rounded-lg p-6 mb-6">
-    <h2 class="text-2xl font-semibold mb-4">Overview</h2>
-    <div class="flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 flex items-center justify-center">
-        {% include image.md src="fighter-portrait.png" w="50%" h="auto" class="border-none shadow-none" %}
-      </div>
-      <div class="w-full md:w-1/2 flex items-center justify-center">
-        <p class="mb-4">The Fighter is a fundamental close-combat vocation in Dragons Dogma Online, renowned for its
+  {% capture fighter_overview %}
+    The Fighter is a fundamental close-combat vocation in Dragons Dogma Online, renowned for its
           robust defensive capabilities and direct offensive approach. Masters of sword and shield, Fighters excel at
-          protecting their allies while dealing consistent melee damage.</p>
-      </div>
-    </div>
-  </section>
+          protecting their allies while dealing consistent melee damage.
+  {% endcapture %}
 
-  <section class="bg-white shadow-md rounded-lg p-6 mb-6">
-    <h2 class="text-2xl font-semibold mb-4">Key Characteristics</h2>
+  {% include card-with-image.md src="fighter-portrait.png" heading="Overview" content=fighter_overview %}
+
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="Key Characteristics" %}
     <ul class="list-disc list-inside space-y-2">
       <li>High physical defense and damage mitigation</li>
       <li>Specializes in sword and shield combat techniques</li>
@@ -32,26 +26,26 @@ main_color: red-600
       <li>Strong crowd control and defensive skills</li>
       <li>Moderate to high sustained melee damage output</li>
     </ul>
-  </section>
+  {% include card-section-end.md %}
 
-  <section class="bg-white shadow-md rounded-lg p-6 mb-6">
-    <h2 class="text-2xl font-semibold mb-4">Core Combat Mechanics</h2>
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="Core Combat Mechanics" %}
     <div class="space-y-4">
       <div>
-        <h3 class="font-bold text-gray-700 mb-2">Shield Techniques</h3>
+        {% include card-section-sub-header.md heading="Shield Techniques" %}
         <p>Fighters leverage their shields for blocking, parrying, and creating openings in enemy defenses. Their
           shield skills provide both defensive protection and offensive opportunities.</p>
       </div>
       <div>
-        <h3 class="font-bold text-gray-700 mb-2">Sword Skills</h3>
+        {% include card-section-sub-header.md heading="Sword Skills" %}
         <p>Utilizing a variety of sword techniques, Fighters can deliver powerful strikes, perform combo attacks, and
           apply pressure to enemies in close combat.</p>
       </div>
     </div>
-  </section>
+  {% include card-section-end.md %}
 
-  <section class="bg-white shadow-md rounded-lg p-6">
-    <h2 class="text-2xl font-semibold mb-4">Recommended Play Style</h2>
+  {% include card-section-start.md %}
+    {% include card-section-header.md heading="Recommended Play Style" %}
     <ul class="list-disc list-inside space-y-2">
       <li>Position at the front line of combat</li>
       <li>Protect ranged and support allies</li>
@@ -59,7 +53,7 @@ main_color: red-600
       <li>Create openings for party members to deal damage</li>
       <li>Adapt defensive stance based on enemy attack patterns</li>
     </ul>
-  </section>
+  {% include card-section-end.md %}
 
   {% include page-heading.md heading="Custom Skills" %}
   <div class="overflow-x-auto">
