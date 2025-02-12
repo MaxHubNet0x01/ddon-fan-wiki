@@ -33,8 +33,40 @@ function init($){
 
   initNavMenu();
   initSideMenu();
+  window.DF_Wiki.init = true;
+}
+
+function devAppendPageLog(heading, content, type = "info"){
+  if (!$(".dev-page-logs").length) return;
+
+  var defaultColor = "text-slate-400";
+
+  switch (type){
+    case "warning": {
+      defaultColor = "text-yellow-400";
+      break;
+    }
+    case "error": {
+      defaultColor = "text-red-400";
+      break;
+    }
+    case "success":{
+      defaultColor = "text-green-400";
+      break;
+    }
+  }
+
+  $(".dev-page-logs").append(`
+    <div class="mt-4 flex">
+      <span class="${defaultColor}">${heading}:~$</span>
+      <p class="flex-1 typing items-center pl-2">
+        ${content}
+      </p>
+    </div>
+  `);
 }
 
 $(function(){
-  init($.noConflict());
+  init($);
+  window.DF_Wiki = {};
 });
