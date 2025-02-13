@@ -69,6 +69,10 @@ function mdSearch(){
     pullFilesAndSearch(searchVal, searchIndex[k], k, loading);
   }
  });
+
+ $("#mdSearchKeyword").on("change", function(){
+  if ($(this).val().length == 0) $("#mdSearchResults .results").empty();
+ });
 }
 
 $(mdSearch);
