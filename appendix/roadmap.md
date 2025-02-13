@@ -17,6 +17,9 @@ main_color: lime-600
       Make entire site searchable (currently only the drops are searchable)
     </li>
     <li>
+      Grouping of content for easier overview (Like Mats by Dungeons, etc)
+    </li>
+    <li>
       {% include link-highlight.md href="https://h1g.jp/dd-on/" text="Continue importing data from DDON JP" %}
     </li>
     <li>
