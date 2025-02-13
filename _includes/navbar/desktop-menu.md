@@ -5,6 +5,6 @@
 </div>
 <div class='hidden lg:flex max-lg:ml-auto space-x-3 px-5'>
   <a href="{{ '/contributing' | relative_url }}" class="hover:no-underline">
-    {% include page-btn.md color="amber-600" dark_color="white" label="How to Contribute" %}
+    {% include page-btn.md label="How to Contribute" %}
   </a>
 </div>

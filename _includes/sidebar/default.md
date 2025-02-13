@@ -1,4 +1,4 @@
-<nav class="dark:bg-zinc-900 dark:text-gray-900 sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white shadow-{{ page.main_color }} shadow-right h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
+<nav class="dark:bg-zinc-900 dark:text-gray-900 sidebar-content peer hidden z-50 overflow-y-auto fixed md:static top-0 left-0 md:block md:w-1/5 bg-white h-full min-w-[250px] py-6 px-4 font-[sans-serif] overflow-auto">
   {% include sidebar/main-option.md icon="home-icon.svg" text="Home" id="home" href="/" %}
 
   {% include sidebar/group-option-start.md id="vocations" heading="Vocations" %}
@@ -44,7 +44,7 @@
 
   {% include sidebar/group-option-start.md id="appendix" heading="Appendix" %}
     {% include sidebar/group-option-list-start.md %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Appendix" href="#" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Credits" href="/appendix/credits" id="credits" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 
