@@ -30,10 +30,9 @@
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 
-  {% include sidebar/group-option-start.md id="guides" heading="Guides" %}
+  {% include sidebar/group-option-start.md id="guides" heading="Game Content" %}
     {% include sidebar/group-option-list-start.md %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="XP Farming" href="#" %}
-      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Ghost n Goblins" href="#" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Drops / Materials Index" href="/game_content/drops" id="drops" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 

@@ -1,0 +1,7 @@
+---
+---
+{
+  "Extreme Missions": "{{ '/game_content/drops/extreme_missions/data.json' | relative_url }}",
+  "World Quests": "{{ '/game_content/drops/world_quests/data.json' | relative_url }}",
+  "Shops": "{{ '/game_content/drops/shops/data.json' | relative_url }}",
+}
