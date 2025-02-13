@@ -1,0 +1,208 @@
+﻿Name,Item Rarity,From,Reachable From/Location
+Dragon Bone,IR8,Cursed Dragon,Outside
+Scroll Of Darkness,IR6,Cursed Dragon,Outside
+Dragon Beard,IR30,Cursed Dragon,Outside
+Orb Of Darkness,IR3,Cursed Dragon,Outside
+Saurian Tail,IR2,Saurian lvl 35,Outside
+Rock scale,IR6,Saurian lvl 35,Outside
+Apophyllite,IR4,Saurian lvl 35,Outside
+Wild Herb,IR3,Flower Spot (X200 Y136),Outside
+Blue Currant,IR8,Flower Spot (X200 Y136),Outside
+Northern Oregano,IR8,Flower Spot (X199 Y136),Outside
+Blue Currant,IR8,Flower Spot (X199 Y136),Outside
+Dragon Hide,IR8,Wyrm lvl 45,Outside
+Huge Dragon Bone Lump,IR12,Wyrm lvl 45,Outside
+Azure Dragon Scale,IR12,Wyrm lvl 45,Outside
+Sequoia Wood,IR8,Wood Spot (X187 Y142),Outside
+Hard Wood,IR3,Wood Spot (X187 Y142),Outside
+Sequoia Wood,IR8,Wood Spot (X181 Y142),Outside
+Thin Wood,IR1,Wood Spot (X181 Y142),Outside
+Dragon Hide,IR8,Behemoth lvl 45,Outside
+Thick Dragon Scale,IR9,Behemoth lvl 45,Outside
+Behemoth Fang,IR9,Behemoth lvl 45,Outside
+Beast Claw,IR8,Grim Warg lvl 40 ,Outside
+Beast Leather,IR9,Grim Warg lvl 40 ,Outside
+Beast Fur,IR8,Grim Warg lvl 40 ,Outside
+Griffin Beak,IR6,Griffin lvl 40,Outside
+Griffin Feather,IR6,Griffin lvl 40,Outside
+Ambrosial Beat-Steak,IR8,Griffin lvl 40,Outside
+Giant Bone,IR3,Gather Spot (X152 Y136),Outside
+Animal Bone,IR1,Gather Spot (X152 Y136),Outside
+Saurian Tail,IR2,Rock Saurian lvl 35,Outside
+Rock scale,IR6,Rock Saurian lvl 35,Outside
+Apophyllite,IR4,Rock Saurian lvl 35,Outside
+Fluorite,IR2,Mist Fighter lvl 38,Outside
+Mist Gem,IR4,Mist Fighter lvl 38,Outside
+Fluorite,IR2,Mist Sorcerer lvl 38,Outside
+Mist Gem,IR4,Mist Sorcerer lvl 38,Outside
+Fluorite,IR2,Mist Hunter lvl 38,Outside
+Mist Gem,IR4,Mist Hunter lvl 38,Outside
+Blue Flower,IR7,Flower Spot (X111 Y168),Outside
+Northern Oregano,IR8,Flower Spot (X111 Y168),Outside
+Blue Currant,IR8,Flower Spot (X111 Y168),Outside
+Sequoia Wood,IR8,Wood Spot (X140 Y138),Outside
+Black Wood,IR9,Wood Spot (X140 Y138),Outside
+Harpy Pinion,IR2,Snow Harpy lvl 40,Outside
+Harpy Flight Feather,IR6,Snow Harpy lvl 40,Outside
+Harpy Breast,IR80,Snow Harpy lvl 40,Outside
+Hard Wood,IR3,Wood Spot (X163 Y124),Outside
+Sequoia Wood,IR8,Wood Spot (X163 Y124),Outside
+Dragon Bone,IR8,Gather Spot (X261| Y144),Outside
+Goblin mats (im not logging them again) - Kami,?,Goblins,Decaying Well lvl 44
+Stagnant Water 4x,IR5,Water Spot (X50 Y-25),Decaying Well lvl 44
+Energy Liquid,IR8,Water Spot (X50 Y-25),Decaying Well lvl 44
+Burial Shroud ,IR2,Undead lvl 43,Knights Old Storehouse lvl 43
+Undead Carrion ,IR1,Undead lvl 43,Knights Old Storehouse lvl 43
+Undead Extract,IR6,Undead lvl 43,Knights Old Storehouse lvl 43
+Fiend's Perch,IR8,Mushroom Spot (X55 Y-28),Knights Old Storehouse lvl 43
+Moonlight Mushroom,IR5,Mushroom Spot (X55 Y-28),Knights Old Storehouse lvl 43
+Silver Ore,IR7,Chest (X54 Y-23),Knights Old Storehouse lvl 43
+Mithril Ore,IR9,Chest (X54 Y-23),Knights Old Storehouse lvl 43
+Marbled Beast-Steak,IR7,Chest(X46 Y-23),Knights Old Storehouse lvl 43
+Officers Mantle,IR8,Glowing Spot (X54 Y-50),Knights Old Storehouse lvl 43
+Sinister Carrion,IR9,Warrior Undead lvl 45,Underground Crypt lvl 45
+Rotten Lump,IR3,Warrior Undead lvl 45,Underground Crypt lvl 45
+Fluorite,IR2,Mist Fighter lvl 45,Underground Crypt lvl 45
+Mist Gem,IR4,Mist Fighter lvl 45,Underground Crypt lvl 45
+Fluorite,IR2,Mist Hunter lvl 45,Underground Crypt lvl 45
+Mist Gem,IR4,Mist Hunter lvl 45,Underground Crypt lvl 45
+Phantom Ore,IR7,Grudge Ghost lvl 45,Underground Crypt lvl 45
+Cursed Letter ,IR85,Ghost lvl 45,Underground Crypt lvl 45
+Phantom Ore,IR7,Ghost lvl 45,Underground Crypt lvl 45
+Scroll of Great Sorcery,IR7,Chest (X37 Y-26),Underground Crypt lvl 45
+Moon Glow,IR5,Flower Spot (X39 Y-33),Underground Crypt lvl 45
+Northern Oregano,IR8,Flower Spot (X39 Y-33),Underground Crypt lvl 45
+Mist Gem,IR4,Mist Warrior lvl 45,Underground Crypt lvl 45
+Fluorite,IR2,Mist Warrior lvl 45,Underground Crypt lvl 45
+Scroll of Great Sorcery,IR7,Chest (X52 Y-53),Underground Crypt lvl 45
+Smoky Quartz,IR11,Empress Ghost lvl 50,Underground Crypt lvl 45
+Witches Grimoire,IR11,Empress Ghost lvl 50,Underground Crypt lvl 45
+Spectral Dragon Fang,IR12,Mist Drake lvl 55,Underground Crypt lvl 45
+Spectral Dragon Scale,IR12,Mist Drake lvl 55,Underground Crypt lvl 45
+Topaz ,IR8,Chest (X35 -74),Underground Crypt lvl 45
+Mithril Ore,IR9,Chest (X35 -74),Underground Crypt lvl 45
+Vice Hose,IR9,Chest (X66 Y-74),Underground Crypt lvl 45
+Scroll of Great Sorcery,IR7,Chest (X66 Y-74),Underground Crypt lvl 45
+Orc's War Tusk,IR7,Orc General lvl 40,Groaning Old Well lvl 40
+Pigeon Blood,IR9,Orc General lvl 40,Groaning Old Well lvl 40
+Demon's Prized Liquor,IR12,Orc Captain lvl 45,Groaning Old Well lvl 40
+Orc's War Tusk,IR7,Orc Captain lvl 45,Groaning Old Well lvl 40
+Orc's War Tusk,IR7,Orc Trooper lvl 40,Groaning Old Well lvl 40
+Orc Decoration,IR9,Orc Trooper lvl 40,Groaning Old Well lvl 40
+Orc Tusk,IR3,Orc Bringer lvl 40,Groaning Old Well lvl 40
+Unrefined Demon Wine,IR4,Orc Bringer lvl 40,Groaning Old Well lvl 40
+Orc Tusk,IR3,Orc Aimer lvl 40,Groaning Old Well lvl 40
+Unrefined Demon Wine,IR4,Orc Aimer lvl 40,Groaning Old Well lvl 40
+Orcish Cloth,IR7,Orc Soldier lvl 40,Groaning Old Well lvl 40
+Unrefined Demon Wine,IR4,Orc Soldier lvl 40,Groaning Old Well lvl 40
+Iron Thread,IR6,Chest (X61 Y-12),Groaning Old Well lvl 40
+Ruby,IR8,x49 y-15,Penitentiary
+Eye Gem,IR10,x49 y-15,Penitentiary
+Lapis Lazuli,IR8,x49 y-16,Penitentiary
+Flourite,IR2,x49 y-17,Penitentiary
+Emerald,IR9,x49 y-18,Penitentiary
+Peridot,IR3,x49 y-19,Penitentiary
+Magick-Tinged Bone,IR5,x52 y-32,Penitentiary
+Orb Of Darkness,IR6,x52 y-32,Penitentiary
+Black Skull,IR6,x52 y-32,Penitentiary
+Energy Liquid,IR8,x48 y-29,Penitentiary
+Blessed Drop,IR9,x48 y-29,Penitentiary
+Dry Bone,IR2,?,Penitentiary
+Energy Liquid,IR8,x48 y42,Penitentiary
+Blessed Drop,IR9,x48 y42,Penitentiary
+Throwing Skull,IR5,x48 y42,Penitentiary
+Demonic Gem,IR10,?,Penitentiary
+Harpy Flight Feather,IR6,?,Penitentiary
+Sand Reminiscence,IR12,?,Penitentiary
+Slime Liquid,IR1,?,Penitentiary
+Strong Viscious Liquid,IR4,?,Penitentiary
+Scroll Of Darkness,IR6,?,Penitentiary
+Bone Meal,IR10,?,Penitentiary
+Transmuted Fur,IR10,?,Penitentiary
+Shadowy Claw,IR10,x59 y -84,Penitentiary
+Broken Stone Manacles,IR20,x59 y -84,Penitentiary
+Small Thiefs Key,IR4,x59 y -88,Penitentiary
+Scroll Of Magickal Protection,IR4,x59 y -88,Penitentiary
+Cracked Black Horn,IR10,x64 y-125,Penitentiary
+Scroll Of Magickal Protection,IR4,x65 y-126,Penitentiary
+Blessed Drop,IR9,x49 y-128,Penitentiary
+Energy Liquid,IR8,x49 y-128,Penitentiary
+Topaz Pendant,IR8,x51 y-141,Penitentiary
+Witch's Grimoire,IR11,x51 y-141,Penitentiary
+Phantom Ore,IR7,,Penitentiary
+Spiritual Will Fragment,IR10,,Penitentiary
+Broken Stone Manacles,IR20,x65 y-145,Penitentiary
+Blessed Drop,IR9,x65 y-145,Penitentiary
+Broken Stone Manacles,IR20,x36 y-145,Penitentiary
+Tomb Gravel,IR20,x36 y-145,Penitentiary
+White Shining Sand 2x/3x,?,Chest down Reef from Penitentiary portcrystal,Penitentiary
+Orc's War Tusk,IR7,Orc Trooper lvl 50,Tegor Flood Control Channel lvl 50
+Unrefined Demon Wine,IR4,Orc Aimer lvl 50,Tegor Flood Control Channel lvl 50
+Orcish Cloth,IR7,Orc Aimer lvl 50,Tegor Flood Control Channel lvl 50
+Beast Claw,IR8,Grimwarg lvl 51,Tegor Flood Control Channel lvl 50
+Beast Leather,IR9,Grimwarg lvl 51,Tegor Flood Control Channel lvl 50
+Beast Fur,IR8,Grimwarg lvl 51,Tegor Flood Control Channel lvl 50
+Orc's War Tusk,IR7,General Orc lvl 52,Tegor Flood Control Channel lvl 50
+Sapphire ,IR6,Mining Spot (X63 Y-28),Tegor Flood Control Channel lvl 50
+Northern Oregano,IR8,Flower Spot (X52 Y-25),Tegor Flood Control Channel lvl 50
+Blue Flower,IR7,Flower Spot (X52 Y-25),Tegor Flood Control Channel lvl 50
+Coconut-Scented Milkcap,IR6,Mushroom Spot (X42 Y-26),Tegor Flood Control Channel lvl 50
+Ring of Physical Attack ,IR15,Gathering Spot (X56 Y-66),Tegor Flood Control Channel lvl 50
+Lizardscale Pelt,IR2,Saurian lvl 50,Tegor Flood Control Channel lvl 50
+Saurian Tail,IR2,Saurian lvl 50,Tegor Flood Control Channel lvl 50
+Lizardscale Pelt,IR2,Giant Saurian lvl 50,Tegor Flood Control Channel lvl 50
+Saurian Tail,IR2,Giant Saurian lvl 50,Tegor Flood Control Channel lvl 50
+Saurian Gland,IR6,Saurian Sage lvl 50,Tegor Flood Control Channel lvl 50
+Saurian Tail,IR2,Saurian Sage lvl 50,Tegor Flood Control Channel lvl 50
+Slime Liquid,IR1,Dim Slime lvl 50,Tegor Flood Control Channel lvl 50
+Strong Viscious Liquid,IR4,Dim Slime lvl 50,Tegor Flood Control Channel lvl 50
+Sandcrystal ,IR9,Chest (X53 Y50),Gardnox Fortress lvl 44
+Orc Tusk,IR3,Orc Bringer lvl 44,Gardnox Fortress lvl 44
+Unrefined Demon Wine,IR4,Orc Bringer lvl 44,Gardnox Fortress lvl 44
+Orcish Cloth,IR7,Orc Bringer lvl 44,Gardnox Fortress lvl 44
+Orc's War Tusk,IR7,Captain Orc lvl 46,Gardnox Fortress lvl 44
+Orc Decoration,IR9,Captain Orc lvl 46,Gardnox Fortress lvl 44
+Orc's War Tusk,IR7,Orc Tropper lvl 44,Gardnox Fortress lvl 44
+Demon's Prized Liquor,IR12,Orc Tropper lvl 44,Gardnox Fortress lvl 44
+Orc's War Tusk,IR7,Orc Aimer lvl 44,Gardnox Fortress lvl 44
+Orc Tusk,IR3,Orc Soldier lvl 44,Gardnox Fortress lvl 44
+Unrefined Demon Wine,IR4,Orc Soldier lvl 44,Gardnox Fortress lvl 44
+Orc's War Tusk,IR7,Orc General lvl 46,Gardnox Fortress lvl 44
+Pigeon Blood,IR9,Orc General lvl 46,Gardnox Fortress lvl 44
+Beast Claw,IR8,Grimwarg lvl 40,Gardnox Fortress lvl 44
+Orc Tusk,IR3,Mogok lvl 55,Gardnox Fortress lvl 44
+Orc Decoration,IR9,Mogok lvl 55,Gardnox Fortress lvl 44
+Sandcrystal ,IR9,Gather Spot ,Gardnox Fortress lvl 44
+Large Fang,IR5,Gather Spot ,Gardnox Fortress lvl 44
+Unrefined Demon Wine,IR4,Goblin Bomber lvl 40,Gardnox Fortress lvl 44
+Goblin Horn ,IR3,Goblin Bomber lvl 40,Gardnox Fortress lvl 44
+Goblin Gunpowder,IR6,Goblin Bomber lvl 40,Gardnox Fortress lvl 44
+Beast Fur,IR8,Warg lvl 40,Gardnox Fortress lvl 44
+Red Sage,IR6,Flower Spot (X30 Y32),Gardnox Fortress lvl 44
+Mandragora,IR85,Mushroom Spot (X48 Y30),Gardnox Fortress lvl 44
+Mandragora,IR85,Mushroom Spot (X48 Y30),Gardnox Fortress lvl 44
+Hematite Sand,IR4,Gather Spot (X65 Y32),Gardnox Fortress lvl 44
+Giant Bone,IR3,Gather Spot (X61 Y24),Gardnox Fortress lvl 44
+Hematite Sand,IR4,Gather Spot (X61 Y24),Gardnox Fortress lvl 44
+Smooth Leather,IR7,Gather Spot (X59 Y14),Gardnox Fortress lvl 44
+Orc Tusk,IR3,Gather Spot (X59 Y14),Gardnox Fortress lvl 44
+Dragoon Arms,IR1,Chest (X55 Y24),Gardnox Fortress lvl 44
+Unrefined Demon Wine,IR4,Orc Soldier lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel lvl 65
+Orc Tusk,IR3,Orc Soldier lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel lvl 65
+Orcish Cloth,IR7,Orc Banger lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel lvl 65
+Bracelet of Health 1,IR15,Chest (X55 Y-71),Gardnox Fortress >>> Gardnox Waste Water Tunnel lvl 65
+Orc Tusk,IR3,Infected Orc Banger lvl 68,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orcish Cloth,IR7,Infected Orc Banger lvl 68,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Beast Claw,IR8,Grimwarg lvl 66,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Beast Leather,IR9,Grimwarg lvl 66,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Beast Fur,IR8,Grimwarg lvl 66,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Unrefined Demon Wine,IR4,Infected Orc Banger lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orc Tusk,IR3,Infected Orc Banger lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orcish Cloth,IR7,Infected Orc Banger lvl 65,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orc's War Tusk,IR7,General Orc lvl 68,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Cave Silkworm,IR30,Chest (X59 Y-109),Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Silver Ore,IR7,Chest (X59 Y-109),Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orc Tusk,IR3,Mogok lvl 68,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Orc Decoration,IR9,Mogok lvl 68,Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Strong Silk Thread,IR30,Chests (X48 Y-167),Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65
+Cave Silkworm,IR30,Chests (X48 Y-167),Gardnox Fortress >>> Gardnox Waste Water Tunnel  >>> Gardnox Water Tunnel Depths lvl 65

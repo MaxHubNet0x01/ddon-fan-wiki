@@ -11,4 +11,11 @@
   "Dowe Valley": "{{ '/game_content/drops/dowe_valley/data.json' | relative_url }}",
   "Mysree Grove": "{{ '/game_content/drops/mysree_grove/data.json' | relative_url }}",
   "Deenan Woods": "{{ '/game_content/drops/deenan_woods/data.json' | relative_url }}",
+  "Betland Plains": "{{ '/game_content/drops/betland_plains/data.json' | relative_url }}",
+  "North Betland Plains": "{{ '/game_content/drops/north_betland_plains/data.json' | relative_url }}",
+  "Western Zandora": "{{ '/game_content/drops/western_zandora/data.json' | relative_url }}",
+  "Eastern Zandora": "{{ '/game_content/drops/eastern_zandora/data.json' | relative_url }}",
+  "Mergoda Ruins": "{{ '/game_content/drops/mergoda_ruins/data.json' | relative_url }}",
+  "Bloodbane Isle": "{{ '/game_content/drops/bloodbane_isle/data.json' | relative_url }}",
+  "Phindym": "{{ '/game_content/drops/phindym/data.json' | relative_url }}",
 }

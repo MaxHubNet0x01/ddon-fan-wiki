@@ -16,7 +16,7 @@ main_color: amber-600
 
   {% include page-heading.md heading="Browse by Location/Region" %}
 
-  <ul>
+  <menu class="p-5 list-disc">
     <li>
       {% include link-highlight.md href="/game_content/drops/extreme_missions" text="Extreme Missions" %}
     </li>
@@ -47,5 +47,26 @@ main_color: amber-600
     <li>
       {% include link-highlight.md href="/game_content/drops/deenan_woods" text="Deenan Woods" %}
     </li>
-  </ul>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/north_betland_plains" text="North Betland Plains" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/betland_plains" text="Betland Plains" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/western_zandora" text="Western Zandora" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/eastern_zandora" text="Eastern Zandora" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/mergoda_ruins" text="Mergoda Ruins" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/bloodbane_isle" text="Bloodbane Isle" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/drops/phindym" text="Phindym" %}
+    </li>
+  </menu>
 </div>
