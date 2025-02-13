@@ -38,7 +38,7 @@ function mdSearch(){
       }), "text");
     }
 
-    this.loadingObj.addClass("hidden");
+    setTimeout(function(loadingObj){ loadingObj.addClass("hidden"); }, 2000, this.loadingObj);
   }.bind({
     rootFile: file,
     region: region,
