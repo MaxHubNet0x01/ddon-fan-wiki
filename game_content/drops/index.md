@@ -16,7 +16,7 @@ main_color: amber-600
 
   {% include alert-warn.md heading="Warning" content="This search is a bit Beta, so if it doesn't work as expected you can let me know (Read How to Contribute Guide)" %}
   
-  <div class="flex flex-wrap justify-center align-center max-w-xl mx-auto gap-5">
+  <div class="flex flex-wrap md:flex-nowrap justify-center align-center max-w-xl mx-auto gap-5">
       <div class="w-full">
           <input type="text" id="mdSearchKeyword" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-{{ page.main_color }} focus:border-{{ page.main_color }} block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-{{ page.main_color }} dark:focus:border-{{ page.main_color }} outline-none" placeholder="Search Material/Drop..." required />
       </div>
