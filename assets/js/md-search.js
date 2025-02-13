@@ -17,9 +17,9 @@ function mdSearch(){
         var linkHighlightTemplate = `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`;
 
         if (!headers.length) return;
-
+        
         for (var l in lines){
-          if (lines[l].indexOf(keyword) != -1 && l != 0){
+          if (lines[l].toLowerCase().indexOf(keyword.toLowerCase()) != -1 && l != 0){
             var cells = lines[l].split(",");
             var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", rootDir).replace("__TEXT__", cells[0] + ` (${this.region})`));
             
