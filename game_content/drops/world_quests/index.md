@@ -3,7 +3,7 @@ layout: default
 title: World Quests
 id: drops
 description:
-main_color: amber-500
+main_color: sky-500
 ---
 
 <div class="margin-center-90">

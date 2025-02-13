@@ -4,4 +4,11 @@
   "Extreme Missions": "{{ '/game_content/drops/extreme_missions/data.json' | relative_url }}",
   "World Quests": "{{ '/game_content/drops/world_quests/data.json' | relative_url }}",
   "Shops": "{{ '/game_content/drops/shops/data.json' | relative_url }}",
+  "Hidell Plains": "{{ '/game_content/drops/hidell_plains/data.json' | relative_url }}",
+  "Breya Coast": "{{ '/game_content/drops/breya_coast/data.json' | relative_url }}",
+  "Mysree Forest": "{{ '/game_content/drops/mysree_forest/data.json' | relative_url }}",
+  "Volden Mines": "{{ '/game_content/drops/volden_mines/data.json' | relative_url }}",
+  "Dowe Valley": "{{ '/game_content/drops/dowe_valley/data.json' | relative_url }}",
+  "Mysree Grove": "{{ '/game_content/drops/mysree_grove/data.json' | relative_url }}",
+  "Deenan Woods": "{{ '/game_content/drops/deenan_woods/data.json' | relative_url }}",
 }

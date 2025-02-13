@@ -137,8 +137,10 @@ function insertCSVToHtml(csv_filename, mainHeadingColumnIndex, insertAtSelector,
     if (line != 0){
       var data = loadedCsv[line].split(",");
 
-      if (data.length != headers.length) continue;
-
+      if (data.length != headers.length) {
+        console.log(`Skipping\nData (${data.length}): ${data}\nHeaders (${headers.length}): ${headers}`);
+        continue;
+      } 
       outputHtml += startHtml.replace("__MAIN_HEADING__", data[mainHeadingColumnIndex]);
       
       for (cell in data){

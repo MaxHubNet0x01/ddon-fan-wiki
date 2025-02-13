@@ -1,0 +1,168 @@
+﻿Name,Item Rarity,From,Reachable From/Location
+Small Horn,IR1,Goblin lv8,Outside
+Saurian Tail,IR2,Saurian lv8,Outside
+Rock Scale,IR6,Saurian lv8,Outside
+Saurian Gland,IR6,Saurian lv8,Outside
+Lizardscale Pelt,IR2,Giant Saurian lv8,Outside
+Apophyllite,IR4,Giant Saurian lv8,Outside
+Coarse Sand,IR2,Debrees Spot(Hidden Beach),Outside
+Polishing Sand,IR3,Debrees Spot(Hidden Beach),Outside
+Clear Water,IR2,Water Spot (X109Y269),Outside
+Saurian Gland,IR6,Sulfur Saurian lv8 ($),Outside
+Lizardscale Pelt,IR2,Sulfur Saurian lv8 ($),Outside
+Apophyllite,IR4,Sulfur Saurian lv8 ($),Outside
+Lizardscale Pelt,IR2,Giant Sulfur Saurian lv10,Outside
+Apophyllite,IR4,Giant Sulfur Saurian lv10,Outside
+Saurian Tail,IR2,Giant Sulfur Saurian lv10,Outside
+Giant Bone,IR3,Armored Cyclops lv15 (X102Y293),Outside
+Large Metal Plate,IR5,Armored Cyclops lv15 (X102Y293),Outside
+Cyclops Tusk,IR5,Armored Cyclops lv15 (X102Y293),Outside
+Giant Apophyllite,IR85,Saurian lv9,Outside
+Clear Water,IR2,Water Spot (along the coast),Outside
+Clear Water,IR2,Debrees Spot(along the coast),Outside
+Clear Water,IR2,Dead Guy(next to shipwreck),Outside
+White Seashell,IR2,Debrees Spot(next to shipwreck),Outside
+Coarse Sand,IR2,Debrees Spot(next to shipwreck),Outside
+Coarse Sand,IR2,Dragon Carcass(next to shipwreck),Outside
+Harpy Pinion,IR2,Harpy lv8,Outside
+Polishing Sand,IR3,Debrees Spot(Birdcall Rock),Outside
+Coarse Sand,IR2,Debrees Spot(Birdcall Rock),Outside
+Animal Fur,IR1,Chest(X74Y304),Outside
+White Seashell,IR2,Chest(X74Y304),Outside
+White Liquor,IR5,Rogue Warrior lv8(near shipwreck),Outside
+Polishing Sand,IR3,Debrees Spot(near shipwreck),Outside
+Bird Feather,IR1,Harpy lv9(near Birdcall Rock Cyclops),Outside
+Giant Bone,IR3,Armored Cyclops lv17 (X68Y311),Outside
+Large Metal Plate,IR5,Armored Cyclops lv17 (X68Y311),Outside
+Small Nut,IR2,Blue Herb Spot(next to cyclops),Outside
+Lestania Herb,IR2,Yellow Herb Spot (Behind Lighthouse),Outside
+Animal Fur,IR1,Crate(Lighthouse balcony),Outside
+Small Fang,IR2,Crate(Lighthouse balcony),Outside
+Restorative,IR2,Crate(Lighthouse balcony),Outside
+Restorative,IR2,Chest(top of Lighthouse),Outside
+Magick Medal,IR7,Golem lv17(near Seaside Cellar),Outside
+Goblin Horn,IR3,HobGoblin lv9-10,Outside
+Unrefined Demon Wine,IR4,HobGoblin lv9-10,Outside
+White Seashell,IR2,Chest(X107Y313),Outside
+Animal Fur,IR1,Chest(X107Y313),Outside
+Brown Wood,IR2,Logging Spot(on hill of Goblin Camp),Outside
+Brown Wood,IR2,Logging Spot(near cliffs/Roaring Tide),Outside
+Coarse Sand,IR2,Debrees Spot(Blue Claw Beach),Outside
+Polishing Sand,IR3,Debrees Spot(Blue Claw Beach),Outside
+White Seashell,IR2,Debrees Spot(Blue Claw Beach),Outside
+Peridot,IR4,Chest(ShipwreckX108Y352),Outside
+2x 1000G,IRX,Chests on the same shipwreck,Outside
+Brown Wood,IR2,Logging Spot(X108Y338),Outside
+Brown Wood,IR2,Logging Spot(X124Y352),Outside
+Dragon Hide,IR8,Wyrm lv52(17000XP),Outside
+Huge Dragon Bone Lump,IR12,Wyrm lv52(17000XP),Outside
+Superior Gala Extract,IR3,Locked Chest(X131Y352),Outside
+Iron Ore Fragment,IR3,Locked Chest(X131Y352),Outside
+Iron Ore,IR4,Locked Chest(X131Y352),Outside
+Filament,IR2,Chest(X128Y346),Outside
+Brown Wood,IR2,Logging Spot(Near Wyrm Spawn),Outside
+Red Lumber,IR4,Logging Spot(Near Wyrm Spawn),Outside
+Slime Liquid,IR1,Slime lv7 (X153 Y298),Outside
+Iron Ore,IR4,Rock Saurian lv11-12($),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Rock Scale,IR6,Rock Saurian lv11-12($),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Superior Saurian Tail,IR6,Rock Saurian lv11-12($),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Iron Ore Fragment,IR3,Mining Spot(Up the Ladder),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Throwing Rock(150dmg),IR4,Mining Spot(Up the Ladder),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Raw Material (?),IRX,Mining Spot(Up the Ladder),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Strong Viscous Liquid,IR4,Stone Blob lv10,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Blob Flesh,IR9,Stone Blob lv10,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Rough Thread,IR3,Locked Chest(X42Y-22),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Lead Ore,IR2,Locked Chest(X42Y-22),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Agate,IR7,Witch lv15,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Ruby,IR8,Witch lv15,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Magickal Potion,IR9,Witch lv15,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Iron Ore Fragment,IR3,Mining Spot(Witch Room),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Throwing Rock(150dmg),IR4,Mining Spot(Witch Room),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Clear Water,IR2,Water Spot(Witch Room),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Amethyst,IR3,Chest(Up the second ladderX61Y-32),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Iron Ore,IR4,Rock Saurian Spinel lv13,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Rock Scale,IR6,Rock Saurian Spinel lv13,LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Silken Sand,IR3,Chest(X61Y-44),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Green Grass Ring,IR1/LV1,Chest(X61Y-44),LIGHTHOUSE OLD WELL LV12 X:55 Y:311
+Superior Saurian Tail,IR6,Large Newt lv62,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Smooth Leather,IR7,Large Newt lv62,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Apophyllite,IR4,Large Newt lv62,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Blue Alluvial Gold,IR6,Large Newt lv62,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Superior Saurian Tail,IR6,Blue Newt lv61,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Smooth Leather,IR7,Blue Newt lv61,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Apophyllite,IR4,Blue Newt lv61,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Blue Alluvial Gold,IR6,Blue Newt lv61,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Moonglow,IR5,Herb Spot,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Baby Herb,IR1,Herb Spot,MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Throwing Skull(350dmg),IR5,Locked Chest(X65Y-205),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Giant Fur,IR4,Troll lv61(45000XP)(19K$)(7KRC),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Troll's Poisonous Moss,IR4,Troll lv61(45000XP)(19K$)(7KRC),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Giant's Horn,IR7,Troll lv61(45000XP)(19K$)(7KRC),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Eyedrops,IR2,Chest (end of area),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Silver Ore,IR7,Chest (end of area),MOLTOVA RUINS LV60 X:61 Y-45 >>> MOLTOVA RUINS: LEFT PATH LV60 X:49 Y:-33
+Slime Liquid,IR1,Electric Slime lv60-61,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Strong Viscous Liquid,IR4,Electric Slime lv60-61,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Burial Shroud,IR2,Sword undead lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Undead Carrion,IR1,Sword undead lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Undead Extract,IR6,Sword undead lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Small Thief's Key,IR4,Locked Chest(X56Y-114),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Ogre Claw,IR6,Ogre lv59(20000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Ogre Fur,IR6,Ogre lv59(20000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Necrophagous Bristle,IR7,Ogre lv59(20000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Moonglow,IR5,Herb Spot,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Superior Saurian Tail,IR6,Blue Newt lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Smooth Leather,IR7,Blue Newt lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Apophyllite,IR4,Blue Newt lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Blue Alluvial Gold,IR6,Blue Newt lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Slime Liquid,IR1,Electric Slime lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Strong Viscous Liquid,IR4,Electric Slime lv60,MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Bluish Gray Dragonscale,IR9,Lindwurm lv65(38000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Water Dragon Fang,IR8,Lindwurm lv65(38000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Lindwurm Fin,IR8,Lindwurm lv65(38000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Long Dragon Beard (High End Gear Mat),IR30,Lindwurm lv65(38000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Blessed Long Dragon Beard (High End Gear Mat),IR30,Lindwurm lv65(38000XP),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Dark Metal,X50Y-146,Chest (end of area),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Mushroom Sauté,X50Y-146,Chest (end of area),MOLTOVA RUINS LV60 X:61 Y-45 >>>  MOLTOVA RUINS: RIGHT PATH LV60 X:63 Y:-35
+Ogre Fur,IR6,Ogre lv19,BEACH UNDERGROUND STORES LV19 X:121 Y345
+Poison Flask,IR3,Chest,BEACH UNDERGROUND STORES LV19 X:121 Y345
+Antidote,IR2,Chest,BEACH UNDERGROUND STORES LV19 X:121 Y345
+Stagnant Shroom,IR3,Shroom Spot,SEASIDE CELLAR LV14 X:103 Y:304
+Bottled Haste,IR2,Rogue Vocations lv14,SEASIDE CELLAR LV14 X:103 Y:304
+White Liquor,IR5,Rogue Vocations lv14,SEASIDE CELLAR LV14 X:103 Y:304
+Superior Gala Extract,IR3,Chest,SEASIDE CELLAR LV14 X:103 Y:304
+Lockpick,IR1,Chest,SEASIDE CELLAR LV14 X:103 Y:304
+Blank Scroll,IR2,Table,SEASIDE CELLAR LV14 X:103 Y:304
+Amethyst,IR3,Table,SEASIDE CELLAR LV14 X:103 Y:304
+Small Horn,IR1,Goblins lv30-35,ROARING TIDE CAVE LV33 X:115 Y:327
+Goblin Horn,IR3,Goblins lv30-35,ROARING TIDE CAVE LV33 X:115 Y:327
+Lizardscale Pelt,IR2,Saurian lv33,ROARING TIDE CAVE LV33 X:115 Y:327
+Saurian Tail,IR2,Saurian lv33,ROARING TIDE CAVE LV33 X:115 Y:327
+Apophyllite,IR4,Saurian lv33,ROARING TIDE CAVE LV33 X:115 Y:327
+Superior Saurian Tail,IR6,Blue Newt lv35,ROARING TIDE CAVE LV33 X:115 Y:327
+Smooth Leather,IR7,Blue Newt lv35,ROARING TIDE CAVE LV33 X:115 Y:327
+Apophyllite,IR4,Blue Newt lv35,ROARING TIDE CAVE LV33 X:115 Y:327
+Blue Alluvial Gold,IR6,Blue Newt lv35,ROARING TIDE CAVE LV33 X:115 Y:327
+Clear Spring Water,IR3,Water Spot(X66Y-34)(next to newt),ROARING TIDE CAVE LV33 X:115 Y:327
+Healing Drop,IR7,Water Spot(X66Y-34)(next to newt),ROARING TIDE CAVE LV33 X:115 Y:327
+Spinel,IR4,Locked Chest(X60Y-30),ROARING TIDE CAVE LV33 X:115 Y:327
+Spun Yarn,IR5,Locked Chest(X60Y-30),ROARING TIDE CAVE LV33 X:115 Y:327
+Moonglow,IR5,Herb Spot,ROARING TIDE CAVE LV33 X:115 Y:327
+Wild Herb,IR3,Herb Spot,ROARING TIDE CAVE LV33 X:115 Y:327
+Baby Herb,IR1,Herb Spot,ROARING TIDE CAVE LV33 X:115 Y:327
+Demon's Talisman(M UP),IR8,Chest (1),ROARING TIDE CAVE LV33 X:115 Y:327
+Hematite,IR6,Mining Spot,ROARING TIDE CAVE LV33 X:115 Y:327
+Silver Ore,IR7,Mining Spot,ROARING TIDE CAVE LV33 X:115 Y:327
+Harpy Pinion,IR2,Harpy lv 31-33,ROARING TIDE CAVE LV33 X:115 Y:327
+Bird Feather,IR1,Harpy lv 31-33,ROARING TIDE CAVE LV33 X:115 Y:327
+Harpy Flight Feather,IR6,Harpy lv 31-33,ROARING TIDE CAVE LV33 X:115 Y:327
+Blue Flower,IR7,Herb Spot (near the bridge|behind crate),ROARING TIDE CAVE LV33 X:115 Y:327
+Moonglow,IR5,Herb Spot (near the bridge|behind crate),ROARING TIDE CAVE LV33 X:115 Y:327
+Throwing Rock(150dmg),IR4,Mining Spot(X71Y-67),ROARING TIDE CAVE LV33 X:115 Y:327
+Sapphire,IR6,Green Mining Spots(X52Y-70),ROARING TIDE CAVE LV33 X:115 Y:327
+Throwing Rock(150dmg),IR4,Green Mining Spots(X52Y-70),ROARING TIDE CAVE LV33 X:115 Y:327
+Dragon Hide,IR8,Sea Dragon The Treasure Guardian lv40,ROARING TIDE CAVE LV33 X:115 Y:327
+Water Dragon Fang,IR8,Sea Dragon The Treasure Guardian lv40,ROARING TIDE CAVE LV33 X:115 Y:327
+Clear Spring Water,IR3,Water Spot (Dragons Room),ROARING TIDE CAVE LV33 X:115 Y:327
+Healing Drop,IR7,Water Spot (Dragons Room),ROARING TIDE CAVE LV33 X:115 Y:327
+Earrings of Thunder Resist 1,IR15/LV1,Locked Chest(Dragons Room),ROARING TIDE CAVE LV33 X:115 Y:327
+Broken Dagger,IR7,Locked Chest(Dragons Room),ROARING TIDE CAVE LV33 X:115 Y:327
