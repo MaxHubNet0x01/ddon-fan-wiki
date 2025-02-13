@@ -17,5 +17,5 @@
   "Eastern Zandora": "{{ '/game_content/drops/eastern_zandora/data.json' | relative_url }}",
   "Mergoda Ruins": "{{ '/game_content/drops/mergoda_ruins/data.json' | relative_url }}",
   "Bloodbane Isle": "{{ '/game_content/drops/bloodbane_isle/data.json' | relative_url }}",
-  "Phindym": "{{ '/game_content/drops/phindym/data.json' | relative_url }}",
+  "Phindym": "{{ '/game_content/drops/phindym/data.json' | relative_url }}"
 }
