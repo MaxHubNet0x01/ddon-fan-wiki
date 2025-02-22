@@ -41,7 +41,7 @@ description:
       <br><br>
 
       <menu class="list-disc">
-        <li>Fork the repository from our <a href="https://github.com/MaxHubNet0x01/ddon-fan-wiki/issues" target="_blank" class="font-bold underline">GitHub Issues page</a>.</li>
+        <li>Go to our <a href="https://github.com/MaxHubNet0x01/ddon-fan-wiki/issues" target="_blank" class="font-bold underline">GitHub Issues page</a>.</li>
         <li>Click on "New Issue."</li>
         <li>Provide a descriptive title for your issue (e.g., "Typo on the Classes page" or "Request for new guide on
           combat strategies").</li>

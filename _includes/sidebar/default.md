@@ -51,7 +51,9 @@
 
   {% include sidebar/group-option-start.md id="dev" heading="Development" %}
     {% include sidebar/group-option-list-start.md %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Add Content" href="/contributing/add_content" id="add-content" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="TCTPC Gen" href="/development/tctpc" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="TGF Subs" href="/development/tgfsr" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 </nav>

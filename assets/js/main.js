@@ -86,7 +86,7 @@ function getBaseUrl(url) {
   return baseUri;
 }
 
-function getFileContents(url, callback, dataType = "json") {
+function getFileContents(url, callback, dataType = "json", asyncreq = true) {
   $.ajax({
     url: url,
     dataType: dataType,
@@ -95,17 +95,18 @@ function getFileContents(url, callback, dataType = "json") {
     },
     error: function(xhr, status, err) {
       console.error('Error fetching file:', err.message);
-    }
+    },
+    async: asyncreq
   });
 }
 
-function checkDataJson(json = null){
+function checkDataJson(json = null, asyncreq = true){
   if (json) {
     DF_Wiki.dataJson = json;
     return;
   }
 
-  getFileContents(getBaseUrl(location.href) + "data.json", checkDataJson);
+  getFileContents(getBaseUrl(location.href) + "index_data.json", checkDataJson, "json", asyncreq);
 }
 
 // Expects __MAIN_HEADING__ , __HEADING__ and __CONTENT__ placeholders
@@ -174,5 +175,4 @@ $(function(){
   };
 
   init($);
-  checkDataJson();
 });

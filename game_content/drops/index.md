@@ -7,7 +7,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.md heading="Drops" %}
+  {% include page-heading.md heading="Drops ᴮᴱᵀᴬ" %}
 
   {% capture drops_desc %}
     Search for any item you need to craft weapons/gear here, or select a region to browse through below
