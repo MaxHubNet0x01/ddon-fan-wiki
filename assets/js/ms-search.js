@@ -144,7 +144,7 @@ function msSearch() {
       $(".loadable-loader .text").text(`Loading [${done} / ${total}] (${message})`);
     }
 
-    getFileContents("/game_content/assets/monsterIds.json", saveEnemyIds);
+    getFileContents("{{ '/game_content/assets/monsterIds.json' | relative_url }}", saveEnemyIds);
 
     fetchGithubFolder(targetRepo.user, targetRepo.repo, targetRepo.folder, targetRepo.branch, progressReport).then((files) => {
       window.DF_Wiki.monsterQuestsIndex = {}; // Target Structure is Monster Name > All quests (array) > Each quest is an object that specify type, lvl, rewards, and ofc enemies
