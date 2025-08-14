@@ -7,14 +7,13 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.md heading="Drops ᴮᴱᵀᴬ" %}
+  {% include page-heading.md heading="Drops ᴮᴱᵀᴬ -- Updated: Aug 14, 2025" %}
 
   {% capture drops_desc %}
     Search for any item you need to craft weapons/gear here, or select a region to browse through below
   {% endcapture %}
   {% include page-p.md content=drops_desc %}
 
-  {% include alert-info.md heading="Note" content="Updated: Aug 14, 2025" %}
   {% include alert-warn.md heading="Warning" content="This search is a bit Beta, so if it doesn't work as expected you can let me know (Read How to Contribute Guide)" %}
   
   <div class="flex flex-wrap md:flex-nowrap justify-center align-center max-w-xl mx-auto gap-5">
