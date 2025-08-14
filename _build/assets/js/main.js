@@ -66,6 +66,20 @@ function devAppendPageLog(heading, content, type = "info"){
   `);
 }
 
+function generateFileDownload(filename, text) {
+  var blob = new Blob([text], { type: "text/plain" });
+  var url = window.URL.createObjectURL(blob);
+  var $a = $("<a>")
+      .attr("href", url)
+      .attr("download", filename)
+      .appendTo("body");
+      
+  $a[0].click();
+
+  $a.remove();
+  window.URL.revokeObjectURL(url);
+}
+
 function getBaseUrl(url) {
   const urlObj = new URL(url);
   const pathname = urlObj.pathname;

@@ -1,443 +1,127 @@
-﻿Name,Item Rarity,From,Reachable From/Location
-Goblin Horn,IR3,Goblin sling lvl 15,Outside
-Small Horn,IR1,Goblin Fighter lvl 15,Outside
-Small Horn,IR1,Goblin Sheild lvl 15,Outside
-Goblin Horn,IR3,Hobgoblin fighter lvl 15,Outside
-Unrefined Demon Wine,IR4,Hobgoblin fighter lvl 15,Outside
-Poison Flask,IR3,Chest (X296|Y393),Outside
-Goblin Horn,IR3,Goblin lvl 25,Outside
-Small Horn,IR1,Goblin Fighter lvl 25,Outside
-Goblin Horn,IR3,Goblin Sling lvl25,Outside
-Monster Gallstone ,IR4,Bone Pile (X307|Y382),Outside
-Harpy Pinion,IR2,Bone Pile (X307|Y382),Outside
-Goblin Horn,IR3,Hobgoblin fighter lvl 25,Outside
-Unrefined Demon Wine,IR4,Hobgoblin lvl 25,Outside
-Griffin Feather,IR6,Chest (X310|Y361),Outside
-Oil Flask,IR2,Chest (x310|Y358),Outside
-Oil Flask,IR2,Chest (X314|Y359),Outside
-Griffin Feather,IR6,Griffin lvl 30,Outside
-Griffin Beak,IR6,Griffin lvl 30,Outside
-Unrefined Demon Wine,IR4,Goblin leader lvl  29,Outside
-Goblin Horn,IR3,Goblin fighter lvl 25,Outside
-Small Horn,IR1,Goblin Sheild lvl 25,Outside
-Goblin Horn,IR3,Hobgoblin fighter lvl 25,Outside
-Harpy pinion,IR2,Bone Pile (X312|Y379),Outside
-Monster Gallstone ,IR4,Bone Pile (X312|Y379),Outside
-Harpy pinion,IR2,Bone Pile (X313|Y377),Outside
-Monster Gallstone ,IR4,Bone Pile (X313|Y377),Outside
-Goblin Horn,IR3,Hobgoblin Leader lvl17,Outside
-Red Lumber,IR4,Logging Spot (X312|Y409),Outside
-Cedar Wood,IR5,Logging Spot (X312|Y409),Outside
-Large Fang,IR5,Direwolf lvl 17,Outside
-Strong Animal Leather,IR5,Direwolf lvl 17,Outside
-Marble,IR5,Mining Spot (X316|Y406),Outside
-Iron Ore,IR4,Mining Spot (X316|Y406),Outside
-Iron Ore Fragment,IR3,Mining Spot (X316|Y406),Outside
-Angelica,IR4,Herb Spot (X322|Y406),Outside
-Yellow Thyme,IR5,Herb Spot (X322|Y406),Outside
-Red Lumber,IR4,Logging Spot (X325|Y406),Outside
-Marble,IR5,Mining Spot (X327|Y407),Outside
-Iron Ore,IR4,Mining Spot (X327|Y407),Outside
-Bird Feather ,IR1,Harpy lvl 16,Outside
-Harpy pinion,IR2,Harpy lvl 16,Outside
-Iron Ore,IR4,Mining Spot (X329|Y390),Outside
-Red Lumber,IR4,Logging Spot (X325|Y393),Outside
-Cedar Wood,IR5,Logging Spot (X325|Y393),Outside
-Stagnant Water ,IR5,Water Spot (X317|Y401),Outside
-Hematite Sand,IR5,Water Spot (X317|Y401),Outside
-Stagnant Water ,IR5,Water Spot (X315|Y400),Outside
-Hematite Sand,IR5,Water Spot (X315|Y400),Outside
-Red Lumber,IR4,Logging Spot (X312|Y404),Outside
-Cedar Wood,IR5,Logging Spot (X312|Y404),Outside
-Red Lumber,IR4,Logging Spot (X311|Y404),Outside
-Cedar Wood,IR5,Logging Spot (X311|Y404),Outside
-Red Lumber,IR4,Logging Spot (X310|Y404),Outside
-Red Lumber,IR4,Logging Spot (X334|Y394),Outside
-Iron Ore,IR4,Mining Spot (X343|Y396),Outside
-Iron Ore Fragment,IR3,Mining Spot (X343|Y396),Outside
-White Liquor,IR5,Chest (X341|Y394),Outside
-Large Fang,IR5,Direwolf lvl 19,Outside
-Strong Animal Leather,IR5,Direwolf lvl 19,Outside
-Polishing Sand,IR3,Debrees Spot (X346|Y401),Outside
-Hematite Sand,IR4,Debrees Spot (X346|Y401),Outside
-Marble,IR5,Mining Spot (X335|Y390),Outside
-Iron Ore,IR4,Mining Spot (X335|Y390),Outside
-Large Fang,IR5,Direwolf lvl17,Outside
-Strong Animal Leather,IR5,Direwolf lvl17,Outside
-Red Lumber,IR4,Logging Sopt (X347|Y394),Outside
-Cedar Wood,IR5,Logging Sopt (X347|Y394),Outside
-Strong Viscous Liquid,IR4,Sludgeman lvl 17,Outside
-Black Tar ,IR5,Sludgeman lvl 17,Outside
-Large Beast Steak,IR5,Create Spot (X357|Y397),Outside
-Monster Gallstone ,IR4,Create Spot (X357|Y397),Outside
-Polishing Sand,IR3,Debrees Spot (X361|Y398),Outside
-Polishing Sand,IR3,Debrees Spot (X360|Y403),Outside
-Hematite Sand,IR4,Debrees Spot (X360|Y403),Outside
-Strong Viscous Liquid,IR4,Sludgeman lvl 16,Outside
-Black Tar ,IR5,Sludgeman lvl 16,Outside
-Red Lumber,IR4,Logging Spot (X362|Y403),Outside
-Cedar Wood,IR5,Logging Spot (X362|Y403),Outside
-Wild Herb,IR3,Herb Spot (X367|Y408),Outside
-Yellow Thyme,IR5,Herb Spot (X367|Y408),Outside
-Polishing Sand,IR3,Debrees Spot (X366|Y409),Outside
-Marble,IR5,Debrees Spot (X366|Y409),Outside
-Large Fang,IR5,Direwold lvl 16,Outside
-Strong Animal Leather,IR5,Direwold lvl 16,Outside
-Yellow Thyme,IR5,Herb Spot (X380|Y396),Outside
-Angelica,IR4,Herb Spot (X380|Y396),Outside
-Beast Steak,IR1,Rabbit lvl 1,Outside
-Animal Fur,IR1,Rabbit lvl 1,Outside
-Blank Scroll,IR2,Skeleton Sorcerer lvl 15,Outside
-Magick Tinged Bone ,IR5,Skeleton Sorcerer lvl 15,Outside
-Undead Nail Shaving,IR85,Skeleton Sorcerer lvl 15,Outside
-Ancient Grimoire,IR7,Skeleton Sorcerer lvl 15,Outside
-Yellow Thyme,IR5,Herb Spot (X368|Y394),Outside
-Angelica,IR4,Herb Spot (X368|Y394),Outside
-Yellow Thyme,IR5,Herb Spot (X366|Y393),Outside
-Angelica,IR4,Herb Spot (X366|Y393),Outside
-Yellow Thyme,IR5,Herb Spot (X366|Y392),Outside
-Angelica,IR4,Herb Spot (X366|Y392),Outside
-Drilled Ore,IR5,Chest (X364|Y385),Outside
-Strong Viscous Liquid,IR4,Sludgeman lvl 15,Outside
-Black Tar ,IR5,Sludgeman lvl 15,Outside
-Large Fang,IR5,Direwolf lvl 15,Outside
-Strong Animal Leather,IR5,Direwolf lvl 15,Outside
-Yellow Thyme,IR5,Herb Spot (X369|Y379),Outside
-Angelica,IR4,Herb Spot (X369|Y379),Outside
-Coarse Sand,IR2,Water Spot (X385|Y409),Outside
-Black Tar ,IR5,Water Spot (X385|Y409),Outside
-Strong Viscous Liquid,IR4,Sludgeman lvl 17,Outside
-Black Tar ,IR5,Sludgeman lvl 17,Outside
-Hematite,IR6,Mining Spot (X385|Y406),Outside
-Red Lumber,IR4,Logging Spot (X385|Y401),Outside
-Goblin Horn,IR3,Goblin Bomber lvl 15,Outside
-Iron Ore Fragment,IR3,Chest (X386|Y394),Outside
-Iron Ingot ,IR4,Chest (X386|Y394),Outside
-Harpy pinion,IR2,Harpy lvl 15,Outside
-Bird Feather ,IR1,Harpy lvl 17,Outside
-Coarse Sand,IR2,Water Spot (X379|Y384),Outside
-Hematite Sand,IR4,Water Spot (X379|Y384),Outside
-Iron Ore,IR4,Mining Spot (X379|Y379),Outside
-Silver Ore,IR7,Mining Spot (X379|Y379),Outside
-Hematite,IR6,Chest (X382|Y381),Outside
-Angelica,IR4,Herb Spot (X377|Y370),Outside
-Moonglow,IR5,Herb Spot (X377|Y370),Outside
-Baby Herb,IR1,Herb Spot (X377|Y370),Outside
-Wild Herb,IR3,Herb Spot (X377|Y370),Outside
-Goblin Horn,IR3,Goblin Sling lvl 17,Outside
-Small Horn,IR1,Goblin lvl 17,Outside
-Dragon Hide ,IR8,Bone Pile (X372|Y371) Under neath,Outside
-Harpy pinion,IR2,Bone Pile (X372|Y371) Under neath,Outside
-Angelica,IR4,Herb Spot (X369|Y371),Outside
-Baby Herb,IR1,Herb Spot (X369|Y371),Outside
-Iron Ore,IR4,Mining Spot (X368|Y365),Outside
-Marble,IR5,Mining Spot (X368|Y365),Outside
-Silver Ore,IR7,Mining Spot (X368|Y365),Outside
-Yellow Thyme,IR5,Herb Spot (X372|Y365),Outside
-Moonglow,IR5,Herb Spot (X372|Y365),Outside
-Large Fang,IR5,Direwolf lvl 17,Outside
-Strong Animal Leather,IR5,Direwolf lvl 17,Outside
-Large Beast Steak,IR5,Bone Pile (X379|Y364),Outside
-Goblin Horn,IR3,Goblin lvl 17,Outside
-Small Horn,IR1,Goblin lvl 17,Outside
-Bird Feather ,IR1,Harpy lvl 15,Outside
-Harpy pinion,IR2,Harpy lvl 15,Outside
-Harpy Flight Feather,IR6,Bone Pile (X380|Y361),Outside
-Monster Gallstone ,IR4,Bone Pile (X379|Y357),Outside
-Bird Feather ,IR1,Harpy lvl 20,Outside
-Harpy Pinion,IR2,Harpy lvl 20,Outside
-Garnet ,IR5,Gold Pile (X369|Y356),Outside
-Drilled Ore,IR5,Chest (X364|Y356),Outside
-Sapphire,IR6,Chest (X364|Y356),Outside
-Iron Ore Fragment,IR3,Chest (X364|Y356),Outside
-Corpse-Eater Horn,,Gathering Node (X327 Y399),Outside
-Goblin Horn,IR3,Goblin leader lvl  29,Southern Wall Fissure lvl 24 (X313|Y380)
-Small Horn,IR1,Goblin fighter lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Goblin Horn,IR3,Goblin Sheild lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Unrefined Demon Wine,IR4,Hobgoblin fighter lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Crystal,IR5,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Peridot,IR4,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Goblin Horn,IR3,Hobgoblin fighter lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Goblin Horn,IR3,Sling Hobgoblin lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Small Horn,IR1,Goblin fighter lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Unrefined Demon Wine,IR4,Hobgoblin fighter lvl 24,Southern Wall Fissure lvl 24 (X313|Y380)
-Crystal,IR5,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Peridot,IR4,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Small Fang,IR2,Wolf lvl25,Southern Wall Fissure lvl 24 (X313|Y380)
-Animal Fur ,IR1,Wolf lvl25,Southern Wall Fissure lvl 24 (X313|Y380)
-Supple Fur,IR2,Wolf lvl25,Southern Wall Fissure lvl 24 (X313|Y380)
-Large Fang,IR5,Direwolf lvl 26,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Animal Leather,IR5,Direwolf lvl 26,Southern Wall Fissure lvl 24 (X313|Y380)
-Spun Yarn,IR5,Chest (X36|Y-40),Southern Wall Fissure lvl 24 (X313|Y380)
-Demon Wolf's Sinewy Meat,IR45,Warg lvl 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Beast Fur,IR8,Grimwarg lvl 26,Southern Wall Fissure lvl 24 (X313|Y380)
-Spun Yarn,IR5,Chest (X40|Y-52),Southern Wall Fissure lvl 24 (X313|Y380)
-Large Fang,IR5,Direwolf lvl 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Animal Leather,IR5,Direwolf lvl 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Beast Fur,IR8,Grimwarg lvl 27,Southern Wall Fissure lvl 24 (X313|Y380)
-Marble,IR5,Nest ,Southern Wall Fissure lvl 24 (X313|Y380)
-Large Fang,IR5,Direwolf lvl 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Animal Leather,IR5,Direwolf lvl 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Giant Fur,IR4,Mole Troll lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Thick Bone,IR9,Mole Troll lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Troll's Blue Poisonous Moss,IR9,Mole Troll lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Garnet,IR5,Chest (X52|Y-88),Southern Wall Fissure lvl 24 (X313|Y380)
-Spun Yarn,IR5,Chest (X49|Y-177),Southern Wall Fissure lvl 24 (X313|Y380)
-Superior Saurian Tail,IR6,Sulfur Saurian lv 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Lizardscale Pelt,IR6,Sulfur Saurian lv 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Saurian Gland,IR6,Sulfur Saurian lv 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Apophyllite,IR4,Sulfur Saurian lv 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Saurian Tail,IR2,Sulfur Saurian lv 25,Southern Wall Fissure lvl 24 (X313|Y380)
-Iron Thread,IR6,Chest (X36|Y-144),Southern Wall Fissure lvl 24 (X313|Y380)
-Clear Spring Water,IR3,Water Gathering spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Iron Thread,IR6,Chest (X71|Y-153),Southern Wall Fissure lvl 24 (X313|Y380)
-Crystal,IR5,Small Chest (X60|Y-142),Southern Wall Fissure lvl 24 (X313|Y380)
-Blob Flesh,IR9,Blob lvl 20,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Viscous Liquid,IR4,Acid Blob lvl 20,Southern Wall Fissure lvl 24 (X313|Y380)
-Large Fang,IR5,Direwolf lvl26,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Animal Leather,IR5,Direwolf lvl26,Southern Wall Fissure lvl 24 (X313|Y380)
-Crystal,IR5,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Peridot,IR4,Green Mining Spot,Southern Wall Fissure lvl 24 (X313|Y380)
-Spun Yarn,IR5,Chest (X54|Y-178),Southern Wall Fissure lvl 24 (X313|Y380)
-Garnet ,IR5,Chest (X54|Y-178),Southern Wall Fissure lvl 24 (X313|Y380)
-Ogre Claw,IR6,Ogre lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Orge Fur,IR6,Ogre lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Necrophagous Bristle ,IR7,Ogre lvl 30,Southern Wall Fissure lvl 24 (X313|Y380)
-Garnet ,IR5,Chest (X57|Y-198),Southern Wall Fissure lvl 24 (X313|Y380)
-Combat Fabric,IR5,Chest (X57|Y-198),Southern Wall Fissure lvl 24 (X313|Y380)
-Large Fang,IR5,Direwolf lvl26,Southern Wall Fissure lvl 24 (X313|Y380)
-Strong Animal Leather,IR5,Direwolf lvl26,Southern Wall Fissure lvl 24 (X313|Y380)
-Giant Bone,IR3,Colossus lvl31,Southern Wall Fissure lvl 24 (X313|Y380)
-Colossur Horn,IR6,Colossus lvl31,Southern Wall Fissure lvl 24 (X313|Y380)
-Large Metal Plate,IR5,Colossus lvl31,Southern Wall Fissure lvl 24 (X313|Y380)
-Garnet ,IR5,Chest (X47|Y-198),Southern Wall Fissure lvl 24 (X313|Y380)
-Spinel,IR4,Mining Node X30 Y-127,Southern Wall Fissure lvl 24 (X313|Y380)
-Drilled Ore,IR5,Nead Explosive Barrel,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite,IR6,Nead Explosive Barrel,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ore,IR7,Nead Explosive Barrel,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Iron Ore,IR4,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Superior Saurian Tail,IR6,Rock Saurian lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Harpy Pinion ,IR2,Harpy lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Bird Feather ,IR1,Harpy lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Harpy Flight Feather,IR6,Harpy lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ingot,IR7,Chest (X62|Y123),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Horn,IR3,Hobgoblin Fighter lv 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Unrefined Demon Wine,IR4,Hobgoblin Fighter lv 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Magick Tinged Bone,IR5,Skeleton Sorcerer lvl 27,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Dry Bone ,IR2,Skeleton Sorcerer lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Blank Scroll,IR2,Skeleton Sorcerer lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Iron Ore,IR4,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Superior Saurian Tail,IR6,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Strong Viscous Liquid,IR4,Sludgeman lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Black Tar ,IR5,Sludgeman lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Undead Carrion ,IR1,Sword Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Burial Shroud,IR2,Sword Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Drilled Ore,IR5,Mining Spot (X37|Y81),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite,IR6,Mining Spot (X37|Y81),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite Sand,IR4,Mining Spot (X37|Y81),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rugged Leather ,IR5,Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Giant Bone ,IR3,Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Giant Eyeball,IR8,Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Harpy Pinion ,IR2,Harpy lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Harpy Flight Feather,IR6,Harpy lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Magick Tinged Bone,IR5,Skeleton Sorcerer lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Horn,IR3,Goblin Fighter lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Small Horn,IR1,Goblin Fighter lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Iron Ore,IR4,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Superior Saurian Tail,IR6,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Drilled Ore,IR5,Mining Spot (X59|Y63),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ore,IR7,Mining Spot (X59|Y63),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite,IR6,Mining Spot (X59|Y63),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Horn,IR3,Hobgoblin Fighter lv 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Unrefined Demon Wine,IR4,Hobgoblin Sling lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rugged Leather ,IR5,Armored Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Giant Bone ,IR3,Armored Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Large Metal Plate,IR5,Armored Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Cyclops Tusk ,IR5,Armored Cyclops lvl 32,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Gunpowerder,IR6,Goblin Bomber lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Strong Viscous Liquid,IR4,Sludgeman lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Black Tar ,IR5,Sludgeman lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Magick Medal,IR7,Golem lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ore,IR7,Mining Spot (X93|Y65),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Drilled Ore,IR5,Mining Spot (X98|Y62),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite,IR6,Mining Spot (X98|Y62),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite Sand,IR4,Mining Spot (X96|Y76),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Strong Viscous Liquid,IR4,Sludgeman lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Black Tar ,IR5,Sludgeman lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Sapphire ,IR6,Mining Spot (X117|Y85),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Gunpowerder,IR6,Goblin Bomber lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Horn,IR3,Goblin Bomber lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Unrefined Demon Wine,IR4,Goblin Bomber lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Iron Ore,IR4,Rock Saurian lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Rock Saurian lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Superior Saurian Tail,IR6,Rock Saurian lvl 29,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Sapphire ,IR6,Mining Spot (X115|Y95),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Onyx ,IR6,Mining Spot (X115|Y95),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Chest (X115|Y103),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Onyx ,IR6,Chest (X115|Y103),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ore,IR7,Small Chest (X104|Y102),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Goblin Horn,IR3,Goblin lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Small Horn,IR1,Goblin Shield lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Magick Tinged Bone,IR5,Skeleton Sorcerer lvl 26,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Blank Scroll,IR2,Skeleton Sorcerer lvl 26,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Small Chest (X87|Y104),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Burial Shroud,IR2,Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Undead Carrion ,IR1,Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rotten Lump,IR3,Shroud Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Undead Extract,IR6,Shroud Undead lvl 28,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Iron Ore,IR4,Giant Geo Saurian lvl 30,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Rock Scale,IR6,Geo Saurian lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Superior Saurian Tail,IR6,Geo Saurian lvl 25,Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Lava Rock,IR8,Geo Golem lvl 35 (CANCER),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Magick Medel,IR7,Geo Golem lvl 35 (CANCER),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Quality Magic Medals,IR?,Geo Golem lvl 35 (CANCER),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Silver Ore,IR7,Chest (X72|Y61),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Hematite Sand,IR4,Chest (X72|Y61),Volden Large Tunnels lvl 28 (X382|Y375) + (X385|Y365)
-Voldic Diamond,IR?,Geo Golem Lv TBA,Volden Large Tunnels >>>Scorching Blocked Passage lvl 63 (X73|Y65) 
-Blazing Lizard Pelt,IR?,Pyre Saurians lvl TBA,Volden Large Tunnels >>>Scorching Blocked Passage lvl 63 (X73|Y65) 
-Large Fang,IR5,Direwolf lvl 26,Miners' Secret Route lvl 27 (X366|Y370)
-Strong Animal Leather,IR5,Direwolf lvl 26,Miners' Secret Route lvl 27 (X366|Y370)
-Mutated Bone Lump,IR7,Chimera lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Strong Lizardscale Pelt,IR6,Chimera lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Goblin Horn,IR3,Hobgoblin sling lvl 25,Miners' Secret Route lvl 27 (X366|Y370)
-Small Horn,IR1,Goblin Fighter lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Pine Lumber ,IR6,Chest (X45|Y-29),Miners' Secret Route lvl 27 (X366|Y370)
-Colossus Horn,IR6,Colossus lvl 25 Door doesn't unlock,Miners' Secret Route lvl 27 (X366|Y370)
-Large Metal Plate ,IR5,Colossus lvl 25 Door doesn't unlock,Miners' Secret Route lvl 27 (X366|Y370)
-Ape Fur,IR3,Brute Ape lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Ape Pelt ,IR3,Brute Ape lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Crystal,IR5,Mining Spot (X46|Y-36),Miners' Secret Route lvl 27 (X366|Y370)
-Onyx,IR6,Mining Spot (X46|Y-36),Miners' Secret Route lvl 27 (X366|Y370)
-Large Fang,IR5,Direwolf lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Strong Animal Leather,IR5,Direwolf lvl 27,Miners' Secret Route lvl 27 (X366|Y370)
-Fine Bleacked Bone,IR3,Skeleton Brute lvl 35,Summit Chapel lvl 30 (X367|Y360)
-Iron Ore Fragment ,IR3,Skeleton Knight lvl 30,Summit Chapel lvl 30 (X367|Y360)
-Rusted Plate ,IR6,Skeleton Warrior lvl 33,Summit Chapel lvl 30 (X367|Y360)
-Onyx ,IR6,Small Chest (X56|Y-22,Summit Chapel lvl 30 (X367|Y360)
-Sapphire,IR6,Small Chest (X48|Y-32),Summit Chapel lvl 30 (X367|Y360)
-Sphinx Claw,IR7,Small Chest (X48|Y-32),Summit Chapel lvl 30 (X367|Y360)
-Scroll Of Holy,IR6,Small Chest (X53|Y-33),Summit Chapel lvl 30 (X367|Y360)
-Sphinx Azure Pinion ,IR4,Small Chest (X53|Y-33),Summit Chapel lvl 30 (X367|Y360)
-Phantom Ore,IR7,Ghost lvl 30,Summit Chapel lvl 30 (X367|Y360)
-Agate,IR7,Wight lvl 35,Summit Chapel lvl 30 (X367|Y360)
-Magickal Potion,IR9,Wight lvl 35,Summit Chapel lvl 30 (X367|Y360)
-Goblin Horn,IR3,Goblin Fighter lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Small Horn,IR1,Goblin Shield lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Goblin Horn,IR3,Goblin lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Superior Saurian Tail,IR6,Saurin lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Strong Lizardscale Pelt,IR6,Saurin lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Apophyllite,IR4,Saurin lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Bird Feather ,IR1,Harpy lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Harpy Pinion,IR2,Harpy lvl 26,Fiend's Cavern lvl 26 (X349|Y404)
-Griffin Feather ,IR6,Griffin lvl 31,Fiend's Cavern lvl 26 (X349|Y404)
-Iron Thread,IR6,Chest (X58|Y-30),Fiend's Cavern lvl 26 (X349|Y404)
-Hematite,IR6,Mining Spot (X42|Y-41,Fiend's Cavern lvl 26 (X349|Y404)
-Pyrite,IR5,Mining Spot (X42|Y-41,Fiend's Cavern lvl 26 (X349|Y404)
-Gleaming Golden Jewel,IR12,400BO,Goblin King (Material Shop)
-Gold Ritual Instrument,IR12,250BO,Goblin King (Material Shop)
-Golden Wedge,IR12,230BO,Goblin King (Material Shop)
-Shining Dragon Bone,IR8,250BO,Goblin King (Material Shop)
-Large Dragon Bone,IR8,230BO,Goblin King (Material Shop)
-Dragon Bone,IR8,210BO,Goblin King (Material Shop)
-White Wings Radiant Crystal,IR9,400BO,Goblin King (Material Shop)
-Abyssal Ice of Chaos,IR11,250BO,Goblin King (Material Shop)
-Water of Chaos,IR11,230BO,Goblin King (Material Shop)
-Disordering Drop,IR11,210BO,Goblin King (Material Shop)
-Lestania Quartz,IR9,250BO,Goblin King (Material Shop)
-Lestania Amber,IR9,230BO,Goblin King (Material Shop)
-Lestania Glass,IR9,210BO,Goblin King (Material Shop)
-Ancient Scale Dust,IR9,800BO,Goblin King (Material Shop)
-Large-Grained Sand,IR9,400BO,Goblin King (Material Shop)
-Scale-Dust,IR9,250BO,Goblin King (Material Shop)
-Goblin Horn ,IR3,Goblin lvl 20,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin lvl 20,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin Fighter lvl 21,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin Fighter lvl 21,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Hematite Sand,IR5,Mining Spot (X46|Y-21),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Drilled Ore,IR5,Mining Spot (X46|Y-21),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Hematite Sand,IR5,Mining Spot (X47|Y-24,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Drilled Ore,IR5,Mining Spot (X47|Y-24,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin Fighter lvl 22,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin Fighter lvl 22,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Moonlight Mushroom,IR5,Mushroom Spot (X53|Y-34),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Stagnant Shroom,IR3,Mushroom Spot (X53|Y-34),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin Fighter lvl 22,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin Shield lvl 23,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin lvl 22,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Moonlight Mushroom,IR5,Mushroom Spot (X52|Y-37),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Stagnant Shroom,IR3,Mushroom Spot (X52|Y-37),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Superior Saurian Tail,IR6,Giant Saurian lvl 29,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Strong Lizardscale Pelt,IR6,Saurian lvl 25,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Apophyllite,IR4,Saurian lvl 25,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Unrefined Demon Wine,IR4,Goblin Sling lvl 24,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Iron Thread,IR6,Chest (X56|Y-60),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Superior Saurian Tail,IR6,Giant Saurian lvl 23,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Strong Lizardscale Pelt,IR6,Saurian lvl 23,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin lvl 21,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin lvl 21,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Moonlight Mushroom,IR5,Mushroom Spot (X59|Y-71,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Stagnant Shroom,IR3,Mushroom Spot (X59|Y-71,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin lvl 20,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin lvl 20,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Beast Leather,IR9,Create (X68|Y-73),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Iron Thread,IR6,Chest (X69|Y-73),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Small Horn ,IR1,Goblin Shield lvl 23,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin Fighter lvl 22,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn ,IR3,Goblin lvl 21,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Insect Venom,IR1,Worm lvl 10,Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Stagnant Water ,IR5,Water Spot (X50|Y-77),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Stagnant Water ,IR5,Water Spot (X48|Y-76),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Drilled Ore,IR5,Chest (X45|Y-77),Kinoza Flood Control Channel lvl 21 (X387|Y397)
-Goblin Horn,IR3,Goblin Fighter lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Goblin Fighter lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Goblin Leader lvl 30,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Hobgoblin Leader lvl 30,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Goblin Fighter lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Hobgoblin Leader lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Goblin Shield lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Hobgoblin Leader lvl 25,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Goblin Sling lvl 24,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Hobgoblin lvl 22,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Magick Tinged Bone ,IR5,Chest (X47|Y-39),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Pyrite,IR5,Nead Explosive Barrel,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Iron Ore,IR4,Nead Explosive Barrel,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Goblin Leader lvl 25,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Hobgoblin Lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Unrefined Demon Wine,IR4,Hobgoblin Lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Large Beast Steak ,IR5,Create (X55|Y-51),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Blue Alluvial Gold,IR6,Create (X55|Y-51),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Large Beast Steak ,IR5,Create (X57|Y-53),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Blue Alluvial Gold,IR6,Create (X57|Y-53),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Leather Cord,IR4,Create (X57|Y-53),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Marble ,IR5,Chest (X38|Y-56),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Pyrite,IR5,Mining Spot (X40|Y-72),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Iron Ore,IR4,Mining Spot (X40|Y-72),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Goblin Horn,IR3,Goblin Leader lvl 25,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Small Horn,IR1,Goblin Fighter lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Large Fang,IR5,Direwolf lvl 27,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Strong Animal Leather,IR5,Direwolf lvl 23,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Moonlight Mushroom,IR5,Mushroom Spot (X41|Y-92),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Stagnant Shroom,IR3,Mushroom Spot (X41|Y-92),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Moonlight Mushroom,IR5,Mushroom Spot (X39|Y-91),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Stagnant Shroom,IR3,Mushroom Spot (X39|Y-91),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Large Beast Steak ,IR5,Create (X36|Y-93),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Leather Cord,IR4,Create (X36|Y-93),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Moonlight Mushroom,IR5,Mushroom Spot (X62|Y-97),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Stagnant Shroom,IR3,Mushroom Spot (X62|Y-97),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Saurian Tail,IR2,Saurian lvl 25,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Lizardscale Pelt,IR2,Saurian lvl 25,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Pyrite,IR5,Chest (X71|Y-100),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Pyrite,IR5,Mining Spot (X60|Y-90),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Iron Ore,IR4,Mining Spot (X60|Y-90),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Pyrite,IR5,Chest (X43|Y-100),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Giant Bone ,IR3,Armored Cyclops lvl 30,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Large Metal Plate,IR5,Armored Cyclops lvl 30,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Cyclops Tusk,IR5,Armored Cyclops lvl 30,Volden Narrow Tunnels lvl 23 (X368|Y376)
-Marble ,IR5,Chest (X53|Y-120),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Cambat Fabric,IR5,Chest (X53|Y-120),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Moonlight Mushroom,IR5,Mushroom Spot (X51|Y-121),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Stagnant Shroom,IR3,Mushroom Spot (X51|Y-121),Volden Narrow Tunnels lvl 23 (X368|Y376)
-Marble ,IR5,Chest (X46|Y-118),Volden Narrow Tunnels lvl 23 (X368|Y376)
+Monster,Level,Location,Area Level
+Rock Saurian(21),25, Volden Large Tunnels, 28
+Rock Saurian(21),27, Volden Large Tunnels, 28
+Rock Saurian(21),28, Volden Large Tunnels, 28
+Rock Saurian(21),29, Volden Large Tunnels, 28
+Skeleton Sorcerer(8),26, Volden Large Tunnels, 28
+Skeleton Sorcerer(8),27, Volden Large Tunnels, 28
+Skeleton Sorcerer(8),28, Volden Large Tunnels, 28
+Skeleton Sorcerer,26, Volden Large Tunnels, 28
+Skeleton Knight,26, Volden Large Tunnels, 28
+Sludgeman(6),28, Volden Large Tunnels, 28
+Sludgeman(6),29, Volden Large Tunnels, 28
+Sword Undead(4),27, Volden Large Tunnels, 28
+Sword Undead(4),28, Volden Large Tunnels, 28
+Colossus,28, Volden Large Tunnels, 28
+Harpy(3),25, Volden Large Tunnels, 28
+Harpy(3),28, Volden Large Tunnels, 28
+Skeleton Mage,27, Volden Large Tunnels, 28
+Cyclops(2),28, Volden Large Tunnels, 28
+Cyclops(2),30, Volden Large Tunnels, 28
+Goblin,28, Volden Large Tunnels, 28
+Goblin Fighter,29, Volden Large Tunnels, 28
+Goblin Bomber(7),27, Volden Large Tunnels, 28
+Goblin Bomber(7),28, Volden Large Tunnels, 28
+Sling Hobgoblin(8),28, Volden Large Tunnels, 28
+Sling Hobgoblin(8),29, Volden Large Tunnels, 28
+Hobgoblin Fighter(7),28, Volden Large Tunnels, 28
+Hobgoblin Fighter(7),29, Volden Large Tunnels, 28
+Hobgoblin Fighter(7),30, Volden Large Tunnels, 28
+Hobgoblin Leader,30, Volden Large Tunnels, 28
+Skull Lord,63, Volden Large Tunnels > Mines' Large Landing, 0
+Harpy ★Nighttime,25, Volden Large Tunnels > Mines' Large Landing, 0
+Sludgeman(16),23, Volden Narrow Tunnels, 23
+Sludgeman(16),24, Volden Narrow Tunnels, 23
+Sludgeman(16),25, Volden Narrow Tunnels, 23
+Stout Undead,24, Volden Narrow Tunnels, 23
+Skeleton Sorcerer(2),25, Volden Narrow Tunnels, 23
+Skeleton Sorcerer(2),26, Volden Narrow Tunnels, 23
+Sling Hobgoblin(13),23, Volden Narrow Tunnels, 23
+Sling Hobgoblin(13),24, Volden Narrow Tunnels, 23
+Chimera,23, Volden Narrow Tunnels, 23
+Shield Goblin,26, Fiend's Cavern, 26
+Goblin,26, Fiend's Cavern, 26
+Goblin Fighter,26, Fiend's Cavern, 26
+Chimera,21, Fiend's Cavern, 26
+Skeleton Knight,30, Summit Chapel, 30
+Skeleton Sorcerer,30, Summit Chapel, 30
+Skeleton Mage,30, Summit Chapel, 30
+Skeleton Warrior,33, Summit Chapel, 30
+Skeleton Brute,35, Summit Chapel, 30
+Rock Saurian(15),21, Kinoza Flood Control Channel, 21
+Rock Saurian(15),22, Kinoza Flood Control Channel, 21
+Rock Saurian(15),23, Kinoza Flood Control Channel, 21
+Stout Undead,21, Kinoza Flood Control Channel, 21
+Goblin,22, Kinoza Flood Control Channel, 21
+Sling Goblin,22, Kinoza Flood Control Channel, 21
+Goblin Fighter,23, Kinoza Flood Control Channel, 21
+Worm,20, Kinoza Flood Control Channel, 21
+Rock Saurian ★Daytime,23, Kinoza Flood Control Channel, 21
+Rock Saurian Spinel ★Nighttime,25, Kinoza Flood Control Channel, 21
+Rogue Fighter(8),30, Bandit Hideaway, 35
+Rogue Fighter(8),32, Bandit Hideaway, 35
+Rogue Fighter(8),33, Bandit Hideaway, 35
+Rogue Fighter(8),35, Bandit Hideaway, 35
+Rogue Seeker(6),30, Bandit Hideaway, 35
+Rogue Seeker(6),32, Bandit Hideaway, 35
+Rogue Seeker(6),33, Bandit Hideaway, 35
+Rogue Seeker(6),35, Bandit Hideaway, 35
+Rogue Mage(7),32, Bandit Hideaway, 35
+Rogue Mage(7),33, Bandit Hideaway, 35
+Rogue Mage(7),34, Bandit Hideaway, 35
+Rogue Warrior(2),32, Bandit Hideaway, 35
+Rogue Warrior(2),33, Bandit Hideaway, 35
+Rogue Defender(4),32, Bandit Hideaway, 35
+Rogue Defender(4),35, Bandit Hideaway, 35
+Rogue Defender(4),38, Bandit Hideaway, 35
+Rogue Hunter(5),30, Bandit Hideaway, 35
+Rogue Hunter(5),32, Bandit Hideaway, 35
+Rogue Hunter(5),33, Bandit Hideaway, 35
+Rogue Hunter(5),35, Bandit Hideaway, 35
+Rogue Hunter(5),40, Bandit Hideaway, 35
+Direwolf(7),34, Bandit Hideaway, 35
+Direwolf(7),35, Bandit Hideaway, 35
+Grimwarg,40, Bandit Hideaway, 35
+Rogue Healer,35, Bandit Hideaway, 35
+Troll,25, Southern Wall Fissure, 24
+Sludgeman(4),24, Southern Wall Fissure, 24
+Sludgeman(4),25, Southern Wall Fissure, 24
+Goblin Bomber(9),24, Southern Wall Fissure, 24
+Goblin Bomber(9),26, Southern Wall Fissure, 24
+Snow Harpy,24, Southern Wall Fissure, 24
+Ogre,26, Southern Wall Fissure, 24
+Harpy,27, Southern Wall Fissure, 24
+Rock Saurian(5),25, Southern Wall Fissure, 24
+Rock Saurian(5),26, Southern Wall Fissure, 24
+Deep Slime(8),24, Southern Wall Fissure, 24
+Deep Slime(8),25, Southern Wall Fissure, 24
+Deep Slime(8),26, Southern Wall Fissure, 24
+Goblin Fighter,25, Southern Wall Fissure, 24
+Shield Goblin,27, Southern Wall Fissure, 24
+Sling Hobgoblin,27, Southern Wall Fissure, 24
+Goblin Leader,30, Southern Wall Fissure, 24
+Undead(3),25, Southern Wall Fissure, 24
+Undead(3),26, Southern Wall Fissure, 24
+Sword Undead,26, Southern Wall Fissure, 24
+Worm,30, Southern Wall Fissure, 24
+Colossus,34, Southern Wall Fissure, 24
+Goblin Bomber(5) ★Daytime,24, Southern Wall Fissure, 24
+Goblin Bomber(5) ★Daytime,25, Southern Wall Fissure, 24
+Shield Goblin ★Daytime,25, Southern Wall Fissure, 24
+Snow Harpy ★Daytime,25, Southern Wall Fissure, 24
+Direwolf(4),27, Miners' Secret Route, 27
+Direwolf(4),28, Miners' Secret Route, 27
+Rogue Hunter(3),27, Miners' Secret Route, 27
+Rogue Hunter(3),28, Miners' Secret Route, 27
+Rogue Seeker,28, Miners' Secret Route, 27
+Rogue Fighter,28, Miners' Secret Route, 27
+Colossus,25, Miners' Secret Route, 27
+Rock Saurian,25, Miners' Secret Route, 27
+Rock Saurian,63, Scorching Blocked Passage, 63
+Snow Harpy,63, Scorching Blocked Passage, 63
+Hellhound,61, Scorching Blocked Passage, 63
+Colossus,64, Scorching Blocked Passage, 63
+Oil Jelly,63, Scorching Blocked Passage, 63
+Skull Lord,64, Scorching Blocked Passage, 63
+Pyre Saurian,64, Scorching Blocked Passage, 63
+Geo Golem,65, Scorching Blocked Passage, 63

@@ -65,7 +65,7 @@ function msSearch() {
     }
   }
 
-  function pullFilesAndSearch(keyword, file, region, loadingObj) {
+  function pullFilesAndSearch(keyword, file, region, loadingObj, level, level_index) {
     loadingObj.find(".text").text("Searching: " + region);
 
     getFileContents(file, function (files) {
@@ -82,15 +82,19 @@ function msSearch() {
           for (var l in lines) {
             if (lines[l].toLowerCase().indexOf(keyword.toLowerCase()) != -1 && l != 0) {
               var cells = lines[l].split(",");
-              var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", rootDir).replace("__TEXT__", cells[0] + ` (${this.region})`));
 
-              for (var c in cells) {
-                resultHtml += DF_Wiki.csvHtmlItem.replace("__HEADING__", headers[c]).replace("__CONTENT__", cells[c]);
+              // If a level is not specified, proceed else filter the ones at or above the level
+              if((level < 1 || level == NaN) || (level >= 1 && cells[level_index] >= level)){
+                var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", rootDir).replace("__TEXT__", cells[0] + ` (${this.region})`));
+
+                for (var c in cells) {
+                  resultHtml += DF_Wiki.csvHtmlItem.replace("__HEADING__", headers[c]).replace("__CONTENT__", cells[c]);
+                }
+
+                resultHtml += DF_Wiki.csvHtmlEnd;
+
+                $("#msSearchResults .results").append(resultHtml);
               }
-
-              resultHtml += DF_Wiki.csvHtmlEnd;
-
-              $("#msSearchResults .results").append(resultHtml);
             }
           }
         }.bind({
@@ -132,6 +136,21 @@ function msSearch() {
     $(".loadable-loader .text").text(`Loading`);
   }
 
+  function progressReport(done, total, message){
+    $(".loadable-loader .text").text(`Loading [${done} / ${total}] (${message})`);
+  }
+
+  function loadMonsterQuestsIndex(data){
+    if (!data) {
+      console.log("No MQI");
+      return;
+    }
+
+    window.DF_Wiki.monsterQuestsIndex = data;
+    progressReport(1, 2, "Grabbing Files..");
+    setTimeout(hideLoading, 1000);
+  }
+
   function getAndBuildIndexData() {
     var targetRepo = {
       user: "sebastian-heinz",
@@ -139,10 +158,6 @@ function msSearch() {
       folder: "Arrowgene.Ddon.Shared/Files/Assets/quests",
       branch: "develop"
     };
-
-    function progressReport(done, total, message){
-      $(".loadable-loader .text").text(`Loading [${done} / ${total}] (${message})`);
-    }
 
     getFileContents("{{ '/game_content/assets/monsterIds.json' | relative_url }}", saveEnemyIds);
 
@@ -196,8 +211,6 @@ function msSearch() {
                 enemy.minimumIR = quest.minimum_item_rank;
                 enemy.order_conditions = quest.order_conditions;
 
-                
-
                 DF_Wiki.monsterQuestsIndex[enemy.name].push(enemy);
               }
             }
@@ -216,10 +229,17 @@ function msSearch() {
       hideLoading();
     });
   }
+  
+  function processIndexData(data) {
+    if (data) searchIndex = data;
+    else console.log("invalid index data: " + data);
+
+    progressReport(2, 2, "Grabbing Files..");
+  }
 
   function handleSearchSubmit(e){
     var searchVal = $("#msSearchKeyword").val();
-  
+    var level = Number($("#msSearchLevel").val());
     if (!searchVal.length) return;
 
     var searchResults = $("#msSearchResults");
@@ -230,16 +250,22 @@ function msSearch() {
     $("#msSearchResults .results").empty();
 
     //pullFilesAndSearch(searchVal, searchIndex[k], k, loading);
-    searchQuestsIndex(searchVal, Number($("#msSearchLevel").val()));
+    searchQuestsIndex(searchVal, level);
+    for (var k in searchIndex) {
+      pullFilesAndSearch(searchVal, searchIndex[k], k, loading, level, 1);
+    }
 
     setTimeout(function(loading){
       loading.addClass("hidden");
-    }, 3000, loading);
+    }, 1000, loading);
   }
 
   // We're gonna build index data instead
-  //getFileContents(location.pathname + "index_data.json", processIndexData);
-  getAndBuildIndexData();
+  //getAndBuildIndexData(); Uncomment to basically generate a new monsterQuestsIndex.json
+
+  progressReport(0, 2, "Grabbing Files..");
+  getFileContents("{{ '/game_content/assets/monsterQuestsIndex.json' | relative_url }}", loadMonsterQuestsIndex);
+  getFileContents(location.pathname + "index_data.json", processIndexData);
 
   $("#msSearchKeyword").on("input", function () {
     if ($(this).val().length == 0) $("#msSearchResults .results").empty();

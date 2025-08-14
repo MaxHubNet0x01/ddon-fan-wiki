@@ -1,9 +1,6 @@
 ---
 ---
 {
-  "Extreme Missions": "{{ '/game_content/spawns/extreme_missions/data.json' | relative_url }}",
-  "World Quests": "{{ '/game_content/spawns/world_quests/data.json' | relative_url }}",
-  "Shops": "{{ '/game_content/spawns/shops/data.json' | relative_url }}",
   "Hidell Plains": "{{ '/game_content/spawns/hidell_plains/data.json' | relative_url }}",
   "Breya Coast": "{{ '/game_content/spawns/breya_coast/data.json' | relative_url }}",
   "Mysree Forest": "{{ '/game_content/spawns/mysree_forest/data.json' | relative_url }}",
@@ -13,9 +10,12 @@
   "Deenan Woods": "{{ '/game_content/spawns/deenan_woods/data.json' | relative_url }}",
   "Betland Plains": "{{ '/game_content/spawns/betland_plains/data.json' | relative_url }}",
   "North Betland Plains": "{{ '/game_content/spawns/north_betland_plains/data.json' | relative_url }}",
-  "Western Zandora": "{{ '/game_content/spawns/western_zandora/data.json' | relative_url }}",
+  "Zandora Wastelands": "{{ '/game_content/spawns/zandora_wastelands/data.json' | relative_url }}",
   "Eastern Zandora": "{{ '/game_content/spawns/eastern_zandora/data.json' | relative_url }}",
   "Mergoda Ruins": "{{ '/game_content/spawns/mergoda_ruins/data.json' | relative_url }}",
   "Bloodbane Isle": "{{ '/game_content/spawns/bloodbane_isle/data.json' | relative_url }}",
-  "Phindym": "{{ '/game_content/spawns/phindym/data.json' | relative_url }}"
+  "Elan Water Grove": "{{ '/game_content/spawns/elan_water_grove/data.json' | relative_url }}",
+  "Fanara Plains": "{{ '/game_content/spawns/fanara_plains/data.json' | relative_url }}",
+  "Kingal Canyon": "{{ '/game_content/spawns/kingal_canyon/data.json' | relative_url }}",
+  "Morrow Forest": "{{ '/game_content/spawns/morrow_forest/data.json' | relative_url }}"
 }

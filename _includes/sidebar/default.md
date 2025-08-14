@@ -57,6 +57,7 @@
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="TGF Subs" href="/development/tgfsr" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="C# Enum to JSON" href="/development/csejson" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Swap JSON K/V" href="/development/sjkv" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Excel to CSV Gen" href="/development/etocsv" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 </nav>

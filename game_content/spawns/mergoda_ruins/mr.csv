@@ -1,33 +1,37 @@
-﻿Name,Item Rarity,From,Reachable From/Location
-Zandoratalis,IR10,Flower Spot (X43 205),Outside
-Baby Herb,IR1,Flower Spot (X43 205),Outside
-Drilled Ore,IR5,Mining Spot (X42 Y203),Outside
-Black Ore,IR10,Mining Spot (X42 Y203),Outside
-Zandoratalis,IR10,Flower Spot (X42 203),Outside
-Dragon Hide,IR8,Wyrm lvl 60,Outside
-Huge Dragon Bone Lump,IR12,Wyrm lvl 60,Outside
-Azure Dragonscale,IR12,Wyrm lvl 60,Outside
-Mysterious Gold Lump,IR4,Alchemized Wolf lvl 52,Outside
-Animal Pelt,IR1,Alchemized Wolf lvl 52,Outside
-Training Stakes,IR11,Alchemized Wolf lvl 52,Outside
-Fine Bleached Bone,IR3,Alchemized Skeleton lvl 53,Outside
-Mysterious Gold Lump,IR4,Alchemized Skeleton lvl 53,Outside
-Alchemite,IR12,Alchemy Eye lvl 55,Outside
-Drilled Ore,IR5,Alchemy Eye lvl 55,Outside
-Aliment Extractant,IR11,Mergan Hunter lvl 53,Outside
-Mergan Ring,IR11,Mergan Hunter lvl 53,Outside
-Harpy Pinion,IR2,Alchemized Harpy lvl 53,Outside
-Alchemic Wood,IR11,Wood Spot (X60 Y115),Outside
-Gold-Striped Wood,IR10,Wood Spot (X60 Y115),Outside
-Alchemite,IR12,Goliath lvl 56,Outside
-Alchemized Armor Plate,IR11,Goliath lvl 56,Outside
-Exquisite Metal Plate,IR11,Goliath lvl 56,Outside
-Gold Ingot,IR9,Gather Spot (X53 Y44),Alchemist's House lvl 51
-Alkahest,IR11,Chest (X53 Y47),Alchemist's House lvl 51
-Alkahest,?,TBU,Secret Proving Ground
-Aliment Extractant,?,TBU,Secret Proving Ground
-Ancient Grimoire,?,TBU,Secret Proving Ground
-Gleipnir,?,TBU,Secret Proving Ground
-Gold-Stained Animal Fur,35,TBU,Secret Proving Ground
-Glitter Mohair,35,Boss-chests,Secret Proving Ground
-Gold Stained Animal Fur,,x77y63,Mergoda Ruins Royal Palace 
+Monster,Level,Location,Area Level
+Crystal Eye,51, Alchemy Laboratory, 51
+Alchemised Goblin,50, Alchemy Laboratory, 51
+Mergan Healer,51, An Alchemist's Home, 51
+Mergan Element Archer,53, An Alchemist's Home, 51
+Crystal Eye,51, An Alchemist's Home, 51
+Alchemised Goblin,49, Mergodan Residence, 53
+Alchemised Goblin Fighter(3),49, Mergodan Residence, 53
+Alchemised Goblin Fighter(3),50, Mergodan Residence, 53
+Mergan Mage,55, Elixir Refining Chamber, 53
+Mergan Defender,53, Elixir Refining Chamber, 53
+Mergan Warrior,53, Elixir Refining Chamber, 53
+Mergan Hunter,53, Elixir Refining Chamber, 53
+Mergan Healer,53, Elixir Refining Chamber, 53
+Sling Goblin,52, Mergoda Ruins: Royal Palace Level, 52
+Silver Roar,52, Mergoda Ruins: Royal Palace Level, 52
+Clone Zuhl,60, Mergoda Ruins: Royal Palace Level, 52
+Alchemised Wolf,52, Mergoda Ruins: Royal Palace Level, 52
+Mergan Defender,54, Mergoda Ruins: Royal Palace Level, 52
+Mergan Warrior,53, Mergoda Ruins: Royal Palace Level, 52
+Mergan Mage,52, Mergoda Ruins: Royal Palace Level, 52
+Mergan Element Archer,52, Mergoda Ruins: Royal Palace Level, 52
+Skull Lord,52, Mergoda Ruins: Royal Palace Level, 52
+Ghost Mail,52, Mergoda Ruins: Royal Palace Level, 52
+Mergan Healer,68, Mergodan Residence(Royal Palace), 0
+Mergan Warrior,68, Mergodan Residence(Royal Palace), 0
+Mergan Element Archer,68, Mergodan Residence(Royal Palace), 0
+Goliath,68, Secret Proving Ground, 68
+Mergan Warrior,68, Secret Proving Ground, 68
+Mergan Healer,68, Secret Proving Ground, 68
+Mergan Element Archer,68, Secret Proving Ground, 68
+Mergan Fighter,68, Secret Proving Ground, 68
+Infected Gorecyclops,65, Secret Proving Ground, 68
+Bolt Skeleton,65, Secret Proving Ground, 68
+Alchemy Eye,68, Secret Proving Ground, 68
+Infected Hobgoblin,68, Secret Proving Ground, 68
+Frost Machina,68, Secret Proving Ground, 68

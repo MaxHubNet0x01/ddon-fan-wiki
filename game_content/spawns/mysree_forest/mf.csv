@@ -1,282 +1,106 @@
-﻿Name,Item Rarity,From,Reachable From/Location
-Small Fang,IR2,Wolf lv4,Outside
-Animal Fur,IR1,Wolf lv4,Outside
-Coarse Sand,IR2,Debrees Spot(across South Hidell Bridge),Outside
-White Seashell,IR2,Debrees Spot(across South Hidell Bridge),Outside
-Clear Insect Wing,IR1,Killer Bee lv4,Outside
-Wild Herb,IR3,Herb Spot,Outside
-Goblin Horn,IR3,Forest Goblin lv5,Outside
-Small Horn,IR1,Goblins lv5,Outside
-Beast-Steak,IR1,Local Fauna (Deer|Rabbits|etc),Outside
-Animal Fur,IR1,Local Fauna (Deer|Rabbits|etc),Outside
-Lead Ore,IR2,Chest(X208Y367),Outside
-Hard Wood,IR3,Logging Spots (X212Y368),Outside
-Brown Wood,IR2,Logging Spots (X212Y368),Outside
-Unrefined Demon Wine,IR4,HobGoblin Fighter lv5,Outside
-Green Seed,IR3,Herb Spot(near Goblin Village),Outside
-Animal Pelt,IR1,Local Fauna (Deer|Rabbits|etc),Outside
-Animal Bone,IR1,Local Fauna (Deer|Rabbits|etc),Outside
-Small Nut,IR2,Chest(X188Y372),Outside
-High Quality Gala Mushroom,IR7,Mushroom Spot,Outside
-Gala Mushroom,IR1,Mushroom Spot,Outside
-Recovery Decoction,IR3,Chest(X198Y365),Outside
-Lead Ore,IR2,Chest(X218Y368),Outside
-Hard Wood,IR3,Logging Spots (near Goblin Village),Outside
-Brown Wood,IR2,Logging Spots (near Goblin Village),Outside
-Ape Pelt,IR3,Brute Ape lv7,Outside
-Ape Fur,IR3,Brute Ape lv7,Outside
-Small Nut,IR2,Chest(X216Y391),Outside
-Oil Flask,IR1,Chest(X216Y391),Outside
-Blank Scroll,IR2,Chest(X223Y391),Outside
-Goblin's Leaf,IR4,Forest Goblin lv5,Outside
-Quality Gala Mushroom,IR2,Mushroom Spot(Pig-eaters den),Outside
-Throwing Knife(500DMG),IR7,Chest(Pig-Eaters den),Outside
-Rough Thread,IR3,Chest(Pig-Eaters den),Outside
-Saurian Tail,IR2,Saurian lv5-6,Outside
-Rock Scale,IR6,Saurian lv5-6,Outside
-Apophyllite,IR4,Saurian lv5-6,Outside
-Clear Water,IR2,Water Spot (River),Outside
-Silken Sand,IR3,Water Spot (River),Outside
-White Seashell,IR2,Debrees Spot(near Underground Waterway),Outside
-Giant Apophyllite,IR85,Saurian lv5-6,Outside
-Iron Ore,IR4,Rock Saurian lv6($),Outside
-Rock Scale,IR6,Rock Saurian lv6($),Outside
-Superior Saurian Tail,IR6,Rock Saurian lv6($),Outside
-Wild Herb,IR3,Mushroom Spot,Outside
-Wild Herb,IR3,Herb Spot(X244Y402),Outside
-Purple Anise,IR3,Herb Spot(X244Y402),Outside
-Hard Wood,IR3,Logging Spot(X244Y402),Outside
-Brown Wood,IR2,Logging Spot(X244Y402),Outside
-Filament,IR2,Chest(behind the large tree(X244Y402)),Outside
-Giant Bone,IR3,Cyclops lv7(400XP)(X246Y395),Outside
-Cyclops Tusk,IR5,Cyclops lv7(400XP)(X246Y395),Outside
-Purple Anise,IR3,Herb Spot(Top of tree X241Y385),Outside
-Green Seed,IR3,Herb Spot(Top of tree X241Y385),Outside
-Spider Thread,IR1,Chest(X249Y391),Outside
-Monster Gallstone,IR4,Crate(X249Y385),Outside
-Spider Thread,IR1,Crate(X249Y385),Outside
-Large Fang,IR5,Direwolf lv15(Pack at X253Y393),Outside
-Strong Animal Leather,IR5,Direwolf lv15(Pack at X253Y393),Outside
-Beast Leather,IR9,Crates(East Mysree-Volden road),Outside
-Superior Healing Potion,IR3,Crates(East Mysree-Volden road),Outside
-Ape Fur,IR3,Dread Ape lv25(3000XP)(X196Y406),Outside
-Large Simian Thick Pelt,IR4,Dread Ape lv25(3000XP)(X196Y406),Outside
-Small Nut,IR2,Chest(X196Y406),Outside
-Oil Flask,IR2,Chest(X196Y406),Outside
-Green Seed,IR3,Herb Spot(Top of TreeX218Y423),Outside
-White Liquor,IR5,Rogue Vocations lv6,Outside
-Iron Ore,IR4,Locked Chest(X226Y427),Outside
-Iron Ore Fragment,IR3,Locked Chest(X226Y427),Outside
-Green Seed,IR3,Herb Spot(Topf of TreeX220Y426),Outside
-Spider Thread,IR1,Spider(in front of Ancient Burial Mound),Outside
-Spider Mesh,IR45,Spider(in front of Ancient Burial Mound),Outside
-Beast Leather,IR9,Crates(in front of Ancient Burial Mound),Outside
-Crooked Fang,IR4,Crates(in front of Ancient Burial Mound),Outside
-Iron Ore Fragment,IR3,Chest(in front of Ancient Burial Mound),Outside
-Small Horn,IR1,Goblin lv 32-33,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Goblin Horn,IR3,Goblin lv 32-33,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Water Flask,IR1,Goblin lv 32-33,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Clear Water,IR2,Water Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-LizardScale Pelt,IR2,Saurian lv31-32,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Saurian Tail,IR2,Saurian lv31-32,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Iron Ore,IR4,Rock Saurian lv34,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Rock Scale,IR6,Rock Saurian lv34,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Superior Saurian Tail,IR6,Rock Saurian lv34,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-High Quality Gala Mushroom,IR7,Mushroom Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Coconut-Scented Milkcap,IR6,Mushroom Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Gala Mushroom,IR1,Mushroom Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Insect Venom,IR1,Worm lv1,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Sprite's Amulet(MDEF UP),IR5,Chest(near worms),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Throwing Knife(500DMG),IR7,Locked Chest(X60Y-53),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Superior Gala Extract,IR3,Locked Chest(X60Y-53),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Ogre Claw,IR6,Ogre lv35(5600XP),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Ogre Fur,IR6,Ogre lv35(5600XP),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Onyx,IR6,Green Mining Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Throwing Rock(150dmg),IR4,Green Mining Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Agate,IR7,Green Mining Spot,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Clear Insect Wing,IR1,Killer Bee lv30,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Insect Venom,IR1,Killer Bee lv30,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Throwing Skull(350dmg),IR5,Locked Chest(X40Y-86),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Healing Elixir,IR5,Chest,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-High Quality Gala Mushroom,IR7,Chest,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Throwing Knife(500DMG),IR7,Locked Chest(X75Y-102),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Healing Elixir,IR5,Locked Chest(X45Y-108),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-High Quality Wood,IR6,Locked Chest(X45Y-108),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Strong Acid Slime Piece,IR7,Aqua Jelly lv32,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Apophyllite,IR4,Saurian lv31-32,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Supple Fur,IR2,Wolf lv35,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Small Fang,IR2,Wolf lv35,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Animal Fur,IR1,Wolf lv35,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Bird Feather,IR1,Harpy lv35,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Harpy Flight Feather,IR6,Harpy lv35,MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Griffin Beak,IR6,Griffin lv36(6000XP),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Griffin Feather,IR6,Griffin lv36(6000XP),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Ambrosial Beast-Steak,IR8,Griffin lv36(6000XP),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Silver Ore,IR7,Mining Spot (Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Hematite,IR6,Mining Spot (Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Phantom Ore,IR7,locked Chest(Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Spiral Shell Earrings,IR5/LV21,Locked Chest(Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Interventive,IR4,Locked Chest(Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Strong Thread,IR8,Locked Chest(Griffin cave),MYSREE LIMESTONE CAVE LV32 X:227 Y:360
-Magick Medal,IR7,Chest,OLD WATERHOLE IN LYNWOOD X:206 Y:377
-Consumable(?),IRX,Chest,OLD WATERHOLE IN LYNWOOD X:206 Y:377
-Purple Anise,IR3,Herb Spot,OLD WATERHOLE IN LYNWOOD X:206 Y:377
-Slime Liquid,IR1,Slime lv25,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Strong Viscous Liquid,IR4,Slime lv25,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Blank Scroll,IR2,Tables,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Stagnant Shroom,IR3,Mushroom Spot,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Unrefined Demon Wine,IR4,Chest(Right side room),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Superior healing Potion,IR3,Chest(Right side room),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Undead Carrion,IR1,Stout Undead lv20,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Rotten Lump,IR3,Stout Undead lv20,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Giant Bone,IR3,Cyclops lv 25(3000XP),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Rugged Leather,IR5,Cyclops lv 25(3000XP),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Cyclops Tusk,IR5,Cyclops lv 25(3000XP),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Red Liquor,IR4,Chest(behind thiefs key door),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Small Thief's Key,IR4,Chest(behind thiefs key door),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Bird Feather,IR1,Crate(in cell),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Beast-Steak,IR1,Crate(in cell),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Sinister Carrion,IR9,Warrior undead lv20-23,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Rotten Lump,IR3,Warrior undead lv20-23,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Undead Carrion,IR1,Undead lv20-22,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Burial Shroud,IR2,Undead lv20-22,LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Scroll of Protection,IR4,Tables(X69Y-56),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Unrefined Demon Wine,IR4,Chest(X69Y-56),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Superior healing Potion,IR3,Chest(X69Y-56),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Iron Ore,IR4,Mining Spots (X63Y-59),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Iron Ore Fragment,IR3,Mining Spots (X63Y-59),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Amethyst,IR3,Locked Box(X43Y-58),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Bird Feather,IR1,Crates(Behind Thief's key door),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Beast-Steak,IR1,Crates(Behind Thief's key door),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Red Liquor,IR4,Locked Chest(In poison pool|very end),LYNWOOD UNDERGROUND WATERWAY LV20 X:225 Y:383
-Lizardscale Pelt,IR2,Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Saurian Tail,IR2,Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Apophyllite,IR4,Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Iron Ore,IR4,Mining Spot,DEMON'S DEN LV16 X:233 Y:403
-Iron Ore Fragment,IR3,Mining Spot,DEMON'S DEN LV16 X:233 Y:403
-Lizardscale Pelt,IR2,Giant Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Saurian Tail,IR2,Giant Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Apophyllite,IR4,Giant Saurian lv16,DEMON'S DEN LV16 X:233 Y:403
-Mutated Bone Lump,IR7,Chimera lv20(3000XP),DEMON'S DEN LV16 X:233 Y:403
-Strong Lizardscale Pelt,IR6,Chimera lv20(3000XP),DEMON'S DEN LV16 X:233 Y:403
-Supple Fur,IR2,Bonepiles(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Animal Pelt,IR1,Bonepiles(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Fine Bleached Bone,IR3,Bonepiles(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Superior Healing Potion,IR3,Locked Chest(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Monster Gallstone,IR4,Locked Chest(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Walker Tights★,IR3/LV14,Locked Chest(Chimera room),DEMON'S DEN LV16 X:233 Y:403
-Harpy Pinion,IR2,Harpy lv20,ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Giant Bone,IR3,Cyclops lv21 (2700XP),ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Cyclops Tusk,IR5,Cyclops lv21 (2700XP),ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Large Metal Plate,IR5,Armored Cyclops lv22 (3000XP),ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Giant Bone,IR3,Armored Cyclops lv22 (3000XP),ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Cyclops Tusk,IR5,Armored Cyclops lv22 (3000XP),ANCIENT PLACE OF RITUALS LV18 X:237 Y:379
-Undead Carrion,IR1,Lost Pawn lv70,ANCIENT BURIAL MOUND LV70 X:223 Y:414
-Burial Shroud,IR2,Lost Pawn lv70,ANCIENT BURIAL MOUND LV70 X:223 Y:414
-Undead Extract,IR6,Lost Pawn lv70,ANCIENT BURIAL MOUND LV70 X:223 Y:414
-Copper Ore,IR2,Skeleton lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Dry Bone,IR2,Skeleton lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Fine Bleached Bone,IR3,Skeleton lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Fine Bleached Bone,IR3,Skeleton Brute lv67,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Protective Cloth,IR8,Locked Chest(X37Y-224),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Marbled Beast-Steak,IR7,Locked Chest(X37Y-224),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Marbled Beast-Steak,IR7,Locked Chest(X67Y-231),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Ambrosial Beast-Steak,IR8,Locked Chest(X67Y-231),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Magick-Tinged Bone,IR5,Skeleton Sorcerer lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Fine Bleached Bone,IR3,Skeleton Warrior lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Bone Meal,IR10,Skeleton Warrior lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Protective Cloth,IR8,Locked Chest(X71Y-216),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Marbled Beast-Steak,IR7,Locked Chest(X71Y-216),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Dry Bone,IR2,Skeleton Warg lv 66,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Sinister Black Cloth,IR9,Death Knight lv72(65000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Spirit Crystal,IR12,Death Knight lv72(65000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Ancient Knight's Emblem,IR12,Death Knight lv72(65000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Ancient Knight's Letter (High End Gear Mat),IR60,Death Knight lv72(65000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Ancient Knight's Scripture (High End Gear Mat),IR60,Death Knight lv72(65000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Throwing skull(350dmg),IR5,Chest(X58Y-231),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Dry Bone,IR2,Chest(X58Y-231),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Thick Bone,IR9,Chest(X58Y-231),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Ruby,IR8,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Agate,IR7,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Magickal Potion,IR9,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Sinister Black Cloth,IR9,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Droplets of Ruin (High End Gear Mat),IR45,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Abyssal Ice of Chaos (High End Gear Mat),IR11,Vigilant Witch lv65(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Phantom Ore,IR7,Ghost lv65,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Black Skull,IR6,Wight lv70(45000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Magick-Tinged Bone,IR5,Wight lv70(45000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Witch's Grimoire,IR11,Empress Ghost lv70(45000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Topaz Pendant,IR8/LV36,Empress Ghost lv70(45000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Smoky Quartz,IR11,Empress Ghost lv70(45000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Fine Bleached Bone,IR3,Frost Skeleton v70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Undead Nail Shaving,IR85,Frost Skeleton v70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Scroll of Ice,IR5,Frost Skeleton v70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Fine Bleached Bone,IR3,Dark Skeleton lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Scroll of Darkness,IR6,Dark Skeleton lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-KEY OF JEWELRY (High End Gear Mat),IR30,Locked Chest(end of area),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Orb of Darkness,IR3,Locked Chest(end of area),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF IMMORTALITY LV70 X:46 Y:-16
-Broken Dagger,IR7,Shadow Goblin leader lv71,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Cracked Black Horn,IR10,Shadow Goblin leader lv71,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Demonic Gem,IR10,Shadow Goblin leader lv71,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Cracked Black Horn,IR10,Shadow Goblin lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Demonic Gem,IR10,Shadow Goblin lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Sand of Reminiscence,IR12,Shadow Goblin lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Magick-Tinged Bone,IR5,Skeleton Mage lv64,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Blank Scroll,IR2,Skeleton Mage lv64,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Magick-Tinged Bone,IR5,Skeleton Sorcerer lv62,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Black Skull,IR9,Skeleton Lord(Abyss)lv 68(35000XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Bone Meal,IR10,Skeleton Warrior lv64,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Rusted Plate,IR6,Skeleton Warrior lv64,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Dragon Spirits,IR10,Locked Chest(Skeleton Lord room),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Marbled Beast-Steak,IR7,Locked Chest(Skeleton Lord room),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Undead Nail Shaving,IR85,Dark Skeleton lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Fine Bleached Bone,IR3,Dark Skeleton lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Scroll of Darkness,IR6,Dark Skeleton lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Insect Venom,IR1,Worm lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-1600G,IRX,Chest(X38Y-134),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Magick-Tinged Bone,IR5,Skeleton Mage lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Blank Scroll,IR2,Skeleton Mage lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Dry Bone,IR2,Skeleton Mage lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Bone Meal,IR10,Skeleton Warrior lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Rusted Plate,IR6,Skeleton Warrior lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Fine Bleached Bone,IR3,Skeleton Warrior lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Scroll of Magickal Protection,IR4,Locked Chest(X57Y-159),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Demonic Gem,IR10,Shadow Harpy lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Sand of Reminiscence,IR12,Shadow Harpy lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Harpy Flight Feather,IR6,Shadow Harpy lv70,ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Supple Fur,IR2,Manticore lv72(82500XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Giant Tough Pelt,IR8,Manticore lv72(82500XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Manticore's Scorpion Tail,IR35,Manticore lv72(82500XP),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-1890G,IRX,Locked Chest(end of area),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Scroll of Magickal Protection,IR4,Locked Chest(end of area),ANCIENT BURIAL MOUND >>> ANCIENT BURIAL MOUND: CHAMBER OF HUNTING LV70 X:55 Y:-16
-Peridot,IR4,Mining Spot Purple(X40Y49),GLOWWORM CAVE LV17 X:192 Y:415
-Spinel,IR4,Mining Spot Purple(X40Y49),GLOWWORM CAVE LV17 X:192 Y:415
-Scroll of Magickal Protection,IR4,Locked Chest(X43Y47),GLOWWORM CAVE LV17 X:192 Y:415
-Rough Thread,IR3,Locked Chest(X43Y47),GLOWWORM CAVE LV17 X:192 Y:415
-Ape Fur,IR3,Brute Ape lv17,GLOWWORM CAVE LV17 X:192 Y:415
-Insect Venom,IR1,Worm lv1,GLOWWORM CAVE LV17 X:192 Y:415
-Angelica,IR4,Herb Spot(X31Y54),GLOWWORM CAVE LV17 X:192 Y:415
-Green Seed,IR3,Herb Spot(X31Y54),GLOWWORM CAVE LV17 X:192 Y:415
-Ape Pelt,IR3,Brute Ape lv17,GLOWWORM CAVE LV17 X:192 Y:415
-LizardScale Pelt,IR2,Saurian lv20,GLOWWORM CAVE LV17 X:192 Y:415
-Saurian Tail,IR2,Saurian lv20,GLOWWORM CAVE LV17 X:192 Y:415
-Apophyllite,IR4,Saurian lv20,GLOWWORM CAVE LV17 X:192 Y:415
-Giant Fur,IR4,Mole Troll lv 25(3000XP),GLOWWORM CAVE LV17 X:192 Y:415
-Thick Bone,IR9,Mole Troll lv 25(3000XP),GLOWWORM CAVE LV17 X:192 Y:415
-Clear Spring Water,IR3,Water Spot(Troll room),GLOWWORM CAVE LV17 X:192 Y:415
-Iron Ore,IR4,Shiny Spot near the ledge(Troll Room),GLOWWORM CAVE LV17 X:192 Y:415
-Forest Dwellers' Old Key,IR8,Locked Chest(Troll Room),GLOWWORM CAVE LV17 X:192 Y:415
-Glowworms,IR4,Worm lv1,GLOWWORM CAVE LV17 X:192 Y:415
-Scroll of Magickal Protection,IR4,Locked Chest(X54Y77),GLOWWORM CAVE LV17 X:192 Y:415
-Rough Thread,IR3,Locked Chest(X54Y77),GLOWWORM CAVE LV17 X:192 Y:415
-Beautiful Conch Shell,IR5,Shiny Spot(next to Locked chest room),GLOWWORM CAVE LV17 X:192 Y:415
-Dull Iron Ingot,IR3,Locked Chest(X62Y78),GLOWWORM CAVE LV17 X:192 Y:415
-Glowworms,IR4,Locked Chest(X62Y78),GLOWWORM CAVE LV17 X:192 Y:415
-Angelica,IR4,Herb Spot(X42Y61),GLOWWORM CAVE LV17 X:192 Y:415
-Green Seed,IR3,Herb Spot(X42Y61),GLOWWORM CAVE LV17 X:192 Y:415
-Peridot,IR4,Mining Spot Purple(X31Y46dropdown hole),GLOWWORM CAVE LV17 X:192 Y:415
-Spinel,IR4,Mining Spot Purple(X31Y46dropdown hole),GLOWWORM CAVE LV17 X:192 Y:415
-Glowworms,IR4,Herb Spot(drop down further),GLOWWORM CAVE LV17 X:192 Y:415
-Angelica,IR4,Herb Spot(drop down further),GLOWWORM CAVE LV17 X:192 Y:415
-Green Seed,IR3,Herb Spot(drop down further),GLOWWORM CAVE LV17 X:192 Y:415
-Crystal,,X32/Y-5 ?       80% Dropchance,GLOWWORM CAVE LV17 X:192 Y:415
+Monster,Level,Location,Area Level
+Saurian(2),18, Lynwood Underground Waterway, 20
+Saurian(2),19, Lynwood Underground Waterway, 20
+Giant Saurian,18, Lynwood Underground Waterway, 20
+Skeleton Mage(5),18, Lynwood Underground Waterway, 20
+Skeleton Mage(5),19, Lynwood Underground Waterway, 20
+Skeleton Mage(5),20, Lynwood Underground Waterway, 20
+Brute Ape,20, Lynwood Underground Waterway, 20
+Worm,18, Lynwood Underground Waterway, 20
+Deep Slime,20, Lynwood Underground Waterway, 20
+Dread Ape,22, Lynwood Underground Waterway, 20
+Sulfur Saurian(8),21, Lynwood Underground Waterway, 20
+Sulfur Saurian(8),23, Lynwood Underground Waterway, 20
+Worm(2) ★Daytime,18, Lynwood Underground Waterway, 20
+Worm(2) ★Daytime,20, Lynwood Underground Waterway, 20
+Giant Sulfur Saurian ★Nighttime,25, Lynwood Underground Waterway, 20
+Skeleton Knight,15, Demon's Den, 16
+Skeleton(2),14, Demon's Den, 16
+Skeleton(2),15, Demon's Den, 16
+Skeleton Mage,16, Demon's Den, 16
+Wolf,16, Demon's Den, 16
+Mudman,16, Demon's Den, 16
+Troll,18, Demon's Den, 16
+Troll,31, Glowworm Cave, 17
+Brute Ape(8),15, Glowworm Cave, 17
+Brute Ape(8),16, Glowworm Cave, 17
+Brute Ape(8),17, Glowworm Cave, 17
+Forest Goblin,16, Glowworm Cave, 17
+Sling Forest Goblin,18, Glowworm Cave, 17
+Worm,1, Glowworm Cave, 17
+Troll,34, Mysree Limestone Cave, 32
+Slime(7),29, Mysree Limestone Cave, 32
+Slime(7),32, Mysree Limestone Cave, 32
+Mudman(7),30, Mysree Limestone Cave, 32
+Mudman(7),32, Mysree Limestone Cave, 32
+Sling Forest Goblin(3),30, Mysree Limestone Cave, 32
+Sling Forest Goblin(3),31, Mysree Limestone Cave, 32
+Sling Forest Goblin(3),32, Mysree Limestone Cave, 32
+Giant Saurian,32, Mysree Limestone Cave, 32
+Deep Slime,30, Mysree Limestone Cave, 32
+Skeleton Sorcerer(3),10, Mysree Limestone Cave, 32
+Skeleton Sorcerer(3),32, Mysree Limestone Cave, 32
+Skeleton Mage,10, Mysree Limestone Cave, 32
+Forest Goblin(2),30, Mysree Limestone Cave, 32
+Forest Goblin(2),31, Mysree Limestone Cave, 32
+Forest Goblin Fighter,32, Mysree Limestone Cave, 32
+Troll,35, Mysree Limestone Cave, 32
+Leech,28, Mysree Limestone Cave, 32
+Harpy,35, Mysree Limestone Cave, 32
+Chimera,32, Mysree Limestone Cave, 32
+Mudman ★Daytime,30, Mysree Limestone Cave, 32
+Skeleton(2),65, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton(2),66, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton Brute(3),66, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton Brute(3),67, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton Sorcerer,65, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton Warrior,65, Ancient Burial Mound > Chamber of Immortality, 70
+Skeleton Warg,66, Ancient Burial Mound > Chamber of Immortality, 70
+Death Knight,72, Ancient Burial Mound > Chamber of Immortality, 70
+Ghost,65, Ancient Burial Mound > Chamber of Immortality, 70
+Grudge Ghost,65, Ancient Burial Mound > Chamber of Immortality, 70
+Rage Ghost,65, Ancient Burial Mound > Chamber of Immortality, 70
+Empress Ghost(2),65, Ancient Burial Mound > Chamber of Immortality, 70
+Empress Ghost(2),70, Ancient Burial Mound > Chamber of Immortality, 70
+Wight,70, Ancient Burial Mound > Chamber of Immortality, 70
+Frosted Skeleton,70, Ancient Burial Mound > Chamber of Immortality, 70
+Dark Skeleton,70, Ancient Burial Mound > Chamber of Immortality, 70
+Undead,70, Ancient Burial Mound > Chamber of Immortality, 70
+Eliminator,70, Ancient Burial Mound > Chamber of Immortality, 70
+Cursed Dragon,74, Ancient Burial Mound > Chamber of Immortality, 70
+Shadow Goblin Fighter,70, Ancient Burial Mound > Chamber of Hunting, 70
+Shadow Sling Goblin,70, Ancient Burial Mound > Chamber of Hunting, 70
+Shadow Goblin Leader,75, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Mage(3),62, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Mage(3),70, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Sorcerer,63, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Warrior(2),64, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Warrior(2),70, Ancient Burial Mound > Chamber of Hunting, 70
+Skeleton Lord Abyss,67, Ancient Burial Mound > Chamber of Hunting, 70
+Dark Skeleton,70, Ancient Burial Mound > Chamber of Hunting, 70
+Dark Skeleton Brute,70, Ancient Burial Mound > Chamber of Hunting, 70
+Worm,70, Ancient Burial Mound > Chamber of Hunting, 70
+Maneater,70, Ancient Burial Mound > Chamber of Hunting, 70
+Shadow Harpy,70, Ancient Burial Mound > Chamber of Hunting, 70
+Manticore,72, Ancient Burial Mound > Chamber of Hunting, 70
+Undead(4),65, The Rift's Inner Depths, 65
+Undead(4),66, The Rift's Inner Depths, 65
+Ghost(3),66, The Rift's Inner Depths, 65
+Ghost(3),67, The Rift's Inner Depths, 65
+Skeleton Mage,65, The Rift's Inner Depths, 65
+Skeleton Warrior,65, The Rift's Inner Depths, 65
+Ghost Mail,68, The Rift's Inner Depths, 65
+Mist Warrior,65, The Rift's Inner Depths, 65
+Mist Priest,65, The Rift's Inner Depths, 65
+Undead(6),63, The Rift's Inner Depths > Left Pool, 0
+Undead(6),64, The Rift's Inner Depths > Left Pool, 0
+Undead(6),65, The Rift's Inner Depths > Left Pool, 0
+Stout Undead,65, The Rift's Inner Depths > Left Pool, 0
+Sword Undead,65, The Rift's Inner Depths > Left Pool, 0
+Mist Warrior,65, The Rift's Inner Depths > Left Pool, 0
+Mist Fighter,65, The Rift's Inner Depths > Left Pool, 0
+Mist Wyrm,65, The Rift's Inner Depths > Left Pool, 0
+Undead(10),63, The Rift's Inner Depths > Right Pool, 0
+Undead(10),65, The Rift's Inner Depths > Right Pool, 0
+Undead(10),66, The Rift's Inner Depths > Right Pool, 0
+Warrior Undead,65, The Rift's Inner Depths > Right Pool, 0

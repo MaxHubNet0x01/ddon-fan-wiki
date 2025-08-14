@@ -1,240 +1,92 @@
-﻿Name,Item Rarity,From,Reachable From/Location
-Beast Fur,IR8,Grimwarg,Outside
-Beast Claw,IR8,Grimwarg,Outside
-Orc Tusk,IR3,Orc,Outside
-Unrefined Demon Wine,IR4,Orc,Outside
-Orcish Cloth,IR7,Orc,Outside
-Orc Decoration,IR9,Orc,Outside
-Amethyst,IR3,Gather Spot,Outside
-Clear Spring Water,IR3,Gather Spot,Outside
-Beautiful Conch Shell,IR5,Gather Spot,Outside
-Crooker Fang,IR4,Dread Ape,Outside
-Ape Fur,IR3,Dread Ape,Outside
-Necrophagous Bristle,IR7,Dread Ape,Outside
-Lizardscale Pelt,IR2,Saurian,Outside
-Saurian Tail,IR2,Saurian,Outside
-Apophyllite,IR4,Saurian,Outside
-Purple Anise,IR3,Gather Spot,Outside
-Baby Herb,IR1,Gather Spot,Outside
-Thin Wood,IR1,Gather Spot,Outside
-Pine Lumber,IR6,Gather Spot,Outside
-Lestania Herb,IR2,Gather Spot,Outside
-Red Sage,IR6,Gather Spot,Outside
-Rosewood,IR8,Gather Spot,Outside
-Linen,IR3,Gather Spot,Outside
-Griffin Beak,IR6,Black Griffin/ North of gritten Fort Portcrystal,Outside
-Griffin Feather,IR6,Black Griffin/ North of gritten Fort Portcrystal,Outside
-Ambrosial Beast-Steak,IR8,Black Griffin/ North of gritten Fort Portcrystal,Outside
-Moist Black Leather,IR10,Black Griffin/ North of gritten Fort Portcrystal,Outside
-Glossy Black Feather,IR120,Black Griffin/ North of gritten Fort Portcrystal,Outside
-Brown Wood,IR2,Gather Spot,Outside
-Animal Bone,IR1,Boar,Outside
-Beast-Steak,IR1,Boar,Outside
-Large Beast-Steak,IR5,Boar,Outside
-Thick Dragonscales,?,Gathering Spot (X262 Y167),Outside
-Rugged Leather,IR5,Armored Cyclops,Outside
-Giant Bone,IR3,Armored Cyclops,Outside
-Large Metal Plate,IR5,Armored Cyclops,Outside
-Cyclops Tusk,IR5,Armored Cyclops,Outside
-Smooth Leather,IR7,Large Newt lvl 36,Outside
-Apophyllite,IR4,Large Newt lvl 36,Outside
-Superior Saurian Tail,IR6,Large Newt lvl 36,Outside
-Northern Oregano,IR8,Chest (X275 Y158),Outside
-Dragon Hide,IR8,Water Dragon of Cellar Lake lvl 45,Outside
-Water Dragon Fang,IR8,Water Dragon of Cellar Lake lvl 45,Outside
-Rose Wood,IR8,Wood Spot (X254 Y150),Outside
-Black Wood,IR9,Wood Spot (X254 Y150),Outside
-Rose Wood,IR8,Wood Spot (X253 Y152),Outside
-Hard Wood,IR3,Wood Spot (X253 Y152),Outside
-Goblin Horn,IR3,Goblin,Knights' Old Route
-Small Horn,IR1,Goblin,Knights' Old Route
-Strong Viscous Liquid,IR4,Blob,Knights' Old Route
-Blob Flesh,IR9,Blob,Knights' Old Route
-Giant Bone,IR3,Cyclops,Knights' Old Route
-Cyclops Tusk,IR5,Cyclops,Knights' Old Route
-Onyx,IR6,Chest,Knights' Old Route
-Large Beast-Steak,IR5,Chest,Knights' Old Route
-Mentor's Ring,IR8,Small Thief's Key,Knights' Old Route
-Blue Alluvial Gold,IR6,Gather Spot,Knights' Old Route
-White Seashell,IR2,Gather Spot (X44 Y50),Dry Underground Stores lvl 38
-Small Goblin Horn,IR1,Goblin lvl 38,Dry Underground Stores lvl 38
-Goblin Horn,IR3,Goblin lvl 38,Dry Underground Stores lvl 38
-Unrefined Demon Wine,IR4,Goblin Leader lvl 41,Dry Underground Stores lvl 38
-Sharp Claw,IR7,Silver Roar lvl 40,Dry Underground Stores lvl 38
-Silver Bristle ,IR9,Silver Roar lvl 40,Dry Underground Stores lvl 38
-Smooth Leather,IR7,Gather Spot,Dry Underground Stores lvl 38
-White Seashell,IR2,Gather Spot (X58 Y44),Dry Underground Stores lvl 38
-Strong Animal Leather,IR5,Gather Spot (X45 Y43),Dry Underground Stores lvl 38
-Smooth Leather,IR7,Gather Spot (X44 Y46),Dry Underground Stores lvl 38
-Strong Animal Leather,IR5,Gather Spot (X44 Y46),Dry Underground Stores lvl 38
-Burial Shroud,IR2,Undead lvl 40,Betland Cemetery lvl 40
-Undead Extract,IR6,Undead lvl 40,Betland Cemetery lvl 40
-Undead Carrion,IR1,Stout Undead lvl 40,Betland Cemetery lvl 40
-Rotten Lump,IR3,Stout Undead lvl 40,Betland Cemetery lvl 40
-Fine Bleached Bone,IR3,Skeleton Knight lvl 40,Betland Cemetery lvl 40
-Rusted Plate,IR6,Skeleton Knight lvl 40,Betland Cemetery lvl 40
-Iron Ore Fragment,IR3,Skeleton Knight lvl 40,Betland Cemetery lvl 40
-Exquisite Metal Plate,IR11,Skeleton Lord (Abyss) lvl 42,Betland Cemetery lvl 40
-Phantom Ore,IR7,Living Armour lvl 41,Betland Cemetery lvl 40
-Demon Arming Points,IR11,Living Armour lvl 41,Betland Cemetery lvl 40
-Magick-Tinged Bone,IR5,Skeleton Sorceror lvl 43,Betland Cemetery lvl 40
-Blank  Scroll,IR2,Skeleton Sorceror lvl 43,Betland Cemetery lvl 40
-Ancient Grimoire ,IR7,Skeleton Sorceror lvl 43,Betland Cemetery lvl 40
-Healing Drop,IR7,Chest,Betland Cemetery lvl 40
-Demon Thread,IR7,Chest,Betland Cemetery lvl 40
-Marbled Beast-Steak,IR7,Eliminator lvl 42,Betland Cemetery lvl 40
-Ruby,IR8,Chest,Betland Cemetery lvl 40
-Scroll of Protection,IR4,Chest (X35 Y-74),Betland Cemetery lvl 40
-Energy Liquid,IR8,Chest (X35 Y-74),Betland Cemetery lvl 40
-Dragon Bone,IR8,Cursed Dragon,Betland Cemetery lvl 40
-Orb of Darkness,IR3,Cursed Dragon,Betland Cemetery lvl 40
-Scroll of Darkness,IR6,Cursed Dragon,Betland Cemetery lvl 40
-Dragon Beard,IR30,Cursed Dragon,Betland Cemetery lvl 40
-Blessed Long Dragon Beard,IR30,Cursed Dragon,Betland Cemetery lvl 40
-Animal Pelt,IR1,Alchemized Wolf lvl 46,The Second Ark lvl 46
-Mysterious Gold Lump,IR4,Alchemized Wolf lvl 46,The Second Ark lvl 46
-Harpy Pinion,IR2,Alchemized Harpy lvl 46,The Second Ark lvl 46
-Bone Meal,IR10,Alchemized Skeleton lvl 46,The Second Ark lvl 46
-Fine Bleached Bone,IR3,Alchemized Skeleton lvl 46,The Second Ark lvl 46
-Alchemized Armor Plate,IR11,Goliath lvl 55,The Second Ark lvl 46
-Exquisite Metal Plate,IR11,Goliath lvl 55,The Second Ark lvl 46
-Mysterious Gold Lump,IR4,Alchemized Goblin lvl 46,The Second Ark lvl 46
-Goblin Horn,IR3,Alchemized Goblin lvl 46,The Second Ark lvl 46
-Alchemic Wood,IR11,Gather Spot (X85 Y-58),The Second Ark lvl 46
-Gold Ingot,IR9,Gather Spot (X85 Y-58),The Second Ark lvl 46
-Black Ore,IR10,Chest (X50 Y86),The Second Ark lvl 46
-Dirty Sheet Metal,IR10,Damned Golem,The Second Ark lvl 46
-Orc's War Tusk,IR7,Orc Trooper lvl 39,Lakeside Cellar lvl 39
-Orc Decoration,IR9,Orc Trooper lvl 39,Lakeside Cellar lvl 39
-Orc Tusk,IR3,Orc Bringer lvl 38,Lakeside Cellar lvl 39
-Unrefined Demon Wine,IR4,Orc Bringer lvl 38,Lakeside Cellar lvl 39
-Beast Claw,IR8,Grimwarg lvl 38,Lakeside Cellar lvl 39
-Beast Fur,IR8,Grimwarg lvl 38,Lakeside Cellar lvl 39
-Orc Tusk,IR3,Orc Aimer lvl 38,Lakeside Cellar lvl 39
-Unrefined Demon Wine,IR4,Orc Aimer lvl 38,Lakeside Cellar lvl 39
-Orcish Cloth,IR7,Orc Soldier lvl 38,Lakeside Cellar lvl 39
-Unrefined Demon Wine,IR4,Orc Soldier lvl 38,Lakeside Cellar lvl 39
-Smooth Leather,IR7,Gather Spot (X52 Y-26),Lakeside Cellar lvl 39
-Goblin Horn,IR3,Gather Spot (X52 Y-26),Lakeside Cellar lvl 39
-Smooth Leather,IR7,Blue Newt lvl 38,Temple of Purification
-Blue Alluvial Gold,IR6,Blue Newt lvl 38,Temple of Purification
-Superior Saurian Tail,IR6,Blue Newt lvl 38,Temple of Purification
-Strong Viscous Liquid,IR4,Ooze lvl 40,Temple of Purification
-Clear Spring Water,IR3,Water Spot (X47 Y132),Temple of Purification
-Clear Water,IR2,Water Spot (X47 Y132),Temple of Purification
-Copper Ore,IR2,Skeleton lvl 35,Temple of Purification
-Dry Bone,IR2,Skeleton lvl 35,Temple of Purification
-Fine Bleached Bone,IR3,Skeleton lvl 35,Temple of Purification
-Blue Alluvial Gold,IR6,Chest (X12 Y137),Temple of Purification
-Blank Scroll,IR2,Skeleton Mage lvl 36,Temple of Purification
-Magick-Tinged Bone,IR5,Skeleton Mage lvl 36,Temple of Purification
-Dry Bone,IR2,Skeleton Mage lvl 36,Temple of Purification
-Clear Spring Water,IR3,Water Spot (X25 Y123),Temple of Purification
-Clear Water,IR2,Water Spot (X25 Y123),Temple of Purification
-Strong Acid Slime Piece,IR7,Glutton Ooze lvl 40,Temple of Purification
-Strong Acid Slime Piece,IR7,Ooze lvl 40,Temple of Purification
-Strong Viscous Liquid,IR4,Ooze lvl 40,Temple of Purification
-Stagnant Shroom,IR3,Mushroom Spot (X35 Y111),Temple of Purification
-Mutated Bone Lump,IR7,Chimera lvl 44,Temple of Purification
-Beast's Mane,IR5,Chimera lvl 44,Temple of Purification
-Strong Lizardscale Pelt,IR6,Chimera lvl 44,Temple of Purification
-Coconut-Scented Milkcap,IR6,Mushroom Spot (X66 Y112),Temple of Purification
-Gala Mushroom,IR1,Mushroom Spot (X66 Y112),Temple of Purification
-Rusted Plate,IR6,Skeleton Warrior lvl 35,Temple of Purification
-Fine Bleached Bone,IR3,Skeleton Warrior lvl 35,Temple of Purification
-Apophyllite ,IR4,Saurian lvl 35,Temple of Purification
-Lizardscale Pelt,IR2,Saurian lvl 35,Temple of Purification
-Rugged Leather,IR5,Cyclops lvl 45,Temple of Purification
-Giant Bone,IR3,Cyclops lvl 45,Temple of Purification
-Giant Eyeball,IR8,Cyclops lvl 45,Temple of Purification
-Cyclops Tusk,IR5,Cyclops lvl 45,Temple of Purification
-Spectral Dragon Fang,?,Mist Dragon (lvl 45),Temple of Purification
-Spectral Dragon Scale,?,Mist Dragon (lvl 45),Temple of Purification
-Spectral Dragon Claw,?,Mist Dragon (lvl 45),Temple of Purification
-Strong Acid Slime Piece,IR7,Aqua Jelly,Temple of Purification >>> Foul Water Channel lvl 42
-Highly Viscous Slime Liquid,IR80,Aqua Jelly,Temple of Purification >>> Foul Water Channel lvl 42
-Mithril Ore,IR9,Mining (X47 Y-31),Temple of Purification >>> Foul Water Channel lvl 42
-Ogre Claw,IR6,Ogre lvl 48,Temple of Purification >>> Foul Water Channel lvl 42
-Ogre Fur,IR6,Ogre lvl 48,Temple of Purification >>> Foul Water Channel lvl 42
-Necrophagous Bristle,IR7,Ogre lvl 48,Temple of Purification >>> Foul Water Channel lvl 42
-Silver Ore,IR7,Chest (X63 Y-47),Temple of Purification >>> Foul Water Channel lvl 42
-Pigeon Blood,IR9,Chest (X63 Y-47),Temple of Purification >>> Foul Water Channel lvl 42
-Sandcrystal,IR9,Gather Spot (X46 Y-30),Temple of Purification >>> Foul Water Channel lvl 42
-Blue Alluvial Gold,IR6,Gather Spot (X46 Y-30),Temple of Purification >>> Foul Water Channel lvl 42
-Smooth Leather,IR7,Blue Newt lvl 38,Temple of Purification >>> North Drainage Channel
-Blue Alluvial Gold,IR6,Blue Newt lvl 38,Temple of Purification >>> North Drainage Channel
-Superior Saurian Tail,IR6,Blue Newt lvl 38,Temple of Purification >>> North Drainage Channel
-Strong Acid Slime Piece,IR7,Ooze lvl 40,Temple of Purification >>> North Drainage Channel
-Strong Viscous Liquid,IR4,Ooze lvl 40,Temple of Purification >>> North Drainage Channel
-Strong Acid Slime Piece,IR7,Glutton Ooze lvl 40,Temple of Purification >>> North Drainage Channel
-Strong Viscous Liquid,IR7,Glutton Ooze lvl 40,Temple of Purification >>> North Drainage Channel
-Scroll of Holy,IR6,Gather Spot (X46 Y-41),Temple of Purification >>> North Drainage Channel
-Blank Scroll,IR2,Gather Spot (X46 Y-41),Temple of Purification >>> North Drainage Channel
-Stagnant Water,IR5,Water Gather Spot (X47 Y-45),Temple of Purification >>> North Drainage Channel
-Burial Shroud,IR2,Undead lvl 42,Temple of Purification >>> Balcony 
-Undead Carrion,IR1,Undead lvl 42,Temple of Purification >>> Balcony 
-Earing of Life 2,IR15,Chest (X50 Y-33),Temple of Purification >>> Balcony 
-Orc's War Tusk,IR7,Orc Trooper lvl 44,Betland Underground Passage lvl 44
-Orc Decoration,IR9,Orc Trooper lvl 44,Betland Underground Passage lvl 44
-Orc Tusk,IR3,Orc Bringer lvl 46,Betland Underground Passage lvl 44
-Unrefined Demon Wine,IR4,Orc Bringer lvl 46,Betland Underground Passage lvl 44
-Orc Tusk,IR3,Orc Aimer lvl 42,Betland Underground Passage lvl 44
-Unrefined Demon Wine,IR4,Orc Aimer lvl 42,Betland Underground Passage lvl 44
-Orcish Cloth,IR7,Orc Soldier lvl 43,Betland Underground Passage lvl 44
-Unrefined Demon Wine,IR4,Orc Soldier lvl 43,Betland Underground Passage lvl 44
-Sand Crystal,IR9,Gather Spot (X50 Y-17),Betland Underground Passage lvl 44
-Blue Alluvial Gold,IR6,Gather Spot (X50 Y-17),Betland Underground Passage lvl 44
-Hematite,IR6,Mining Spot (X46 Y-21),Betland Underground Passage lvl 44
-Mithril Ore,IR9,Mining Spot (X47 Y-23),Betland Underground Passage lvl 44
-Hematite,IR6,Mining Spot (X47 Y-23),Betland Underground Passage lvl 44
-Moonlight Mushroom,IR6,Mushroom Spot (X55 Y-54),Betland Underground Passage lvl 44
-Coconut-Scented Milkcap,IR5,Mushroom Spot (X55 Y-54),Betland Underground Passage lvl 44
-Spider Thread,IR1,Spider lvl 10,Betland Underground Passage lvl 44
-Orc's War Tusk,IR7,General Orc 48,Betland Underground Passage lvl 44
-Pigeon Blood,IR9,General Orc 48,Betland Underground Passage lvl 44
-Beast Claw,IR8,Grimwarg lvl 44,Betland Underground Passage lvl 44
-Beast Leather,IR9,Grimwarg lvl 44,Betland Underground Passage lvl 44
-Beast Fur,IR8,Grimwarg lvl 44,Betland Underground Passage lvl 44
-Beast Leather Bracelet,?,Chest (X52 Y-37),Betland Underground Passage lvl 44
-White Liquor,IR5,Chest (X52 Y-37),Betland Underground Passage lvl 44
-Smooth Leather,IR7,Large Newt lvl 48,Temple of Purification South Chamber lvl 46
-Apophyllite,IR4,Large Newt lvl 48,Temple of Purification South Chamber lvl 46
-Superior Saurian Tail,IR6,Large Newt lvl 48,Temple of Purification South Chamber lvl 46
-Smooth Leather,IR7,Blue Newt,Temple of Purification South Chamber lvl 46
-Blue Alluvial Gold,IR6,Blue Newt,Temple of Purification South Chamber lvl 46
-Superior Saurian Tail,IR6,Blue Newt,Temple of Purification South Chamber lvl 46
-Slime Liquid,IR1,Slime lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Insect Venom,IR1,Worm lvl 1,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Blue Alluvial Gold,IR6,Gather Spot (X50 Y-120),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Beast Mane,IR5,Strix lvl 58,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Harpy Pinion ,IR2,Harpy lvl 56,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Bird Feather,IR1,Harpy lvl 56,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Harpy Flight Feather,IR6,Harpy lvl 56,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Rock Scale,IR6,Rock Saurian,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Iron Ore,IR4,Rock Saurian,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Rock Scale,IR6,Giant Geo Saurian lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Iron Ore,IR4,Giant Geo Saurian lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Superior Saurian Tail,IR6,Giant Geo Saurian lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Smooth Leather,IR7,Large Newt lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Apophyllite,IR4,Large Newt lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Superior Saurian Tail,IR6,Large Newt lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Strong Viscous Liquid,IR4,Blob lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Blob Flesh,IR9,Blob lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Burial Shroud ,IR2,Undead lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Undead Carrion ,IR1,Undead lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Undead Extract,IR6,Undead lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Pearl Mushroom,IR9,Muchroom Spot (X65 Y-44),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Moonlight Mushroom,IR5,Muchroom Spot (X65 Y-44),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Marble,IR5,Gathering Spot (X58 Y-65),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Sapphire,IR6,Gathering Spot (X58 Y-65),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Pearl Mushroom,IR9,Gathering Spot (X51 Y73),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Rotten Lump,IR3,Stout Undead lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Undead Carrion ,IR1,Stout Undead lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Undead Extract,IR6,Stout Undead lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Sinsiter Carrion,IR9,Sword Undead lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Rotten Lump,IR3,Sword Undead lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Undead Carrion ,IR3,Warrior Undead lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Rotten Lump,IR1,Warrior Undead lvl 50,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Marbled Beast Steak,IR7,Eliminator lvl 55,Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Blessed Drop,IR9,Chest (X68 Y-101),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
-Pearl Mushroom,IR9,Mushroom (X69 Y102),Temple of Purification South Chamber >>> Lake Bottom Connecting Passage lvl 52
+﻿Monster,Level,Location,Area Level
+Grimwarg(6),38,Betland Cemetery,40
+Grimwarg(6),40,Betland Cemetery,40
+Sword Undead,40,Betland Cemetery,40
+Orc Aimer,37,Betland Cemetery,40
+Skeleton Knight,40,Betland Cemetery,40
+Skeleton Sorcerer,40,Betland Cemetery,40
+Troll,40,Betland Cemetery,40
+Worm,33,Knights' Old Route,36
+Stout Undead,36,Knights' Old Route,36
+Skeleton Knight,36,Knights' Old Route,36
+Armoured Cyclops,34,Knights' Old Route,36
+Sword Undead,36,Knights' Old Route,36
+Orc Banger,38,Dry Underground Stores,38
+Orc Aimer,38,Dry Underground Stores,38
+Skeleton Knight,38,Dry Underground Stores,38
+Skeleton Mage,38,Dry Underground Stores,38
+Alchemised Wolf,46,The Second Ark,46
+Alchemised Harpy,46,The Second Ark,46
+Alchemised Skeleton,46,The Second Ark,46
+Goliath,55,The Second Ark,46
+Alchemised Goblin,46,The Second Ark,46
+Alchemised Goblin Fighter,46,The Second Ark,46
+Damned Golem,55,The Second Ark,46
+Zuhl,60,The Second Ark,46
+Rock Saurian(9),37,Groaning Old Well ,40
+Rock Saurian(9),38,Groaning Old Well ,40
+Skeleton Sorcerer,38,Groaning Old Well ,40
+Orc Soldier,44,War Demons' Hideout,45
+Orc Banger,45,War Demons' Hideout,45
+Orc Battler(3),45,War Demons' Hideout,45
+Orc Battler(3),46,War Demons' Hideout,45
+Orc Aimer(3),44,War Demons' Hideout,45
+Orc Aimer(3),45,War Demons' Hideout,45
+Orc Bringer,45,War Demons' Hideout,45
+Orc Trooper,45,War Demons' Hideout,45
+Grimwarg,45,War Demons' Hideout,45
+Captain Orc(2),46,War Demons' Hideout,45
+Captain Orc(2),47,War Demons' Hideout,45
+Grimwarg - Daytime,45,War Demons' Hideout,45
+Bolt Grimwarg - Nighttime,47,War Demons' Hideout,45
+Ruby Eye,64,Penitentiary,63
+Emerald Eye,64,Penitentiary,63
+Lapis Eye,64,Penitentiary,63
+Wight,65,Penitentiary,63
+Skeleton Mage,65,Penitentiary,63
+Shadow Harpy,65,Penitentiary,63
+Dark Skeleton Brute,64,Penitentiary,63
+Deep Slime(11),63,Penitentiary,63
+Deep Slime(11),64,Penitentiary,63
+Shadow Chimera,65,Penitentiary,63
+Shadow Wolf,67,Penitentiary,63
+Eliminator,65,Penitentiary,63
+Shadow Goblin Fighter,64,Penitentiary,63
+Shadow Goblin Leader,64,Penitentiary,63
+Ghost Mail,65,Penitentiary,63
+Empress Ghost,67,Penitentiary,63
+Blue Newt,38,Temple of Purification,38
+Ooze(12),37,Temple of Purification,38
+Ooze(12),38,Temple of Purification,38
+(Ooze),37,Temple of Purification,38
+Chimera,38,Temple of Purification,38
+Skeleton Knight(12),38,Temple of Purification,38
+Skeleton Knight(12),39,Temple of Purification,38
+Skeleton Mage,38,Temple of Purification,38
+Skeleton Sorcerer,39,Temple of Purification,38
+Worm,35,Temple of Purification,38
+Armoured Cyclops,38,Temple of Purification,38
+Blue Newt,42,Foul Water Channel ,42
+Sword Undead,42,Foul Water Channel ,42
+Frosted Corpse Punisher(5),42,Foul Water Channel ,42
+Frosted Corpse Punisher(5),43,Foul Water Channel ,42
+Worm,39,Foul Water Channel ,42
+Ogre,43,Foul Water Channel ,42
+Stout Undead,42,Foul Water Channel ,42
+Blue Newt,38,North Drainage Channel,?
+Ooze,38,North Drainage Channel,?
+Glutton Ooze,38,North Drainage Channel,?
+Skeleton Knight,40,North Drainage Channel,?
+Ooze(7),37,Purified Water Section,?
+Ooze(7),39,Purified Water Section,?
+(Ooze),37,Purified Water Section,?
+Glutton Ooze,40,Purified Water Section,?
+Sword Undead(11),38,Purified Water Section,?
+Sword Undead(11),40,Purified Water Section,?
+Grimwarg - Daytime,38,Purified Water Section,?
+Grimwarg - Nighttime,40,Purified Water Section,?
+Skeleton,38,Balcony,?
+(Skeleton),38,Balcony,?
+Skeleton Mage,38,Balcony,?
+Skeleton Knight,38,Balcony,?
+Skeleton Sorcerer,40,Balcony,?

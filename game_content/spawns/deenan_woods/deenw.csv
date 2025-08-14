@@ -1,317 +1,153 @@
-﻿Name,Item Rarity,From,Reachable From/Location
-Large Fang,IR5,DireWolf lvl 38,Outside
-Strong Animal Leather,IR5,DireWolf lvl 38,Outside
-Beast Leather,IR9,DireWolf lvl 38,Outside
-Lestania Herb,IR2,Herb Spot (X248|Y503),Outside
-Deenan Hyssop,IR9,Herb Spot (X248|Y503),Outside
-White Wood ,IR7,Logging Spot (X249|Y506),Outside
-Pine Lumber,IR6,Logging Spot (X249|Y506),Outside
-Hard Wood ,IR3,Logging Spot (X249|Y506),Outside
-Rosewood,IR8,Logging Spot (X249|Y506),Outside
-Ape Pelt,IR3,Brute Ape lvl 35,Outside
-Ape Fur,IR3,Brute Ape lvl 35,Outside
-Sharp Claw,IR7,Brute Ape lvl 35,Outside
-Ent Branch,IR4,Ent lvl 38,Outside
-Ent Leaf,IR4,Ent lvl 38,Outside
-Angelica ,IR4,Water Spot (X240|Y523),Outside
-Clear Spring Water,IR3,Water Spot (X240|Y523),Outside
-Angelica ,IR4,Herb Spot (X249|Y521),Outside
-Blue Flower,IR7,Herb Spot (X249|Y521),Outside
-Angelica ,IR4,Herb Spot (X252|Y515),Outside
-Deenan Hyssop,IR9,Herb Spot (X252|Y515),Outside
-Harpy Pinion,IR2,Harpy lvl 38,Outside
-Harpy Flight Feather ,IR6,Harpy lvl 38,Outside
-Bird Feather,IR1,Harpy lvl 38,Outside
-Blue Flower,IR7,Herb Spot (X263|Y510),Outside
-Deenan Hyssop,IR9,Herb Spot (X263|Y510),Outside
-Rock Scale ,IR6,Saurian lvl 39,Outside
-Saurian Tail ,IR2,Saurian lvl 39,Outside
-Apophyllite,IR4,Saurian lvl 39,Outside
-Giant Apophyllite,IR85,Saurian lvl 39,Outside
-Saurian Gland ,IR6,Saurian lvl 39,Outside
-Lizardscale Pelt,IR2,Saurian lvl 39,Outside
-Topaz,IR8,Debrees Spot (X274|Y526),Outside
-Clear Spring Water,IR3,Water Spot (X278|Y533),Outside
-Energy Liquid,IR8,Water Spot (X278|Y533),Outside
-Large Fang,IR5,Chest (X277|Y535),Outside
-King Bay Leaf,IR8,Chest (X277|Y535),Outside
-Clear Water,IR2,Water Spot (X273|Y541),Outside
-Healing Drop ,IR7,Water Spot (X273|Y541),Outside
-Goblin's Flower,IR9,Forest Goblin Fihgter lvl 39,Outside
-Goblin Horn,IR3,Forest Goblin Fihgter lvl 39,Outside
-Goblin's Leaf ,IR4,Forest Goblin Fihgter lvl 39,Outside
-Clear Spring Water,IR3,Water Spot (X266|Y522),Outside
-Healing Drop ,IR7,Water Spot (X266|Y522),Outside
-Gala Mushroom ,IR1,Mushroom Spot (X257|Y523),Outside
-Quality Gala Mushroom,IR2,Mushroom Spot (X257|Y523),Outside
-Baby Herb,IR1,Herb Spot (X253|Y523),Outside
-Blue Flower,IR7,Herb Spot (X284|Y519),Outside
-Baby Herb,IR1,Herb Spot (X284|Y519),Outside
-Deenan Hyssop,IR9,Herb Spot (X284|Y519),Outside
-Wild Herb ,IR3,Herb Spot (X284|Y519),Outside
-Blue Flower,IR7,Herb Spot (X305|Y518),Outside
-Sapphire,IR6,Gathering Spot x273 y526,Outside
-Topaz,IR8,Gathering Spot x273 y526,Outside
-Marbled Beast Steak,IR7,Boar lvl 1 (x274 y514),Outside
-Animal Fur,IR1,Wolf lvl 42,Divine Blossom Terrace lvl 43 (X259|Y508)
-Small Fang,IR2,Wolf lvl 42,Divine Blossom Terrace lvl 43 (X259|Y508)
-Supple Fur,IR2,Wolf lvl 42,Divine Blossom Terrace lvl 43 (X259|Y508)
-Beast Fur,IR8,Grimwarg lvl 43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Beast Claw,IR8,Grimwarg lvl 43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Beast Leather,IR9,Grimwarg lvl 43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Orc Tusk,IR3,Orc Aimer lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Unrefined Demon Wine ,IR4,Orc Soldier lvl43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Blue Flower,IR7,Herb Spot (X42|Y-34),Divine Blossom Terrace lvl 43 (X259|Y508)
-Baby Herb,IR1,Herb Spot (X42|Y-34),Divine Blossom Terrace lvl 43 (X259|Y508)
-Magick Tinged Bone,IR5,Create (X53|Y-63),Divine Blossom Terrace lvl 43 (X259|Y508)
-Ape Pelt,IR3,Brute Ape lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Ape Fur,IR3,Brute Ape lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Sharp Claw,IR7,Brute Ape lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Silver Bristle,IR9,Silver Roar lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Mystery Organs,IR10,Silver Roar lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Sharp Claw,IR7,Silver Roar lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Goblin's Flower,IR9,Forest Goblin Fighter lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Goblin Horn,IR3,Forest Goblin Fighter lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Goblin's Leaf ,IR4,Forest Goblin Fighter lvl 45,Divine Blossom Terrace lvl 43 (X259|Y508)
-Mutated Bone Lump,IR7,White Chimera lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Pure White Mane,IR9,White Chimera lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-White Lion Pelt,IR9,White Chimera lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Emerald,IR9,Mining Spot (X86|Y-62),Divine Blossom Terrace lvl 43 (X259|Y508)
-Agate,IR7,Mining Spot (X86|Y-62),Divine Blossom Terrace lvl 43 (X259|Y508)
-Baby Herb,IR1,Herb Spot (X34|Y-71),Divine Blossom Terrace lvl 43 (X259|Y508)
-Wild Herb ,IR3,Herb Spot (X34|Y-71),Divine Blossom Terrace lvl 43 (X259|Y508)
-Giant Fur,IR4,Troll lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Giant's Horn,IR7,Troll lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Troll's Poisonous Moss,IR4,Troll lvl 50,Divine Blossom Terrace lvl 43 (X259|Y508)
-Emerald ,IR9,Chest (X42|Y-117),Divine Blossom Terrace lvl 43 (X259|Y508)
-Smooth Leather ,IR7,Chest (X42|Y-117),Divine Blossom Terrace lvl 43 (X259|Y508)
-Seabird Syrink,IR60,Siern lvl 43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Strong Lizardscale Pelt ,IR60,Giant Saurian Sage lvl 44,Divine Blossom Terrace lvl 43 (X259|Y508)
-Saurian Gland ,IR6,Giant Saurian Sage lvl 44,Divine Blossom Terrace lvl 43 (X259|Y508)
-Apophyllite,IR4,Giant Saurian Sage lvl 44,Divine Blossom Terrace lvl 43 (X259|Y508)
-Saurian Tail ,IR2,Giant Saurian Sage lvl 44,Divine Blossom Terrace lvl 43 (X259|Y508)
-Lizardscale Pelt,IR2,Giant Saurian Sage lvl 44,Divine Blossom Terrace lvl 43 (X259|Y508)
-Phantom Ore,IR7,Chest (X85|Y-122),Divine Blossom Terrace lvl 43 (X259|Y508)
-Cerussite,IR8,Chest (X85|Y-122),Divine Blossom Terrace lvl 43 (X259|Y508)
-Dragon Hide,IR8,Behemoth lvl 55,Divine Blossom Terrace lvl 43 (X259|Y508)
-Thick Dragonscale,IR9,Behemoth lvl 55,Divine Blossom Terrace lvl 43 (X259|Y508)
-Behemoth Fang,IR9,Behemoth lvl 55,Divine Blossom Terrace lvl 43 (X259|Y508)
-Orc's War Tusk,IR7,Captin Orc lvl 46,Divine Blossom Terrace lvl 43 (X259|Y508)
-Pigeon Blood,IR9,Captin Orc lvl 46,Divine Blossom Terrace lvl 43 (X259|Y508)
-Orcish Cloth,IR7,Orc Soldier lvl43,Divine Blossom Terrace lvl 43 (X259|Y508)
-Wild Herb ,IR3,Herb Spot (X49|Y-4),Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Marbled Beast Steak,IR7,Eliminator Slay lvl 45,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Sinister Carrion ,IR9,Undead Warrior lvl 43,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Rusted Plate ,IR6,Undead Warrior lvl 43,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Rotten Lump,IR3,Undead Warrior lvl 43,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Undead Carrion ,IR1,Undead Warrior lvl 43,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Burial Shroud,IR2,Undead Warrior lvl 43,Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Emerald ,IR9,Mining Spot (X51|Y-19),Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Pearl Mushroom,IR9,Mushroom Spot (X60|Y-13),Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Coconut Scented Milkcap,IR6,Mushroom Spot (X60|Y-13),Divine Blossom Terrace >>> Fairy's Withered Well (X38|Y-89)
-Goblin's Leaf,IR4,Forest Goblin lvl 43,Erte Deenan lvl 42 (X314| Y521) 
-Goblin's Flower,IR9,Forest Goblin lvl 43,Erte Deenan lvl 42 (X314| Y521) 
-Goblin Horn,IR3,Forest Goblin lvl 43,Erte Deenan lvl 42 (X314| Y521) 
-Ent Branch,IR4,Ent lvl 45 ,Erte Deenan lvl 42 (X314| Y521) 
-Ent Leaf,IR4,Ent lvl 45,Erte Deenan lvl 42 (X314| Y521) 
-Ent Seed,IR8,Ent lvl 45,Erte Deenan lvl 42 (X314| Y521) 
-Troll's Poisonous Moss,IR4,Troll lvl 48,Erte Deenan lvl 42 (X314| Y521) 
-Giant's Horn,IR7,Troll lvl 48,Erte Deenan lvl 42 (X314| Y521) 
-Giant Fur,IR4,Troll lvl 48,Erte Deenan lvl 42 (X314| Y521) 
-Insect Venom,IR1,Killer Bee lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Clear Insect Wing,IR1,Killer Bee lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Mutated Bone Lump,IR7,Chimera lvl 45,Erte Deenan lvl 42 (X314| Y521) 
-Beast's Mane,IR5,Chimera lvl 45,Erte Deenan lvl 42 (X314| Y521) 
-Ape Pelt,IR3,Brute Ape lvl 45,Erte Deenan lvl 42 (X314| Y521) 
-Bluecurrant,IR8,Chest (X67 Y57),Erte Deenan lvl 42 (X314| Y521) 
-King Bay Leaf,IR8,Chest (X67 Y57),Erte Deenan lvl 42 (X314| Y521) 
-Orcish Tusk,IR3,Brutal Mogok lvl 51,Erte Deenan lvl 42 (X314| Y521) 
-Unrefined Demon Wine,IR4,Brutal Mogok lvl 51,Erte Deenan lvl 42 (X314| Y521) 
-Orcish Cloth,IR7,Brutal Mogok lvl 51,Erte Deenan lvl 42 (X314| Y521) 
-Orc Decoration,IR9,Brutal Mogok lvl 51,Erte Deenan lvl 42 (X314| Y521) 
-Orc's War Tusk,IR7,Orc Captain lvl 49,Erte Deenan lvl 42 (X314| Y521) 
-Pigeon Blood,IR9,Orc Captain lvl 49,Erte Deenan lvl 42 (X314| Y521) 
-Forest Chernozem,IR7,Chest (X95 Y54),Erte Deenan lvl 42 (X314| Y521) 
-Large Fang ,IR5,Dire Wolf lvl 42,Erte Deenan lvl 42 (X314| Y521) 
-Strong Animal Leather,IR 5,Dire Wolf lvl 42,Erte Deenan lvl 42 (X314| Y521) 
-Blue Flower,IR7,Flower Spot (X94 Y22),Erte Deenan lvl 42 (X314| Y521) 
-Deenan Hysop,IR9,Flower Spot (X94 Y22),Erte Deenan lvl 42 (X314| Y521) 
-Fluorite ,IR2,Mist Sorcerer lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Mist Gem,IR4,Mist Sorcerer lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Fluorite ,IR2,Mist Priest lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Mist Gem,IR4,Mist Priest lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Fluorite ,IR2,Mist Fighter lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Mist Gem,IR4,Mist Fighter lvl 44,Erte Deenan lvl 42 (X314| Y521) 
-Giant Bone,,Mole Troll,Erte Deenan lvl 42 (X314| Y521) 
-Troll's Blue Poisonous Mushroom,,Mole Troll,Erte Deenan lvl 42 (X314| Y521) 
-Giant Fur,,Mole Troll,Erte Deenan lvl 42 (X314| Y521) 
-Goblin's Leaf,IR4,Forest Goblin lvl 43,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Goblins's Flower,IR9,Forest Goblin lvl 43,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Goblin Horn,IR3,Forest Goblin lvl 43,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Harpy Pinion ,IR2,Harpy lvl 40,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Bird Feather,IR1,Harpy lvl 40,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Harpy Flight Feather,IR6,Harpy lvl 40,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Agate,IR7,Mining Spot (X91| Y-47),Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Animal Fur,IR1,Wolf lvl 42,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Small Fang,IR2,Wolf lvl 42,Erte Deenan >>> Le Karvas Lotana lvl 42 (X126| Y31)
-Goblin's Leaf,IR4,Forest Goblin lvl 42,Erte Deenan >>> Le Karvas Patiro lvl 42
-Goblin's Flower,IR9,Forest Goblin lvl 42,Erte Deenan >>> Le Karvas Patiro lvl 42
-Goblin Horn,IR3,Forest Goblin lvl 42,Erte Deenan >>> Le Karvas Patiro lvl 42
-Harpy Pinion,IR2,Harpy lvl 40,Erte Deenan >>> Le Karvas Patiro lvl 42
-Bird Feather,IR1,Harpy lvl 40,Erte Deenan >>> Le Karvas Patiro lvl 42
-Harpy Flight Feather,IR6,Harpy lvl 40,Erte Deenan >>> Le Karvas Patiro lvl 42
-Giant Fur,IR4,Troll lvl 48,Erte Deenan >>> Le Karvas Patiro lvl 42
-Troll's Poisonous Moss,IR4,Troll lvl 48,Erte Deenan >>> Le Karvas Patiro lvl 42
-Giant's Horn,IR7,Troll lvl 48,Erte Deenan >>> Le Karvas Patiro lvl 42
-Large Fang,IR5,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Patiro lvl 42
-Strong Animal Leather,IR5,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Patiro lvl 42
-Beast Leather,IR9,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Patiro lvl 42
-Goblin's Leaf,IR4,Forest Goblin lvl 45,Erte Deenan >>> Le Karvas Arma
-Goblin's Flower,IR9,Forest Goblin lvl 45,Erte Deenan >>> Le Karvas Arma
-Goblin Horn,IR3,Forest Goblin lvl 45,Erte Deenan >>> Le Karvas Arma
-Harpy Pinion ,IR2,Harpy lvl 40,Erte Deenan >>> Le Karvas Arma
-Bird Feather,IR1,Harpy lvl 40,Erte Deenan >>> Le Karvas Arma
-Harpy Flight Feather,IR6,Harpy lvl 40,Erte Deenan >>> Le Karvas Arma
-Large Fang,IR5,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Arma
-Strong Animal Leather,IR5,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Arma
-Beast Leather,IR9,Dire Wolf lvl 43,Erte Deenan >>> Le Karvas Arma
-Emerald,IR9,Mining Spot (X82 Y-70),Erte Deenan >>> Le Karvas Arma
-White wood,IR7,Wood Spot (X41 Y-90),Erte Deenan >>> Le Karvas Arma
-Black wood,IR9,Wood Spot (X41 Y-90),Erte Deenan >>> Le Karvas Arma
-Demon Wolf's Sinewy Meat,IR45,Warg Lvl 40,Erte Deenan >>> Le Karvas Arma
-Topaz,IR8,Chest (X88 Y-115),Erte Deenan >>> Le Karvas Arma
-Sapphire,IR6,Chest (X88 Y-115),Erte Deenan >>> Le Karvas Arma
-Emerald,IR9,Mining Spot (X82 Y-130),Erte Deenan >>> Le Karvas Arma
-Agate,IR7,Mining Spot (X82 Y-130),Erte Deenan >>> Le Karvas Arma
-Sapphire,IR6,Mining Spot (X82 Y-130),Erte Deenan >>> Le Karvas Arma
-White Shining Sand,IR8,Chest (X90 Y-135),Erte Deenan >>> Le Karvas Arma
-Rusted Plate,IR6,Chest (X90 Y-135),Erte Deenan >>> Le Karvas Arma
-White Shining Sand,IR8,Chest (X54 Y-169),Erte Deenan >>> Le Karvas Arma
-Agate,IR7,Chest  (X63 Y-168),Erte Deenan >>> Le Karvas Arma
-Giant Fur,IR4,Mole Troll lvl 48,Erte Deenan >>> Le Karvas Arma
-Trolls Poisonous Mushroom,IR4,Mole Troll lvl 48,Erte Deenan >>> Le Karvas Arma
-Giants Horn,IR7,Mole Troll lvl 48,Erte Deenan >>> Le Karvas Arma
-Beast Fur ,IR8,Grim Warg lvl 48,Erte Deenan >>> Le Karvas Arma
-Beast Claw,IR8,Grim Warg lvl 48,Erte Deenan >>> Le Karvas Arma
-Beast Leather,IR9,Grim Warg lvl 48,Erte Deenan >>> Le Karvas Arma
-Dragon Hide,IR8,Isolated Angules lvl 48,Erte Deenan >>> Le Karvas Arma
-Smooth Dragonleather,IR9,Isolated Angules lvl 48,Erte Deenan >>> Le Karvas Arma
-Sphinx Hair,?,Sphinx lvl 46,Erte Deenan >>> Le Karvas Arma
-Azure Sphinx ,?,?,Erte Deenan >>> Le Karvas Arma
-Soft Tetrix,?,chest X70Y-83,Heavenly Terrace lvl 68 (X257|Y524)
-Soft Tetrix,?,Chest X64 Y-82,Heavenly Terrace lvl 68 (X257|Y524)
-Feather Chiffon,?,Drake Lv ?TBA,Heavenly Terrace lvl 68 (X257|Y524)
-Requires Forest Dweller's Key,?,Lv45 Cockatrice,Sacred Spring Terrace  (X221| Y509)
-Black Cockatrice Feather,?,Lv45 Cockatrice,Sacred Spring Terrace  (X221| Y509)
-Cockatrice Poison Gland,?,Lv45 Cockatrice,Sacred Spring Terrace  (X221| Y509)
-Cockatrice Liquor,?,Lv45 Cockatrice,Sacred Spring Terrace  (X221| Y509)
-X: 23| Y:-30 (inside dungeon),?,?,Sacred Spring Terrace  (X221| Y509)
-Fine Bleached Bone,IR3,Skeleton Knight lvl 42,Sacred Tree Terrace lvl 41 (X270|Y512)
-Iron Ore Fargment,IR3,Skeleton Knight lvl 42,Sacred Tree Terrace lvl 41 (X270|Y512)
-Rusted Plate,IR6,Skeleton Knight lvl 42,Sacred Tree Terrace lvl 41 (X270|Y512)
-Blank Scroll ,IR2,Skeleton Mage lvl 41,Sacred Tree Terrace lvl 41 (X270|Y512)
-Dry Bone,IR2,Skeleton Mage lvl 41,Sacred Tree Terrace lvl 41 (X270|Y512)
-Magick Tinged Bone,IR5,Skeleton Mage lvl 41,Sacred Tree Terrace lvl 41 (X270|Y512)
-Scroll Of Fire,IR5,Flame Skeleton Brute lvl 44,Sacred Tree Terrace lvl 41 (X270|Y512)
-Bone Meal,IR10,Flame Skeleton Brute lvl 44,Sacred Tree Terrace lvl 41 (X270|Y512)
-Ancient Grimoire,IR7,Skeleton Sorcerer lvl 43,Sacred Tree Terrace lvl 41 (X270|Y512)
-Giant Bone ,IR3,Skeleton Cyclops lvl 46,Sacred Tree Terrace lvl 41 (X270|Y512)
-Cyclops Tusk,IR5,Skeleton Cyclops lvl 46,Sacred Tree Terrace lvl 41 (X270|Y512)
-Bone Meal,IR10,Skeleton Cyclops lvl 46,Sacred Tree Terrace lvl 41 (X270|Y512)
-Bluecurrant,IR8,Herb Spot (X76|Y-62),Sacred Tree Terrace lvl 41 (X270|Y512)
-Deenan Hyssop,IR9,Herb Spot (X76|Y-62),Sacred Tree Terrace lvl 41 (X270|Y512)
-Goblin's Flower,IR9,Forest Goblin lvl 41,Sunset Terrace lvl 41 (X233|Y531)
-Goblin Horn,IR3,Forest Goblin lvl 41,Sunset Terrace lvl 41 (X233|Y531)
-Goblin's Leaf ,IR4,Forest Goblin lvl 41,Sunset Terrace lvl 41 (X233|Y531)
-Pine Lumber,IR6,Logging Spot (X67|Y-54),Sunset Terrace lvl 41 (X233|Y531)
-Harpy Pinion,IR2,Harpy lvl 42,Sunset Terrace lvl 41 (X233|Y531)
-Harpy Flight Feather ,IR6,Harpy lvl 42,Sunset Terrace lvl 41 (X233|Y531)
-Bird Feather,IR1,Harpy lvl 42,Sunset Terrace lvl 41 (X233|Y531)
-Ape Pelt,IR3,Brute Ape lvl 44,Sunset Terrace lvl 41 (X233|Y531)
-Ape Fur,IR3,Brute Ape lvl 44,Sunset Terrace lvl 41 (X233|Y531)
-Sharp Claw,IR7,Brute Ape lvl 44,Sunset Terrace lvl 41 (X233|Y531)
-Mutated Bone Lump,IR7,White Chimera lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-White Lion Pelt,IR9,White Chimera lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-Rusted Plate,IR6,Chest (X92|Y-42),Sunset Terrace lvl 41 (X233|Y531)
-Broken Dagger,IR7,Chest (X92|Y-42),Sunset Terrace lvl 41 (X233|Y531)
-Gold Ore,IR9,Mining Spot (X91|Y-57),Sunset Terrace lvl 41 (X233|Y531)
-Hematite,IR6,Mining Spot (X91|Y-57),Sunset Terrace lvl 41 (X233|Y531)
-Blank Scroll,IR2,Book Spot (X96|Y-60),Sunset Terrace lvl 41 (X233|Y531)
-Large Simian Thick Pelt,IR4,Dread Ape lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-Crooked Fang,IR4,Dread Ape lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-Ape Fur,IR3,Dread Ape lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-Necrophagous Bristle,IR7,Dread Ape lvl 47,Sunset Terrace lvl 41 (X233|Y531)
-Pine Lumber,IR6,Logging Spot (X91|Y-79),Sunset Terrace lvl 41 (X233|Y531)
-Black Wood,IR9,Logging Spot (X91|Y-79),Sunset Terrace lvl 41 (X233|Y531)
-Blank Scroll,IR2,Book Spot (X94|Y-86),Sunset Terrace lvl 41 (X233|Y531)
-Gold Ore,IR9,Mining Spot (X95|Y-80),Sunset Terrace lvl 41 (X233|Y531)
-Hematite Sand,IR4,Mining Spot (X95|Y-80),Sunset Terrace lvl 41 (X233|Y531)
-Marbled Beast Steak,IR7,Chest (X40|Y-113),Sunset Terrace lvl 41 (X233|Y531)
-Large Beast Steak,IR5,Create (X42|Y-102),Sunset Terrace lvl 41 (X233|Y531)
-Large Beast Steak,IR5,Create (X56|Y-122),Sunset Terrace lvl 41 (X233|Y531)
-Ent Branch,IR4,Ent lvl 43,Sunset Terrace lvl 41 (X233|Y531)
-Ent Leaf,IR4,Ent lvl 43,Sunset Terrace lvl 41 (X233|Y531)
-Ent Seed,IR8,Ent lvl 43,Sunset Terrace lvl 41 (X233|Y531)
-Goblin's Flower,IR9,Forest Goblin lvl 42,Moonlight Terrace lvl 42 (X268|Y533)
-Goblin Horn,IR3,Forest Goblin lvl 42,Moonlight Terrace lvl 42 (X268|Y533)
-Goblin's Leaf ,IR4,Forest Goblin lvl 42,Moonlight Terrace lvl 42 (X268|Y533)
-Ape Pelt,IR3,Brute Ape lvl 43,Moonlight Terrace lvl 42 (X268|Y533)
-Ape Fur,IR3,Brute Ape lvl 43,Moonlight Terrace lvl 42 (X268|Y533)
-Sharp Claw,IR7,Brute Ape lvl 43,Moonlight Terrace lvl 42 (X268|Y533)
-Crooked Fang,IR4,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Ape Fur,IR3,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Red Sage,IR6,Herb Spot (X40|Y-52),Moonlight Terrace lvl 42 (X268|Y533)
-King Bay Leaf,IR8,Herb Spot (X40|Y-52),Moonlight Terrace lvl 42 (X268|Y533)
-Harpy Pinion,IR2,Harpy lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Harpy Flight Feather ,IR6,Harpy lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Bird Feather,IR1,Harpy lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Red Sage,IR6,Herb Spot (X60|Y-105,Moonlight Terrace lvl 42 (X268|Y533)
-Giant Fur,IR4,Ent lvl 47,Moonlight Terrace lvl 42 (X268|Y533)
-Troll's Poisonous Moss,IR4,Ent lvl 47,Moonlight Terrace lvl 42 (X268|Y533)
-Giant's Horn,IR7,Ent lvl 47,Moonlight Terrace lvl 42 (X268|Y533)
-Giant Fur,IR4,Troll lvl 46,Moonlight Terrace lvl 42 (X268|Y533)
-Troll's Poisonous Moss,IR4,Troll lvl 46,Moonlight Terrace lvl 42 (X268|Y533)
-Giant's Horn,IR7,Troll lvl 46,Moonlight Terrace lvl 42 (X268|Y533)
-Gold Ore,IR9,Mining Spot (X89|Y-63,Moonlight Terrace lvl 42 (X268|Y533)
-Hematite,IR6,Mining Spot (X89|Y-63,Moonlight Terrace lvl 42 (X268|Y533)
-Hematite Sand,IR4,,Moonlight Terrace lvl 42 (X268|Y533)
-Large Simian Thick Pelt,IR4,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Crooked Fang,IR4,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Ape Fur,IR3,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Necrophagous Bristle,IR7,Dread Ape lvl 45,Moonlight Terrace lvl 42 (X268|Y533)
-Slime Liquid,IR1,Slime lvl 30,Moonlight Terrace >>> Deep Water's Edge (X88|Y-73)
-Strong Viscous Liquid,IR4,Dim Slime lvl 32,Moonlight Terrace >>> Deep Water's Edge (X88|Y-73)
-Blob Flesh,IR9,Blob lvl 30,Moonlight Terrace >>> Deep Water's Edge (X88|Y-73)
-Clear Water,IR2,Water Spot (X50|Y-43),Moonlight Terrace >>> Deep Water's Edge (X88|Y-73)
-Healing Drop ,IR7,Water Spot (X50|Y-43),Moonlight Terrace >>> Deep Water's Edge (X88|Y-73)
-Strong Viscous Liquid ,IR4,Ooze lvl 40,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Strong Acid Slime Piece,IR7,Ooze lvl 40,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Magick Tinged Bone,IR5,Create (X52|Y0),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Lizardscale Pelt,IR2,Saurian lvl 45,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Saurian Tail,IR2,Saurian lvl 45,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Saurian Gland,IR6,Saurian Sage lvl 46,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Apophyllite,IR4,Saurian Sage lvl 46,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Blank Scroll,IR2,Chest (X56|Y-41),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Slime Liquid,IR1,Eletric Slime lvl 40,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Magick Tinged Bone,IR5,Create (X69|Y-71),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Sapphire,IR6,Mining Spot (X64|Y-74),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Smooth Leather ,IR7,Blue Newt lvl 46,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Superior Saurian Tail,IR6,Blue Newt lvl 46,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Blue Alluvial Gold,IR6,Blue Newt lvl 46,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Water Dragon Fang,IR8,Lindwurm lvl 53,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Dragon Hide,IR8,Lindwurm lvl 53,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Dragon Beard,IR30,Lindwurm lvl 53,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Long Dragon Beard,IR30,Lindwurm lvl 53,Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Smooth Leather ,IR7,Create (X52|Y-95),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Magick Tinged Bone,IR5,Create (X52|Y-95),Moonlight Terrace >>> Deep Water's Edge >>> Blue Waterway lvl 43 (X62|Y-33)
-Large Fang,IR5,Direwolf lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Strong Animal Leather,IR5,Direwolf lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Beast Leather,IR9,Direwolf lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Lizardscale Pelt,IR2,Sulfur Saurian lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Saurian Tail,IR2,Sulfur Saurian lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Saurian Gland,IR6,Sulfur Saurian lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Apophyllite,IR4,Sulfur Saurian lvl 41,Forest People's Tunnel lvl 41 (X284.Y514)
-Pearl Mushroom ,IR9,Chest (X37|Y-41),Forest People's Tunnel lvl 41 (X284.Y514)
-Gold Ore,IR9,Mining Spot (X68|Y-50),Forest People's Tunnel lvl 41 (X284.Y514)
-Pyrite,IR5,Mining Spot (X68|Y-50),Forest People's Tunnel lvl 41 (X284.Y514)
-Healing Drop,IR7,Water Spot (X46|Y-61),Forest People's Tunnel lvl 41 (X284.Y514)
+Monster,Level,Location,Area Level
+Skeleton Knight,43, Divine Blossom Terrace, 43
+Skeleton Mage(7),43, Divine Blossom Terrace, 43
+Skeleton Mage(7),44, Divine Blossom Terrace, 43
+Skeleton Mage(7),45, Divine Blossom Terrace, 43
+Grimwarg(10),43, Divine Blossom Terrace, 43
+Grimwarg(10),44, Divine Blossom Terrace, 43
+Wight ★Daytime,43, Divine Blossom Terrace, 43
+(Skeleton Knight) ★Daytime,43, Divine Blossom Terrace, 43
+(Skeleton Mage) ★Daytime,43, Divine Blossom Terrace, 43
+Witch ★Nighttime,44, Divine Blossom Terrace, 43
+(Skeleton Knight) ★Nighttime,43, Divine Blossom Terrace, 43
+(Skeleton Mage) ★Nighttime,43, Divine Blossom Terrace, 43
+Harpy,43, Divine Blossom Terrace, 43
+Sword Undead,43, Divine Blossom Terrace, 43
+Wight,43, Divine Blossom Terrace, 43
+Armoured Cyclops,43, Divine Blossom Terrace, 43
+Cockatrice,43, Divine Blossom Terrace, 43
+Grimwarg ★Daytime,44, Divine Blossom Terrace, 43
+Wight ★Nighttime,44, Divine Blossom Terrace, 43
+Grimwarg,44, Divine Blossom Terrace, 43
+Blob,43, Divine Blossom Terrace > Fairy's Withered Well, 0
+Slime,43, Divine Blossom Terrace > Fairy's Withered Well, 0
+Ooze,43, Divine Blossom Terrace > Fairy's Withered Well, 0
+Mudman,41, Forest People's Tunnnel, 41
+Slime,40, Forest People's Tunnnel, 41
+Troll,41, Forest People's Tunnnel, 41
+Ogre,45, Forest People's Tunnnel, 41
+Forest Goblin(9),40, Forest People's Tunnnel, 41
+Forest Goblin(9),41, Forest People's Tunnnel, 41
+Worm,35, Forest People's Tunnnel, 41
+Forest Goblin,41, Sunset Terrace, 41
+Forest Goblin Fighter,41, Sunset Terrace, 41
+Sling Forest Goblin,41, Sunset Terrace, 41
+Direwolf,41, Sunset Terrace, 41
+White Chimera,43, Sunset Terrace, 41
+Harpy(7),40, Sunset Terrace, 41
+Harpy(7),42, Sunset Terrace, 41
+Dread Ape,41, Sunset Terrace, 41
+Troll,42, Sunset Terrace, 41
+Harpy,41, Sacred Tree Terrace, 41
+Skeleton Knight,41, Sacred Tree Terrace, 41
+Skeleton Sorcerer,41, Sacred Tree Terrace, 41
+Wight,42, Sacred Tree Terrace, 41
+(Skeleton Knight),41, Sacred Tree Terrace, 41
+Skeleton Knight,42, Sacred Tree Terrace, 41
+Skeleton Sorcerer,43, Sacred Tree Terrace, 41
+Harpy,42, Moonlight Terrace, 42
+Forest Goblin,42, Moonlight Terrace, 42
+Forest Goblin Fighter,42, Moonlight Terrace, 42
+Sling Forest Goblin,42, Moonlight Terrace, 42
+Cyclops,42, Moonlight Terrace, 42
+Silver Roar,42, Moonlight Terrace, 42
+Forest Goblin,42, Moonlight Terrace, 42
+Sling Forest Goblin,42, Moonlight Terrace, 42
+Blue Newt,43, Moonlight Terrace, 42
+Large Newt,45, Moonlight Terrace, 42
+Forest Goblin,42, Blue Waterway, 43
+Forest Goblin Fighter(7),42, Blue Waterway, 43
+Forest Goblin Fighter(7),43, Blue Waterway, 43
+Sling Forest Goblin,43, Blue Waterway, 43
+Blue Newt,42, Blue Waterway, 43
+Ooze(9),40, Blue Waterway, 43
+Ooze(9),42, Blue Waterway, 43
+Blob,40, Blue Waterway, 43
+Silver Roar,43, Blue Waterway, 43
+Ogre,42, Blue Waterway, 43
+Troll,43, Blue Waterway, 43
+Snow Harpy,69, Heavenly Terrace, 68
+Harpy,68, Heavenly Terrace, 68
+Sling Goblin,68, Heavenly Terrace, 68
+Shield Goblin,68, Heavenly Terrace, 68
+Goblin Fighter,68, Heavenly Terrace, 68
+Strix,70, Heavenly Terrace, 68
+Infected Snow Harpy,69, Heavenly Terrace, 68
+Infected Gorecyclops,68, Heavenly Terrace, 68
+Goblin,68, Heavenly Terrace, 68
+Goblin Fighter,69, Heavenly Terrace, 68
+Goblin Leader,69, Heavenly Terrace, 68
+Photon Slime,68, Heavenly Terrace, 68
+Saurian,68, Heavenly Terrace, 68
+Giant Saurian(3),68, Heavenly Terrace, 68
+Giant Saurian(3),69, Heavenly Terrace, 68
+White Chimera,68, Heavenly Terrace, 68
+Drake,70, Heavenly Terrace, 68
+Forest Goblin,43, Erte Deenan, 42
+Forest Goblin Fighter,42, Erte Deenan, 42
+Sling Forest Goblin,42, Erte Deenan, 42
+Brute Ape(4),42, Erte Deenan, 42
+Brute Ape(4),43, Erte Deenan, 42
+Forest Goblin,42, Erte Deenan, 42
+Ent,42, Erte Deenan, 42
+Direwolf,42, Erte Deenan, 42
+Orc Battler(2),42, Erte Deenan, 42
+Orc Battler(2),43, Erte Deenan, 42
+Orc Aimer,42, Erte Deenan, 42
+Orc Trooper,42, Erte Deenan, 42
+Killer Bee(5),41, Erte Deenan, 42
+Killer Bee(5),44, Erte Deenan, 42
+Dread Ape,42, Erte Deenan, 42
+Chimera,43, Erte Deenan, 42
+Mole Troll,42, Erte Deenan, 42
+Mist Fighter ★Nighttime,45, Erte Deenan, 42
+Mist Hunter ★Nighttime,45, Erte Deenan, 42
+Mist Sorcerer ★Nighttime,45, Erte Deenan, 42
+Snow Harpy,42, Le Karvas Patiro, 0
+Forest Goblin,40, Le Karvas Patiro, 0
+Forest Goblin Fighter(7),42, Le Karvas Patiro, 0
+Forest Goblin Fighter(7),43, Le Karvas Patiro, 0
+Sling Forest Goblin,42, Le Karvas Patiro, 0
+Brute Ape,43, Le Karvas Patiro, 0
+Ent,42, Le Karvas Patiro, 0
+Snow Harpy(6),42, Le Karvas Lotana, 0
+Snow Harpy(6),43, Le Karvas Lotana, 0
+Direwolf(12),42, Le Karvas Lotana, 0
+Direwolf(12),43, Le Karvas Lotana, 0
+Forest Goblin,42, Le Karvas Lotana, 0
+Forest Goblin Fighter,43, Le Karvas Lotana, 0
+Sling Forest Goblin,42, Le Karvas Lotana, 0
+Troll,43, Le Karvas Lotana, 0
+Worm,10, Le Karvas Lotana, 0
+Cockatrice,43, Le Karvas Lotana, 0
+Wolf(8),44,  Le Karvas Salto, 44
+Wolf(8),45,  Le Karvas Salto, 44
+Forest Goblin,44,  Le Karvas Salto, 44
+Forest Goblin Fighter,44,  Le Karvas Salto, 44
+Sling Forest Goblin(6),44,  Le Karvas Salto, 44
+Sling Forest Goblin(6),45,  Le Karvas Salto, 44
+Brute Ape,45,  Le Karvas Salto, 44
+Dread Ape,45,  Le Karvas Salto, 44
+Ent,46,  Le Karvas Salto, 44
+Forest Goblin,44,  Le Karvas Salto, 44
+Sling Forest Goblin,44,  Le Karvas Salto, 44
+Mole Troll,45,  Le Karvas Salto, 44
+Forest Goblin,45, Le Karvas Arma, 45
+Forest Goblin Fighter(11),45, Le Karvas Arma, 45
+Forest Goblin Fighter(11),46, Le Karvas Arma, 45
+Sling Forest Goblin,45, Le Karvas Arma, 45
+Harpy,45, Le Karvas Arma, 45
+Snow Harpy,45, Le Karvas Arma, 45
+Killer Bee,48, Le Karvas Arma, 45
+Sphinx,46, Le Karvas Arma, 45
+Ogre,45, Le Karvas Arma, 45
+Silver Roar,45, Le Karvas Arma, 45
+Skeleton Knight,45, Le Karvas Arma, 45
+Skeleton Sorcerer,45, Le Karvas Arma, 45
+Golem,45, Le Karvas Arma, 45
+Direwolf,45, Le Karvas Arma, 45
+Troll,45, Le Karvas Arma, 45
+Angules,46, Le Karvas Arma, 45
+Forest Goblin,45, Le Karvas Arma, 45
+Forest Goblin Fighter,45, Le Karvas Arma, 45
+Sling Forest Goblin,45, Le Karvas Arma, 45

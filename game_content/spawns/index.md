@@ -14,7 +14,7 @@ main_color: amber-600
   {% endcapture %}
   {% include page-p.md content=spawns_desc %}
 
-  {% include alert-warn.md heading="Warning" content="This search is a bit Beta, so if it doesn't work as expected you can let me know (Read How to Contribute Guide)" extra_class="loadable-skip_loading" %}
+  {% include alert-warn.md heading="Warning" content="This search is a bit Beta, so if it doesn't work as expected you can let me know (Read How to Contribute Guide)<br>Also, this data does not include the 'Old Enemy' dataset" extra_class="loadable-skip_loading" %}
   
   <div class="flex flex-wrap md:flex-nowrap justify-center align-center max-w-3xl mx-auto gap-5">
       <div class="w-full flex gap-5">
@@ -46,12 +46,6 @@ main_color: amber-600
 
   <menu class="p-5 list-disc">
     <li>
-      {% include link-highlight.md href="/game_content/spawns/extreme_missions" text="Extreme Missions" %}
-    </li>
-    <li>
-      {% include link-highlight.md href="/game_content/spawns/world_quests" text="World Quests" %}
-    </li>
-    <li>
       {% include link-highlight.md href="/game_content/spawns/hidell_plains" text="Hidell Plains" %}
     </li>
     <li>
@@ -79,7 +73,7 @@ main_color: amber-600
       {% include link-highlight.md href="/game_content/spawns/betland_plains" text="Betland Plains" %}
     </li>
     <li>
-      {% include link-highlight.md href="/game_content/spawns/western_zandora" text="Western Zandora" %}
+      {% include link-highlight.md href="/game_content/spawns/zandora_wastelands" text="Zandora Wastelands" %}
     </li>
     <li>
       {% include link-highlight.md href="/game_content/spawns/eastern_zandora" text="Eastern Zandora" %}
@@ -91,7 +85,16 @@ main_color: amber-600
       {% include link-highlight.md href="/game_content/spawns/bloodbane_isle" text="Bloodbane Isle" %}
     </li>
     <li>
-      {% include link-highlight.md href="/game_content/spawns/phindym" text="Phindym" %}
+      {% include link-highlight.md href="/game_content/spawns/elan_water_grove" text="Elan Water Grove" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/spawns/fanara_plains" text="Fanara Plains" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/spawns/kingal_canyon" text="Kingal Canyon" %}
+    </li>
+    <li>
+      {% include link-highlight.md href="/game_content/spawns/morrow_forest" text="Morrow Forest" %}
     </li>
   </menu>
 

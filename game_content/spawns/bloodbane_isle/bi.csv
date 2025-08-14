@@ -1,233 +1,127 @@
-﻿Name,From,Reachable From/Location
-Anti-Corruption Medicine,Any Infected Enemy lv63+,Outside
-Demon Wolf's Sinewy Meat,Severly Infected Warg lv63,Outside
-Broken Dagger,Infected Hobgoblins lv63,Outside
-Pixie Mock Wing,Severly infected Pixie lv63,Outside
-Corroded Giant Eyeball,Infected Behemoth lv70(30000XP|50K G|10K RC),Outside
-Large Scallop Shell,Debrees Spot| at the beach,Outside
-Quality Gala Mushroom,Mushroom Spot| near Severly infected Warg,Outside
-High Quality Gala Mushroom,Mushroom Spot| near Severly infected Warg,Outside
-Crystal,Mining Spots(X50Y100),Outside
-Large Scallop Shell,Mining Spots(X50Y100),Outside
-Moonglow,Gathering spots up a hill (X49Y95),Outside
-Blue Alluvial Gold,Gathering spots up a hill (X49Y95),Outside
-Large Scallop Shell,Water Spots| in the middle of the island,Outside
-Sparkling Water,Water Spots| in the middle of the island,Outside
-Cedar Wood,Logging Spots. Near the tower at(X67Y94),Outside
-Black Wood,Logging Spots. Near the tower at(X67Y94),Outside
-BloodBane Isle Precipice,TBU,Outside
-Star Sphere,Mining Spots x34y75/76,Outside
-Emerald,Mining Spots x34y76,Outside
-Alchemic Wood,Logging Spots,Outside
-Gold-Striped Hardwood,Logging Spots,Outside
-Moonglow,Herb Spots,Outside
-Green Seed,Herb Spots,Outside
-BloodBane Isle Summit,TBU,Outside
-Corroded Giant Eyeball,Infected Gorecyclops lv70(80000XP|55K G|15K RC),Outside
-Corroded Giant Eyeball,Infected Behemoth lv70(30000XP|50K G|10K RC),Outside
-Severely Infected Griffin LV. 83 (Nightime only) X:58 Y:98,TBU,Outside
-Silver Ingot,Chests,INFECTED DEN LV56
-Scroll of Power,Chests,INFECTED DEN LV56
-Blank Scroll,Chests,INFECTED DEN LV56
-Superior Healing Potion,Chests,INFECTED DEN LV56
-Throwblast(550DMG),Chests,INFECTED DEN LV56
-Gold Ingot,Chests,INFECTED DEN LV56
-Superior Gala Extract,Chests,INFECTED DEN LV56
-Wild Herb,Herb Spot,INFECTED DEN LV56
-Moonglow,Herb Spot,INFECTED DEN LV56
-Baby Herb,Herb Spot,INFECTED DEN LV56
-Special Mushroom Dip,Mushroom Spot,INFECTED DEN LV56
-High Quality Gala Mushroom,Mushroom Spot,INFECTED DEN LV56
-Scroll of Darkness,Chest| behind locked door,INFECTED DEN LV56
-Drómi,Chest| behind locked door,INFECTED DEN LV56
-Scroll of Protection,Chest| behind locked door,INFECTED DEN LV56
-Ogre Fur,Ogre lv56(17000XP),INFECTED DEN LV56
-Ogre Claw,Ogre lv56(17000XP),INFECTED DEN LV56
-Necrophagous Bristle,Ogre lv56(17000XP),INFECTED DEN LV56
-Corroded Giant Eyeball,Infected Behemoth lv58(25000XP|50K G|10K RC),INFECTED DEN LV56
-Corroded Giant Eyeball,Infected Behemoth lv67(43500XP|50K G|10K RC),INFECTED DEN >>> INFECTED DEN DEPTHS LV65
-King Bliaut(LV58),Chest| behind locked door,INFECTED DEN >>> INFECTED DEN DEPTHS LV65
-Healing Elixir,Chest| behind locked door,INFECTED DEN >>> INFECTED DEN DEPTHS LV65
-Stalactite Tip (HIGH END GEAR MATS),Chests(minimum 2| maximum 7 per run),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Luminescent Stalactite (HIGH END GEAR MATS),Chests(minimum 3| maximum 7 per run),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Sinister Black Cloth (HIGH END GEAR MATS),Chests(minimum 1| maximum 6 per run),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Iron Thread (HIGH END GEAR MATS),Chests(minimum 2| maximum 5 per run),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Black Wood (HIGH END GEAR MATS),Logging Spots(min2|max4 per run),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Corroded Giant Eyeball,Infected Gorecyclops lv65(42000XP|55K G|15K RC),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Discolored Spore-covered Feather,Infected Griffin lv66(43500XP|60K G|2K RC),INFECTED DEN >>> INFECTED DEN: INNERMOST DEPTHS LV65
-Red Liquor (HIGH END GEAR MATS),Chests(min2|max 5 per run),PICTURESQUE GROTTO LV60
-Rock Finger (HIGH END GEAR MATS),Chests(Including locked door)(min5| max 13 per run),PICTURESQUE GROTTO LV60
-Sandcrystal (HIGH END GEAR MATS),Chests(min1|max 5 per run),PICTURESQUE GROTTO LV60
-Mithril Ingot,Chests,PICTURESQUE GROTTO LV60
-Black Wood,Logging Spot,PICTURESQUE GROTTO LV60
-Mithril ore,Mining Spots,PICTURESQUE GROTTO LV60
-Throwing Rock(150dmg),Mining Spots,PICTURESQUE GROTTO LV60
-Beast Fur,Grimwarg lv60,PICTURESQUE GROTTO LV60
-Beast Claw,Grimwarg lv60,PICTURESQUE GROTTO LV60
-Beast Leather,Grimwarg lv60,PICTURESQUE GROTTO LV60
-Strong Acid Slime Piece,Aqua Jelly lv60,PICTURESQUE GROTTO LV60
-Highly Viscous Slime Liquid,Aqua Jelly lv60,PICTURESQUE GROTTO LV60
-Black Tar,Sludgeman lv60,PICTURESQUE GROTTO LV60
-Strong Viscous Liquid,Sludgeman lv60,PICTURESQUE GROTTO LV60
-Magick Silt,Gargoyle lv60,PICTURESQUE GROTTO LV60
-Apophyllite,Sulphur Saurian lv60,PICTURESQUE GROTTO LV60
-Saurian Tail,Sulphur Saurian lv60,PICTURESQUE GROTTO LV60
-Saurian Gland,Sulphur Saurian lv60,PICTURESQUE GROTTO LV60
-Cockatrice Liquor,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Cockatrice Poison Gland,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Two-Edged,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Crest of Poison Prevention,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Crest of Sleep Prevention+,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Cockatrice Raven Pinion,Cockatrice lv62(31000XP),PICTURESQUE GROTTO LV60
-Golem Magickal Rock,Golem lv60(40000XP|30K G| 2|5K RC)*2,PICTURESQUE GROTTO LV60
-Magick Medal,Golem lv60(40000XP|30K G| 2|5K RC)*2,PICTURESQUE GROTTO LV60
-Black Ore,Golem lv60(40000XP|30K G| 2|5K RC)*2,PICTURESQUE GROTTO LV60
-Stone Arm ,TBU,PICTURESQUE GROTTO LV60
-Green Seed,Herb Spots,FUNGAL COLONY CAVES LV68
-Emerald,Mining Spots,FUNGAL COLONY CAVES LV68
-Ruby,Mining Spots,FUNGAL COLONY CAVES LV68
-Sapphire,Mining Spots,FUNGAL COLONY CAVES LV68
-Special Mushroom Dip,Mushroom Spot,FUNGAL COLONY CAVES LV68
-Beast Fur,Bolt Grimwarg lv68,FUNGAL COLONY CAVES LV68
-Beast Claw,Bolt Grimwarg lv68,FUNGAL COLONY CAVES LV68
-Beast leather,Bolt Grimwarg lv68,FUNGAL COLONY CAVES LV68
-Beast's mane,Bolt Grimwarg lv68,FUNGAL COLONY CAVES LV68
-Demon Beast's Liver,Bolt Grimwarg lv68,FUNGAL COLONY CAVES LV68
-Giant Fur,Troll lv68(43000XP| 23K G| 8K RC),FUNGAL COLONY CAVES LV68
-Troll's Poisonous Moss,Troll lv68(43000XP| 23K G| 8K RC),FUNGAL COLONY CAVES LV68
-Giant's Horn,Troll lv68(43000XP| 23K G| 8K RC),FUNGAL COLONY CAVES LV68
-Corroded Giant Eyeball,Infected behemoth lv68(34000XP|50K G|10K RC),FUNGAL COLONY CAVES LV68
-Bluecurrant (HIGH END GEAR MATS),Herb Spot(min6| max12 per run),CESSPOOL OF FILTH LV60
-Northern Oregano (HIGH END GEAR MATS),Herb Spot(min2| max10 per run),CESSPOOL OF FILTH LV60
-Sinister Black Cloth (HIGH END GEAR MATS),Chests(min1| max5 per run),CESSPOOL OF FILTH LV60
-Black Gunpowder (HIGH END GEAR MATS),Chest(Locked door)(min2| max5 per run),CESSPOOL OF FILTH LV60
-Saltpetre Chunk (HIGH END GEAR MATS),Chest(Locked door)(min3| max8 per run),CESSPOOL OF FILTH LV60
-Blow-Resistant Cloth,Chests,CESSPOOL OF FILTH LV60
-Scroll Of Great Strength,Chests,CESSPOOL OF FILTH LV60
-Smooth Leather,Blue Newt lv60,CESSPOOL OF FILTH LV60
-Apophyllite,Blue Newt lv60,CESSPOOL OF FILTH LV60
-Blue Alluvial Gold,Blue Newt lv60,CESSPOOL OF FILTH LV60
-Riftstone Shard (EX RARE),Maneater lv60,CESSPOOL OF FILTH LV60
-Beast's mane,Chimera lv60(35000XP),CESSPOOL OF FILTH LV60
-Strong Lizardscale Pelt,Chimera lv60(35000XP),CESSPOOL OF FILTH LV60
-Mutated Bone Lump,Chimera lv60(35000XP),CESSPOOL OF FILTH LV60
-Goat Horn,Chimera lv60(35000XP),CESSPOOL OF FILTH LV60
-Fiend's Helmet(LV32),Chimera lv60(35000XP),CESSPOOL OF FILTH LV60
-Scroll of Thunder,Bolt Skeleton lv60,CESSPOOL OF FILTH LV60
-Corroded Giant Eyeball,Infected GorecyclopsLV60(40000XP|55K G|15K RC),CESSPOOL OF FILTH LV60
-Vision Quartz (HIGH END GEAR MATS),Chests(locked door)(min0| max 2 per run),WATERFALL ECHO CAVERN LV68
-Stone Bouquet (HIGH END GEAR MATS),Chests(locked door)(min1| max 5 per run),WATERFALL ECHO CAVERN LV68
-Phyton Liquid (HIGH END GEAR MATS),Chests(locked door)(min3| max 7 per run),WATERFALL ECHO CAVERN LV68
-Superior Healing Potion,Chests(locked door),WATERFALL ECHO CAVERN LV68
-Large Pill of Savages,Chests(locked door),WATERFALL ECHO CAVERN LV68
-Demon Wolf's Sinewy Meat,Severly Infected Warg lv69,WATERFALL ECHO CAVERN LV68
-Beast Fur,Bolt Grimwarg lv68,WATERFALL ECHO CAVERN LV68
-Beast Claw,Bolt Grimwarg lv68,WATERFALL ECHO CAVERN LV68
-Beast leather,Bolt Grimwarg lv68,WATERFALL ECHO CAVERN LV68
-Beast's mane,Bolt Grimwarg lv68,WATERFALL ECHO CAVERN LV68
-Demon Beast's Liver,Bolt Grimwarg lv68,WATERFALL ECHO CAVERN LV68
-Corroded Giant Eyeball,Infected Behemoth lv70(30000XP| 50K G| 10K RC),WATERFALL ECHO CAVERN LV68
-Beast's mane,Chimera lv68(45000XP),WATERFALL ECHO CAVERN LV68
-Strong Lizardscale Pelt,Chimera lv68(45000XP),WATERFALL ECHO CAVERN LV68
-Mutated Bone Lump,Chimera lv68(45000XP),WATERFALL ECHO CAVERN LV68
-Goat Horn,Chimera lv68(45000XP),WATERFALL ECHO CAVERN LV68
-Fiend's Helmet(LV32),Chimera lv68(45000XP),WATERFALL ECHO CAVERN LV68
-Sharp Claw,Ghoul lv68(50000XP),WATERFALL ECHO CAVERN LV68
-Corpse-Eater's Horn,Ghoul lv68(50000XP),WATERFALL ECHO CAVERN LV68
-Mystery Organs,Ghoul lv68(50000XP),WATERFALL ECHO CAVERN LV68
-Blob Flesh,Acid Blob lv68,WATERFALL ECHO CAVERN LV68
-Corroded Giant Eyeball,Infected Gorecyclops lv68(55000XP|55K G|15K RC),WATERFALL ECHO CAVERN LV68
- Phindymian Resin,Bosschest,WATERFALL ECHO CAVERN LV68
-Pebble Bud (HIGH END GEAR MATS),chests(min5| max 12per run),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Gleipnir (HIGH END GEAR MATS),Chest(locked door),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Demon Thread (HIGH END GEAR MATS),Chest(min1| max6 per run),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Lapis Lazuli,Lapis Eye lv65,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Fluorite,Lapis Eye lv65,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Eye Gem,Lapis Eye lv65,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Discolored Spore-covered Feather,Infected Griffin lv67(42000XP|60K GOLD|2K RC),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Strong Acid Slime Piece,Aqua Jelly lv60,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Highly Viscous Slime Liquid,Aqua Jelly lv60,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Water Dragon Fang,Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Dragon Hide,Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Bluish Gray Dragonscale,Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Lindwurm Fin,Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Dragon Beard (HIGH END GEAR MATS),Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Long Dragon Beard (HIGH END GEAR MATS),Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Blessed Long Dragon Beard (HIGH END GEAR MATS),Lindwurm lv65(42000XP)lv67(43500XP),THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Fluorite Earrings EX rare,Lapis Eye lv65,THE TUNNEL ACROSS THE BRIDGE LV65x48y73
-Iron Ore,Mining Spots|Chests,SUNLIT UNDERGROUND CAVE LV63
-Black Ore (HIGH END GEAR MATS),Mining Spots(min1| max5 per run),SUNLIT UNDERGROUND CAVE LV63
-Black Iron Ingot (HIGH END GEAR MATS),Chests(min0| max4 per run),SUNLIT UNDERGROUND CAVE LV63
-Stagnant Shroom,Mushroom Spots| 46/-80,SUNLIT UNDERGROUND CAVE LV63
-Coconut-Scented Milkcap,Mushroom Spots| 46/-80,SUNLIT UNDERGROUND CAVE LV63
-Corroded Giant Eyeball,Infected Gorecyclops lv63(40000XP| 55K G|15K RC),SUNLIT UNDERGROUND CAVE LV63
-Corroded Giant Eyeball,Infected Behemoth lv63(25000XP| 50K G| 10K RC),SUNLIT UNDERGROUND CAVE LV63
-White Shining Sand,Chests,FRIGID ANCIENT PASSAGE LV60
-Strong Thread,Chests,FRIGID ANCIENT PASSAGE LV60
-Ice Cube Fragment (HIGH END GEAR MATS),Chests(min1| max7 per run),FRIGID ANCIENT PASSAGE LV60
-Ice Cube (HIGH END GEAR MATS),First Chests behind locked door 50% dropchance|Need a WQ to unlock,FRIGID ANCIENT PASSAGE LV60
-Gold Ore,Mining Spot,FRIGID ANCIENT PASSAGE LV60
-Throwing Rock(150dmg),Mining Spot,FRIGID ANCIENT PASSAGE LV60
-Gold Ingot (HIGH END GEAR MATS),Chests(always1),FRIGID ANCIENT PASSAGE LV60
-Energy Liquid (HIGH END GEAR MATS),Water Spot(min2| max5 per run),FRIGID ANCIENT PASSAGE LV60
-Strong Acid Slime Piece,Aqua Jelly lv60,FRIGID ANCIENT PASSAGE LV60
-Highly Viscous Slime Liquid,Aqua Jelly lv60,FRIGID ANCIENT PASSAGE LV60
-Undead Nail Shaving,Frost Skeleton lv60,FRIGID ANCIENT PASSAGE LV60
-Scroll of Ice,Frost Skeleton lv60,FRIGID ANCIENT PASSAGE LV60
-Fine Bleached Bone,Frost Skeleton lv60,FRIGID ANCIENT PASSAGE LV60
-Bone Meal,Frost Skeleton Brute lv61,FRIGID ANCIENT PASSAGE LV60
-Riftstone Shard (EX RARE),Maneater lv60,FRIGID ANCIENT PASSAGE LV60
-Sharp Claw,Ghoul lv63(31500XP),FRIGID ANCIENT PASSAGE LV60
-Corpse-Eater's Horn,Ghoul lv63(31500XP),FRIGID ANCIENT PASSAGE LV60
-Mystery Organs,Ghoul lv63(31500XP),FRIGID ANCIENT PASSAGE LV60
-Sinister Carrion,Frost Corpse Punisher/Torturer lv60,FRIGID ANCIENT PASSAGE LV60
-Rusted Plate,Frost Corpse Punisher/Torturer lv60,FRIGID ANCIENT PASSAGE LV60
-Scroll of Ice,Frost Corpse Punisher/Torturer lv60,FRIGID ANCIENT PASSAGE LV60
-Eye Gem,Crystal Eye lv60/lv63,FRIGID ANCIENT PASSAGE LV60
-Crystal,Crystal Eye lv60/lv63,FRIGID ANCIENT PASSAGE LV60
-Rainbow Eye Gem,Crystal Eye lv60/lv63,FRIGID ANCIENT PASSAGE LV60
-Giant Bone,Frost Skeleton Cyclops lv65(38000XP),FRIGID ANCIENT PASSAGE LV60
-Cyclops Tusk,Frost Skeleton Cyclops lv65(38000XP),FRIGID ANCIENT PASSAGE LV60
-Bone Meal,Frost Skeleton Cyclops lv65(38000XP),FRIGID ANCIENT PASSAGE LV60
-Grimoire Scrap (HIGH END GEAR MATS),Chests(min0| max3 per run),CRYPT OF MURMURS LV63
-Clear Water,Water Spot,CRYPT OF MURMURS LV63
-Apophyllite,Mining Spot,CRYPT OF MURMURS LV63
-Black Iron Ingot (HIGH END GEAR MATS),Chests|Final chest(min2| max 7 per run),CRYPT OF MURMURS LV63
-Black Wood (HIGH END GEAR MATS),Chests(always1),CRYPT OF MURMURS LV63
-Moonlight Mushroom (HIGH END GEAR MATS),Mushroom Spots(min2| max 5 per run),CRYPT OF MURMURS LV63
-Special Mushroom Dip,Final Chest,CRYPT OF MURMURS LV63
-Gala Pickling Liquor,Final Chest,CRYPT OF MURMURS LV63
-Corroded Giant Eyeball,Infected Gorecyclops lv63(40000XP| 55K G|15K RC),CRYPT OF MURMURS LV63
-Saurian Gland,Saurian Sage lv63,CRYPT OF MURMURS LV63
-Saurian Tail,Saurian Sage lv63,CRYPT OF MURMURS LV63
-Riftstone Shard (EX RARE),Maneater lv63,CRYPT OF MURMURS LV63
-Blob Flesh,Acid Blob lv63,CRYPT OF MURMURS LV63
-Superior Healing potion,Ghost Mail lv63,CRYPT OF MURMURS LV63
-White Dragon Gala Extract,Ghost Mail lv63,CRYPT OF MURMURS LV63
-Phantom Ore,Ghost Mail lv63,CRYPT OF MURMURS LV63
-Spiritual Will Fragment (HIGH END GEAR MATS),Ghost Mail lv63,CRYPT OF MURMURS LV63
-Cursed Letter (HIGH END GEAR MATS),Ghost Mail lv63,CRYPT OF MURMURS LV63
-Discolored Spore-covered Feather,Infected Griffin lv63(42000XP|60K G|2K RC),CRYPT OF MURMURS LV63
-Grimoire Scrap (HIGH END GEAR MATS),x51 y-69|x42 y-43,CRYPT OF MURMURS LV63
-Foreign Scroll,Endboss Chests right: 100% chance| Left 50% chance,CRYPT OF MURMURS LV63
-Giant Caterpillar (HIGH END GEAR MATS),Chest (amaount: 1-2),SAGE TOWER RUINS LV93
-Corrupted Sealer Stone, 50/50 Dropchance ,SAGE TOWER RUINS LV93
- Rose Magadosys,Chest,SAGE TOWER RUINS LV93
-Corroded Giant Eyeball,Infected Gorecyclops lv65(40000XP|55K G| 15K RC),DANGEROUS AREA LV65
-Silver Moss (HIGH END GEAR MATS),Chest X42/Y-44,DRIED WELL BY THE TOWER LV63
-Luminescent Silver Moss (HIGH END GEAR MATS),Chest at X42Y-44,DRIED WELL BY THE TOWER LV63
-Blue Alluvial Gold,Chest,DRIED WELL BY THE TOWER LV63
-Scroll of Magickal Defense,Chest,DRIED WELL BY THE TOWER LV63
-Hematite,Mining Spots,DRIED WELL BY THE TOWER LV63
-Amethyst,Mining Spots,DRIED WELL BY THE TOWER LV63
-Lapis Lazuli,Mining Spots,DRIED WELL BY THE TOWER LV63
-Sapphire,Mining Spots,DRIED WELL BY THE TOWER LV63
-Corroded Giant Eyeball,Infected Gorecyclops lv63(40000XP|55K G|15K RC),DRIED WELL BY THE TOWER LV63
-Marbled Beast-Steak,Eliminator lv63(30000XP),DRIED WELL BY THE TOWER LV63
-Gala Extract,Eliminator lv63(30000XP),DRIED WELL BY THE TOWER LV63
-Superior Healing Potion,Eliminator lv63(30000XP),DRIED WELL BY THE TOWER LV63
-Iron Ore| Drómi,Locked Chest at X60 Y-57,DRIED WELL BY THE TOWER LV63
-Giant Caterpillar (HIGH END GEAR MATS),Chest (amaount: 1-2),SAGE TOWER RUINS LV93
-Corrupted Sealer Stone, 50/50 Dropchance ,SAGE TOWER RUINS LV93
- Rose Magadosys,Chest,SAGE TOWER RUINS LV93
-,,
+Monster,Level,Location,Area Level
+Infected Hobgoblin,56, Infected Den, 56
+Infected Hobgoblin Fighter,56, Infected Den, 56
+Infected Sling Hobgoblin,56, Infected Den, 56
+Infected Snow Harpy(13),10, Infected Den, 56
+Infected Snow Harpy(13),55, Infected Den, 56
+Infected Snow Harpy(13),56, Infected Den, 56
+Infected Direwolf,56, Infected Den, 56
+,, Infected Den, 56
+Infected Snow Harpy,56, Infected Den, 56
+Infected Direwolf,56, Infected Den, 56
+Infected Gorecyclops,56, Infected Den, 56
+Ogre,56, Infected Den, 56
+Infected Behemoth,58, Infected Den, 56
+Grimwarg,60, Picturesque Grotto [Quest: No Regrets], 60
+Infected Orc Soldier,65, Picturesque Grotto [Quest: No Regrets], 60
+Aqua Jelly,60, Picturesque Grotto [Quest: No Regrets], 60
+Wight,60, Picturesque Grotto [Quest: No Regrets], 60
+Gargoyle,60, Picturesque Grotto [Quest: No Regrets], 60
+Sulfur Saurian,60, Picturesque Grotto [Quest: No Regrets], 60
+Giant Sulfur Saurian,60, Picturesque Grotto [Quest: No Regrets], 60
+Saurian Sage,60, Picturesque Grotto [Quest: No Regrets], 60
+Giant Saurian Sage,60, Picturesque Grotto [Quest: No Regrets], 60
+Infected Behemoth,65, Picturesque Grotto [Quest: No Regrets], 60
+Golem,60, Picturesque Grotto [Quest: No Regrets], 60
+Infected Behemoth,63, Sunlit Underground Cave, 63
+Infected Hobgoblin,63, Sunlit Underground Cave, 63
+Infected Hobgoblin Fighter,63, Sunlit Underground Cave, 63
+Infected Snow Harpy(9),60, Sunlit Underground Cave, 63
+Infected Snow Harpy(9),63, Sunlit Underground Cave, 63
+Infected Direwolf,63, Sunlit Underground Cave, 63
+Infected Gorecyclops,63, Sunlit Underground Cave, 63
+Frosted Skeleton,63, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Mudman,63, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Frosted Skeleton,60, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Frosted Corpse Torturer,62, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Frosted Skeleton Brute,61, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Saurian,63, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Frost Machina,64, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Freezing Slime,60, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Wight,55, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+(Frosted Skeleton),60, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+(Frosted Skeleton Brute),60, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Frost Machina,62, Frigid Ancient Passage [Quest: High Difficulty: The Source of Commotion], 60
+Saurian,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Large Newt,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Electric Slime,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Chimera,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Hobgoblin,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Hobgoblin Fighter(2),60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Hobgoblin Fighter(2),62, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Sling Hobgoblin(2),60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Sling Hobgoblin(2),63, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Hobgoblin,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Skeleton Brute,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Harpy,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Infected Gorecyclops,60, Cesspool of Filth [Quest: High Difficulty: The Demon's Nest], 60
+Skeleton Brute,60, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Lux Skeleton,60, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Infected Gorecyclops,61, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Infected Sling Hobgoblin,60, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Saurian Sage,60, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Chimera,61, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Saurian,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Saurian Sage,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Maneater,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Sling Hobgoblin,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Acid Blob,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Ghost Mail,63, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Infected Griffin,62, Crypt of Murmurs [Quest: High Difficulty: An Uncertain Pride], 63
+Infected Hobgoblin(6),63, Dried Well by the Tower, 63
+Infected Hobgoblin(6),65, Dried Well by the Tower, 63
+Infected Hobgoblin Fighter,63, Dried Well by the Tower, 63
+Infected Sling Hobgoblin,63, Dried Well by the Tower, 63
+Infected Snow Harpy,63, Dried Well by the Tower, 63
+Infected Direwolf,63, Dried Well by the Tower, 63
+Eliminator,63, Dried Well by the Tower, 63
+Infected Hobgoblin,63, Dried Well by the Tower, 63
+Infected Gorecyclops,63, Dried Well by the Tower, 63
+Infected Hobgoblin,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Hobgoblin Fighter(4),65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Hobgoblin Fighter(4),66, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Saurian Sage,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Giant Saurian,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Maneater,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Blue Newt,60, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Large Newt,60, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Saurian Sage,60, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Severely Infected Warg,66, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Snow Harpy,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Sling Hobgoblin,65, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Direwolf,60, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Snow Harpy,60, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Black Griffin,63, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Severely Infected Behemoth,63, Infected Den Depths [Quest: High Difficulty: A Revelry of Ruin], 65
+Infected Direwolf,65, The Tunnel across the Bridge, 65
+Rock Saurian,65, The Tunnel across the Bridge, 65
+Rock Saurian Spinel,65, The Tunnel across the Bridge, 65
+Saurian Sage,68, The Tunnel across the Bridge, 65
+Infected Hobgoblin,65, The Tunnel across the Bridge, 65
+Infected Hobgoblin Fighter,65, The Tunnel across the Bridge, 65
+Infected Snow Harpy,65, The Tunnel across the Bridge, 65
+Lapis Eye,65, The Tunnel across the Bridge, 65
+Electric Slime,65, The Tunnel across the Bridge, 65
+Aqua Jelly,65, The Tunnel across the Bridge, 65
+Lindwurm,67, The Tunnel across the Bridge, 65
+Infected Griffin,67, The Tunnel across the Bridge, 65
+Acid Blob,68, Waterfall Echo Cavern, 68
+Infected Gorecyclops,68, Waterfall Echo Cavern, 68
+Infected Direwolf,68, Waterfall Echo Cavern, 68
+Infected Snow Harpy,68, Waterfall Echo Cavern, 68
+Infected Hobgoblin Fighter,68, Waterfall Echo Cavern, 68
+Infected Sling Hobgoblin,68, Waterfall Echo Cavern, 68
+Chimera,68, Waterfall Echo Cavern, 68
+Ghoul,68, Waterfall Echo Cavern, 68
+Infected Behemoth,70, Waterfall Echo Cavern, 68
+Infected Direwolf,68, Fungal Colony Caves, 68
+Infected Hobgoblin,68, Fungal Colony Caves, 68
+Infected Hobgoblin Fighter,68, Fungal Colony Caves, 68
+Infected Sling Hobgoblin,68, Fungal Colony Caves, 68
+Infected Snow Harpy,68, Fungal Colony Caves, 68
+Bolt Grimwarg,68, Fungal Colony Caves, 68
+Troll,68, Fungal Colony Caves, 68
+Severely Infected Warg,68, Fungal Colony Caves, 68
+Infected Griffin,68, Fungal Colony Caves, 68
+Severely Infected Stymphalídes,70, Fungal Colony Caves, 68
+Severely Infected Behemoth,68, Fungal Colony Caves, 68
