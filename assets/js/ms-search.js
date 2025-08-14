@@ -37,7 +37,7 @@ function msSearch() {
         var linkHighlightTemplate = `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`;
         var quests = DF_Wiki.monsterQuestsIndex[monsters[m]];
 
-        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", "#").replace("__TEXT__", `${monsters[m]}`));
+        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", "#").replace("__TEXT__", `Quests: ${monsters[m]}`));
 
         for (var q in quests){
           var quest = quests[q];
