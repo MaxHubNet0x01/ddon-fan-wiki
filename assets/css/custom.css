@@ -33,3 +33,15 @@ body{
 .shadow-right{
   box-shadow: -27px -35px 45px var(--tw-shadow-color) !important;
 }
+
+.loadable.loadable-loading * :not(.loadable-loader, .loadable-loader *, .loadable-skip_loading, .loadable-skip_loading *){
+  display: none !important;
+}
+
+.loadable.loadable-loading .loadable-loader{
+  display: flex;
+}
+
+.loadable .loadable-loader{
+  display: none;
+}

@@ -14,6 +14,7 @@ main_color: amber-600
   {% endcapture %}
   {% include page-p.md content=drops_desc %}
 
+  {% include alert-info.md heading="Note" content="Updated: Aug 14, 2025" %}
   {% include alert-warn.md heading="Warning" content="This search is a bit Beta, so if it doesn't work as expected you can let me know (Read How to Contribute Guide)" %}
   
   <div class="flex flex-wrap md:flex-nowrap justify-center align-center max-w-xl mx-auto gap-5">

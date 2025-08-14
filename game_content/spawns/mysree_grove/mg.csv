@@ -1,0 +1,131 @@
+﻿Name,Item Rarity,From,Reachable From/Location
+Rock Scale ,IR6,Saurian lvl 30,Outside
+Saurian Tail ,IR2,Saurian lvl 30,Outside
+Apophyllite,IR4,Saurian lvl 30,Outside
+Lizardscale Pelt,IR2,Saurian lvl 30,Outside
+Animal Fur,IR1,Create (X246|Y446),Outside
+Unrefined Demon Wine ,IR4,Create (X246|Y446),Outside
+Brown Wood,IR2,Logging Spot (X252|Y446),Outside
+White Wood,IR7,Logging Spot (X252|Y446),Outside
+Stagnant Shroom ,IR3,Mushroom Spot (X253|Y455),Outside
+Iron Ore ,IR4,Rock Saurian lvl 30,Outside
+Superior Saurian Tail,IR6,Rock Saurian lvl 30,Outside
+Rock Scale ,IR6,Rock Saurian lvl 30,Outside
+Ape Pelt,IR3,Brute Ape lvl 34,Outside
+Ape Fur,IR3,Brute Ape lvl 34,Outside
+Sharp Claw,IR7,Brute Ape lvl 35,Outside
+White Wood,IR7,Logging Spot (X255|Y461),Outside
+Brown Wood,IR2,Logging Spot (X255|Y461),Outside
+Rosewood,IR8,Logging Spot (X255|Y461),Outside
+White Liquor ,IR5,Rouge Warrior lvl 35,Outside
+Angelica ,IR4,Herb Spot (X254|Y468),Outside
+Blue Flower,IR7,Herb Spot (X254|Y468),Outside
+Baby Herb,IR1,Herb Spot (X254|Y468),Outside
+Angelica ,IR4,Herb Spot (X251|Y476),Outside
+Magick Tinged Bone,IR5,Skeleton Sorcerer lvl 35,Outside
+Blank Scroll ,IR2,Skeleton Sorcerer lvl 35,Outside
+Smooth Leather,IR7,Blue Newt lvl 33,Outside
+Blue Alluvial Gold,IR6,Blue Newt lvl 33,Outside
+Angelica ,IR4,Herb Spot (X255|Y479),Outside
+Clear Spring Water,IR3,Water Spot (X242|Y487),Outside
+Rosewood,IR8,Logging Spot (X239|Y491),Outside
+Clear Spring Water,IR3,Water Spot (X237|Y488),Outside
+Dragon Hide ,IR8,Lindwurm lvl 35,Outside
+Water Dragon Fang,IR8,Lindwurm lvl 35,Outside
+Fluorite,IR2,Mist Fighter lvl 35,Outside
+Mist Gem,IR4,Mist Fighter lvl 35,Outside
+White Wood,IR7,Logging Spot (X225|Y492),Outside
+Rosewood,IR8,Logging Spot (X225|Y492),Outside
+Brown Wood,IR2,Logging Spot (X225|Y492),Outside
+Pine Lumber,IR6,Logging Spot (X223|Y504),Outside
+Quality Gala Mushroom,IR2,Mushroom Spot (X240|Y502),Outside
+High Quality Gala Mushroom,IR7,Mushroom Spot (X240|Y502),Outside
+Gala Mushroom ,IR1,Mushroom Spot (X240|Y502),Outside
+Blue Flower,IR7,Herb Spot (X235|Y482),Outside
+White Wood,IR7,Logging Spot (X230|Y479),Outside
+Hard Wood,IR3,Logging Spot (X230|Y479),Outside
+Goblin's Leaf,IR4,Forest Goblin lvl 35,Outside
+Goblin Horn,IR3,Forest Goblin lvl 35,Outside
+Quality Gala Mushroom,IR2,Mushroom Spot (X237.Y472),Outside
+Gala Mushroom ,IR1,Mushroom Spot (X237.Y472),Outside
+High Quality Gala Mushroom,IR7,Mushroom Spot (X231|Y468),Outside
+Clear Spring Water,IR3,Water Spot (X231|Y462),Outside
+Blue Flower,IR7,Herb Spot (X236|Y465),Outside
+Goblin Horn ,IR3,Goblin Fight lvl 35,Forest Ruins Cellar lvl 35 (X241|Y454)
+Small Horn,IR1,Goblin Fight lvl 35,Forest Ruins Cellar lvl 35 (X241|Y454)
+Cerussite,IR8,Chest (X54|Y51),Forest Ruins Cellar lvl 35 (X241|Y454)
+Harpy Pinion,IR2,Harpy lvl 41,Greenleaf Terrace lvl 40 (X257|Y481)
+Harpy Flight Feather ,IR6,Harpy lvl 41,Greenleaf Terrace lvl 40 (X257|Y481)
+Bird Feather,IR1,Harpy lvl 41,Greenleaf Terrace lvl 40 (X257|Y481)
+Animal Fur,IR1,Wolf lvl 40,Greenleaf Terrace lvl 40 (X257|Y481)
+Small Fang,IR2,Wolf lvl 40,Greenleaf Terrace lvl 40 (X257|Y481)
+Supple Fur,IR2,Wolf lvl 40,Greenleaf Terrace lvl 40 (X257|Y481)
+Goblin's Flower,IR9,Forest Goblin Fighter lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Goblin Horn,IR3,Forest Goblin Fighter lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Goblin's Leaf ,IR4,Forest Goblin Fighter lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Giant Bone ,IR3,Colossus lvl 46,Greenleaf Terrace lvl 40 (X257|Y481)
+Colossus Gorn,IR6,Colossus lvl 46,Greenleaf Terrace lvl 40 (X257|Y481)
+Giant Tough Pelt,IR8,Colossus lvl 46,Greenleaf Terrace lvl 40 (X257|Y481)
+Rugged Leather,IR5,Cyclops lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Giant Bone ,IR3,Cyclops lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Giant Eyeball,IR8,Cyclops lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Cyclops Tusk,IR5,Cyclops lvl 43,Greenleaf Terrace lvl 40 (X257|Y481)
+Blue Flower,IR7,Herb Spot (X42|-90),Greenleaf Terrace lvl 40 (X257|Y481)
+Northern Oregano,IR8,Herb Spot (X52|Y-112),Greenleaf Terrace lvl 40 (X257|Y481)
+Forest Chernozem,IR7,Chest (X43.Y-106),Greenleaf Terrace lvl 40 (X257|Y481)
+Scroll Of Fire,IR5,Chest (X40|Y-116),Greenleaf Terrace lvl 40 (X257|Y481)
+Blank Scroll ,IR2,Chest (X40|Y-116),Greenleaf Terrace lvl 40 (X257|Y481)
+Scroll Of Fire,IR5,Chest (X55|Y-121),Greenleaf Terrace lvl 40 (X257|Y481)
+Blank Scroll ,IR2,Chest (X55|Y-121),Greenleaf Terrace lvl 40 (X257|Y481)
+Black Wood,IR9,Chest (X63|Y-122),Greenleaf Terrace lvl 40 (X257|Y481)
+Forest Chernozem,IR7,Chest (X63|Y-122),Greenleaf Terrace lvl 40 (X257|Y481)
+Ent Branch,IR4,Ent lvl 50,Greenleaf Terrace lvl 40 (X257|Y481)
+Ent Leaf,IR4,Ent lvl 50,Greenleaf Terrace lvl 40 (X257|Y481)
+Demon Thread 2x+,IR7,Chest (X87|Y-112),Greenleaf Terrace lvl 40 (X257|Y481)
+Apophyllite,IR4,Blue Newt lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Smooth Leather ,IR7,Blue Newt lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Superior Saurian Tail,IR6,Blue Newt lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Blue Alluvial Gold,IR6,Blue Newt lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Magick Medal,IR7,Golem lvl 45,Sacred Spring Terrace lvl 38 (X220|Y508)
+Goblin Horn,IR3,Forest Goblin Fighter lvl 39,Sacred Spring Terrace lvl 38 (X220|Y508)
+Goblin's Flower,IR9,Forest Goblin Fighter lvl 39,Sacred Spring Terrace lvl 38 (X220|Y508)
+Goblin's Leaf ,IR4,Forest Goblin Fighter lvl 39,Sacred Spring Terrace lvl 38 (X220|Y508)
+Animal Fur,IR1,Wolf lvl 38,Sacred Spring Terrace lvl 38 (X220|Y508)
+Small Fang,IR2,Wolf lvl 38,Sacred Spring Terrace lvl 38 (X220|Y508)
+Supple Fur,IR2,Wolf lvl 38,Sacred Spring Terrace lvl 38 (X220|Y508)
+Orge Claw,IR6,Orge lvl 43,Sacred Spring Terrace lvl 38 (X220|Y508)
+Orge Fur ,IR6,Orge lvl 43,Sacred Spring Terrace lvl 38 (X220|Y508)
+White Wood,IR7,Logging Spot (X46|Y-24),Sacred Spring Terrace lvl 38 (X220|Y508)
+Demon Wolf's Sinewy Meat,IR45,Warg lvl 43,Sacred Spring Terrace lvl 38 (X220|Y508)
+Goblin's Spellstaff,IR80,Goblin Shaman lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Black Blade Fragment,IR80,Goblin Shaman lvl 40,Sacred Spring Terrace lvl 38 (X220|Y508)
+Ent Breach,IR4,Ent lvl 50,Sacred Spring Terrace lvl 38 (X220|Y508)
+Ent Leaf,IR4,Ent lvl 50,Sacred Spring Terrace lvl 38 (X220|Y508)
+Ent Seed,IR8,Ent lvl 50,Sacred Spring Terrace lvl 38 (X220|Y508)
+Blank Scroll,IR2,Book Spot (X39|Y-65),Sacred Spring Terrace lvl 38 (X220|Y508)
+Goblin Horn,IR3,Forest Goblin lvl 35,Dark Green Terrace lvl 35 (X227|Y479)
+Goblin's Flower,IR9,Forest Goblin lvl 35,Dark Green Terrace lvl 35 (X227|Y479)
+Goblin's Leaf ,IR4,Forest Goblin lvl 35,Dark Green Terrace lvl 35 (X227|Y479)
+Harpy Pinion,IR2,Harpy lvl 37,Dark Green Terrace lvl 35 (X227|Y479)
+Harpy Flight Feather ,IR6,Harpy lvl 37,Dark Green Terrace lvl 35 (X227|Y479)
+Bird Feather,IR1,Harpy lvl 37,Dark Green Terrace lvl 35 (X227|Y479)
+King Bay Leaf,IR8,Chest (X43|Y-43),Dark Green Terrace lvl 35 (X227|Y479)
+Pine Lumber,IR6,Logging Spot (X56|Y-48),Dark Green Terrace lvl 35 (X227|Y479)
+High Quality Gala Mushroom,IR7,Chest (X40|Y-71),Dark Green Terrace lvl 35 (X227|Y479)
+King Bay Leaf,IR8,Herb Spot (X64|Y-63),Dark Green Terrace lvl 35 (X227|Y479)
+Blue Flower,IR7,Herb Spot (X64|Y-63),Dark Green Terrace lvl 35 (X227|Y479)
+Scroll Of Holy,IR6,Chest (X54|Y-77),Dark Green Terrace lvl 35 (X227|Y479)
+King Bay Leaf,IR8,Chest (X63|Y-77),Dark Green Terrace lvl 35 (X227|Y479)
+Griffin Beak,IR6,Griffin lvl 42,Dark Green Terrace lvl 35 (X227|Y479)
+Griffin Feather,IR6,Griffin lvl 42,Dark Green Terrace lvl 35 (X227|Y479)
+Ambrosial Beast Steak,IR8,Griffin lvl 42,Dark Green Terrace lvl 35 (X227|Y479)
+Pine Lumber,IR6,Logging Spot (X83|Y-63),Dark Green Terrace lvl 35 (X227|Y479)
+Lava Rock,IR8,Geo Saurian,Misty Illusion Terrace lvl 63 (X220|Y494)
+Rock Scale,IR6,Geo Saurian,Misty Illusion Terrace lvl 63 (X220|Y494)
+Superior Saurian Tail,IR6,Geo Saurian,Misty Illusion Terrace lvl 63 (X220|Y494)
+Rock Scale,IR6,Giant Geo Saurian,Misty Illusion Terrace lvl 63 (X220|Y494)
+Rock Scale,IR6,Giant Geo Saurian,Misty Illusion Terrace lvl 63 (X220|Y494)
+Sea Bird Syrinx,IR60,Siren lvl 64,Misty Illusion Terrace lvl 63 (X220|Y494)
+White Seashell,IR2,Chest (X76 Y-41),Misty Illusion Terrace lvl 63 (X220|Y494)
+Spirit Silver Ingot,IR8,Chest (X76 Y-41),Misty Illusion Terrace lvl 63 (X220|Y494)
+Ash Quartz,,Chest (X85/Y-315),Misty Illusion Terrace lvl 63 (X220|Y494)

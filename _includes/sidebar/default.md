@@ -33,6 +33,7 @@
   {% include sidebar/group-option-start.md id="guides" heading="Game Content" %}
     {% include sidebar/group-option-list-start.md %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Drops / Materials Index" href="/game_content/drops" id="drops" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Monster Spawns Index" href="/game_content/spawns" id="spawns" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 
@@ -54,6 +55,8 @@
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Add Content" href="/contributing/add_content" id="add-content" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="TCTPC Gen" href="/development/tctpc" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="TGF Subs" href="/development/tgfsr" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="C# Enum to JSON" href="/development/csejson" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Swap JSON K/V" href="/development/sjkv" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 </nav>
