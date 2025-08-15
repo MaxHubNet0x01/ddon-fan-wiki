@@ -1,0 +1,175 @@
+{
+    "type": "World",
+    "name": "A Stylish Consideration",
+    "quest_id": 20040000,
+    "area_id": "VoldenMines",
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": {
+        "id": 1603,
+        "name": "Livian",
+        "stage": {
+            "name": "Red Crystal Inn",
+            "id": 52
+        }
+    },
+    "minimum_area_rank": 1,
+    "repeatable": true,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 0
+    },
+    "order_conditions": [],
+    "unlocks": {
+        "tutorials": [],
+        "contents": []
+    },
+    "description": "Listen to the client's request and gather the desired items",
+    "steps": [
+        "Deliver <SQDI NAME> x<SQDI NUM> to the requester (need: <SQDI DNUM>)"
+    ],
+    "variants": [
+        {
+            "level": 23,
+            "minimum_item_rank": 0,
+            "xp": 270,
+            "gold": 120,
+            "rift": 70,
+            "ap": 230,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "level": "23",
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Jewel Steel Ingot",
+                                "item_id": 7882,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Small Thief's Key",
+                                "item_id": 9429,
+                                "amount": 3
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Sorcerer's Hat",
+                                "item_id": 8153,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Oil Flask",
+                                "item_id": 9394,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Mentor's Cap",
+                                "item_id": 732,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Brute Armet",
+                                "item_id": 522,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "minimum_item_rank": 0,
+            "xp": 310,
+            "gold": 120,
+            "rift": 80,
+            "ap": 330,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "level": "25",
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Combat Fabric",
+                                "item_id": 7938,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Purifying Decoction",
+                                "item_id": 9372,
+                                "amount": 3
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Pleasant Helm",
+                                "item_id": 8173,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Poison Flask",
+                                "item_id": 9395,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Sergeant's Helm",
+                                "item_id": 842,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Poison Flask",
+                                "item_id": 9395,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Sergeant's Helm",
+                                "item_id": 842,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Over Guard",
+                                "item_id": 628,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

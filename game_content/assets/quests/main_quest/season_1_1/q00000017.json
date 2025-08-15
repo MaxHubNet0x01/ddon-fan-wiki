@@ -1,0 +1,58 @@
+{
+    "type": "Main",
+    "name": "The Course of Life",
+    "quest_id": 17,
+    "area_id": null,
+    "guide_type": "MainQuest",
+    "minimum_area_rank": 0,
+    "repeatable": false,
+    "quest_chain": {
+        "previous_quest_id": 16,
+        "next_quest_id": 28
+    },
+    "order_conditions": [
+        {
+            "type": "MinimumLevel",
+            "param01": 43
+        },
+        {
+            "type": "SoloWithPawns"
+        }
+    ],
+    "unlocks": {
+        "tutorials": [
+            "Lestania: Section II",
+            "Appraisal Exchange"
+        ],
+        "contents": [
+            "The 3rd stage of Dragon Force Augmentation is unlocked"
+        ]
+    },
+    "description": "Offer the vessel of life you brought back  to the White Dragon.",
+    "steps": [
+        "Speak with Joseph"
+    ],
+    "variants": [
+        {
+            "level": 43,
+            "minimum_item_rank": 0,
+            "xp": 0,
+            "gold": 0,
+            "rift": 0,
+            "ap": 0,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": []
+        }
+    ],
+    "tags": [],
+    "starting_npc": {
+        "id": 2,
+        "name": "Mysial",
+        "stage": {
+            "name": "Audience Chamber",
+            "id": 3
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "type": "Personal",
+    "name": "Seeker Tactics Trial: A Whirlwind",
+    "quest_id": 60000005,
+    "area_id": null,
+    "guide_type": "VocationQuest",
+    "starting_npc": {
+        "id": 1029,
+        "name": "Renton",
+        "stage": {
+            "name": "The White Dragon Temple",
+            "id": 2
+        }
+    },
+    "minimum_area_rank": 0,
+    "repeatable": false,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 60000054
+    },
+    "order_conditions": [
+        {
+            "type": "MinimumVocationLevel",
+            "param01": "Seeker",
+            "param02": 1
+        },
+        {
+            "type": "Solo"
+        }
+    ],
+    "unlocks": {
+        "tutorials": [
+            "Fighting Large Enemies",
+            "Tactical Role of the Seeker",
+            "Basic Tactics: Seeker",
+            "Advanced Tactics: Seeker"
+        ],
+        "contents": []
+    },
+    "description": "In order to learn the basic tactics of Seeker, challenge the trial of the Training Chapel",
+    "steps": [
+        "Speak with Wilson in the Training Chapel",
+        "Attack an enemy with Carve",
+        "Attack an enemy with Scarlet Kisses",
+        "Avoid enemy attacks with Forward Roll",
+        "Successfully hit an enemy with Rope Throw",
+        "Cling to the enemy in the inner sanctum, and attack it with Scarlet Slashes",
+        "Defeat the Cyclops",
+        "Collect the proof of completing the trial",
+        "Report back to Renton in the White Dragon Temple"
+    ],
+    "variants": [
+        {
+            "level": 1,
+            "minimum_item_rank": 0,
+            "xp": 480,
+            "gold": 500,
+            "rift": 130,
+            "ap": 0,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Fixed",
+                    "pools": [
+                        [
+                            {
+                                "name": "Conqueror's Periapt",
+                                "item_id": 42,
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

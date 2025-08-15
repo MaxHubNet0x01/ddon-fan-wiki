@@ -45,6 +45,65 @@ function qSearch(){
     return result;
   }
 
+  function genBadge(bgColor, textColor, text){
+    return `<span class="rounded-full bg-${bgColor} text-${textColor} px-2.5 py-0.5 text-sm whitespace-nowrap">${text}</span>`;
+  }
+
+  function genQuestCategoriesBadge(q){
+    var ret = "";
+    for (var c in q.category){
+      ret += genBadge("neutral-700", "white", q.category[c]);
+    }
+
+    return ret;
+  }
+
+  function genQuestOrderConditions(q){
+    if (!q.order_conditions || !q.order_conditions.length) return "";
+
+    var ret = `
+      <ul class="flex flex-col gap-3 list-disc">
+        <li class="font-bold underline list-none">Requirements to Accept Quest</li>
+    `;
+
+    for (var c in q.order_conditions){
+      cond = q.order_conditions[c];
+      var reqText = "";
+
+      switch (cond.type){
+        case "MinimumLevel": {
+          reqText = `You must be at Level ${cond.param01} or higher`;
+          break;
+        }
+        case "AreaRank": {
+          reqText = `You must be at Area Rank ${cond.param02} or higher in <b>${cond.param01}</b>`;
+          break;
+        }
+        case "MinimumVocationLevel": {
+          reqText = `You must be at Level ${cond.param02} or higher in <b>${cond.param01}</b> Vocation`;
+          break;
+        }
+        case "MainQuestCompleted": {
+          reqText = `You must complete the Main Quest: <b>${resolveQuestLinkFromId(cond.param01)}</b>`;
+          break;
+        }
+        default: continue
+      }
+
+      ret += `
+          <li class="mx-5">${reqText}</li>
+      `;
+    }
+
+    ret += `</ul>`;
+
+    return ret;
+  }
+
+  function genQuestUnlocks(quest){
+
+  }
+
   function searchQuestsIndex(keyword, level){
     if (!keyword || !DF_Wiki.rootQuestsIdIndex || !DF_Wiki.rootQuestsIndex) return;
     
@@ -53,18 +112,32 @@ function qSearch(){
       if (value.toLowerCase().indexOf(keyword.toLowerCase()) != -1){
         var linkHighlightTemplate = `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`;
         var quest = DF_Wiki.rootQuestsIndex[value];
-        var questType = quest.type.replace("Tutorial", "Tutorial/Personal").replace("Light", "Board");
 
         if (!quest || (level >= 1 && quest.questLevel < level)) continue;
 
-        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", "{{  '/game_content/quests/view' | relative_url }}?id=" + key).replace("__TEXT__", `[${questType} Quest]: ${value}`));
+        var questType = quest.type;
+        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", "{{  '/game_content/quests/view' | relative_url }}?id=" + key).replace("__TEXT__", `[${questType} Quest] ${value}`));
 
         resultHtml += DF_Wiki.csvHtmlItem.replace("__HEADING__", ``).replace("__CONTENT__", 
           `
-          Min Level for Quest: ${quest.base_level}<br>
-          Quest Base EXP: ${quest.exp}<br>
-          Additional Rewards: <br>
-            ${genQuestAdditionalRewardsString(quest.rewards)}
+            <div>
+              <div class="flex flex-col">
+                <div class="quest-badges flex gap-3">
+                  ${
+                    quest.repeatable ? genBadge("orange-700", "white", "Repeatable") : genBadge("orange-950", "white", "Not Repeatable")
+                  }
+                  ${
+                    genQuestCategoriesBadge(quest)
+                  }
+                </div>
+                <div class="quest-content flex flex-col gap-5">
+                  <i class="mt-5">
+                    ${quest.description ? quest.description: "" }
+                  </i>
+                  ${genQuestOrderConditions(quest)}
+                </div>
+              </div>
+            </div>
           `
         );
 
@@ -142,6 +215,36 @@ function qSearch(){
     });
   }
 
+  function getAndBuildRootQuestsIndexData2(){
+    // This one pulls from game_content/assets/quests
+
+    var generatedQuestFolderJson = JSON.parse(`{% gen_folder_files_json game_content/assets/quests %}`);
+    window.rootQuestsIndex = {};
+    window.rootQuestsIdIndex = {};
+    console.log(generatedQuestFolderJson);
+
+    function genFolderJson(item){
+      if (item.type == "directory"){
+        for (var c in item.children){
+          genFolderJson(item.children[c]);
+        }
+      }
+      else{
+        getFileContents("/" + item.path, function(){}).then((resp) => {
+          resp.category = item.category;
+          rootQuestsIndex[resp.name] = resp;
+          rootQuestsIdIndex[item.name] = resp.name;
+        });
+      }
+    }
+
+    for (var i in generatedQuestFolderJson.children){
+      var item = generatedQuestFolderJson.children[i];
+
+      genFolderJson(item);
+    }
+  }
+
   function loadRootQuestsIndex(data){
     if (!data) {
       console.log("No RQ Index");
@@ -192,6 +295,7 @@ function qSearch(){
 
   // We're gonna build index data instead
   //getAndBuildRootQuestsIndexData();
+  //getAndBuildRootQuestsIndexData2();
 
   getPrebuiltData();
 

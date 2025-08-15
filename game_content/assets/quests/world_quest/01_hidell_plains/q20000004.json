@@ -1,0 +1,167 @@
+{
+    "type": "World",
+    "name": "A Petition to Rid of Demons in Ruins",
+    "quest_id": 20000004,
+    "area_id": "HidellPlains",
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": {
+        "id": 4,
+        "name": "Joseph",
+        "stage": {
+            "name": "Audience Chamber",
+            "id": 3
+        }
+    },
+    "minimum_area_rank": 1,
+    "repeatable": true,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 0
+    },
+    "order_conditions": [],
+    "unlocks": {
+        "tutorials": [],
+        "contents": []
+    },
+    "description": "Listen to Joseph's story and solve the matter of the petition.",
+    "steps": [
+        "Head for \"Small Cave Tombs\"",
+        "Defeat all encountered enemies",
+        "Report to Joseph"
+    ],
+    "variants": [
+        {
+            "level": 13,
+            "minimum_item_rank": 0,
+            "xp": 700,
+            "gold": 420,
+            "rift": 60,
+            "ap": 80,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Dull Iron Ingot",
+                                "item_id": 7872,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Recovery Decoction",
+                                "item_id": 9373,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Dull Iron Ingot",
+                                "item_id": 7872,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Recovery Decoction",
+                                "item_id": 9373,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "minimum_item_rank": 0,
+            "xp": 870,
+            "gold": 520,
+            "rift": 70,
+            "ap": 140,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Dull Iron Ingot",
+                                "item_id": 7872,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Poison Flask",
+                                "item_id": 9395,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Lantern Kindling",
+                                "item_id": 55,
+                                "amount": 3
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 55,
+            "minimum_item_rank": 0,
+            "xp": 1810,
+            "gold": 1510,
+            "rift": 180,
+            "ap": 1340,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Sand of Reminiscence",
+                                "item_id": 9441,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Demonic Gem",
+                                "item_id": 7911,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Cracked Black Horn",
+                                "item_id": 7753,
+                                "amount": 2
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

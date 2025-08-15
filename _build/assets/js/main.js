@@ -99,11 +99,11 @@ function getBaseUrl(url) {
 }
 
 function getFileContents(url, callback, dataType = "json", asyncreq = true) {
-  $.ajax({
+  return $.ajax({
     url: url,
     dataType: dataType,
     success: function(response) {
-      callback(response);
+      if(callback) callback(response);
     },
     error: function(xhr, status, err) {
       console.error('Error fetching file:', err.message);
@@ -169,6 +169,22 @@ function saveEnemyIds(data){
   }
 }
 
+function stringOverride(format, value){
+  if (value.length >= format.length) return value;
+
+  return format.slice(0, format.length - value.length) + value;
+}
+
+function resolveQuestLinkFromId(questId){
+  if (!DF_Wiki.rootQuestsIdIndex) return questId;
+
+  questId = questId.toString();
+
+  if (questId.indexOf("q") == -1) questId = stringOverride(DF_Wiki.questIdFormat, questId);
+
+  return `<a href="/__HREF__" class="text-amber-600 underline">__TEXT__</a>`.replace("__HREF__", DF_Wiki.rootPath + 'game_content/quests/view?id=' + questId)
+    .replace("__TEXT__", DF_Wiki.rootQuestsIdIndex[questId]);
+}
 
 function getAndSaveEnemyIds(){
   getFileContents("/game_content/assets/monsterIds.json", saveEnemyIds);
@@ -289,7 +305,9 @@ $(function(){
     csvHtmlEnd: `
         </div>
       </section>
-    `
+    `,
+    rootPath: `/`,
+    questIdFormat: "q00000000"
   };
 
   init($);

@@ -1,0 +1,110 @@
+{
+    "type": "World",
+    "name": "Urgent Inspection: Mergoda Ruins Treasure Expedition",
+    "quest_id": 20995012,
+    "area_id": "MergodaRuins",
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": null,
+    "minimum_area_rank": 1,
+    "repeatable": true,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 0
+    },
+    "order_conditions": [],
+    "unlocks": {
+        "tutorials": [],
+        "contents": []
+    },
+    "description": "Hear from the explorers and help eliminate their obstacles",
+    "steps": [
+        "Head to the designated location",
+        "Defeat the found dangerous demons",
+        "Report back to the Seeker"
+    ],
+    "variants": [
+        {
+            "level": 50,
+            "minimum_item_rank": 0,
+            "xp": 1500,
+            "gold": 1500,
+            "rift": 200,
+            "ap": 1130,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Aliment Extractant",
+                                "item_id": 8033,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Mergan Ring",
+                                "item_id": 8023,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Authentication Orb (Rathian)",
+                                "item_id": 13492,
+                                "amount": 2
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 56,
+            "minimum_item_rank": 0,
+            "xp": 2350,
+            "gold": 2010,
+            "rift": 260,
+            "ap": 1350,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Alchemite",
+                                "item_id": 7871,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Exquisite Metal Plate",
+                                "item_id": 8030,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Superior Healing Remedy",
+                                "item_id": 7555,
+                                "amount": 3
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

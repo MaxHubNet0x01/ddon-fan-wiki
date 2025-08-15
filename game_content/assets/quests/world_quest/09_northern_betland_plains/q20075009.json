@@ -1,0 +1,69 @@
+{
+    "type": "World",
+    "name": "Urgent Inspection: Northern Betland Plains Treasure Expedition",
+    "quest_id": 20075009,
+    "area_id": "NorthernBetlandPlains",
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": null,
+    "minimum_area_rank": 1,
+    "repeatable": true,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 0
+    },
+    "order_conditions": [],
+    "unlocks": {
+        "tutorials": [],
+        "contents": []
+    },
+    "description": "Hear from explorers and help eliminate obstacles to exploration",
+    "steps": [
+        "Head to the designated location",
+        "Defeat the found dangerous demons",
+        "Report back to the searcher"
+    ],
+    "variants": [
+        {
+            "level": 58,
+            "minimum_item_rank": 0,
+            "xp": 1910,
+            "gold": 1910,
+            "rift": 310,
+            "ap": 1350,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Spirit Crystal",
+                                "item_id": 7909,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Ancient Knight's Emblem",
+                                "item_id": 8021,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Authentication Orb (Rathian)",
+                                "item_id": 13492,
+                                "amount": 2
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

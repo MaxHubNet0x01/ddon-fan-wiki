@@ -1,0 +1,92 @@
+{
+    "type": "Main",
+    "name": "In Search of Hope",
+    "quest_id": 30020,
+    "area_id": null,
+    "guide_type": "MainQuest",
+    "minimum_area_rank": 0,
+    "repeatable": false,
+    "quest_chain": {
+        "previous_quest_id": 30010,
+        "next_quest_id": 30030
+    },
+    "order_conditions": [
+        {
+            "type": "MinimumLevel",
+            "param01": 80
+        },
+        {
+            "type": "MainQuestCompleted",
+            "param01": 30010
+        }
+    ],
+    "unlocks": {
+        "tutorials": [
+            "About Dwarf Orcs"
+        ],
+        "contents": [
+            "Rathnite Foothills Area Master",
+            "Rathnite Foothills World Quests"
+        ]
+    },
+    "description": "Return to Acre Selund and release Elliot to assess the local conditions",
+    "steps": [
+        "Head to the hilltop of the Hidden Village Piremoth",
+        "Speak with Gillian",
+        "Hear what the Area Master Endale has to say",
+        "Rendezvous with Gillian by the encampment",
+        "Storm into the Demon Army encampment",
+        "Defeat the enemy at the campsite",
+        "Eliminate the remnants",
+        "Rescue the captured comrades",
+        "Speak with Gillian",
+        "Return to Lestania and report to Joseph"
+    ],
+    "variants": [
+        {
+            "level": 80,
+            "minimum_item_rank": 0,
+            "xp": 700000,
+            "gold": 70000,
+            "rift": 7000,
+            "ap": 0,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Fixed",
+                    "pools": [
+                        [
+                            {
+                                "name": "Unappraised Snow Trinket (General)",
+                                "item_id": 18731,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Royal Crest Medal (Rathnite District)",
+                                "item_id": 18815,
+                                "amount": 5
+                            },
+                            {
+                                "name": "AP (Rathnite Foothills) 10 pts",
+                                "item_id": 13345,
+                                "amount": 50
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": [],
+    "starting_npc": {
+        "id": 4,
+        "name": "Joseph",
+        "stage": {
+            "name": "Audience Chamber",
+            "id": 3
+        }
+    },
+    "references": ["https://www.youtube.com/watch?v=GI10IyJ3RWw", "https://www.youtube.com/watch?v=NHz3iPGCw50"]
+}

@@ -10,7 +10,7 @@ main_color: amber-600
   {% include page-heading.md heading="Quests ᴮᴱᵀᴬ -- Updated: Aug 14, 2025" extra_class="loadable-skip_loading" %}
 
   {% capture quests_desc %}
-    Search for any supported Quest here
+    Search for any supported Quest here and select it for more information
   {% endcapture %}
   {% include page-p.md content=quests_desc %}
 

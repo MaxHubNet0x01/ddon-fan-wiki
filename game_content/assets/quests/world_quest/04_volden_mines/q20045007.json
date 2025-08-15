@@ -1,0 +1,110 @@
+{
+    "type": "World",
+    "name": "Urgent Inspection: Volden Mines Treasure Expedition",
+    "quest_id": 20045007,
+    "area_id": "VoldenMines",
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": null,
+    "minimum_area_rank": 1,
+    "repeatable": true,
+    "quest_chain": {
+        "previous_quest_id": 0,
+        "next_quest_id": 0
+    },
+    "order_conditions": [],
+    "unlocks": {
+        "tutorials": [],
+        "contents": []
+    },
+    "description": "Hear from explorers and help eliminate obstacles to exploration",
+    "steps": [
+        "Head to the designated location",
+        "Defeat the found dangerous demons",
+        "Report back to the searcher"
+    ],
+    "variants": [
+        {
+            "level": 40,
+            "minimum_item_rank": 0,
+            "xp": 1320,
+            "gold": 1320,
+            "rift": 170,
+            "ap": 750,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Strong Animal Leather",
+                                "item_id": 7918,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Large Fang",
+                                "item_id": 7787,
+                                "amount": 3
+                            },
+                            {
+                                "name": "Authentication Orb (Rathalos)",
+                                "item_id": 13491,
+                                "amount": 2
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 60,
+            "minimum_item_rank": 0,
+            "xp": 2580,
+            "gold": 1840,
+            "rift": 360,
+            "ap": 1590,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Select1",
+                    "pools": [
+                        [
+                            {
+                                "name": "Magick Lion's Large Mane",
+                                "item_id": 9437,
+                                "amount": 1
+                            },
+                            {
+                                "name": "Goat Horn",
+                                "item_id": 7785,
+                                "amount": 2
+                            },
+                            {
+                                "name": "Alkahest",
+                                "item_id": 7833,
+                                "amount": 1
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Random Rewards",
+                                "amount": 1
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": []
+}

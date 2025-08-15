@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dowe Valley
-id: drops
+id: spawns
 description:
 main_color: amber-500
 ---

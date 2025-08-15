@@ -1,0 +1,78 @@
+{
+    "type": "Personal",
+    "name": "Arms With the Power of the Dragon I",
+    "quest_id": 61000001,
+    "area_id": null,
+    "guide_type": "QuestUsefulForAdventure",
+    "starting_npc": {
+        "id": 1047,
+        "name": "Craig",
+        "stage": {
+            "name": "Craft Room",
+            "id": 4
+        }
+    },
+    "minimum_area_rank": 0,
+    "repeatable": false,
+    "quest_chain": {
+        "previous_quest_id": 60300004,
+        "next_quest_id": 61000002
+    },
+    "order_conditions": [
+        {
+            "type": "MainQuestCompleted",
+            "param01": 30410
+        },
+        {
+            "type": "SoloWithPawns"
+        }
+    ],
+    "unlocks": {
+        "tutorials": [
+            "DragonEquipmentDecomposition",
+            "EnhancementofDragonAbilities",
+            "Enhancement of Dragon Abilities",
+            "Equipment Disassembly"
+        ],
+        "contents": [
+            "Dismantling of Dragon arms",
+            "Apprasial Exchange of Dragon Armor"
+        ]
+    },
+    "description": "Hear from Craig about weapons  imbued with dragon power",
+    "steps": [
+        "Hear more from Craig",
+        "Hear about Enhance from Sonia"
+    ],
+    "variants": [
+        {
+            "level": 100,
+            "minimum_item_rank": 0,
+            "xp": 105000,
+            "gold": 11000,
+            "rift": 2000,
+            "ap": 0,
+            "jp": 0,
+            "pp": 0,
+            "is_bounty": false,
+            "rewards": [
+                {
+                    "type": "Fixed",
+                    "pools": [
+                        [
+                            {
+                                "name": "Custom-Made Service Ticket",
+                                "item_id": 19367,
+                                "amount": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags": [],
+    "references": [
+        "https://youtu.be/T2DqNtuVKus?si=ME7DKHH3N0NlONYT"
+    ]
+}
