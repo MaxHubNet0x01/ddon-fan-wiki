@@ -33,7 +33,6 @@ function msSearch() {
 
     for (var m in monsters){
       if(monsters[m].toLowerCase().indexOf(keyword.toLowerCase()) != -1){
-        console.log("Found: " + monsters[m]);
         var linkHighlightTemplate = `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`;
         var quests = DF_Wiki.monsterQuestsIndex[monsters[m]];
 
@@ -111,22 +110,6 @@ function msSearch() {
     }));
   }
 
-  function saveEnemyIds(data){
-    if (!data){
-      console.log("Could not get Enemy Ids");
-      return;
-    }
-
-    try{
-      window.DF_Wiki.enemyIds = data;
-    }
-    catch(e){
-      console.log("Could not parse Enemy Ids");
-      console.log(e);
-      return;
-    }
-  }
-
   function showLoading(){
     $(".spawns-main").addClass("loadable-loading");
   }
@@ -159,7 +142,7 @@ function msSearch() {
       branch: "develop"
     };
 
-    getFileContents("{{ '/game_content/assets/monsterIds.json' | relative_url }}", saveEnemyIds);
+    getAndSaveEnemyIds();
 
     fetchGithubFolder(targetRepo.user, targetRepo.repo, targetRepo.folder, targetRepo.branch, progressReport).then((files) => {
       window.DF_Wiki.monsterQuestsIndex = {}; // Target Structure is Monster Name > All quests (array) > Each quest is an object that specify type, lvl, rewards, and ofc enemies

@@ -155,6 +155,26 @@ async function fetchGithubFolder(user, repo, folderPath, branch = "main", progre
   return files;
 }
 
+function saveEnemyIds(data){
+  if (!data){
+    console.log("Could not get Enemy Ids");
+    return;
+  }
+
+  try{
+    window.DF_Wiki.enemyIds = data;
+  }
+  catch(e){
+    console.log("Could not parse Enemy Ids");
+    console.log(e);
+    return;
+  }
+}
+
+
+function getAndSaveEnemyIds(){
+  getFileContents("{{ '/game_content/assets/monsterIds.json' | relative_url }}", saveEnemyIds);
+}
 
 /**
  * The function `checkDataJson` is used to retrieve and set JSON data from a file or a provided JSON
