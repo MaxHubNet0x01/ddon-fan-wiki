@@ -8,7 +8,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90 quest loadable loadable-loading" qid="__QUEST_ID__">
-  {% include page-heading.md heading="__QUEST_NAME__" extra_class="loadable-skip_loading" %}
+  {% include page-heading.md heading="Quest:" extra_class="loadable-skip_loading qname" %}
 
   <div class="loadable-content flex flex-col gap-5">
     <div class="qbadges flex gap-3">
@@ -29,28 +29,9 @@ main_color: amber-600
       __QUEST_UNLOCKS__
     </div>
 
-    {% include page-heading.md heading="Rewards (including variations of this quest found elsewhere)" %}
+    {% include page-heading.md heading="Rewards (from all variations of this Quest)" %}
     <div class="px-5 qrewards">
       __QUEST_REWARDS__
-      <ul class="list-disc mx-5 flex gap-3 flex-col">
-        <li>
-          <div class="flex gap-3">
-            Knight's Mantle x 1
-            <span class="rounded-full bg-purple-100 px-2.5 py-0.5 text-sm whitespace-nowrap text-purple-700 dark:bg-purple-700 dark:text-purple-100">
-              Fixed
-            </span>
-          </div>
-        </li>
-        <li>
-          <div class="flex gap-3">
-            Bronze Sabatons
-            <span class="rounded-full bg-none px-2.5 py-0.5 text-sm whitespace-nowrap text-purple-700 border-purple-700 border-solid border">
-              Optional
-            </span>
-          </div>
-        </li>
-        <li>RE1</li>
-      </ul>
     </div>
 
     {% include page-heading.md heading="How to complete Quest" %}
@@ -58,9 +39,10 @@ main_color: amber-600
       __QUEST_STEPS__
     </div>
 
-    <!--
-      <iframe class="h-96" src="https://www.youtube.com/embed/GI10IyJ3RWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    -->
+    {% include page-heading.md heading="References" %}
+    <div class="px-5 qrefs">
+      __QUEST_REFERENCES__
+    </div>
   </div>
 
   {% include loadable-loader.md %}

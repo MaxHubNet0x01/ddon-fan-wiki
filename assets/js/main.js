@@ -185,14 +185,17 @@ function genQuestCategoriesBadge(q){
   return ret;
 }
 
-function genQuestOrderConditions(q){
-  if (!q.order_conditions || !q.order_conditions.length) return "";
-
+function genQuestOrderConditions(q, showHeading = true){
+  if (!q.order_conditions) return "";
+  
+  var heading = `<li class="font-bold underline list-none">Requirements to Accept Quest</li>`;
   var ret = `
     <ul class="flex flex-col gap-3 list-disc">
-      <li class="font-bold underline list-none">Requirements to Accept Quest</li>
+      ${showHeading ? heading : ""}
   `;
 
+  if (!q.order_conditions.length) ret += `<li class="mx-5">None</li>`;
+  
   for (var c in q.order_conditions){
     cond = q.order_conditions[c];
     var reqText = "";
@@ -232,6 +235,8 @@ function loadableLoaderProgressReport(done, total, message){
 }
 
 function stringOverride(format, value){
+  value = String(value);
+
   if (value.length >= format.length) return value;
 
   return format.slice(0, format.length - value.length) + value;
@@ -368,8 +373,11 @@ $(function(){
         </div>
       {% include card-section-end.md %}
     `,
+    linkHighlightTemplate: `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`,
+    linkHighlightExtTemplate: `{% include link-highlight-ext.md href="__HREF__" text="__TEXT__" %}`,
     rootPath: `{{ "/" | relative_url }}`,
-    questIdFormat: "q00000000"
+    questIdFormat: "q00000000",
+    itemIdFormat: "ii000000"
   };
 
   init($);
