@@ -60,7 +60,7 @@ module Jekyll
 
             quest_json = JSON.parse(File.read(full_entry_path))
 
-            gen_temp = template.sub("__QUEST_NAME__", quest_json["name"]).sub("__QUEST_DESCRIPTION__", quest_json["description"])
+            gen_temp = template.sub("__QUEST_NAME__", "'#{quest_json["name"]}'").sub("__QUEST_DESCRIPTION__", "'#{quest_json["description"]}'")
               .sub("__QUEST_ID__", root_filename)
 
             File.write(output + "/#{root_filename}.md", gen_temp)

@@ -197,6 +197,9 @@ function qSearch(){
     }
 
     window.DF_Wiki.rootQuestsIndex = data;
+
+    progressReport(2, 2, "Grabbing Files..");
+    getFileContents("{{ '/game_content/assets/rootQuestsIdIndex.json' | relative_url }}", loadRootQuestsIdIndex);
   }
 
   function loadRootQuestsIdIndex(data){
@@ -206,16 +209,12 @@ function qSearch(){
     }
 
     window.DF_Wiki.rootQuestsIdIndex = data;
+    setTimeout(hideLoading, 1000);
   }
   
   function getPrebuiltData(){
     progressReport(1, 2, "Grabbing Files..");
     getFileContents("{{ '/game_content/assets/rootQuestsIndex.json' | relative_url }}", loadRootQuestsIndex);
-
-    progressReport(2, 2, "Grabbing Files..");
-    getFileContents("{{ '/game_content/assets/rootQuestsIdIndex.json' | relative_url }}", loadRootQuestsIdIndex);
-
-    setTimeout(hideLoading, 1000);
   }
 
   function handleSearchSubmit(e){

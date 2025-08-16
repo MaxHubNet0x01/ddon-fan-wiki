@@ -2,7 +2,7 @@
   main_color: amber - 600
 ---
   function loadQuest() {
-    var questId = $(".quest").attr("qid");
+    var questId = new URL(location.href).searchParams.get("id");
 
     if (!questId.length) {
       console.log("No Quest ID");
