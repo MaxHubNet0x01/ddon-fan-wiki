@@ -38,6 +38,10 @@ body{
   display: none !important;
 }
 
+.loadable.loadable-loading .loadable-content{
+  display: none !important;
+}
+
 .loadable.loadable-loading .loadable-loader{
   display: flex;
 }

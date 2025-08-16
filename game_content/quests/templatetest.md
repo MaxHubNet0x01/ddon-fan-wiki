@@ -7,8 +7,8 @@ description: __QUEST_DESCRIPTION__
 main_color: amber-600
 ---
 
-<div class="margin-center-90 quest loadable loadable-loading" qid="__QUEST_ID__">
-  {% include page-heading.md heading="__QUEST_NAME__" extra_class="loadable-skip_loading" %}
+<div class="margin-center-90 quest loadable loadable-loading" qid="20045003">
+  {% include page-heading.md heading="Quest:" extra_class="loadable-skip_loading qname" %}
 
   <div class="loadable-content flex flex-col gap-5">
     <div class="qbadges flex gap-3">

@@ -227,6 +227,10 @@ function genQuestOrderConditions(q){
   return ret;
 }
 
+function loadableLoaderProgressReport(done, total, message){
+  $(".loadable-loader .text").text(`Loading [${done} / ${total}] (${message})`);
+}
+
 function stringOverride(format, value){
   if (value.length >= format.length) return value;
 
