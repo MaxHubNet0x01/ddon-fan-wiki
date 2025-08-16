@@ -12,8 +12,8 @@ main_dark_dolor: slate-200
 
   <div class="flex flex-col align-center justify-center gap-5">
     {% include alert-info.md heading="Note" content="By being on this page in local environment, the plugin is running (check logs)" %}
-    {% comment %}
-      {% gen_quests_md_files /game_content/assets/quests,/game_content/quests,/game_content/quests/template.md %}
-    {% endcomment %}
+    {% comment %}{% endcomment %}
+      {% gen_quests_md_files /game_content/assets/quests,/_temp,/game_content/quests/template.md %}
+    
   </div>
 </div>

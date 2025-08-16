@@ -1,8 +1,7 @@
 ---
 layout: default
 title: __QUEST_NAME__
-id: __QUEST_PAGE_ID__
-qid: __QUEST_ID___
+id: quests
 description: __QUEST_DESCRIPTION__
 main_color: amber-600
 ---

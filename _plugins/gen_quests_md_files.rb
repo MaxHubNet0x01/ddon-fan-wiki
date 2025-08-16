@@ -58,11 +58,14 @@ module Jekyll
               category: gen_category_from_path(full_entry_path, site_source)
             }
 
-            sputs "Creating Quest File #{root_filename}.md at: #{output}"
-            
-            #gen_temp = template.sub()
+            quest_json = JSON.parse(File.read(full_entry_path))
 
-            #File.write(output + "/#{root_filename.md}")
+            gen_temp = template.sub("__QUEST_NAME__", quest_json["name"]).sub("__QUEST_DESCRIPTION__", quest_json["description"])
+              .sub("__QUEST_ID__", root_filename)
+
+            File.write(output + "/#{root_filename}.md", gen_temp)
+
+            sputs "Created Quest File #{root_filename}.md at: #{output}"
           end
         end
       }
