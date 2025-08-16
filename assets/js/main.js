@@ -249,9 +249,9 @@ function resolveQuestLinkFromId(questId){
 
   if (questId.indexOf("q") == -1) questId = stringOverride(DF_Wiki.questIdFormat, questId);
 
-  var rootPath = DF_Wiki.rootPath == '/' ? '/game_content/quests/view?id=' : DF_Wiki.rootPath + '/game_content/quests/view?id=';
+  //var rootPath = DF_Wiki.rootPath == '/' ?  : DF_Wiki.rootPath + '/game_content/quests/view?id=';
 
-  return `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`.replace("__HREF__", rootPath + questId)
+  return `{% include link-highlight.md href="__HREF__" text="__TEXT__" %}`.replace("__HREF__", 'game_content/quests/view?id=' + questId)
     .replace("__TEXT__", DF_Wiki.rootQuestsIdIndex[questId]);
 }
 

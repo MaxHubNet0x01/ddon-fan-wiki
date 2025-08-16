@@ -61,7 +61,7 @@ function qSearch(){
         if (!quest || (level >= 1 && quest.questLevel < level)) continue;
 
         var questType = quest.type;
-        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("/__HREF__", "{{  '/game_content/quests/view' | relative_url }}?id=" + key).replace("__TEXT__", `[${questType} Quest] ${value}`));
+        var resultHtml = DF_Wiki.csvHtmlStart.replace("__MAIN_HEADING__", linkHighlightTemplate.replace("__HREF__", "game_content/quests/view?id=" + key).replace("__TEXT__", `[${questType} Quest] ${value}`));
 
         resultHtml += DF_Wiki.csvHtmlItem.replace("__HEADING__", ``).replace("__CONTENT__", 
           `
