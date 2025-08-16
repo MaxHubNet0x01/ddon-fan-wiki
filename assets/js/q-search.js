@@ -163,7 +163,11 @@ function qSearch(){
   function getAndBuildRootQuestsIndexData2(){
     // This one pulls from game_content/assets/quests
 
-    var generatedQuestFolderJson = JSON.parse(`{% gen_folder_files_json game_content/assets/quests %}`);
+    var generatedQuestFolderJson = JSON.parse(`
+      {% comment %}
+      {% gen_folder_files_json game_content/assets/quests %}
+      {% endcomment %}
+    `);
     window.rootQuestsIndex = {};
     window.rootQuestsIdIndex = {};
     console.log(generatedQuestFolderJson);
