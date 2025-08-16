@@ -172,6 +172,61 @@ function saveEnemyIds(data){
   }
 }
 
+function genBadge(bgColor, textColor, text){
+  return `<span class="rounded-full bg-${bgColor} text-${textColor} px-2.5 py-0.5 text-sm whitespace-nowrap">${text}</span>`;
+}
+
+function genQuestCategoriesBadge(q){
+  var ret = "";
+  for (var c in q.category){
+    ret += genBadge("neutral-700", "white", q.category[c]);
+  }
+
+  return ret;
+}
+
+function genQuestOrderConditions(q){
+  if (!q.order_conditions || !q.order_conditions.length) return "";
+
+  var ret = `
+    <ul class="flex flex-col gap-3 list-disc">
+      <li class="font-bold underline list-none">Requirements to Accept Quest</li>
+  `;
+
+  for (var c in q.order_conditions){
+    cond = q.order_conditions[c];
+    var reqText = "";
+
+    switch (cond.type){
+      case "MinimumLevel": {
+        reqText = `You must be at Level ${cond.param01} or higher`;
+        break;
+      }
+      case "AreaRank": {
+        reqText = `You must be at Area Rank ${cond.param02} or higher in <b>${cond.param01}</b>`;
+        break;
+      }
+      case "MinimumVocationLevel": {
+        reqText = `You must be at Level ${cond.param02} or higher in <b>${cond.param01}</b> Vocation`;
+        break;
+      }
+      case "MainQuestCompleted": {
+        reqText = `You must complete the Main Quest: <b>${resolveQuestLinkFromId(cond.param01)}</b>`;
+        break;
+      }
+      default: continue
+    }
+
+    ret += `
+        <li class="mx-5">${reqText}</li>
+    `;
+  }
+
+  ret += `</ul>`;
+
+  return ret;
+}
+
 function stringOverride(format, value){
   if (value.length >= format.length) return value;
 

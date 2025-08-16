@@ -1,2 +1,4 @@
 /_build/*
 /_build
+_build/assets/css/style.css.map
+_build/assets/js/main.js
