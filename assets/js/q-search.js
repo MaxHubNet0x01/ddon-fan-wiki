@@ -209,6 +209,13 @@ function qSearch(){
     }
 
     window.DF_Wiki.rootQuestsIdIndex = data;
+
+    var currentSearchWord = new URL(location.href).searchParams.get("s");
+    if (currentSearchWord) {
+      $("#qSearchKeyword").val(currentSearchWord);
+      handleSearchSubmit(null);
+    }
+
     setTimeout(hideLoading, 1000);
   }
   
@@ -231,6 +238,8 @@ function qSearch(){
 
     //pullFilesAndSearch(searchVal, searchIndex[k], k, loading);
     searchQuestsIndex(searchVal, level);
+
+    history.replaceState(null, $("title").text(), location.origin + location.pathname + "?s=" + searchVal);
 
     setTimeout(function(loading){
       loading.addClass("hidden");
