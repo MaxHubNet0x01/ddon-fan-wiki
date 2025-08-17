@@ -95,10 +95,13 @@
     }
 
     function genItemImageFromId(id){
+      if (!id) return "";
       return `<img class="border-none shadow-none p-0 m-0" src="{{ 'game_content/assets/icons' | relative_url }}/${stringOverride(DF_Wiki.itemIconIdFormat, id)}.png" w="24" h="24">`;
     }
 
     function genItemPageLink(id, text){
+      if (!id || id == 'undefined') return text;
+
       return `
         <a href="${DF_Wiki.rootPath + 'game_content/items/view?id=' + id}" class="text-amber-600 underline">
           ${text}
