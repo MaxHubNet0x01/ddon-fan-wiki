@@ -45,13 +45,28 @@ main_color: amber-600
 
   <menu class="p-5 list-disc">
     <li>
-      {% include text-highlight.md color="red-500" text="Main Quests" %}
+      {% include text-highlight.md color="amber-500" text="Accessory" %}
     </li>
     <li>
-      {% include text-highlight.md color="lime-500" text="Personal / Tutorial / Training Quests" %}
+      {% include text-highlight.md color="amber-500" text="Armor" %}
     </li>
     <li>
-      {% include text-highlight.md color="blue-500" text="World Quests" %}
+      {% include text-highlight.md color="amber-500" text="Materials" %}
+    </li>
+    <li>
+      {% include text-highlight.md color="amber-500" text="Jewelry" %}
+    </li>
+    <li>
+      {% include text-highlight.md color="amber-500" text="Key Items" %}
+    </li>
+    <li>
+      {% include text-highlight.md color="amber-500" text="Consumables" %}
+    </li>
+    <li>
+      {% include text-highlight.md color="amber-500" text="Weapons" %}
+    </li>
+    <li>
+      {% include text-highlight.md color="amber-500" text="Crests" %}
     </li>
   </menu>
 
