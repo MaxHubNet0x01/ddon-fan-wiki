@@ -18,7 +18,7 @@ main_color: amber-600
   
   <div class="flex flex-wrap md:flex-nowrap justify-center align-center max-w-3xl mx-auto gap-5">
       <div class="w-full flex gap-5">
-          <input type="text" id="iSearchKeyword" class="w-5/6 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-{{ page.main_color }} focus:border-{{ page.main_color }} block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-{{ page.main_color }} dark:focus:border-{{ page.main_color }} outline-none" placeholder="Enter Item Name..." required />
+          <input type="text" id="iSearchKeyword" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-{{ page.main_color }} focus:border-{{ page.main_color }} block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-{{ page.main_color }} dark:focus:border-{{ page.main_color }} outline-none" placeholder="Enter Item Name..." required />
       </div>
       {% capture searchBtnText %}
         <div class="flex flex-row gap-2 align-center justify-center">
