@@ -7,7 +7,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90 quests-main loadable loadable-loading">
-  {% include page-heading.md heading="Quests ᴮᴱᵀᴬ -- Updated: Aug 14, 2025" extra_class="loadable-skip_loading" %}
+  {% include page-heading.md heading="Quests ᴮᴱᵀᴬ -- Updated: Aug 17, 2025" extra_class="loadable-skip_loading" %}
 
   {% capture quests_desc %}
     Search for any supported Quest here and select it for more information

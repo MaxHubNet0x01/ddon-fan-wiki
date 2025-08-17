@@ -7,7 +7,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90 items-main loadable loadable-loading">
-  {% include page-heading.md heading="Items ᴮᴱᵀᴬ -- Updated: Aug 16, 2025" extra_class="loadable-skip_loading" %}
+  {% include page-heading.md heading="Items ᴮᴱᵀᴬ -- Updated: Aug 17, 2025" extra_class="loadable-skip_loading" %}
 
   {% capture items_desc %}
     Use the search box below to begin your search
