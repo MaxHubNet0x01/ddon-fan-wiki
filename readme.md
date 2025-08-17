@@ -1,4 +1,4 @@
-# Dragons Dogma Online Fan Wiki
+# Dragons Dogma Online Wiki
 
 This site is created to host any relevant info for Dragons Dogma Online since the revival of the game by awesome developers (Soon to add credits)
 

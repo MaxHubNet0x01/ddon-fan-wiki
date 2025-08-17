@@ -213,13 +213,7 @@ function qSearch(){
     }
 
     window.DF_Wiki.rootQuestsIdIndex = data;
-
-    var currentSearchWord = new URL(location.href).searchParams.get("s");
-    if (currentSearchWord) {
-      $("#qSearchKeyword").val(currentSearchWord);
-      handleSearchSubmit(null);
-    }
-
+    checkSearchSubmit("#qSearchKeyword", handleSearchSubmit);
     setTimeout(hideLoading, 1000);
   }
   

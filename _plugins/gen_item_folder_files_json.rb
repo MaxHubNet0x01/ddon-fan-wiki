@@ -1,18 +1,10 @@
 require "json"
 
 module Jekyll
-  class GenFolderFilesJsonTag < Liquid::Tag
+  class GenItemFolderFilesJsonTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
-      params = text.strip.split(",")
-      @folder_path = params[0]
-      
-      if params[1]
-        @extra_field = params[1]
-      else
-        @extra_field = nil
-      end
-
+      @folder_path = text.strip
       @logger = Logger.new(STDOUT)
     end
 
@@ -52,17 +44,30 @@ module Jekyll
           if File.directory?(full_entry_path)
             build_tree(full_entry_path, site_source)
           else
-            if @extra_field
-              fileJson = JSON.parse(File.read(full_entry_path))
-              @extra_field = fileJson[@extra_field]
+            fileJson = JSON.parse(File.read(full_entry_path))
+            item_name = nil
+
+            skip = false
+
+            if fileJson["type"] == "equipment"
+              if fileJson["quality"] != 0
+                skip = true
+              end
+            end
+
+            if fileJson["item_name"]
+              item_name = fileJson["item_name"].gsub("\n"," ");
+            elsif fileJson["name"]
+              item_name = fileJson["name"].gsub("\n"," ");
             end
 
             {
               name: entry.sub(".json", ""),
-              type: "file",
+              type: skip ? "upgrade" : "file",
               path: full_entry_path.sub("#{site_source}/", ""),
-              category: gen_category_from_path(full_entry_path, site_source),
-              extra_field: @extra_field
+              category: skip ? nil : gen_category_from_path(full_entry_path, site_source),
+              item_name: item_name,
+              icon_id: fileJson["icon"] ? fileJson["icon"]["icon_id"] : nil
             }
           end
         end
@@ -71,4 +76,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('gen_folder_files_json', Jekyll::GenFolderFilesJsonTag)
+Liquid::Template.register_tag('gen_item_folder_files_json', Jekyll::GenItemFolderFilesJsonTag)

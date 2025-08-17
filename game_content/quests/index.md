@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Quests
+title: Dragons Dogma Online Quests
 id: quests
-description:
+description: Search for any Quests from the game
 main_color: amber-600
 ---
 

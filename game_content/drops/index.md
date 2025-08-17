@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Drops
+title: Dragon's Dogma Online Drops
 id: drops
-description:
+description: Search for any monster drops / items from the game
 main_color: amber-600
 ---
 

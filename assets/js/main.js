@@ -178,11 +178,24 @@ function genBadge(bgColor, textColor, text){
 
 function genQuestCategoriesBadge(q){
   var ret = "";
-  for (var c in q.category){
-    ret += genBadge("neutral-700", "white", q.category[c]);
+  
+  if (q.category){
+    for (var c in q.category){
+      ret += genBadge("neutral-700", "white", q.category[c]);
+    }
   }
 
   return ret;
+}
+
+function genItemCategoriesBadge(i){
+  var ret = "";
+
+  i.type ? ret += genBadge("neutral-700", "white", i.type) : null;
+  i.subtype ? ret += genBadge("neutral-700", "white", i.subtype) : null;
+  i.equip_slot ? ret += genBadge("neutral-700", "white", "Equip to: " + i.equip_slot) : null;
+
+  return genQuestCategoriesBadge(i) + ret;
 }
 
 function genQuestOrderConditions(q, showHeading = true){
@@ -232,6 +245,14 @@ function genQuestOrderConditions(q, showHeading = true){
 
 function loadableLoaderProgressReport(done, total, message){
   $(".loadable-loader .text").text(`Loading [${done} / ${total}] (${message})`);
+}
+
+function checkSearchSubmit(id, handler){
+  var currentSearchWord = new URL(location.href).searchParams.get("s");
+  if (currentSearchWord) {
+    $(id).val(currentSearchWord);
+    handler(null);
+  }
 }
 
 function stringOverride(format, value){
@@ -379,7 +400,8 @@ $(function(){
     linkHighlightExtTemplate: `{% include link-highlight-ext.md href="__HREF__" text="__TEXT__" %}`,
     rootPath: `{{ "/" | relative_url }}`,
     questIdFormat: "q00000000",
-    itemIdFormat: "ii000000"
+    itemIconIdFormat: "ii000000",
+    itemIdFormat: "i00000000"
   };
 
   init($);

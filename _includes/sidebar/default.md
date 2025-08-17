@@ -35,6 +35,7 @@
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Drops / Materials Search" href="/game_content/drops" id="drops" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Monster Spawns Search" href="/game_content/spawns" id="spawns" %}
       {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="Quests Search" href="/game_content/quests" id="quests" %}
+      {% include sidebar/group-option-list-item.md icon="corner-down-right-icon.svg" icon_class="dark:fill-gray-300" text="All Items Search" href="/game_content/items" id="items" %}
     {% include sidebar/group-option-list-end.md %}
   {% include sidebar/group-option-end.md %}
 

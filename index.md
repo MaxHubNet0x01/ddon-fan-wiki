@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dragon's Dogma Online Fan Wiki
+title: Dragon's Dogma Online Wiki
 description:
 main_color: amber-600
 ---

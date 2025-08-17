@@ -7,7 +7,7 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90 quest loadable loadable-loading">
-  {% include page-heading.md heading="Quest:" extra_class="loadable-skip_loading qname" %}
+  {% include page-heading.md heading="No Quest Selected/Found" extra_class="loadable-skip_loading qname" %}
 
   <div class="loadable-content flex flex-col gap-5">
     <div class="qbadges flex gap-3">

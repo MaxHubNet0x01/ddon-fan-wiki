@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Spawns
+title: Dragon's Dogma Online Spawns
 id: spawns
-description:
+description: Search for any monster location from the game
 main_color: amber-600
 ---
 

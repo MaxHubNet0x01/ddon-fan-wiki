@@ -9,6 +9,8 @@
       return;
     }
 
+    var rootIconIdsIndex = {};
+
     function showLoading() {
       $(".quest").addClass("loadable-loading");
     }
@@ -26,7 +28,7 @@
 
       window.DF_Wiki.rootQuestsIndex = data;
 
-      loadableLoaderProgressReport(2, 2, "Grabbing Files..");
+      loadableLoaderProgressReport(1, 3, "Grabbing Files..");
       getFileContents("{{ '/game_content/assets/rootQuestsIdIndex.json' | relative_url }}", loadRootQuestsIdIndex);
     }
 
@@ -37,6 +39,25 @@
       }
 
       window.DF_Wiki.rootQuestsIdIndex = data;
+
+      loadableLoaderProgressReport(2, 3, "Grabbing Files..");
+      getFileContents("{{ '/game_content/assets/rootItemsIdIndex.json' | relative_url }}", tempLoadItemsIdIndex);
+    }
+
+    function tempLoadItemsIdIndex(data){
+      if(!data){
+        console.log("Invalid RI Index");
+        return;
+      }
+
+      loadableLoaderProgressReport(3, 3, "Grabbing Files..");
+
+      for (var i in data){
+        var d = i.split("__");
+
+        tempLoadItemsIdIndex[d[0]] = d[2];
+      }
+
       loadQuestData();
     }
 
@@ -74,7 +95,15 @@
     }
 
     function genItemImageFromId(id){
-      return `<img class="border-none shadow-none p-0 m-0" src="{{ 'game_content/assets/icons' | relative_url }}/${stringOverride(DF_Wiki.itemIdFormat, id)}.png" w="24" h="24">`;
+      return `<img class="border-none shadow-none p-0 m-0" src="{{ 'game_content/assets/icons' | relative_url }}/${stringOverride(DF_Wiki.itemIconIdFormat, id)}.png" w="24" h="24">`;
+    }
+
+    function genItemPageLink(id, text){
+      return `
+        <a href="${DF_Wiki.rootPath + 'game_content/items/view?id=' + id}" class="text-amber-600 underline">
+          ${text}
+        </a>
+      `;
     }
 
     function genQuestRewards(q) {
@@ -120,13 +149,15 @@
                 `;
 
                 for (var pr in pool){
+                  var poolItemId = stringOverride(DF_Wiki.itemIdFormat, pool[pr].item_id);
                   poolsHtml += `
                     <div iid="${pool[pr].item_id}" class="flex gap-3 items-center">
                       <div class="w-12 h-12">
-                        ${genItemImageFromId(pool[pr].item_id)}
+                        ${genItemImageFromId(tempLoadItemsIdIndex[poolItemId])}
                       </div>
                       <div>
-                        ${pool[pr].name} x ${pool[pr].amount}
+                        ${genItemPageLink(poolItemId, pool[pr].name)}
+                          x ${pool[pr].amount}
                       </div>
                     </div>
                   `;
