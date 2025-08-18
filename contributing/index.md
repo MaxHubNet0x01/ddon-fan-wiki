@@ -6,7 +6,7 @@ description:
 
 <div class="margin-center-90 overflow-x-auto">
   {% include page-heading.md heading="Contribute to the Dragon's Dogma Online Community" %}
-  {% include page-p.md content="Your contributions are invaluable! Help us keep the site accurate, informative, and up-to-date." %}
+  {% include page-p.md content="Your contributions are invaluable! Help keep the site accurate, informative, and up-to-date." %}
 
   <section id="coders">
     {% include page-heading.md heading="For Coders: Submit a Pull Request (PR)" %}
@@ -51,7 +51,7 @@ description:
       </menu>
       <br><br>
 
-      We appreciate your input! Issues help us improve the site for everyone.
+      We appreciate your input! Issues help improve the site for everyone.
     {% endcapture %}
     {% include page-p.md content=non_coders_info %}
   </section>
@@ -71,7 +71,8 @@ description:
 
       Thank you for your interest in contributing! Together, we can create an amazing resource for Dragon's Dogma Online fans.
       <br>
-      For additional questions or help, feel free to contact us via the Issues page.
+      For additional questions or help, feel free to contact via the Issues page or <span class="rounded bg-[#2f3358] text-[#a9baff]">@𒆜🕷 max͕͕̿marx͕͕̿ 🕷𒆜</span> in DDON Discord
+
     {% endcapture %}
     {% include page-p.md content=comm_guide %}
   </section>

@@ -255,6 +255,10 @@ function checkSearchSubmit(id, handler){
   }
 }
 
+function setSearchSubmitValue(val){
+  history.replaceState(null, $("title").text(), location.origin + location.pathname + "?s=" + val);
+}
+
 function stringOverride(format, value){
   value = String(value);
 

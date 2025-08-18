@@ -237,7 +237,7 @@ function qSearch(){
     //pullFilesAndSearch(searchVal, searchIndex[k], k, loading);
     searchQuestsIndex(searchVal, level);
 
-    history.replaceState(null, $("title").text(), location.origin + location.pathname + "?s=" + searchVal);
+    setSearchSubmitValue(searchVal);
 
     setTimeout(function(loading){
       loading.addClass("hidden");
