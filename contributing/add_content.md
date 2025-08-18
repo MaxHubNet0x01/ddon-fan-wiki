@@ -7,8 +7,8 @@ main_color: amber-600
 ---
 
 <div class="margin-center-90">
-  {% include page-heading.md heading="Do Not Use! ᴮᴱᵀᴬ" %}
-  {% include alert-info.md heading="Note" content="Dark Mode not supported by Editor as yet" %}
+  {% include page-heading.md heading="Page Content Generator ᴮᴱᵀᴬ" %}
+  {% include alert-info.md heading="Tip" content="Once the mini-editor loads, start typing your page content and use the + on the left of text area to add different types of items" %}
 </div>
 
 <div id="editorjs" class="margin-center-90 bg-white rounded-lg"></div>

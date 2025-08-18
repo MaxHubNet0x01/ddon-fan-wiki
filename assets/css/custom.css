@@ -53,3 +53,32 @@ body{
 .divide-y > div{
   border-bottom: 1px solid #4e4e4e !important;
 }
+
+#editorjs{
+  background: none !important;
+  color: white !important;
+}
+
+#editorjs .ce-popover__container{
+  background: #2c2d2e !important;
+}
+
+#editorjs .ce-inline-toolbar .ce-popover-item:hover:not(.ce-popover-item--no-hover), #editorjs .ce-inline-tool:hover,
+#editorjs .ce-toolbar__plus:hover, #editorjs .ce-toolbar__settings-btn:hover{
+  background: black !important;
+}
+
+#editorjs .codex-editor path{
+  stroke: white !important;
+}
+
+#editorjs .ce-paragraph{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background: #2c2d2e !important;
+  color: white !important;
+}
+
+#editorjs::selection, #editorjs .cdx-search-field.ce-popover__search {
+  color: black; /* Sets the text color of selected text to black */
+}
