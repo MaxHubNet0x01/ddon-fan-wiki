@@ -32,6 +32,16 @@ main_color: amber-600
     <div class="px-5 iupgrades">
       __ITEM_UPGRADES__
     </div>
+
+    {% include page-heading.md heading="Item is used to Craft: (Loading may take a while)" extra_class="hicrafts" %}
+    <div class="px-5 icrafts">
+      <button id="loadicrafts" class="px-4 py-3 bg-amber-600 text-white rounded">Click to Load Craftables</button>
+    </div>
+
+    {% include page-heading.md heading="Item is used to Upgrade: (Loading may take a while)" extra_class="hilvlup" %}
+    <div class="px-5 ilvlup">
+      <button id="loadilvlup" class="px-4 py-3 bg-amber-600 text-white rounded">Click to Load Upgradables</button>
+    </div>
   </div>
 
   {% include loadable-loader.md %}

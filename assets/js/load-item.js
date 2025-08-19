@@ -36,6 +36,9 @@ function loadItem() {
     getFileContents("{{ '/game_content/assets/rootItemsIdIndex.json' | relative_url }}", loadRootItemsIdIndex);
   }
 
+  function toItemId(id){
+    return stringOverride(DF_Wiki.itemIdFormat, id.toString());
+  }
 
   function genItemImageFromId(id){
     if (!id) return "";
@@ -222,7 +225,145 @@ function loadItem() {
     }
     else ($(".hiupgrades, .iupgrades").remove());
 
+    
+    if (item.type == "material"){
+      $("#loadicrafts").click(function(){
+        var btn = $(this);
+    
+        btn.addClass("bg-slate-800 pointer-events-none").text("Loading... [0 / 1] Grabbing Files..");
+    
+        getFileContents(`{{ '/game_content/assets/rootMaterialCraftIndex.json' | relative_url }}`, function(data){
+          if(data){
+            btn.text("Loading [1 / 1] Grabbing Files..");
+
+            setTimeout(getAndBuildItemCraftUpgradeData, 10, this.item, data);
+          }
+          else btn.text("Load Data Failed");
+        }.bind({
+          item: this.item
+        }));
+
+      }.bind({
+        item: item
+      }));
+
+      $("#loadilvlup").click(function(){
+        var btn = $(this);
+    
+        btn.addClass("bg-slate-800 pointer-events-none").text("Loading... [0 / 1] Grabbing Files..");
+    
+        getFileContents(`{{ '/game_content/assets/rootMaterialUpgradeIndex.json' | relative_url }}`, function(data){
+          if(data){
+            btn.text("Loading [1 / 1] Grabbing Files..");
+
+            setTimeout(getAndBuildItemCraftUpgradeData, 10, this.item, data, true);
+          }
+          else btn.text("Load Data Failed");
+        }.bind({
+          item: this.item
+        }));
+
+      }.bind({
+        item: item
+      }));
+    }
+    else ($(".hicrafts, .icrafts, .hilvlup, .ilvlup").remove());
+
+    //getAndBuildItemRelationData(item);
+
     setTimeout(hideLoading, 1000);
+  }
+
+  function getAndBuildItemRelationData(){
+    var rawData = JSON.parse(`
+      {% comment %}
+      {% gen_item_folder_files_json game_content/assets/items %}
+      {% endcomment %}
+    `);
+
+    console.log(rawData);
+
+    window.rootMaterialCraftIndex = {};
+    window.rootMaterialUpgradeIndex = {};
+
+    async function genFolderJson(item) {
+      if (item.type == "directory") {
+        for (var c in item.children) {
+          genFolderJson(item.children[c]);
+        }
+      }
+      else if ((item.type == "file" || item.type == "upgrade")){
+        if (item.craft_recipe && item.craft_recipe.length){
+          for (var c in item.craft_recipe){
+            var fullMatId = toItemId(item.craft_recipe[c].item_id);
+
+            if (!rootMaterialCraftIndex[fullMatId]) rootMaterialCraftIndex[fullMatId] = [];
+
+            rootMaterialCraftIndex[fullMatId].push({
+              item_id: item.name,
+              name: item.item_name,
+              amount: item.craft_recipe[c].amount
+            });
+          }
+        }
+
+        if (item.gradeup_recipe && item.gradeup_recipe.length){
+          for (var g in item.gradeup_recipe){
+            var fullMatId = toItemId(item.gradeup_recipe[g].item_id);
+
+            if (!rootMaterialUpgradeIndex[fullMatId]) rootMaterialUpgradeIndex[fullMatId] = [];
+
+            rootMaterialUpgradeIndex[fullMatId].push({
+              item_id: item.name,
+              name: item.item_name,
+              amount: item.gradeup_recipe[g].amount,
+              to_quality: item.item_quality + 1
+            });
+          }
+        }
+      }
+    }
+
+    for (var i in rawData.children) {
+      var c = rawData.children[i];
+
+      genFolderJson(c);
+    }
+  }
+
+  function getAndBuildItemCraftUpgradeData(item, data, upgrade = false){
+    var btn = $(upgrade ? "#loadilvlup" : "#loadicrafts");
+
+    function setBtnText(val){
+      btn.html(val);
+    }
+
+    var ret = ``;
+    var itemData = data[toItemId(item.item_id)];
+
+    if (!item || !data || !itemData) {
+      setBtnText("No Data");
+      return;
+    }
+    setBtnText("Loading...");
+
+    function genName(name, quality = null){
+      if (upgrade) return genItemQualityName(name, quality);
+      else return name;
+    }
+
+    for (var i = 1; i < itemData.length; i += 2){
+      ret += genTableRow(
+        `
+          <a href="${DF_Wiki.rootPath}game_content/items/view?id=${itemData[i-1].item_id}" class="text-amber-600 underline">[x ${itemData[i-1].amount}] ${genName(itemData[i-1].name, itemData[i-1].to_quality)}</a>
+        `,
+        `
+          <a href="${DF_Wiki.rootPath}game_content/items/view?id=${itemData[i].item_id}" class="text-amber-600 underline">[x ${itemData[i].amount}] ${genName(itemData[i].name, itemData[i].to_quality)}</a>
+        `
+      );
+    }
+
+    btn.replaceWith(genTable(ret));
   }
 
   function loadItemData() {

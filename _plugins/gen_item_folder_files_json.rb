@@ -67,7 +67,12 @@ module Jekyll
               path: full_entry_path.sub("#{site_source}/", ""),
               category: skip ? nil : gen_category_from_path(full_entry_path, site_source),
               item_name: item_name,
-              icon_id: fileJson["icon"] ? fileJson["icon"]["icon_id"] : nil
+              icon_id: fileJson["icon"] ? fileJson["icon"]["icon_id"] : nil,
+              craft_recipe: fileJson["craft_recipe"],
+              gradeup_recipe: fileJson["gradeup_recipe"],
+              item_type: fileJson["type"],
+              item_id: fileJson["item_id"],
+              item_quality: fileJson["quality"]
             }
           end
         end
