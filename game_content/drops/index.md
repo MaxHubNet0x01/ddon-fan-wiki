@@ -10,7 +10,7 @@ main_color: amber-600
   {% include page-heading.md heading="Drops ᴮᴱᵀᴬ -- Updated: Aug 14, 2025" %}
 
   {% capture drops_desc %}
-    Search for any item you need to craft weapons/gear here, or select a region to browse through below
+    Search for any item that is dropped by an enemy or found by chests/gathering that you need to craft weapons/gear here
   {% endcapture %}
   {% include page-p.md content=drops_desc %}
 
