@@ -23,6 +23,11 @@ main_color: amber-600
       __ITEM_STATS__
     </div>
 
+    {% include page-heading.md heading="Found at/Gathering:" extra_class="higather" %}
+    <div class="px-5 igather">
+      __ITEM_GATHER__
+    </div>
+
     {% include page-heading.md heading="Recipe" extra_class="hirecipe" %}
     <div class="px-5 irecipe">
       __ITEM_RECIPE__

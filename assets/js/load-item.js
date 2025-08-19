@@ -209,6 +209,18 @@ function loadItem() {
     $(".iinfo").text(item.info || "No Description");
     $(".istats").html(genItemStats(item));
 
+    if (item.gather && item.gather.length){
+      var ret = `<ul class="flex flex-col gap-3 list-disc mx-5">`;
+      for(var g in item.gather){
+        ret += `<li>${item.gather[g]}</li>`;
+      }
+
+      ret += "</ul>";
+
+      $(".igather").html(ret);
+    }
+    else $(".higather, .igather").remove();
+
     if (item.craft_recipe && item.craft_recipe.length){
       $(".irecipe").html(genItemRecipe(item));
     }
